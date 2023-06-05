@@ -21,11 +21,11 @@ Material:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: Holographic.mat
-  m_Shader: {fileID: -6465566751694194690, guid: 079b0949d7a63af45b514e0c81d9e79b, type: 3}
+  m_Shader: {fileID: 4800000, guid: 41de35dc8d3ffc74e9a41c78c8d107f9, type: 3}
   m_ValidKeywords: []
   m_InvalidKeywords: []
   m_LightmapFlags: 4
-  m_EnableInstancingVariants: 0
+  m_EnableInstancingVariants: 1
   m_DoubleSidedGI: 0
   m_CustomRenderQueue: -1
   stringTagMap: {}
@@ -96,8 +96,8 @@ Material:
     m_Ints: []
     m_Floats:
     - Boolean_a21a8954e67e4315b9687ac672b8e6b4: 0
-    - Vector1_38ab0f102e6b4fb78858eafbb4c346e9: 0.0001
-    - Vector1_703457ce4e9e46feb32caed4265bfbe9: 114.51
+    - Vector1_38ab0f102e6b4fb78858eafbb4c346e9: 0
+    - Vector1_703457ce4e9e46feb32caed4265bfbe9: 1000
     - Vector1_aa2b719ce4b7498d9015084fd54e173a: 0.1
     - _AlphaClip: 0
     - _Blend: 0
@@ -125,7 +125,18 @@ Material:
     - _SrcBlend: 1
     - _Surface: 0
     - _WorkflowMode: 1
+    - _XFill: 1
+    - _YFill: 1
     - _ZWrite: 1
+    - _amplitude: 5
+    - _emission: 4
+    - _frequency: 6
+    - _power: 1.67
+    - _range: 0
+    - _scale: 1
+    - _speedX: 0.1
+    - _speedY: 0
+    - _value: -0.4
     m_Colors:
     - Color_8b1eb4f304af484c8b37e99b79b47e13: {r: 0, g: 2.897891, b: 7.464264, a: 1}
     - Color_9fec74bf766a4d1ebc32b1d7ff6f3cc1: {r: 0, g: 301.17648, b: 766.9961, a: 1}
@@ -133,4 +144,5 @@ Material:
     - _Color: {r: 1, g: 1, b: 1, a: 1}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
     - _SpecColor: {r: 0.19999996, g: 0.19999996, b: 0.19999996, a: 1}
+    - _emissionColor: {r: 0, g: 0.4444394, b: 1, a: 1}
   m_BuildTextureStacks: []

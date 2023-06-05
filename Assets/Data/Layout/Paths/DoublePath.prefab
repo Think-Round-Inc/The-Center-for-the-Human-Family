@@ -10,7 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 8828889618133370148}
   - component: {fileID: 4316408892044398250}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: DoublePath
   m_TagString: Untagged
   m_Icon: {fileID: 3443629218296621865, guid: 0000000000000000d000000000000000, type: 0}
