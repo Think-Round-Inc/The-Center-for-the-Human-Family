@@ -20,7 +20,7 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: "MAT_1c.-Jonathan-(with-His-First-Camera),-His-Mom,-Brother-and-His-Mom\u2019s-Parents,-1959-or-1960"
+  m_Name: MAT_1c.-Jonathan-(with-His-First
   m_Shader: {fileID: -6465566751694194690, guid: fe054ed7ab579b14e826ca5580de77e3, type: 3}
   m_ValidKeywords: []
   m_InvalidKeywords: []
@@ -34,7 +34,7 @@ Material:
     serializedVersion: 3
     m_TexEnvs:
     - Texture2D_bb9324eaedda4b4eaf93df14544d338a:
-        m_Texture: {fileID: 2800000, guid: 3a37042b9e35f2c4d81716859cf5591e, type: 3}
+        m_Texture: {fileID: 2800000, guid: 595834594e9ee1a4eb5056e85336f3db, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _BaseMap:

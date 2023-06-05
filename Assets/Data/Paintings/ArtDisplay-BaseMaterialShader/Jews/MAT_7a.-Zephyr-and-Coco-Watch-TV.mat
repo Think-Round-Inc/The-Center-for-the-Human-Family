@@ -20,7 +20,7 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: MAT_7a.-Zephyr-and-Coco-Watch-TV-Together-at-Our-Apartment-in-Redwood-City_-August-17,-2013
+  m_Name: MAT_7a.-Zephyr-and-Coco-Watch-TV
   m_Shader: {fileID: -6465566751694194690, guid: fe054ed7ab579b14e826ca5580de77e3, type: 3}
   m_ValidKeywords: []
   m_InvalidKeywords: []
@@ -34,7 +34,7 @@ Material:
     serializedVersion: 3
     m_TexEnvs:
     - Texture2D_bb9324eaedda4b4eaf93df14544d338a:
-        m_Texture: {fileID: 2800000, guid: 490c5260317ae46ceb31b1c16e9d2b95, type: 3}
+        m_Texture: {fileID: 2800000, guid: 288eddf20f681b540ac16f9e4ec4e2bd, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _BaseMap:

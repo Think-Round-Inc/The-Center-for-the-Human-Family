@@ -20,7 +20,7 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: MAT_8a.-Josephine-Biaye-at-11-in-Accra,-Ghana.
+  m_Name: MAT_8a.-Josephine-Biaye-at-11-in
   m_Shader: {fileID: -6465566751694194690, guid: fe054ed7ab579b14e826ca5580de77e3, type: 3}
   m_ValidKeywords: []
   m_InvalidKeywords: []
@@ -34,7 +34,7 @@ Material:
     serializedVersion: 3
     m_TexEnvs:
     - Texture2D_bb9324eaedda4b4eaf93df14544d338a:
-        m_Texture: {fileID: 2800000, guid: 089f7abe557c54a09be105d214bb41ac, type: 3}
+        m_Texture: {fileID: 2800000, guid: fa8c8777cfbb750499380d1988b33a82, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _BaseMap:

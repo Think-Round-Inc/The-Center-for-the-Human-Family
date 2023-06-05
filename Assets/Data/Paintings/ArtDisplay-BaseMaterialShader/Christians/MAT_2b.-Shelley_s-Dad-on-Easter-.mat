@@ -20,7 +20,7 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: MAT_2b.-Shelley_s-Dad-on-Easter-Morning-with-His-Family,-Chicago,-1967-(African-Dad)
+  m_Name: MAT_2b.-Shelley_s-Dad-on-Easter-
   m_Shader: {fileID: -6465566751694194690, guid: fe054ed7ab579b14e826ca5580de77e3, type: 3}
   m_ValidKeywords: []
   m_InvalidKeywords: []
@@ -34,7 +34,7 @@ Material:
     serializedVersion: 3
     m_TexEnvs:
     - Texture2D_bb9324eaedda4b4eaf93df14544d338a:
-        m_Texture: {fileID: 2800000, guid: 507b2cec5334a2648bcc90b1ddfbaa4f, type: 3}
+        m_Texture: {fileID: 2800000, guid: f7d444924845c2c448460bd7a30db173, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _BaseMap:

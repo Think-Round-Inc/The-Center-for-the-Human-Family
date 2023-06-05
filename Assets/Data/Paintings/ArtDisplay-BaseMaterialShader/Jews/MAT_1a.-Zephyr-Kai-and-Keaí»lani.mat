@@ -20,7 +20,7 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: "MAT_1a.-Zephyr-Kai-and-Kea\u2019lani-Zaire-Walking-by-the-Beach,-Probably-Pacifica_-May-3rd,-2014"
+  m_Name: "MAT_1a.-Zephyr-Kai-and-Kea\xED\xBBlani"
   m_Shader: {fileID: -6465566751694194690, guid: fe054ed7ab579b14e826ca5580de77e3, type: 3}
   m_ValidKeywords: []
   m_InvalidKeywords: []
@@ -34,7 +34,7 @@ Material:
     serializedVersion: 3
     m_TexEnvs:
     - Texture2D_bb9324eaedda4b4eaf93df14544d338a:
-        m_Texture: {fileID: 2800000, guid: 2afcc4fd8a403da4c915891bfcfee1b9, type: 3}
+        m_Texture: {fileID: 2800000, guid: 343980c3ea610624195001d0ae1cb9d7, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _BaseMap:

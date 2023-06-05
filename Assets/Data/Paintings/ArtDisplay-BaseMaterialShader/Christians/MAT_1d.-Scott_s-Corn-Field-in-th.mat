@@ -20,7 +20,7 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: MAT_1d.-Scott_s-Corn-Field-in-the-Backyard,-South-Bend-(European-Backyard)
+  m_Name: MAT_1d.-Scott_s-Corn-Field-in-th
   m_Shader: {fileID: -6465566751694194690, guid: fe054ed7ab579b14e826ca5580de77e3, type: 3}
   m_ValidKeywords: []
   m_InvalidKeywords: []
@@ -34,7 +34,7 @@ Material:
     serializedVersion: 3
     m_TexEnvs:
     - Texture2D_bb9324eaedda4b4eaf93df14544d338a:
-        m_Texture: {fileID: 2800000, guid: b56d9261f7362ab48b9ed03e428f0b29, type: 3}
+        m_Texture: {fileID: 2800000, guid: 8cc06165a5659324c9701bcf8ea40110, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _BaseMap:

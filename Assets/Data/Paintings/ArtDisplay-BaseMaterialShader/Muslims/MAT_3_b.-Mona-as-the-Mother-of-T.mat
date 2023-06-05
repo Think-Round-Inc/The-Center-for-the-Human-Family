@@ -20,7 +20,7 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: MAT_3_b.-Mona-as-the-Mother-of-The-World-Is-a-Rosie-Place-To-Be-Kind-of-Family
+  m_Name: MAT_3_b.-Mona-as-the-Mother-of-T
   m_Shader: {fileID: -6465566751694194690, guid: fe054ed7ab579b14e826ca5580de77e3, type: 3}
   m_ValidKeywords: []
   m_InvalidKeywords: []
@@ -34,7 +34,7 @@ Material:
     serializedVersion: 3
     m_TexEnvs:
     - Texture2D_bb9324eaedda4b4eaf93df14544d338a:
-        m_Texture: {fileID: 2800000, guid: 524c8d5e2cf8b46a0a282f274f800e2c, type: 3}
+        m_Texture: {fileID: 2800000, guid: fc2a34788887c9447b98604117127518, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _BaseMap:

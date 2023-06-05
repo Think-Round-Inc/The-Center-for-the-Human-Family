@@ -20,7 +20,7 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: MAT_2a.-Hideki_s-Uncle-and-Cousin-Filling-in-For-Father-and-Son-of-His-Family,-Japan-1935-(Asian-Dad)
+  m_Name: MAT_2a.-Hideki_s-Uncle-and-Cousi
   m_Shader: {fileID: -6465566751694194690, guid: fe054ed7ab579b14e826ca5580de77e3, type: 3}
   m_ValidKeywords: []
   m_InvalidKeywords: []
@@ -34,7 +34,7 @@ Material:
     serializedVersion: 3
     m_TexEnvs:
     - Texture2D_bb9324eaedda4b4eaf93df14544d338a:
-        m_Texture: {fileID: 2800000, guid: 30bdab2d28163d948939a69bf78a8315, type: 3}
+        m_Texture: {fileID: 2800000, guid: a55fac30fbb95ad4699e3d9c1861ec15, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _BaseMap:

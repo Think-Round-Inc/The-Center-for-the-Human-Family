@@ -20,7 +20,7 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: "MAT_10_a.-Kea\u2019lani-Pretending-to-Drive-Mommy\u2019s-Audi-on-her-Third-Birthday,-Mountain-View,-CA_-March-25,-2014"
+  m_Name: "MAT_10_a.-Kea\xED\xBBlani-Pretending-t"
   m_Shader: {fileID: -6465566751694194690, guid: fe054ed7ab579b14e826ca5580de77e3, type: 3}
   m_ValidKeywords: []
   m_InvalidKeywords: []
@@ -34,7 +34,7 @@ Material:
     serializedVersion: 3
     m_TexEnvs:
     - Texture2D_bb9324eaedda4b4eaf93df14544d338a:
-        m_Texture: {fileID: 2800000, guid: 6b396ce0543dca54baca90fca1b016c5, type: 3}
+        m_Texture: {fileID: 2800000, guid: 8aed09426d8356c4fa33fb9873347065, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _BaseMap:

@@ -20,7 +20,7 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: MAT_3_a.-Hideki_s-Mom,-Yachiyo,-in-a-Purple-Robe-(Asian-Mom-as-Quee
+  m_Name: MAT_3_a.-Hideki_s-Mom,-Yachiyo,-
   m_Shader: {fileID: -6465566751694194690, guid: fe054ed7ab579b14e826ca5580de77e3, type: 3}
   m_ValidKeywords: []
   m_InvalidKeywords: []
@@ -34,7 +34,7 @@ Material:
     serializedVersion: 3
     m_TexEnvs:
     - Texture2D_bb9324eaedda4b4eaf93df14544d338a:
-        m_Texture: {fileID: 2800000, guid: 9abd1ec8192ffb14eb1d57ea1359dd61, type: 3}
+        m_Texture: {fileID: 2800000, guid: 61d605d3781156e4c9e21c89d5b6065f, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _BaseMap:

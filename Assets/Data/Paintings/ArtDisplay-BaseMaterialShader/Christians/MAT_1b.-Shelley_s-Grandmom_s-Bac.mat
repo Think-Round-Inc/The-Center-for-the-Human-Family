@@ -20,7 +20,7 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: MAT_1b.-Shelley_s-Grandmom_s-Backyard,-Chicago-(African-Backyard)
+  m_Name: MAT_1b.-Shelley_s-Grandmom_s-Bac
   m_Shader: {fileID: -6465566751694194690, guid: fe054ed7ab579b14e826ca5580de77e3, type: 3}
   m_ValidKeywords: []
   m_InvalidKeywords: []
@@ -34,7 +34,7 @@ Material:
     serializedVersion: 3
     m_TexEnvs:
     - Texture2D_bb9324eaedda4b4eaf93df14544d338a:
-        m_Texture: {fileID: 2800000, guid: 7a0c0a7bdada6aa459c4d3107366a08b, type: 3}
+        m_Texture: {fileID: 2800000, guid: 52d96e35ead60474e99bd2b0d401639c, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _BaseMap:

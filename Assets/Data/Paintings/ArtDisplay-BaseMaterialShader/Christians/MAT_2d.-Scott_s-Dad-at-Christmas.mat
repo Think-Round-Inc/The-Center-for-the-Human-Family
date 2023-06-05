@@ -20,7 +20,7 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: MAT_2d.-Scott_s-Dad-at-Christmastime-with-His-Two-Children,-South-Bend,-1968-(European-Dad)--
+  m_Name: MAT_2d.-Scott_s-Dad-at-Christmas
   m_Shader: {fileID: -6465566751694194690, guid: fe054ed7ab579b14e826ca5580de77e3, type: 3}
   m_ValidKeywords: []
   m_InvalidKeywords: []
@@ -34,7 +34,7 @@ Material:
     serializedVersion: 3
     m_TexEnvs:
     - Texture2D_bb9324eaedda4b4eaf93df14544d338a:
-        m_Texture: {fileID: 2800000, guid: 22895bebfdaec5344b3e53d110cfbf5f, type: 3}
+        m_Texture: {fileID: 2800000, guid: 381b821ec47e9b34a9b3f5d5a7ba1a6c, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _BaseMap:

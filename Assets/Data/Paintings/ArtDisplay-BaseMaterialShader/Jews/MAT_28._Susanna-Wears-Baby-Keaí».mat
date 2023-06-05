@@ -20,7 +20,7 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: "MAT_28._Susanna-Wears-Baby-Kea\u2019lani-Zaire,-CA_-April-18,-2012"
+  m_Name: "MAT_28._Susanna-Wears-Baby-Kea\xED\xBB"
   m_Shader: {fileID: -6465566751694194690, guid: fe054ed7ab579b14e826ca5580de77e3, type: 3}
   m_ValidKeywords: []
   m_InvalidKeywords: []
@@ -34,7 +34,7 @@ Material:
     serializedVersion: 3
     m_TexEnvs:
     - Texture2D_bb9324eaedda4b4eaf93df14544d338a:
-        m_Texture: {fileID: 2800000, guid: b55588a27669dca44a397c7236fedc53, type: 3}
+        m_Texture: {fileID: 2800000, guid: d0f46522391ce3342a57b09355728042, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _BaseMap:

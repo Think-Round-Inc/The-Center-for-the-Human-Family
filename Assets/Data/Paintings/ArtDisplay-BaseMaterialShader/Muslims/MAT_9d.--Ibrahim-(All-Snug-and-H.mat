@@ -20,7 +20,7 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: MAT_9d.--Ibrahim-(All-Snug-and-Happy)-Smiling-His-Fisrt-Smile-for-the-Camera
+  m_Name: MAT_9d.--Ibrahim-(All-Snug-and-H
   m_Shader: {fileID: -6465566751694194690, guid: fe054ed7ab579b14e826ca5580de77e3, type: 3}
   m_ValidKeywords: []
   m_InvalidKeywords: []
@@ -34,7 +34,7 @@ Material:
     serializedVersion: 3
     m_TexEnvs:
     - Texture2D_bb9324eaedda4b4eaf93df14544d338a:
-        m_Texture: {fileID: 2800000, guid: af5b1c644e70b468c973986dd45dc977, type: 3}
+        m_Texture: {fileID: 2800000, guid: 74352838355aa1b49b6f4532913add91, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _BaseMap:

@@ -20,7 +20,7 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: MAT_2_c.-Leslie_s-Godfather-at-His-Confirmation,-Los-Angeles,-1967-(Latin-Dad-as-King)-Alternative
+  m_Name: MAT_2_c.-Leslie_s-Godfather-at-H
   m_Shader: {fileID: -6465566751694194690, guid: fe054ed7ab579b14e826ca5580de77e3, type: 3}
   m_ValidKeywords: []
   m_InvalidKeywords: []
@@ -34,7 +34,7 @@ Material:
     serializedVersion: 3
     m_TexEnvs:
     - Texture2D_bb9324eaedda4b4eaf93df14544d338a:
-        m_Texture: {fileID: 2800000, guid: 4c95d17607bcda6438ef08e2234ec6b9, type: 3}
+        m_Texture: {fileID: 2800000, guid: 899244f8b4803cf4e818d0c071e1dae2, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _BaseMap:

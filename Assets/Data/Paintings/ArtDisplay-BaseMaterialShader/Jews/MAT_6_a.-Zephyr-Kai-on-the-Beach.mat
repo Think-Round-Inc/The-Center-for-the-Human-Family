@@ -20,7 +20,7 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: MAT_6_a.-Zephyr-Kai-on-the-Beach-near-Muir-Woods,-CA_-April-6th,-2014
+  m_Name: MAT_6_a.-Zephyr-Kai-on-the-Beach
   m_Shader: {fileID: -6465566751694194690, guid: fe054ed7ab579b14e826ca5580de77e3, type: 3}
   m_ValidKeywords: []
   m_InvalidKeywords: []
@@ -34,7 +34,7 @@ Material:
     serializedVersion: 3
     m_TexEnvs:
     - Texture2D_bb9324eaedda4b4eaf93df14544d338a:
-        m_Texture: {fileID: 2800000, guid: f8bb8945cd8ca457f82417504eaf3799, type: 3}
+        m_Texture: {fileID: 2800000, guid: d382c742caa5d1d4f980b46aad370250, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _BaseMap:

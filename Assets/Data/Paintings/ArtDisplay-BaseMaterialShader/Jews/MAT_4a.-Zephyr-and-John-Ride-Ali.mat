@@ -20,7 +20,7 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: "MAT_4a.-Zephyr-and-John-Ride-Alice\u2019s-Teacup-at-Disneyland,-August-2018"
+  m_Name: MAT_4a.-Zephyr-and-John-Ride-Ali
   m_Shader: {fileID: -6465566751694194690, guid: fe054ed7ab579b14e826ca5580de77e3, type: 3}
   m_ValidKeywords: []
   m_InvalidKeywords: []
@@ -34,7 +34,7 @@ Material:
     serializedVersion: 3
     m_TexEnvs:
     - Texture2D_bb9324eaedda4b4eaf93df14544d338a:
-        m_Texture: {fileID: 2800000, guid: ca1c90b9831363448bc9df3f4aebe495, type: 3}
+        m_Texture: {fileID: 2800000, guid: 265d5e2c223038748bd04b59e40aab90, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _BaseMap:

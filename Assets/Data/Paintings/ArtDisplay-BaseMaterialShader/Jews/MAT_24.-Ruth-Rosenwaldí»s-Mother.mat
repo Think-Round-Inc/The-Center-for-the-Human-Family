@@ -20,7 +20,7 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: "MAT_24.-Ruth-Rosenwald\u2019s-Mother\u2019s-Gravestone-in-Israel"
+  m_Name: "MAT_24.-Ruth-Rosenwald\xED\xBBs-Mother"
   m_Shader: {fileID: -6465566751694194690, guid: fe054ed7ab579b14e826ca5580de77e3, type: 3}
   m_ValidKeywords: []
   m_InvalidKeywords: []
@@ -34,7 +34,7 @@ Material:
     serializedVersion: 3
     m_TexEnvs:
     - Texture2D_bb9324eaedda4b4eaf93df14544d338a:
-        m_Texture: {fileID: 2800000, guid: 71bc2cefcac13cf48b442144415a3ec5, type: 3}
+        m_Texture: {fileID: 2800000, guid: ba7ceeb8787576749bf5d5bf73ae82cf, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _BaseMap:

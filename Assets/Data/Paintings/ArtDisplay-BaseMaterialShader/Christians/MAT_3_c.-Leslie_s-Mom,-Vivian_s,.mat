@@ -20,7 +20,7 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: MAT_3_c.-Leslie_s-Mom,-Vivian_s,-Glamour-Shot-(Latin-Mom-as-Queen)-1
+  m_Name: MAT_3_c.-Leslie_s-Mom,-Vivian_s,
   m_Shader: {fileID: -6465566751694194690, guid: fe054ed7ab579b14e826ca5580de77e3, type: 3}
   m_ValidKeywords: []
   m_InvalidKeywords: []
@@ -34,7 +34,7 @@ Material:
     serializedVersion: 3
     m_TexEnvs:
     - Texture2D_bb9324eaedda4b4eaf93df14544d338a:
-        m_Texture: {fileID: 2800000, guid: f9720d9ce79328844841d29a4db08ca7, type: 3}
+        m_Texture: {fileID: 2800000, guid: c2e414df5b6477144ac429c722b2c7de, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _BaseMap:
