@@ -1,3 +1,4 @@
+using NaughtyAttributes;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Events;
@@ -5,7 +6,10 @@ using UnityEngine.Events;
 public sealed class ClosestObjectFinder : MonoBehaviour
 {
     public GameObject player;
+    [InfoBox("Event fired when at new closest object. GameObject is the painting screen.")]
     public UnityEvent<GameObject> onEnterNewSpot;
+    [InfoBox("Event fired when left closest object. GameObject is the painting screen")]
+    public UnityEvent<GameObject> onExitNewSpot;
     public float distanceThreshold = 3f;
 
     private List<GameObject> objects;
@@ -17,7 +21,7 @@ public sealed class ClosestObjectFinder : MonoBehaviour
     private void Start()
     {
         objects = new List<GameObject>();
-        GameObject[] taggedObjects = GameObject.FindGameObjectsWithTag("Stand");
+        GameObject[] taggedObjects = GameObject.FindGameObjectsWithTag("Screen");
         foreach (GameObject taggedObject in taggedObjects)
         {
             objects.Add(taggedObject);
@@ -35,10 +39,20 @@ public sealed class ClosestObjectFinder : MonoBehaviour
             hasEnteredSpot = true;
             onEnterNewSpot.Invoke(closestObject);
         }
-        else if (hasEnteredSpot && closestObject != lastClosestObject && IsPlayerWithinDistanceThreshold(closestObject))
+        else if (hasEnteredSpot && closestObject != lastClosestObject)
         {
+            if (!IsPlayerWithinDistanceThreshold(closestObject))
+            {
+                hasEnteredSpot = false;
+                onExitNewSpot.Invoke(lastClosestObject);
+            }
+
             lastClosestObject = closestObject;
-            onEnterNewSpot.Invoke(closestObject);
+
+            if (IsPlayerWithinDistanceThreshold(closestObject))
+            {
+                onEnterNewSpot.Invoke(closestObject);
+            }
         }
     }
 

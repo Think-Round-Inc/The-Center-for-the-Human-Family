@@ -1,9 +1,10 @@
+using NaughtyAttributes;
 using UnityEngine;
 
 public sealed class DomeWallTextureSetter : MonoBehaviour
 {
     [SerializeField] GameObject[] domeWallObjects;
-    [SerializeField] Texture2D[] domeWallTextures;
+    [SerializeField, InfoBox("0: ceiling, 1: Christains, 2: Jews, 3: Buddhists, 4: Hindus, 5: Taoists, 6: Indigenous, 7: Muslim.")] Texture2D[] domeWallTextures;
     [SerializeField] Color domeWallTextureColor = Color.white;
 
     private void Start()

@@ -1,11 +1,14 @@
 Shader "Custom/Hologram" {
     Properties{
         _MainTex("Main Texture", 2D) = "white" {}
+        _Color("Color", Color) = (1, 1, 1, 1)
         _OverlayTex("Overlay Texture", 2D) = "white" {}
         _ScrollSpeed("Scroll Speed", Range(-1.0, 1.0)) = 0.1
         _MainAlpha("Main Alpha", Range(0.0, 1.0)) = 1.0
         _OverlayAlpha("Overlay Alpha", Range(0.0, 1.0)) = 1.0
         _ObjectAlpha("Object Alpha", Range(0.0, 1.0)) = 1.0
+        _TextureOffset("Texture Offset", Vector) = (0.0, 0.0, 0.0, 0.0)
+        _TextureScale("Texture Scale", Vector) = (1.0, 1.0, 0.0, 0.0)
     }
 
         SubShader{
@@ -14,6 +17,7 @@ Shader "Custom/Hologram" {
             Pass {
                 Blend SrcAlpha OneMinusSrcAlpha
                 CGPROGRAM
+                #pragma multi_compile
                 #pragma vertex vert
                 #pragma fragment frag
                 #include "UnityCG.cginc"
@@ -30,15 +34,18 @@ Shader "Custom/Hologram" {
 
                 sampler2D _MainTex;
                 sampler2D _OverlayTex;
+                float4 _Color;
                 float _ScrollSpeed;
                 float _MainAlpha;
                 float _OverlayAlpha;
                 float _ObjectAlpha;
+                float4 _TextureOffset;
+                float4 _TextureScale;
 
                 v2f vert(appdata v) {
                     v2f o;
                     o.vertex = UnityObjectToClipPos(v.vertex);
-                    o.uv = v.uv;
+                    o.uv = v.uv * _TextureScale.xy + _TextureOffset.xy; // Apply texture offset and scale
                     return o;
                 }
 
@@ -50,14 +57,13 @@ Shader "Custom/Hologram" {
                     overlayColor.a *= _OverlayAlpha;
 
                     fixed4 finalColor = lerp(mainColor, overlayColor, overlayColor.a);
-                    finalColor.rgb *= finalColor.a; // Multiply RGB by alpha
+                    finalColor.rgb *= finalColor.a;
 
-                    finalColor.a *= _ObjectAlpha; // Apply object transparency
+                    finalColor.a *= _ObjectAlpha;
 
-                    // If object alpha is 1, set final alpha to 1 to make the object fully opaque
                     finalColor.a = (_ObjectAlpha >= 1.0) ? 1.0 : finalColor.a;
 
-                    return finalColor;
+                    return finalColor * _Color;
                 }
                 ENDCG
             }

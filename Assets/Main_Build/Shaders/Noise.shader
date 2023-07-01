@@ -29,6 +29,7 @@ Shader "Custom/Noise"
         Pass
         {
             CGPROGRAM
+            #pragma multi_compile
             #pragma vertex Interpolators
             #pragma fragment frag
             #pragma target 3.0

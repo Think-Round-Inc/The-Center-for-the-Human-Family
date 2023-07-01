@@ -9,7 +9,6 @@ public sealed class PaintingDataSetter : MonoBehaviour
     [SerializeField] GameObject[] screens;
     [SerializeField] Color paintingTextureColor;
     [SerializeField] Texture2D missingPaintingTexture;
-    [SerializeField] Color missingPaintingTextureColor;
 
     private void Start()
     {
@@ -21,6 +20,7 @@ public sealed class PaintingDataSetter : MonoBehaviour
     {
         for (int i = 0; i < paintingData.Length; i++)
         {
+            if (i >= screens.Length) return;
             if (paintingData[i].paintingImage != null && screens[i] != null)
             {
                 if (screens[i].TryGetComponent(out PaintingData data))

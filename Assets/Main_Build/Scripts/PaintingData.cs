@@ -3,8 +3,8 @@ using UnityEngine;
 [System.Serializable]
 public class PaintingDataHolder
 {
-    public string paintingName;
     public Texture2D paintingImage;
+    public string paintingName;
     public AudioClip paintingClip;
     [HideInInspector] public Color paintingTextureColor = Color.white;
 }

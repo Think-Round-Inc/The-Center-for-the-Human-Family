@@ -15,6 +15,7 @@ Shader "Custom/Masked"
             Pass
             {
                 CGPROGRAM
+                #pragma multi_compile
                 #pragma vertex vert
                 #pragma fragment frag
                 #include "UnityCG.cginc"

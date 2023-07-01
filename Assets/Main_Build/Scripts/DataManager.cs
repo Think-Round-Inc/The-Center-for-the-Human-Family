@@ -6,8 +6,8 @@ public sealed class DataManager : MonoBehaviour
 
     public void PrintPaintingName(GameObject screen)
     {
-        PaintingData data = screen.GetComponentInChildren<PaintingData>();
-        if (data != null)
+        if (audioSource == null) return;
+        if (screen.TryGetComponent<PaintingData>(out var data))
         {
             string paintingName = data.paintingData.paintingName;
             if (paintingName != "")
@@ -19,17 +19,34 @@ public sealed class DataManager : MonoBehaviour
 
     public void PlayAudioAtPainting(GameObject stand)
     {
-        PaintingData data = stand.GetComponentInChildren<PaintingData>();
-        if (data != null)
+        if (audioSource == null) return;
+        if (stand.TryGetComponent<PaintingData>(out var data))
         {
             AudioClip clip = data.paintingData.paintingClip;
             if (clip != null)
             {
-                if (clip == audioSource.clip && audioSource.isPlaying) return;
-                audioSource.Stop();
-                audioSource.clip = clip;
-                audioSource.Play();
+                if (clip == audioSource.clip)
+                    audioSource.UnPause();
+                else
+                {
+                    audioSource.clip = clip;
+                    audioSource.Play();
+                }
             }
+            else
+                audioSource.Pause();
         }
+    }
+
+    public void StopPlayingAudio()
+    {
+        if (audioSource == null) return;
+        audioSource.Stop();
+    }
+
+    public void PauseAudio()
+    {
+        if (audioSource == null) return;
+        audioSource.Pause();
     }
 }
