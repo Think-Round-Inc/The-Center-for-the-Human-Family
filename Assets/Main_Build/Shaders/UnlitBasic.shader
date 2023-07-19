@@ -2,6 +2,7 @@ Shader "Custom/UnlitBasic" {
     Properties{
         _MainTex("Texture", 2D) = "white" {}
         _Color("Color", Color) = (1, 1, 1, 1)
+        _DiscardBlack("Discard Black Pixels", Range(0, 1)) = 0
     }
 
         SubShader{
@@ -9,10 +10,9 @@ Shader "Custom/UnlitBasic" {
 
             Pass {
                 CGPROGRAM
-                #pragma multi_compile
                 #pragma vertex vert
                 #pragma fragment frag
-
+                #pragma multi_compile_instancing
                 #include "UnityCG.cginc"
 
                 struct appdata {
@@ -28,6 +28,7 @@ Shader "Custom/UnlitBasic" {
                 sampler2D _MainTex;
                 float4 _MainTex_ST;
                 float4 _Color;
+                float _DiscardBlack;
 
                 v2f vert(appdata v) {
                     v2f o;
@@ -38,10 +39,15 @@ Shader "Custom/UnlitBasic" {
 
                 fixed4 frag(v2f i) : SV_Target {
                     fixed4 texColor = tex2D(_MainTex, i.uv);
-                    return texColor * _Color;
+
+                if (_DiscardBlack > 0 && texColor.r == 0 && texColor.g == 0 && texColor.b == 0) {
+                    discard;
                 }
 
-                ENDCG
+                return texColor * _Color;
             }
+
+            ENDCG
+        }
         }
 }

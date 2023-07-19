@@ -1,6 +1,5 @@
 using NaughtyAttributes;
 using System.Collections;
-using Unity.VisualScripting;
 using UnityEngine;
 
 public class AutoMover : MonoBehaviour
@@ -71,7 +70,7 @@ public class AutoMover : MonoBehaviour
         waitingForTargetLocation = false;
         isMoving = true;
         Vector3 offsetPosition = targetPosition + targetObjects[index].transform.forward + targetOffset;
-        
+
         // Lift the viewer to the desired height if the liftViewer flag is set to true
         if (liftViewer)
         {
@@ -87,7 +86,7 @@ public class AutoMover : MonoBehaviour
         Vector3 targetPos = offsetPosition;
         if (liftViewer)
             targetPos = offsetPosition + Vector3.up * liftHeight;
-        
+
         while (Vector3.Distance(viewer.transform.position, targetPos) > 0.1f)
         {
             viewer.transform.position = Vector3.MoveTowards(viewer.transform.position, targetPos, moveSpeed * Time.deltaTime);

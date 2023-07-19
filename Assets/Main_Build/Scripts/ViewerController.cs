@@ -14,7 +14,7 @@ public sealed class ViewerController : MonoBehaviour
         characterController = GetComponent<CharacterController>();
     }
 
-    void Update()
+    void FixedUpdate()
     {
         if (!viewerControllerActive) return;
         RotateHead();
