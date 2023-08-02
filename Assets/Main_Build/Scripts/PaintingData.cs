@@ -3,7 +3,7 @@ using UnityEngine;
 [System.Serializable]
 public class PaintingDataHolder
 {
-    public Texture2D paintingImage;
+    public Sprite paintingImage;
     public string paintingName;
     public AudioClip paintingClip;
     [HideInInspector] public Color paintingTextureColor = Color.white;
@@ -21,7 +21,7 @@ public sealed class PaintingData : MonoBehaviour
             if (paintingData.paintingImage != null)
             {
                 screenRenderer.material.color = paintingData.paintingTextureColor;
-                screenRenderer.material.mainTexture = paintingData.paintingImage;
+                screenRenderer.material.mainTexture = paintingData.paintingImage.texture;
             }
             else
                 screenRenderer.material.color = SectionColorHolder.EmptyScreenColor;

@@ -8,7 +8,7 @@ public sealed class PaintingDataSetter : MonoBehaviour
     [SerializeField] PaintingDataHolder[] paintingData;
     [SerializeField] GameObject[] screens;
     [SerializeField] Color paintingTextureColor;
-    [SerializeField] Texture2D missingPaintingTexture;
+    [SerializeField] Sprite missingPaintingTexture;
 
     private void Start()
     {

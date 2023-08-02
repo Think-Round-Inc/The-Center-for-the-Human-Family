@@ -19,7 +19,7 @@ public sealed class DataManager : MonoBehaviour
         if (screen.TryGetComponent<PaintingData>(out var data))
         {
             string paintingName = data.paintingData.paintingName;
-            if (paintingName != "")
+            if (paintingName != string.Empty)
                 print($"Currently near: {paintingName}");
             else
                 print($"No Data Available");
@@ -36,7 +36,7 @@ public sealed class DataManager : MonoBehaviour
         for (int i = 0; i < paintingDataPanel.gameObject.transform.childCount; i++)
         {
             GameObject currentGO = paintingDataPanel.gameObject.transform.GetChild(i).gameObject;
-            if (currentGO.name == "PaintingName")
+            if (currentGO.name == "PaintingName") // hate using string compare as the name may accidentally get renamed...
             {
                 if (currentGO.TryGetComponent(out TMP_Text text) && data != null)
                     text.text = $"{data.paintingData.paintingName}";
@@ -65,6 +65,12 @@ public sealed class DataManager : MonoBehaviour
             else
                 audioSource.Pause();
         }
+    }
+
+    public void SetPaintingImageFromData(GameObject screen)
+    {
+        if (screen.TryGetComponent(out PaintingData data))
+            paintingImage.sprite = data.paintingData.paintingImage;
     }
 
     public void StopPlayingAudio()

@@ -1059,7 +1059,7 @@ GameObject:
   - component: {fileID: 142915749}
   - component: {fileID: 142915748}
   m_Layer: 0
-  m_Name: Panel
+  m_Name: PaintingDataPanel
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1242,8 +1242,8 @@ MonoBehaviour:
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
-    rgba: 4281479730
-  m_fontColor: {r: 0.19607843, g: 0.19607843, b: 0.19607843, a: 1}
+    rgba: 4278190080
+  m_fontColor: {r: 0, g: 0, b: 0, a: 1}
   m_enableVertexGradient: 0
   m_colorMode: 3
   m_fontColorGradient:
@@ -6662,7 +6662,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 1, g: 0.5254902, b: 0, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -6699,6 +6699,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 220ff5a95289ca34ab79e7648b630b18, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  zoomCanvasRenderer: {fileID: 1264493452}
   zoomableCanvas: {fileID: 2001374331}
 --- !u!1001 &300092507
 PrefabInstance:
@@ -7013,7 +7014,7 @@ MonoBehaviour:
   m_fontColor32:
     serializedVersion: 2
     rgba: 4281479730
-  m_fontColor: {r: 0.19607843, g: 0.19607843, b: 0.19607843, a: 1}
+  m_fontColor: {r: 0, g: 0, b: 0, a: 1}
   m_enableVertexGradient: 0
   m_colorMode: 3
   m_fontColorGradient:
@@ -8853,6 +8854,83 @@ MonoBehaviour:
   m_ZoomScale: 1
   m_FollowAttachment: 1
   m_LookAtAttachment: 0.4
+--- !u!1 &1264493449
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1264493450}
+  - component: {fileID: 1264493452}
+  - component: {fileID: 1264493451}
+  m_Layer: 0
+  m_Name: Panel
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!224 &1264493450
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1264493449}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 2001374332}
+  m_Father: {fileID: 1946235755}
+  m_RootOrder: -1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1264493451
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1264493449}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 0, g: 0, b: 0, a: 0.7058824}
+  m_RaycastTarget: 0
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 0
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 10907, guid: 0000000000000000f000000000000000, type: 0}
+  m_Type: 0
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!222 &1264493452
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1264493449}
+  m_CullTransparentMesh: 1
 --- !u!1 &1298664106 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 4159726476976894584, guid: 6c2f161bcd1894c409c0cc5142ed56c8, type: 3}
@@ -9044,6 +9122,18 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 1264493449}
+        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+        m_MethodName: SetActive
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
       - m_Target: {fileID: 215977873}
         m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
         m_MethodName: SetActive
@@ -9081,7 +9171,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 1, g: 0.5254902, b: 0, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -9753,6 +9843,18 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 749775180}
         m_TargetAssemblyTypeName: DataManager, Assembly-CSharp
+        m_MethodName: SetPaintingImageFromData
+        m_Mode: 0
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 749775180}
+        m_TargetAssemblyTypeName: DataManager, Assembly-CSharp
         m_MethodName: PrintPaintingName
         m_Mode: 0
         m_Arguments:
@@ -9984,7 +10086,7 @@ PrefabInstance:
     - target: {fileID: 473966377750500467, guid: 6c2f161bcd1894c409c0cc5142ed56c8, type: 3}
       propertyPath: paintingData.Array.data[0].paintingImage
       value: 
-      objectReference: {fileID: 2800000, guid: 343980c3ea610624195001d0ae1cb9d7, type: 3}
+      objectReference: {fileID: 21300000, guid: 343980c3ea610624195001d0ae1cb9d7, type: 3}
     - target: {fileID: 473966377750500467, guid: 6c2f161bcd1894c409c0cc5142ed56c8, type: 3}
       propertyPath: paintingData.Array.data[10].paintingName
       value: Irving Feeding His Newborn Granddaughter, Ellen Oct. 2000
@@ -10014,6 +10116,10 @@ PrefabInstance:
         Island, South of France, August 2009
       objectReference: {fileID: 0}
     - target: {fileID: 473966377750500467, guid: 6c2f161bcd1894c409c0cc5142ed56c8, type: 3}
+      propertyPath: paintingData.Array.data[16].paintingName
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 473966377750500467, guid: 6c2f161bcd1894c409c0cc5142ed56c8, type: 3}
       propertyPath: paintingData.Array.data[17].paintingName
       value: Ray's Mom All Dressed Up in NYC
       objectReference: {fileID: 0}
@@ -10029,7 +10135,7 @@ PrefabInstance:
     - target: {fileID: 473966377750500467, guid: 6c2f161bcd1894c409c0cc5142ed56c8, type: 3}
       propertyPath: paintingData.Array.data[1].paintingImage
       value: 
-      objectReference: {fileID: 2800000, guid: 7e57b71654d4aeb4abb28e5cdb6ea4f9, type: 3}
+      objectReference: {fileID: 21300000, guid: 7e57b71654d4aeb4abb28e5cdb6ea4f9, type: 3}
     - target: {fileID: 473966377750500467, guid: 6c2f161bcd1894c409c0cc5142ed56c8, type: 3}
       propertyPath: paintingData.Array.data[20].paintingName
       value: Zephyr and John Ride Alice's Teacup at Disneyland, August 2018
@@ -10049,35 +10155,35 @@ PrefabInstance:
     - target: {fileID: 473966377750500467, guid: 6c2f161bcd1894c409c0cc5142ed56c8, type: 3}
       propertyPath: paintingData.Array.data[2].paintingImage
       value: 
-      objectReference: {fileID: 2800000, guid: 595834594e9ee1a4eb5056e85336f3db, type: 3}
+      objectReference: {fileID: 21300000, guid: 595834594e9ee1a4eb5056e85336f3db, type: 3}
     - target: {fileID: 473966377750500467, guid: 6c2f161bcd1894c409c0cc5142ed56c8, type: 3}
       propertyPath: paintingData.Array.data[3].paintingImage
       value: 
-      objectReference: {fileID: 2800000, guid: 59b61dc3cdd0b0648a57348e68403931, type: 3}
+      objectReference: {fileID: 21300000, guid: 59b61dc3cdd0b0648a57348e68403931, type: 3}
     - target: {fileID: 473966377750500467, guid: 6c2f161bcd1894c409c0cc5142ed56c8, type: 3}
       propertyPath: paintingData.Array.data[4].paintingImage
       value: 
-      objectReference: {fileID: 2800000, guid: b62a6816a17c23143b0d56517e2c8ff7, type: 3}
+      objectReference: {fileID: 21300000, guid: b62a6816a17c23143b0d56517e2c8ff7, type: 3}
     - target: {fileID: 473966377750500467, guid: 6c2f161bcd1894c409c0cc5142ed56c8, type: 3}
       propertyPath: paintingData.Array.data[5].paintingImage
       value: 
-      objectReference: {fileID: 2800000, guid: adb779c5336f201439b84b880fb2e5e8, type: 3}
+      objectReference: {fileID: 21300000, guid: adb779c5336f201439b84b880fb2e5e8, type: 3}
     - target: {fileID: 473966377750500467, guid: 6c2f161bcd1894c409c0cc5142ed56c8, type: 3}
       propertyPath: paintingData.Array.data[7].paintingImage
       value: 
-      objectReference: {fileID: 2800000, guid: 68201fdd9ef9c364fb351f9c812d3be4, type: 3}
+      objectReference: {fileID: 21300000, guid: 68201fdd9ef9c364fb351f9c812d3be4, type: 3}
     - target: {fileID: 473966377750500467, guid: 6c2f161bcd1894c409c0cc5142ed56c8, type: 3}
       propertyPath: paintingData.Array.data[8].paintingImage
       value: 
-      objectReference: {fileID: 2800000, guid: ebfc564d34507974887890e4cf02f317, type: 3}
+      objectReference: {fileID: 21300000, guid: ebfc564d34507974887890e4cf02f317, type: 3}
     - target: {fileID: 473966377750500467, guid: 6c2f161bcd1894c409c0cc5142ed56c8, type: 3}
       propertyPath: paintingData.Array.data[9].paintingImage
       value: 
-      objectReference: {fileID: 2800000, guid: 778d14a8ee249f7468614950cfdb7a43, type: 3}
+      objectReference: {fileID: 21300000, guid: 778d14a8ee249f7468614950cfdb7a43, type: 3}
     - target: {fileID: 473966377750500467, guid: 6c2f161bcd1894c409c0cc5142ed56c8, type: 3}
       propertyPath: paintingData.Array.data[10].paintingImage
       value: 
-      objectReference: {fileID: 2800000, guid: 9d4d8cafc7866534882a661b3be68b65, type: 3}
+      objectReference: {fileID: 21300000, guid: 9d4d8cafc7866534882a661b3be68b65, type: 3}
     - target: {fileID: 473966377750500467, guid: 6c2f161bcd1894c409c0cc5142ed56c8, type: 3}
       propertyPath: paintingData.Array.data[11].paintingImage
       value: 
@@ -10085,19 +10191,19 @@ PrefabInstance:
     - target: {fileID: 473966377750500467, guid: 6c2f161bcd1894c409c0cc5142ed56c8, type: 3}
       propertyPath: paintingData.Array.data[12].paintingImage
       value: 
-      objectReference: {fileID: 2800000, guid: 7e0b8357f8cd3b1439929f9fdd1b6711, type: 3}
+      objectReference: {fileID: 21300000, guid: 7e0b8357f8cd3b1439929f9fdd1b6711, type: 3}
     - target: {fileID: 473966377750500467, guid: 6c2f161bcd1894c409c0cc5142ed56c8, type: 3}
       propertyPath: paintingData.Array.data[13].paintingImage
       value: 
-      objectReference: {fileID: 2800000, guid: 31f4c21d110eebd4ab04c3e029b250a7, type: 3}
+      objectReference: {fileID: 21300000, guid: 31f4c21d110eebd4ab04c3e029b250a7, type: 3}
     - target: {fileID: 473966377750500467, guid: 6c2f161bcd1894c409c0cc5142ed56c8, type: 3}
       propertyPath: paintingData.Array.data[14].paintingImage
       value: 
-      objectReference: {fileID: 2800000, guid: ccfc6ac88d7f489449aca9df6f776be3, type: 3}
+      objectReference: {fileID: 21300000, guid: ccfc6ac88d7f489449aca9df6f776be3, type: 3}
     - target: {fileID: 473966377750500467, guid: 6c2f161bcd1894c409c0cc5142ed56c8, type: 3}
       propertyPath: paintingData.Array.data[15].paintingImage
       value: 
-      objectReference: {fileID: 2800000, guid: cf8b92db102695a4dae5847bd16858be, type: 3}
+      objectReference: {fileID: 21300000, guid: cf8b92db102695a4dae5847bd16858be, type: 3}
     - target: {fileID: 473966377750500467, guid: 6c2f161bcd1894c409c0cc5142ed56c8, type: 3}
       propertyPath: paintingData.Array.data[16].paintingImage
       value: 
@@ -10105,31 +10211,31 @@ PrefabInstance:
     - target: {fileID: 473966377750500467, guid: 6c2f161bcd1894c409c0cc5142ed56c8, type: 3}
       propertyPath: paintingData.Array.data[17].paintingImage
       value: 
-      objectReference: {fileID: 2800000, guid: 1b5bdcedcc3d94f44844b8c83f6c23fc, type: 3}
+      objectReference: {fileID: 21300000, guid: 1b5bdcedcc3d94f44844b8c83f6c23fc, type: 3}
     - target: {fileID: 473966377750500467, guid: 6c2f161bcd1894c409c0cc5142ed56c8, type: 3}
       propertyPath: paintingData.Array.data[18].paintingImage
       value: 
-      objectReference: {fileID: 2800000, guid: a4fa8a3a9d3fb934db6cc39136c48ea6, type: 3}
+      objectReference: {fileID: 21300000, guid: a4fa8a3a9d3fb934db6cc39136c48ea6, type: 3}
     - target: {fileID: 473966377750500467, guid: 6c2f161bcd1894c409c0cc5142ed56c8, type: 3}
       propertyPath: paintingData.Array.data[19].paintingImage
       value: 
-      objectReference: {fileID: 2800000, guid: 687833031df159a4581e1db729301b9e, type: 3}
+      objectReference: {fileID: 21300000, guid: 687833031df159a4581e1db729301b9e, type: 3}
     - target: {fileID: 473966377750500467, guid: 6c2f161bcd1894c409c0cc5142ed56c8, type: 3}
       propertyPath: paintingData.Array.data[20].paintingImage
       value: 
-      objectReference: {fileID: 2800000, guid: 265d5e2c223038748bd04b59e40aab90, type: 3}
+      objectReference: {fileID: 21300000, guid: 265d5e2c223038748bd04b59e40aab90, type: 3}
     - target: {fileID: 473966377750500467, guid: 6c2f161bcd1894c409c0cc5142ed56c8, type: 3}
       propertyPath: paintingData.Array.data[21].paintingImage
       value: 
-      objectReference: {fileID: 2800000, guid: 9f23858e9dfc97949be602d67d30ea39, type: 3}
+      objectReference: {fileID: 21300000, guid: 9f23858e9dfc97949be602d67d30ea39, type: 3}
     - target: {fileID: 473966377750500467, guid: 6c2f161bcd1894c409c0cc5142ed56c8, type: 3}
       propertyPath: paintingData.Array.data[22].paintingImage
       value: 
-      objectReference: {fileID: 2800000, guid: 1abb52d4721042041918e4a3d123e4ef, type: 3}
+      objectReference: {fileID: 21300000, guid: 1abb52d4721042041918e4a3d123e4ef, type: 3}
     - target: {fileID: 473966377750500467, guid: 6c2f161bcd1894c409c0cc5142ed56c8, type: 3}
       propertyPath: paintingData.Array.data[23].paintingImage
       value: 
-      objectReference: {fileID: 2800000, guid: 613e25545085efb4d818067a095e636c, type: 3}
+      objectReference: {fileID: 21300000, guid: 613e25545085efb4d818067a095e636c, type: 3}
     - target: {fileID: 598813463566870029, guid: 6c2f161bcd1894c409c0cc5142ed56c8, type: 3}
       propertyPath: m_Name
       value: Screen 1b
@@ -10234,7 +10340,7 @@ RectTransform:
   m_LocalScale: {x: 0, y: 0, z: 0}
   m_ConstrainProportionsScale: 0
   m_Children:
-  - {fileID: 2001374332}
+  - {fileID: 1264493450}
   m_Father: {fileID: 916473350}
   m_RootOrder: -1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -10324,7 +10430,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &2001374332
 RectTransform:
   m_ObjectHideFlags: 0
@@ -10332,12 +10438,12 @@ RectTransform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2001374331}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 1946235755}
+  m_Father: {fileID: 1264493450}
   m_RootOrder: -1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
@@ -11504,7 +11610,7 @@ PrefabInstance:
     - target: {fileID: 473966377750500467, guid: 6c2f161bcd1894c409c0cc5142ed56c8, type: 3}
       propertyPath: paintingData.Array.data[0].paintingImage
       value: 
-      objectReference: {fileID: 2800000, guid: 091df98c064829941a568633ff004330, type: 3}
+      objectReference: {fileID: 21300000, guid: 091df98c064829941a568633ff004330, type: 3}
     - target: {fileID: 473966377750500467, guid: 6c2f161bcd1894c409c0cc5142ed56c8, type: 3}
       propertyPath: paintingData.Array.data[10].paintingName
       value: Leslie's Godfather at His Confirmation, Los Angeles, 1967
@@ -11548,7 +11654,7 @@ PrefabInstance:
     - target: {fileID: 473966377750500467, guid: 6c2f161bcd1894c409c0cc5142ed56c8, type: 3}
       propertyPath: paintingData.Array.data[1].paintingImage
       value: 
-      objectReference: {fileID: 2800000, guid: 52d96e35ead60474e99bd2b0d401639c, type: 3}
+      objectReference: {fileID: 21300000, guid: 52d96e35ead60474e99bd2b0d401639c, type: 3}
     - target: {fileID: 473966377750500467, guid: 6c2f161bcd1894c409c0cc5142ed56c8, type: 3}
       propertyPath: paintingData.Array.data[20].paintingName
       value: Hideki and Two Friends Blowing Whistles at the California Academy of
@@ -11595,7 +11701,7 @@ PrefabInstance:
     - target: {fileID: 473966377750500467, guid: 6c2f161bcd1894c409c0cc5142ed56c8, type: 3}
       propertyPath: paintingData.Array.data[2].paintingImage
       value: 
-      objectReference: {fileID: 2800000, guid: 2f0eab86c801cb7479554a9246b04c48, type: 3}
+      objectReference: {fileID: 21300000, guid: 2f0eab86c801cb7479554a9246b04c48, type: 3}
     - target: {fileID: 473966377750500467, guid: 6c2f161bcd1894c409c0cc5142ed56c8, type: 3}
       propertyPath: paintingData.Array.data[30].paintingName
       value: Leslie's Junior Prom Portrait
@@ -11655,7 +11761,7 @@ PrefabInstance:
     - target: {fileID: 473966377750500467, guid: 6c2f161bcd1894c409c0cc5142ed56c8, type: 3}
       propertyPath: paintingData.Array.data[3].paintingImage
       value: 
-      objectReference: {fileID: 2800000, guid: 8cc06165a5659324c9701bcf8ea40110, type: 3}
+      objectReference: {fileID: 21300000, guid: 8cc06165a5659324c9701bcf8ea40110, type: 3}
     - target: {fileID: 473966377750500467, guid: 6c2f161bcd1894c409c0cc5142ed56c8, type: 3}
       propertyPath: paintingData.Array.data[40].paintingClip
       value: 
@@ -11739,7 +11845,7 @@ PrefabInstance:
     - target: {fileID: 473966377750500467, guid: 6c2f161bcd1894c409c0cc5142ed56c8, type: 3}
       propertyPath: paintingData.Array.data[4].paintingImage
       value: 
-      objectReference: {fileID: 2800000, guid: a55fac30fbb95ad4699e3d9c1861ec15, type: 3}
+      objectReference: {fileID: 21300000, guid: a55fac30fbb95ad4699e3d9c1861ec15, type: 3}
     - target: {fileID: 473966377750500467, guid: 6c2f161bcd1894c409c0cc5142ed56c8, type: 3}
       propertyPath: paintingData.Array.data[50].paintingClip
       value: 
@@ -11811,7 +11917,7 @@ PrefabInstance:
     - target: {fileID: 473966377750500467, guid: 6c2f161bcd1894c409c0cc5142ed56c8, type: 3}
       propertyPath: paintingData.Array.data[5].paintingImage
       value: 
-      objectReference: {fileID: 2800000, guid: f7d444924845c2c448460bd7a30db173, type: 3}
+      objectReference: {fileID: 21300000, guid: f7d444924845c2c448460bd7a30db173, type: 3}
     - target: {fileID: 473966377750500467, guid: 6c2f161bcd1894c409c0cc5142ed56c8, type: 3}
       propertyPath: paintingData.Array.data[60].paintingName
       value: Hideki's Granddad
@@ -11855,7 +11961,7 @@ PrefabInstance:
     - target: {fileID: 473966377750500467, guid: 6c2f161bcd1894c409c0cc5142ed56c8, type: 3}
       propertyPath: paintingData.Array.data[6].paintingImage
       value: 
-      objectReference: {fileID: 2800000, guid: ac3d2bfaa3488b74382ce98df056fdd7, type: 3}
+      objectReference: {fileID: 21300000, guid: ac3d2bfaa3488b74382ce98df056fdd7, type: 3}
     - target: {fileID: 473966377750500467, guid: 6c2f161bcd1894c409c0cc5142ed56c8, type: 3}
       propertyPath: paintingData.Array.data[70].paintingClip
       value: 
@@ -11923,191 +12029,191 @@ PrefabInstance:
     - target: {fileID: 473966377750500467, guid: 6c2f161bcd1894c409c0cc5142ed56c8, type: 3}
       propertyPath: paintingData.Array.data[7].paintingImage
       value: 
-      objectReference: {fileID: 2800000, guid: 381b821ec47e9b34a9b3f5d5a7ba1a6c, type: 3}
+      objectReference: {fileID: 21300000, guid: 381b821ec47e9b34a9b3f5d5a7ba1a6c, type: 3}
     - target: {fileID: 473966377750500467, guid: 6c2f161bcd1894c409c0cc5142ed56c8, type: 3}
       propertyPath: paintingData.Array.data[8].paintingImage
       value: 
-      objectReference: {fileID: 2800000, guid: 56626813c9145fc45a4f57d46d948f63, type: 3}
+      objectReference: {fileID: 21300000, guid: 56626813c9145fc45a4f57d46d948f63, type: 3}
     - target: {fileID: 473966377750500467, guid: 6c2f161bcd1894c409c0cc5142ed56c8, type: 3}
       propertyPath: paintingData.Array.data[9].paintingImage
       value: 
-      objectReference: {fileID: 2800000, guid: c92a57349151e6d4f96c6b7a1daf3aae, type: 3}
+      objectReference: {fileID: 21300000, guid: c92a57349151e6d4f96c6b7a1daf3aae, type: 3}
     - target: {fileID: 473966377750500467, guid: 6c2f161bcd1894c409c0cc5142ed56c8, type: 3}
       propertyPath: paintingData.Array.data[10].paintingImage
       value: 
-      objectReference: {fileID: 2800000, guid: 899244f8b4803cf4e818d0c071e1dae2, type: 3}
+      objectReference: {fileID: 21300000, guid: 899244f8b4803cf4e818d0c071e1dae2, type: 3}
     - target: {fileID: 473966377750500467, guid: 6c2f161bcd1894c409c0cc5142ed56c8, type: 3}
       propertyPath: paintingData.Array.data[11].paintingImage
       value: 
-      objectReference: {fileID: 2800000, guid: 162c11a11b4cde2419186e040e46924a, type: 3}
+      objectReference: {fileID: 21300000, guid: 162c11a11b4cde2419186e040e46924a, type: 3}
     - target: {fileID: 473966377750500467, guid: 6c2f161bcd1894c409c0cc5142ed56c8, type: 3}
       propertyPath: paintingData.Array.data[13].paintingImage
       value: 
-      objectReference: {fileID: 2800000, guid: 2bf62e9235eafba4091db2059f846264, type: 3}
+      objectReference: {fileID: 21300000, guid: 2bf62e9235eafba4091db2059f846264, type: 3}
     - target: {fileID: 473966377750500467, guid: 6c2f161bcd1894c409c0cc5142ed56c8, type: 3}
       propertyPath: paintingData.Array.data[14].paintingImage
       value: 
-      objectReference: {fileID: 2800000, guid: fc57249b217c90b4486a38a6fd60540d, type: 3}
+      objectReference: {fileID: 21300000, guid: fc57249b217c90b4486a38a6fd60540d, type: 3}
     - target: {fileID: 473966377750500467, guid: 6c2f161bcd1894c409c0cc5142ed56c8, type: 3}
       propertyPath: paintingData.Array.data[15].paintingImage
       value: 
-      objectReference: {fileID: 2800000, guid: c029c83e9f2b20347a0a69368e300c62, type: 3}
+      objectReference: {fileID: 21300000, guid: c029c83e9f2b20347a0a69368e300c62, type: 3}
     - target: {fileID: 473966377750500467, guid: 6c2f161bcd1894c409c0cc5142ed56c8, type: 3}
       propertyPath: paintingData.Array.data[16].paintingImage
       value: 
-      objectReference: {fileID: 2800000, guid: 61d605d3781156e4c9e21c89d5b6065f, type: 3}
+      objectReference: {fileID: 21300000, guid: 61d605d3781156e4c9e21c89d5b6065f, type: 3}
     - target: {fileID: 473966377750500467, guid: 6c2f161bcd1894c409c0cc5142ed56c8, type: 3}
       propertyPath: paintingData.Array.data[17].paintingImage
       value: 
-      objectReference: {fileID: 2800000, guid: 6a6a244dd58ce2245b309141d768938c, type: 3}
+      objectReference: {fileID: 21300000, guid: 6a6a244dd58ce2245b309141d768938c, type: 3}
     - target: {fileID: 473966377750500467, guid: 6c2f161bcd1894c409c0cc5142ed56c8, type: 3}
       propertyPath: paintingData.Array.data[18].paintingImage
       value: 
-      objectReference: {fileID: 2800000, guid: c2e414df5b6477144ac429c722b2c7de, type: 3}
+      objectReference: {fileID: 21300000, guid: c2e414df5b6477144ac429c722b2c7de, type: 3}
     - target: {fileID: 473966377750500467, guid: 6c2f161bcd1894c409c0cc5142ed56c8, type: 3}
       propertyPath: paintingData.Array.data[19].paintingImage
       value: 
-      objectReference: {fileID: 2800000, guid: 758ae19ea21c1434085e172c41cdce2b, type: 3}
+      objectReference: {fileID: 21300000, guid: 758ae19ea21c1434085e172c41cdce2b, type: 3}
     - target: {fileID: 473966377750500467, guid: 6c2f161bcd1894c409c0cc5142ed56c8, type: 3}
       propertyPath: paintingData.Array.data[20].paintingImage
       value: 
-      objectReference: {fileID: 2800000, guid: 86b72e8239e01f347982b3c56e6b138b, type: 3}
+      objectReference: {fileID: 21300000, guid: 86b72e8239e01f347982b3c56e6b138b, type: 3}
     - target: {fileID: 473966377750500467, guid: 6c2f161bcd1894c409c0cc5142ed56c8, type: 3}
       propertyPath: paintingData.Array.data[21].paintingImage
       value: 
-      objectReference: {fileID: 2800000, guid: 4d7012a6b1f550144a344e6be0c01b61, type: 3}
+      objectReference: {fileID: 21300000, guid: 4d7012a6b1f550144a344e6be0c01b61, type: 3}
     - target: {fileID: 473966377750500467, guid: 6c2f161bcd1894c409c0cc5142ed56c8, type: 3}
       propertyPath: paintingData.Array.data[22].paintingImage
       value: 
-      objectReference: {fileID: 2800000, guid: 5f8c6b2647b6b574ea97720cf010dce7, type: 3}
+      objectReference: {fileID: 21300000, guid: 5f8c6b2647b6b574ea97720cf010dce7, type: 3}
     - target: {fileID: 473966377750500467, guid: 6c2f161bcd1894c409c0cc5142ed56c8, type: 3}
       propertyPath: paintingData.Array.data[23].paintingImage
       value: 
-      objectReference: {fileID: 2800000, guid: 067237d1eed725b41872173fabb5dbbc, type: 3}
+      objectReference: {fileID: 21300000, guid: 067237d1eed725b41872173fabb5dbbc, type: 3}
     - target: {fileID: 473966377750500467, guid: 6c2f161bcd1894c409c0cc5142ed56c8, type: 3}
       propertyPath: paintingData.Array.data[25].paintingImage
       value: 
-      objectReference: {fileID: 2800000, guid: c2c0cf11edad4be448f0b3e08dbcb96e, type: 3}
+      objectReference: {fileID: 21300000, guid: c2c0cf11edad4be448f0b3e08dbcb96e, type: 3}
     - target: {fileID: 473966377750500467, guid: 6c2f161bcd1894c409c0cc5142ed56c8, type: 3}
       propertyPath: paintingData.Array.data[27].paintingImage
       value: 
-      objectReference: {fileID: 2800000, guid: 900724692b530fa43a39a0400409b876, type: 3}
+      objectReference: {fileID: 21300000, guid: 900724692b530fa43a39a0400409b876, type: 3}
     - target: {fileID: 473966377750500467, guid: 6c2f161bcd1894c409c0cc5142ed56c8, type: 3}
       propertyPath: paintingData.Array.data[28].paintingImage
       value: 
-      objectReference: {fileID: 2800000, guid: 5de3ec8a7a49154409e308b07a770845, type: 3}
+      objectReference: {fileID: 21300000, guid: 5de3ec8a7a49154409e308b07a770845, type: 3}
     - target: {fileID: 473966377750500467, guid: 6c2f161bcd1894c409c0cc5142ed56c8, type: 3}
       propertyPath: paintingData.Array.data[29].paintingImage
       value: 
-      objectReference: {fileID: 2800000, guid: c7a207d4735c0234f9c8ef350a1a6efe, type: 3}
+      objectReference: {fileID: 21300000, guid: c7a207d4735c0234f9c8ef350a1a6efe, type: 3}
     - target: {fileID: 473966377750500467, guid: 6c2f161bcd1894c409c0cc5142ed56c8, type: 3}
       propertyPath: paintingData.Array.data[30].paintingImage
       value: 
-      objectReference: {fileID: 2800000, guid: 4445bf9af7cff5a429f4f2396f921089, type: 3}
+      objectReference: {fileID: 21300000, guid: 4445bf9af7cff5a429f4f2396f921089, type: 3}
     - target: {fileID: 473966377750500467, guid: 6c2f161bcd1894c409c0cc5142ed56c8, type: 3}
       propertyPath: paintingData.Array.data[31].paintingImage
       value: 
-      objectReference: {fileID: 2800000, guid: ed4adb4f17ecac446b748ed11554de03, type: 3}
+      objectReference: {fileID: 21300000, guid: ed4adb4f17ecac446b748ed11554de03, type: 3}
     - target: {fileID: 473966377750500467, guid: 6c2f161bcd1894c409c0cc5142ed56c8, type: 3}
       propertyPath: paintingData.Array.data[32].paintingImage
       value: 
-      objectReference: {fileID: 2800000, guid: b5271b0339847084d91287007fce46a3, type: 3}
+      objectReference: {fileID: 21300000, guid: b5271b0339847084d91287007fce46a3, type: 3}
     - target: {fileID: 473966377750500467, guid: 6c2f161bcd1894c409c0cc5142ed56c8, type: 3}
       propertyPath: paintingData.Array.data[33].paintingImage
       value: 
-      objectReference: {fileID: 2800000, guid: e2e8263b8950e0745af4c4b096d9e3cf, type: 3}
+      objectReference: {fileID: 21300000, guid: e2e8263b8950e0745af4c4b096d9e3cf, type: 3}
     - target: {fileID: 473966377750500467, guid: 6c2f161bcd1894c409c0cc5142ed56c8, type: 3}
       propertyPath: paintingData.Array.data[34].paintingImage
       value: 
-      objectReference: {fileID: 2800000, guid: 15ecabbb1e989b84689afd6517115a56, type: 3}
+      objectReference: {fileID: 21300000, guid: 15ecabbb1e989b84689afd6517115a56, type: 3}
     - target: {fileID: 473966377750500467, guid: 6c2f161bcd1894c409c0cc5142ed56c8, type: 3}
       propertyPath: paintingData.Array.data[35].paintingImage
       value: 
-      objectReference: {fileID: 2800000, guid: 7b781f9dc7f35474dba61cfb483be6bc, type: 3}
+      objectReference: {fileID: 21300000, guid: 7b781f9dc7f35474dba61cfb483be6bc, type: 3}
     - target: {fileID: 473966377750500467, guid: 6c2f161bcd1894c409c0cc5142ed56c8, type: 3}
       propertyPath: paintingData.Array.data[36].paintingImage
       value: 
-      objectReference: {fileID: 2800000, guid: d7e92dd4b293f474aafc5d6c22159632, type: 3}
+      objectReference: {fileID: 21300000, guid: d7e92dd4b293f474aafc5d6c22159632, type: 3}
     - target: {fileID: 473966377750500467, guid: 6c2f161bcd1894c409c0cc5142ed56c8, type: 3}
       propertyPath: paintingData.Array.data[37].paintingImage
       value: 
-      objectReference: {fileID: 2800000, guid: 163d499659bf68b47a58810a27db9e78, type: 3}
+      objectReference: {fileID: 21300000, guid: 163d499659bf68b47a58810a27db9e78, type: 3}
     - target: {fileID: 473966377750500467, guid: 6c2f161bcd1894c409c0cc5142ed56c8, type: 3}
       propertyPath: paintingData.Array.data[38].paintingImage
       value: 
-      objectReference: {fileID: 2800000, guid: 6eb7d7385ffa74a4a9c234b67feb9c12, type: 3}
+      objectReference: {fileID: 21300000, guid: 6eb7d7385ffa74a4a9c234b67feb9c12, type: 3}
     - target: {fileID: 473966377750500467, guid: 6c2f161bcd1894c409c0cc5142ed56c8, type: 3}
       propertyPath: paintingData.Array.data[39].paintingImage
       value: 
-      objectReference: {fileID: 2800000, guid: c48d0d83923caa247b82e83cca0c7028, type: 3}
+      objectReference: {fileID: 21300000, guid: c48d0d83923caa247b82e83cca0c7028, type: 3}
     - target: {fileID: 473966377750500467, guid: 6c2f161bcd1894c409c0cc5142ed56c8, type: 3}
       propertyPath: paintingData.Array.data[40].paintingImage
       value: 
-      objectReference: {fileID: 2800000, guid: 7f662d14918d9bf4aa4dd6ad268b37fc, type: 3}
+      objectReference: {fileID: 21300000, guid: 7f662d14918d9bf4aa4dd6ad268b37fc, type: 3}
     - target: {fileID: 473966377750500467, guid: 6c2f161bcd1894c409c0cc5142ed56c8, type: 3}
       propertyPath: paintingData.Array.data[41].paintingImage
       value: 
-      objectReference: {fileID: 2800000, guid: 611ba21c65d4dd949894deeb78d413f4, type: 3}
+      objectReference: {fileID: 21300000, guid: 611ba21c65d4dd949894deeb78d413f4, type: 3}
     - target: {fileID: 473966377750500467, guid: 6c2f161bcd1894c409c0cc5142ed56c8, type: 3}
       propertyPath: paintingData.Array.data[42].paintingImage
       value: 
-      objectReference: {fileID: 2800000, guid: d889859e18d89664a9fd52ea5d6a9f89, type: 3}
+      objectReference: {fileID: 21300000, guid: d889859e18d89664a9fd52ea5d6a9f89, type: 3}
     - target: {fileID: 473966377750500467, guid: 6c2f161bcd1894c409c0cc5142ed56c8, type: 3}
       propertyPath: paintingData.Array.data[43].paintingImage
       value: 
-      objectReference: {fileID: 2800000, guid: 8d2951409178540458f874c28034b76d, type: 3}
+      objectReference: {fileID: 21300000, guid: 8d2951409178540458f874c28034b76d, type: 3}
     - target: {fileID: 473966377750500467, guid: 6c2f161bcd1894c409c0cc5142ed56c8, type: 3}
       propertyPath: paintingData.Array.data[44].paintingImage
       value: 
-      objectReference: {fileID: 2800000, guid: 12e5454da63310e47ba328637a2c0ce1, type: 3}
+      objectReference: {fileID: 21300000, guid: 12e5454da63310e47ba328637a2c0ce1, type: 3}
     - target: {fileID: 473966377750500467, guid: 6c2f161bcd1894c409c0cc5142ed56c8, type: 3}
       propertyPath: paintingData.Array.data[45].paintingImage
       value: 
-      objectReference: {fileID: 2800000, guid: e6b95f7354a503e498851ce72884f353, type: 3}
+      objectReference: {fileID: 21300000, guid: e6b95f7354a503e498851ce72884f353, type: 3}
     - target: {fileID: 473966377750500467, guid: 6c2f161bcd1894c409c0cc5142ed56c8, type: 3}
       propertyPath: paintingData.Array.data[46].paintingImage
       value: 
-      objectReference: {fileID: 2800000, guid: fdc624ddafb8f634f86d315832bf5248, type: 3}
+      objectReference: {fileID: 21300000, guid: fdc624ddafb8f634f86d315832bf5248, type: 3}
     - target: {fileID: 473966377750500467, guid: 6c2f161bcd1894c409c0cc5142ed56c8, type: 3}
       propertyPath: paintingData.Array.data[47].paintingImage
       value: 
-      objectReference: {fileID: 2800000, guid: b8cf971edac2ef24489e6a55a432cdd2, type: 3}
+      objectReference: {fileID: 21300000, guid: b8cf971edac2ef24489e6a55a432cdd2, type: 3}
     - target: {fileID: 473966377750500467, guid: 6c2f161bcd1894c409c0cc5142ed56c8, type: 3}
       propertyPath: paintingData.Array.data[48].paintingImage
       value: 
-      objectReference: {fileID: 2800000, guid: 86fefe3e482a9da4195dbaf414ddb5c1, type: 3}
+      objectReference: {fileID: 21300000, guid: 86fefe3e482a9da4195dbaf414ddb5c1, type: 3}
     - target: {fileID: 473966377750500467, guid: 6c2f161bcd1894c409c0cc5142ed56c8, type: 3}
       propertyPath: paintingData.Array.data[49].paintingImage
       value: 
-      objectReference: {fileID: 2800000, guid: bbd9358888f61674e83ecb7e61f98b50, type: 3}
+      objectReference: {fileID: 21300000, guid: bbd9358888f61674e83ecb7e61f98b50, type: 3}
     - target: {fileID: 473966377750500467, guid: 6c2f161bcd1894c409c0cc5142ed56c8, type: 3}
       propertyPath: paintingData.Array.data[50].paintingImage
       value: 
-      objectReference: {fileID: 2800000, guid: 743a6cea0f54e10438f0302904d03dd5, type: 3}
+      objectReference: {fileID: 21300000, guid: 743a6cea0f54e10438f0302904d03dd5, type: 3}
     - target: {fileID: 473966377750500467, guid: 6c2f161bcd1894c409c0cc5142ed56c8, type: 3}
       propertyPath: paintingData.Array.data[51].paintingImage
       value: 
-      objectReference: {fileID: 2800000, guid: 96df5491efd01cc46978dcaa6dca16ad, type: 3}
+      objectReference: {fileID: 21300000, guid: 96df5491efd01cc46978dcaa6dca16ad, type: 3}
     - target: {fileID: 473966377750500467, guid: 6c2f161bcd1894c409c0cc5142ed56c8, type: 3}
       propertyPath: paintingData.Array.data[52].paintingImage
       value: 
-      objectReference: {fileID: 2800000, guid: c2dc2ee7e4d58c1469c2bd454284cee8, type: 3}
+      objectReference: {fileID: 21300000, guid: c2dc2ee7e4d58c1469c2bd454284cee8, type: 3}
     - target: {fileID: 473966377750500467, guid: 6c2f161bcd1894c409c0cc5142ed56c8, type: 3}
       propertyPath: paintingData.Array.data[53].paintingImage
       value: 
-      objectReference: {fileID: 2800000, guid: 3d2878e5fea3ae1449189e889c9df600, type: 3}
+      objectReference: {fileID: 21300000, guid: 3d2878e5fea3ae1449189e889c9df600, type: 3}
     - target: {fileID: 473966377750500467, guid: 6c2f161bcd1894c409c0cc5142ed56c8, type: 3}
       propertyPath: paintingData.Array.data[54].paintingImage
       value: 
-      objectReference: {fileID: 2800000, guid: 0b89aa3c97e33624cb1f259641d4c0fe, type: 3}
+      objectReference: {fileID: 21300000, guid: 0b89aa3c97e33624cb1f259641d4c0fe, type: 3}
     - target: {fileID: 473966377750500467, guid: 6c2f161bcd1894c409c0cc5142ed56c8, type: 3}
       propertyPath: paintingData.Array.data[55].paintingImage
       value: 
-      objectReference: {fileID: 2800000, guid: d91f7978e91d52244bc9b3159529ab9a, type: 3}
+      objectReference: {fileID: 21300000, guid: d91f7978e91d52244bc9b3159529ab9a, type: 3}
     - target: {fileID: 473966377750500467, guid: 6c2f161bcd1894c409c0cc5142ed56c8, type: 3}
       propertyPath: paintingData.Array.data[56].paintingImage
       value: 
-      objectReference: {fileID: 2800000, guid: 46e1b66c5c33c5a49ae02ddcdf9cff36, type: 3}
+      objectReference: {fileID: 21300000, guid: 46e1b66c5c33c5a49ae02ddcdf9cff36, type: 3}
     - target: {fileID: 473966377750500467, guid: 6c2f161bcd1894c409c0cc5142ed56c8, type: 3}
       propertyPath: paintingData.Array.data[57].paintingImage
       value: 
@@ -12115,15 +12221,15 @@ PrefabInstance:
     - target: {fileID: 473966377750500467, guid: 6c2f161bcd1894c409c0cc5142ed56c8, type: 3}
       propertyPath: paintingData.Array.data[58].paintingImage
       value: 
-      objectReference: {fileID: 2800000, guid: eedd952cae2b7174f9342c51c3da4294, type: 3}
+      objectReference: {fileID: 21300000, guid: eedd952cae2b7174f9342c51c3da4294, type: 3}
     - target: {fileID: 473966377750500467, guid: 6c2f161bcd1894c409c0cc5142ed56c8, type: 3}
       propertyPath: paintingData.Array.data[59].paintingImage
       value: 
-      objectReference: {fileID: 2800000, guid: e904a0854cb58d540936099e99880e01, type: 3}
+      objectReference: {fileID: 21300000, guid: e904a0854cb58d540936099e99880e01, type: 3}
     - target: {fileID: 473966377750500467, guid: 6c2f161bcd1894c409c0cc5142ed56c8, type: 3}
       propertyPath: paintingData.Array.data[60].paintingImage
       value: 
-      objectReference: {fileID: 2800000, guid: d49bc8e4822cd114cb8e422f3f701cbc, type: 3}
+      objectReference: {fileID: 21300000, guid: d49bc8e4822cd114cb8e422f3f701cbc, type: 3}
     - target: {fileID: 473966377750500467, guid: 6c2f161bcd1894c409c0cc5142ed56c8, type: 3}
       propertyPath: paintingData.Array.data[62].paintingImage
       value: 
@@ -12131,63 +12237,63 @@ PrefabInstance:
     - target: {fileID: 473966377750500467, guid: 6c2f161bcd1894c409c0cc5142ed56c8, type: 3}
       propertyPath: paintingData.Array.data[63].paintingImage
       value: 
-      objectReference: {fileID: 2800000, guid: 2e28c4808227584488bae09c96f74b19, type: 3}
+      objectReference: {fileID: 21300000, guid: 2e28c4808227584488bae09c96f74b19, type: 3}
     - target: {fileID: 473966377750500467, guid: 6c2f161bcd1894c409c0cc5142ed56c8, type: 3}
       propertyPath: paintingData.Array.data[64].paintingImage
       value: 
-      objectReference: {fileID: 2800000, guid: 2674a6db7e33e1a49a1debbabac6315c, type: 3}
+      objectReference: {fileID: 21300000, guid: a27d1e20f23f52d4c921cde9e5af34f8, type: 3}
     - target: {fileID: 473966377750500467, guid: 6c2f161bcd1894c409c0cc5142ed56c8, type: 3}
       propertyPath: paintingData.Array.data[65].paintingImage
       value: 
-      objectReference: {fileID: 2800000, guid: 22aa917af0b13c44bbda2bc50c770b21, type: 3}
+      objectReference: {fileID: 21300000, guid: 22aa917af0b13c44bbda2bc50c770b21, type: 3}
     - target: {fileID: 473966377750500467, guid: 6c2f161bcd1894c409c0cc5142ed56c8, type: 3}
       propertyPath: paintingData.Array.data[66].paintingImage
       value: 
-      objectReference: {fileID: 2800000, guid: c333bd916ed80d44fa65737748ea0acd, type: 3}
+      objectReference: {fileID: 21300000, guid: c333bd916ed80d44fa65737748ea0acd, type: 3}
     - target: {fileID: 473966377750500467, guid: 6c2f161bcd1894c409c0cc5142ed56c8, type: 3}
       propertyPath: paintingData.Array.data[67].paintingImage
       value: 
-      objectReference: {fileID: 2800000, guid: 4d4c3986c20d23c44993115d328d5893, type: 3}
+      objectReference: {fileID: 21300000, guid: 4d4c3986c20d23c44993115d328d5893, type: 3}
     - target: {fileID: 473966377750500467, guid: 6c2f161bcd1894c409c0cc5142ed56c8, type: 3}
       propertyPath: paintingData.Array.data[68].paintingImage
       value: 
-      objectReference: {fileID: 2800000, guid: b8c911971bf28ba40961aa9df0b3c190, type: 3}
+      objectReference: {fileID: 21300000, guid: b8c911971bf28ba40961aa9df0b3c190, type: 3}
     - target: {fileID: 473966377750500467, guid: 6c2f161bcd1894c409c0cc5142ed56c8, type: 3}
       propertyPath: paintingData.Array.data[69].paintingImage
       value: 
-      objectReference: {fileID: 2800000, guid: 5e526b41cb738b841b5235b26d6f7d4d, type: 3}
+      objectReference: {fileID: 21300000, guid: 5e526b41cb738b841b5235b26d6f7d4d, type: 3}
     - target: {fileID: 473966377750500467, guid: 6c2f161bcd1894c409c0cc5142ed56c8, type: 3}
       propertyPath: paintingData.Array.data[70].paintingImage
       value: 
-      objectReference: {fileID: 2800000, guid: f1cff7f1a898c854e82989ed95efd9e4, type: 3}
+      objectReference: {fileID: 21300000, guid: f1cff7f1a898c854e82989ed95efd9e4, type: 3}
     - target: {fileID: 473966377750500467, guid: 6c2f161bcd1894c409c0cc5142ed56c8, type: 3}
       propertyPath: paintingData.Array.data[71].paintingImage
       value: 
-      objectReference: {fileID: 2800000, guid: d59554dc882063e4a96e41676a913508, type: 3}
+      objectReference: {fileID: 21300000, guid: d59554dc882063e4a96e41676a913508, type: 3}
     - target: {fileID: 473966377750500467, guid: 6c2f161bcd1894c409c0cc5142ed56c8, type: 3}
       propertyPath: paintingData.Array.data[72].paintingImage
       value: 
-      objectReference: {fileID: 2800000, guid: 8f62b3ae82a110d4b9f856883de2f848, type: 3}
+      objectReference: {fileID: 21300000, guid: 8f62b3ae82a110d4b9f856883de2f848, type: 3}
     - target: {fileID: 473966377750500467, guid: 6c2f161bcd1894c409c0cc5142ed56c8, type: 3}
       propertyPath: paintingData.Array.data[73].paintingImage
       value: 
-      objectReference: {fileID: 2800000, guid: 5b515e43a62f9524686dd282e2c21cee, type: 3}
+      objectReference: {fileID: 21300000, guid: 5b515e43a62f9524686dd282e2c21cee, type: 3}
     - target: {fileID: 473966377750500467, guid: 6c2f161bcd1894c409c0cc5142ed56c8, type: 3}
       propertyPath: paintingData.Array.data[74].paintingImage
       value: 
-      objectReference: {fileID: 2800000, guid: 20f6625022c2e4a49af7ba63d83c91a9, type: 3}
+      objectReference: {fileID: 21300000, guid: 20f6625022c2e4a49af7ba63d83c91a9, type: 3}
     - target: {fileID: 473966377750500467, guid: 6c2f161bcd1894c409c0cc5142ed56c8, type: 3}
       propertyPath: paintingData.Array.data[75].paintingImage
       value: 
-      objectReference: {fileID: 2800000, guid: ba216b796a549ca40abce6c6dd34aab7, type: 3}
+      objectReference: {fileID: 21300000, guid: ba216b796a549ca40abce6c6dd34aab7, type: 3}
     - target: {fileID: 473966377750500467, guid: 6c2f161bcd1894c409c0cc5142ed56c8, type: 3}
       propertyPath: paintingData.Array.data[76].paintingImage
       value: 
-      objectReference: {fileID: 2800000, guid: 470a57f1af894224194e4120ed69092a, type: 3}
+      objectReference: {fileID: 21300000, guid: 470a57f1af894224194e4120ed69092a, type: 3}
     - target: {fileID: 473966377750500467, guid: 6c2f161bcd1894c409c0cc5142ed56c8, type: 3}
       propertyPath: paintingData.Array.data[77].paintingImage
       value: 
-      objectReference: {fileID: 2800000, guid: 63c585601172f2b4eabf6ce7719bfa6c, type: 3}
+      objectReference: {fileID: 21300000, guid: 63c585601172f2b4eabf6ce7719bfa6c, type: 3}
     - target: {fileID: 620273302744231830, guid: 6c2f161bcd1894c409c0cc5142ed56c8, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
