@@ -6,7 +6,7 @@ Shader "Custom/StandardFourColors" {
         _ColorBottomLeft("Color Bottom Left", Color) = (1, 1, 1, 1)
         _ColorBottomRight("Color Bottom Right", Color) = (1, 1, 1, 1)
         _RotationAngle("Rotation Angle", Range(0, 360)) = 0
-        _Brightness("Brightness", Range(0.0, 3.0)) = 1.0
+        _Brightness("Brightness", Range(0.0, 10.0)) = 1.0
     }
 
         SubShader{

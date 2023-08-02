@@ -6,10 +6,19 @@ using UnityEngine.Events;
 public sealed class ClosestObjectFinder : MonoBehaviour
 {
     public GameObject player;
+
     [InfoBox("Event fired when at new closest object. GameObject is the painting screen.")]
     public UnityEvent<GameObject> onEnterNewSpot;
+
     [InfoBox("Event fired when left closest object. GameObject is the painting screen")]
     public UnityEvent<GameObject> onExitNewSpot;
+
+    [Range(0f, 1f)]
+    public float facingAccuracy = 0.9f; // Adjust the accuracy of facing the closest object
+
+    [Range(0f, 180f)]
+    public float angleThreshold = 45f; // Adjust the angle threshold for "in front" check
+
     public float distanceThreshold = 3f;
 
     private List<GameObject> objects;
@@ -34,24 +43,20 @@ public sealed class ClosestObjectFinder : MonoBehaviour
     {
         closestObject = FindClosestObject();
 
-        if (!hasEnteredSpot && IsPlayerWithinDistanceThreshold(closestObject))
+        if (IsPlayerWithinDistanceThreshold(closestObject) && IsPlayerFacingAndInFront(player, closestObject))
         {
-            hasEnteredSpot = true;
-            onEnterNewSpot.Invoke(closestObject);
+            if (!hasEnteredSpot)
+            {
+                hasEnteredSpot = true;
+                onEnterNewSpot.Invoke(closestObject);
+            }
         }
-        else if (hasEnteredSpot && closestObject != lastClosestObject)
+        else
         {
-            if (!IsPlayerWithinDistanceThreshold(closestObject))
+            if (hasEnteredSpot)
             {
                 hasEnteredSpot = false;
-                onExitNewSpot.Invoke(lastClosestObject);
-            }
-
-            lastClosestObject = closestObject;
-
-            if (IsPlayerWithinDistanceThreshold(closestObject))
-            {
-                onEnterNewSpot.Invoke(closestObject);
+                onExitNewSpot.Invoke(closestObject);
             }
         }
     }
@@ -84,6 +89,17 @@ public sealed class ClosestObjectFinder : MonoBehaviour
     {
         float distance = Vector3.Distance(player.transform.position, obj.transform.position);
         return distance <= distanceThreshold;
+    }
+
+    private bool IsPlayerFacingAndInFront(GameObject viewer, GameObject target)
+    {
+        Vector3 directionToTarget = target.transform.position - viewer.transform.position;
+        directionToTarget.Normalize();
+
+        float dotProduct = Vector3.Dot(viewer.transform.forward, directionToTarget);
+        float angle = Vector3.Angle(viewer.transform.forward, directionToTarget);
+
+        return dotProduct >= facingAccuracy && angle <= angleThreshold;
     }
 
     public void PrintClosestObject(GameObject gO) => Debug.Log($"Near: {gO.name}");

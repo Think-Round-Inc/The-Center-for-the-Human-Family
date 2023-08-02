@@ -7,21 +7,15 @@ public sealed class ViewerController : MonoBehaviour
     [SerializeField] float movementSpeed = 5f;
     [SerializeField] float rotationSpeed;
     [SerializeField, Range(0, 90)] int maxHeadRotateAngle = 80;
-    private CharacterController characterController;
-
-    void Awake()
-    {
-        characterController = GetComponent<CharacterController>();
-    }
 
     void FixedUpdate()
     {
         if (!viewerControllerActive) return;
-        RotateHead();
+        RotateViewer();
         MoveCharacter();
     }
 
-    private void RotateHead()
+    private void RotateViewer()
     {
         if (Input.GetMouseButton(1))
         {
@@ -30,16 +24,16 @@ public sealed class ViewerController : MonoBehaviour
             Cursor.visible = false;
 
             // Calculate the rotation around the X-axis
-            Vector3 currentRotation = headTransform.localRotation.eulerAngles;
+            Vector3 currentRotation = transform.localRotation.eulerAngles;
             float newAngleX = currentRotation.x - mouseY * rotationSpeed;
             newAngleX = WrapAngle(newAngleX); // Wrap the angle to -180 to 180 degrees
             newAngleX = Mathf.Clamp(newAngleX, -maxHeadRotateAngle, maxHeadRotateAngle);
 
             // Apply the new rotation around the X-axis
-            headTransform.localRotation = Quaternion.Euler(newAngleX, currentRotation.y, 0f);
+            transform.localRotation = Quaternion.Euler(newAngleX, currentRotation.y, 0f);
 
             // Rotate around the Y-axis separately
-            headTransform.Rotate(Vector3.up, mouseX * rotationSpeed, Space.World);
+            transform.Rotate(Vector3.up, mouseX * rotationSpeed, Space.World);
         }
         else
         {
@@ -58,23 +52,25 @@ public sealed class ViewerController : MonoBehaviour
         return angle;
     }
 
-
-
     private void MoveCharacter()
     {
         float horizontalInput = Input.GetAxis("Horizontal");
         float verticalInput = Input.GetAxis("Vertical");
 
-        Vector3 movementDirection = headTransform.forward * verticalInput + headTransform.right * horizontalInput;
+        // Use the main camera's forward direction instead of headTransform.forward
+        Vector3 cameraForward = Camera.main.transform.forward;
+        Vector3 movementDirection = cameraForward * verticalInput + Camera.main.transform.right * horizontalInput;
         movementDirection.y = 0f;
 
         if (movementDirection.magnitude > 1f)
             movementDirection.Normalize();
 
         Vector3 movement = movementSpeed * Time.deltaTime * movementDirection;
+        movement.y = 0f;
 
-        characterController.Move(movement);
+        transform.Translate(movement, Space.World);
     }
 }
+
 
 

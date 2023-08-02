@@ -1,8 +1,17 @@
+using TMPro;
 using UnityEngine;
+using UnityEngine.UI;
 
 public sealed class DataManager : MonoBehaviour
 {
     [SerializeField] AudioSource audioSource;
+    [SerializeField] CanvasRenderer paintingDataPanel;
+    [SerializeField] Image paintingImage;
+
+    private void Start()
+    {
+        paintingDataPanel.gameObject.SetActive(false);
+    }
 
     public void PrintPaintingName(GameObject screen)
     {
@@ -15,6 +24,26 @@ public sealed class DataManager : MonoBehaviour
             else
                 print($"No Data Available");
         }
+    }
+
+    public void HidePaitingDataPanel() => paintingDataPanel.gameObject.SetActive(false);
+
+    public void HidePaintingImage() => paintingImage.gameObject.SetActive(false);
+    
+    public void DisplayPaintingNameOnCanvas(GameObject screen)
+    {
+        PaintingData data = screen.GetComponent<PaintingData>();
+        for (int i = 0; i < paintingDataPanel.gameObject.transform.childCount; i++)
+        {
+            GameObject currentGO = paintingDataPanel.gameObject.transform.GetChild(i).gameObject;
+            if (currentGO.name == "PaintingName")
+            {
+                if (currentGO.TryGetComponent(out TMP_Text text) && data != null)
+                    text.text = $"{data.paintingData.paintingName}";
+            }
+        }
+        if (data != null)
+            paintingDataPanel.gameObject.SetActive(true);
     }
 
     public void PlayAudioAtPainting(GameObject stand)
