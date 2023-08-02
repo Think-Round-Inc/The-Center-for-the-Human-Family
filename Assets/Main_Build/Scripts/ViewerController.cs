@@ -52,6 +52,8 @@ public sealed class ViewerController : MonoBehaviour
         return angle;
     }
 
+    public void SetViewerControlsActive(bool value) => viewerControllerActive = value;
+
     private void MoveCharacter()
     {
         float horizontalInput = Input.GetAxis("Horizontal");
