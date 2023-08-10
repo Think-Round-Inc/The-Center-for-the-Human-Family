@@ -5,8 +5,8 @@ using UnityEngine.Events;
 
 public sealed class ClosestObjectFinder : MonoBehaviour
 {
-    public GameObject player;
-
+    public GameObject viewerCamera;
+    public string objectsTagName = "Screen";
     [InfoBox("Event fired when at new closest object. GameObject is the painting screen.")]
     public UnityEvent<GameObject> onEnterNewSpot;
 
@@ -23,27 +23,24 @@ public sealed class ClosestObjectFinder : MonoBehaviour
 
     private List<GameObject> objects;
     private GameObject closestObject;
-    private GameObject lastClosestObject;
 
     private bool hasEnteredSpot = false;
 
     private void Start()
     {
         objects = new List<GameObject>();
-        GameObject[] taggedObjects = GameObject.FindGameObjectsWithTag("Screen");
+        GameObject[] taggedObjects = GameObject.FindGameObjectsWithTag(objectsTagName);
         foreach (GameObject taggedObject in taggedObjects)
         {
             objects.Add(taggedObject);
         }
-
-        lastClosestObject = FindClosestObject();
     }
 
     private void FixedUpdate()
     {
         closestObject = FindClosestObject();
 
-        if (IsPlayerWithinDistanceThreshold(closestObject) && IsPlayerFacingAndInFront(player, closestObject))
+        if (IsPlayerWithinDistanceThreshold(closestObject) && IsPlayerFacingAndInFront(viewerCamera, closestObject))
         {
             if (!hasEnteredSpot)
             {
@@ -70,11 +67,11 @@ public sealed class ClosestObjectFinder : MonoBehaviour
         }
 
         closestObject = objects[0];
-        float closestDistance = Vector3.Distance(player.transform.position, closestObject.transform.position);
+        float closestDistance = Vector3.Distance(viewerCamera.transform.position, closestObject.transform.position);
 
         for (int i = 1; i < objects.Count; i++)
         {
-            float distance = Vector3.Distance(player.transform.position, objects[i].transform.position);
+            float distance = Vector3.Distance(viewerCamera.transform.position, objects[i].transform.position);
 
             if (distance < closestDistance)
             {
@@ -87,7 +84,7 @@ public sealed class ClosestObjectFinder : MonoBehaviour
 
     private bool IsPlayerWithinDistanceThreshold(GameObject obj)
     {
-        float distance = Vector3.Distance(player.transform.position, obj.transform.position);
+        float distance = Vector3.Distance(viewerCamera.transform.position, obj.transform.position);
         return distance <= distanceThreshold;
     }
 
