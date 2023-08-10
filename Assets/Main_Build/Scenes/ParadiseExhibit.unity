@@ -224,11 +224,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5944510903610548990, guid: 6c2f161bcd1894c409c0cc5142ed56c8, type: 3}
       propertyPath: m_Name
-      value: SectionMain (4)
+      value: SectionMain_Taoists
       objectReference: {fileID: 0}
     - target: {fileID: 5944510903610548991, guid: 6c2f161bcd1894c409c0cc5142ed56c8, type: 3}
       propertyPath: m_RootOrder
-      value: 4
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 5944510903610548991, guid: 6c2f161bcd1894c409c0cc5142ed56c8, type: 3}
       propertyPath: m_LocalPosition.x
@@ -389,11 +389,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5944510903610548990, guid: 6c2f161bcd1894c409c0cc5142ed56c8, type: 3}
       propertyPath: m_Name
-      value: SectionMain (5)
+      value: SectionMain_Indigenous
       objectReference: {fileID: 0}
     - target: {fileID: 5944510903610548991, guid: 6c2f161bcd1894c409c0cc5142ed56c8, type: 3}
       propertyPath: m_RootOrder
-      value: 5
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 5944510903610548991, guid: 6c2f161bcd1894c409c0cc5142ed56c8, type: 3}
       propertyPath: m_LocalPosition.x
@@ -558,11 +558,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5944510903610548990, guid: 6c2f161bcd1894c409c0cc5142ed56c8, type: 3}
       propertyPath: m_Name
-      value: SectionMain (6)
+      value: SectionMain_Muslims
       objectReference: {fileID: 0}
     - target: {fileID: 5944510903610548991, guid: 6c2f161bcd1894c409c0cc5142ed56c8, type: 3}
       propertyPath: m_RootOrder
-      value: 6
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 5944510903610548991, guid: 6c2f161bcd1894c409c0cc5142ed56c8, type: 3}
       propertyPath: m_LocalPosition.x
@@ -1134,13 +1134,13 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 543450653003089244}
+  - {fileID: 941182192}
   - {fileID: 1081310920}
   - {fileID: 2094163651}
   - {fileID: 366074504}
   - {fileID: 1241389006}
   - {fileID: 1495964083}
   - {fileID: 697244964}
-  - {fileID: 941182192}
   - {fileID: 1812186738}
   - {fileID: 871128358}
   - {fileID: 1357138642}
@@ -9229,11 +9229,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5944510903610548990, guid: 6c2f161bcd1894c409c0cc5142ed56c8, type: 3}
       propertyPath: m_Name
-      value: SectionMain (2)
+      value: SectionMain_Buddhists
       objectReference: {fileID: 0}
     - target: {fileID: 5944510903610548991, guid: 6c2f161bcd1894c409c0cc5142ed56c8, type: 3}
       propertyPath: m_RootOrder
-      value: 2
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 5944510903610548991, guid: 6c2f161bcd1894c409c0cc5142ed56c8, type: 3}
       propertyPath: m_LocalPosition.x
@@ -9356,7 +9356,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 7199090669515276761, guid: 35b7190a87a343549b2ba59c8b0a84aa, type: 3}
       propertyPath: m_RootOrder
-      value: 15
+      value: 11
       objectReference: {fileID: 0}
     - target: {fileID: 7199090669515276761, guid: 35b7190a87a343549b2ba59c8b0a84aa, type: 3}
       propertyPath: m_LocalScale.x
@@ -9752,7 +9752,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 80ed7c8dea13dbf459c88544479e92c9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  player: {fileID: 120755758}
+  viewerCamera: {fileID: 120755758}
+  objectsTagName: Screen
   onEnterNewSpot:
     m_PersistentCalls:
       m_Calls:
@@ -10006,6 +10007,10 @@ PrefabInstance:
       value: Irving Feeding His Newborn Granddaughter, Ellen Oct. 2000
       objectReference: {fileID: 0}
     - target: {fileID: 473966377750500467, guid: 6c2f161bcd1894c409c0cc5142ed56c8, type: 3}
+      propertyPath: paintingData.Array.data[11].paintingName
+      value: Ethan's Bar Mitzvah, Marseille, France, June 2014
+      objectReference: {fileID: 0}
+    - target: {fileID: 473966377750500467, guid: 6c2f161bcd1894c409c0cc5142ed56c8, type: 3}
       propertyPath: paintingData.Array.data[12].paintingClip
       value: 
       objectReference: {fileID: 0}
@@ -10031,7 +10036,8 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 473966377750500467, guid: 6c2f161bcd1894c409c0cc5142ed56c8, type: 3}
       propertyPath: paintingData.Array.data[16].paintingName
-      value: 
+      value: Lillian Ada Holds Juanita Lillian, early 1950's in either Georgia or
+        Japan
       objectReference: {fileID: 0}
     - target: {fileID: 473966377750500467, guid: 6c2f161bcd1894c409c0cc5142ed56c8, type: 3}
       propertyPath: paintingData.Array.data[17].paintingName
@@ -10067,21 +10073,255 @@ PrefabInstance:
       value: Looking Forward to Playing Soccer, Lyon, France 2008
       objectReference: {fileID: 0}
     - target: {fileID: 473966377750500467, guid: 6c2f161bcd1894c409c0cc5142ed56c8, type: 3}
+      propertyPath: paintingData.Array.data[24].paintingName
+      value: Lillian and Juanita, Late 1950's/Early 1960's. Georgia
+      objectReference: {fileID: 0}
+    - target: {fileID: 473966377750500467, guid: 6c2f161bcd1894c409c0cc5142ed56c8, type: 3}
+      propertyPath: paintingData.Array.data[25].paintingName
+      value: Yetta with Her Aunt Ethel
+      objectReference: {fileID: 0}
+    - target: {fileID: 473966377750500467, guid: 6c2f161bcd1894c409c0cc5142ed56c8, type: 3}
+      propertyPath: paintingData.Array.data[26].paintingName
+      value: Nothing is More Important Than That I Feel
+      objectReference: {fileID: 0}
+    - target: {fileID: 473966377750500467, guid: 6c2f161bcd1894c409c0cc5142ed56c8, type: 3}
+      propertyPath: paintingData.Array.data[27].paintingName
+      value: Kisses from Loving Grandmothers, Elaine and Annette, at Raphael's Bar
+        Mitzvah, Marseille, France; May 26th, 2016
+      objectReference: {fileID: 0}
+    - target: {fileID: 473966377750500467, guid: 6c2f161bcd1894c409c0cc5142ed56c8, type: 3}
+      propertyPath: paintingData.Array.data[28].paintingName
+      value: Juanita as a Teenager, Georgia; 1960's
+      objectReference: {fileID: 0}
+    - target: {fileID: 473966377750500467, guid: 6c2f161bcd1894c409c0cc5142ed56c8, type: 3}
+      propertyPath: paintingData.Array.data[29].paintingName
+      value: Ray on His Very First Date
+      objectReference: {fileID: 0}
+    - target: {fileID: 473966377750500467, guid: 6c2f161bcd1894c409c0cc5142ed56c8, type: 3}
       propertyPath: paintingData.Array.data[2].paintingImage
       value: 
       objectReference: {fileID: 21300000, guid: 595834594e9ee1a4eb5056e85336f3db, type: 3}
+    - target: {fileID: 473966377750500467, guid: 6c2f161bcd1894c409c0cc5142ed56c8, type: 3}
+      propertyPath: paintingData.Array.data[30].paintingName
+      value: Lee and Jonathan; 1965
+      objectReference: {fileID: 0}
+    - target: {fileID: 473966377750500467, guid: 6c2f161bcd1894c409c0cc5142ed56c8, type: 3}
+      propertyPath: paintingData.Array.data[31].paintingName
+      value: Preparing for a Family Party, Lyon, France; 2011
+      objectReference: {fileID: 0}
+    - target: {fileID: 473966377750500467, guid: 6c2f161bcd1894c409c0cc5142ed56c8, type: 3}
+      propertyPath: paintingData.Array.data[32].paintingName
+      value: Zephyr Kai on the Beach near Muir Woods, CA; April 6th, 2014
+      objectReference: {fileID: 0}
+    - target: {fileID: 473966377750500467, guid: 6c2f161bcd1894c409c0cc5142ed56c8, type: 3}
+      propertyPath: paintingData.Array.data[33].paintingName
+      value: Ray with His Little Sister, Yetta
+      objectReference: {fileID: 0}
+    - target: {fileID: 473966377750500467, guid: 6c2f161bcd1894c409c0cc5142ed56c8, type: 3}
+      propertyPath: paintingData.Array.data[34].paintingName
+      value: Jonathan and Lee in the Garden on Rosh Hashanah
+      objectReference: {fileID: 0}
+    - target: {fileID: 473966377750500467, guid: 6c2f161bcd1894c409c0cc5142ed56c8, type: 3}
+      propertyPath: paintingData.Array.data[35].paintingName
+      value: First Prior with the Teilins, Ethan's Bar Mitzvah, Marseille, France,
+        June 2014
+      objectReference: {fileID: 0}
+    - target: {fileID: 473966377750500467, guid: 6c2f161bcd1894c409c0cc5142ed56c8, type: 3}
+      propertyPath: paintingData.Array.data[36].paintingName
+      value: Zephyr and Coco Watch TV Together at Our Apartment in Redwood City;
+        August 17, 2013
+      objectReference: {fileID: 0}
+    - target: {fileID: 473966377750500467, guid: 6c2f161bcd1894c409c0cc5142ed56c8, type: 3}
+      propertyPath: paintingData.Array.data[37].paintingName
+      value: Ray's Very Special Way of Using His Fingertips to Find the Beauty in
+        Life on the Surface of Things
+      objectReference: {fileID: 0}
+    - target: {fileID: 473966377750500467, guid: 6c2f161bcd1894c409c0cc5142ed56c8, type: 3}
+      propertyPath: paintingData.Array.data[38].paintingName
+      value: Lee as a Cub Scout, 1962
+      objectReference: {fileID: 0}
+    - target: {fileID: 473966377750500467, guid: 6c2f161bcd1894c409c0cc5142ed56c8, type: 3}
+      propertyPath: paintingData.Array.data[39].paintingName
+      value: Preschool Picture, Marc - 4 Years Old, Marseille, France
+      objectReference: {fileID: 0}
     - target: {fileID: 473966377750500467, guid: 6c2f161bcd1894c409c0cc5142ed56c8, type: 3}
       propertyPath: paintingData.Array.data[3].paintingImage
       value: 
       objectReference: {fileID: 21300000, guid: 59b61dc3cdd0b0648a57348e68403931, type: 3}
     - target: {fileID: 473966377750500467, guid: 6c2f161bcd1894c409c0cc5142ed56c8, type: 3}
+      propertyPath: paintingData.Array.data[40].paintingName
+      value: Kea'lani Giving Herself "Tattoos" With Paint at Our House in Bayview,
+        SF; February 17, 2014
+      objectReference: {fileID: 0}
+    - target: {fileID: 473966377750500467, guid: 6c2f161bcd1894c409c0cc5142ed56c8, type: 3}
+      propertyPath: paintingData.Array.data[41].paintingName
+      value: Ray's Sister, Yetta, I'm Guessing at Age 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 473966377750500467, guid: 6c2f161bcd1894c409c0cc5142ed56c8, type: 3}
+      propertyPath: paintingData.Array.data[42].paintingName
+      value: Reva, 1967
+      objectReference: {fileID: 0}
+    - target: {fileID: 473966377750500467, guid: 6c2f161bcd1894c409c0cc5142ed56c8, type: 3}
+      propertyPath: paintingData.Array.data[43].paintingName
+      value: Smile on the Stairs, Fleur - 2 Years Old in Parc de la tete d'Or Lyon,
+        France
+      objectReference: {fileID: 0}
+    - target: {fileID: 473966377750500467, guid: 6c2f161bcd1894c409c0cc5142ed56c8, type: 3}
+      propertyPath: paintingData.Array.data[44].paintingName
+      value: Kea'lani Zaire at the Beach in Pacifica, May 22, 2012
+      objectReference: {fileID: 0}
+    - target: {fileID: 473966377750500467, guid: 6c2f161bcd1894c409c0cc5142ed56c8, type: 3}
+      propertyPath: paintingData.Array.data[45].paintingName
+      value: Ray's New Younger Sister, Yetta, c. 1943
+      objectReference: {fileID: 0}
+    - target: {fileID: 473966377750500467, guid: 6c2f161bcd1894c409c0cc5142ed56c8, type: 3}
+      propertyPath: paintingData.Array.data[46].paintingName
+      value: Jonathan Romping, Probably 1954
+      objectReference: {fileID: 0}
+    - target: {fileID: 473966377750500467, guid: 6c2f161bcd1894c409c0cc5142ed56c8, type: 3}
+      propertyPath: paintingData.Array.data[47].paintingName
+      value: Love at First Sight, Raphael; Paris, France 2003
+      objectReference: {fileID: 0}
+    - target: {fileID: 473966377750500467, guid: 6c2f161bcd1894c409c0cc5142ed56c8, type: 3}
+      propertyPath: paintingData.Array.data[48].paintingName
+      value: Zephyr Kai and Kea'lani Zaire in San Francisco's Botanical Gardens;
+        May 12, 2013
+      objectReference: {fileID: 0}
+    - target: {fileID: 473966377750500467, guid: 6c2f161bcd1894c409c0cc5142ed56c8, type: 3}
+      propertyPath: paintingData.Array.data[49].paintingName
+      value: Ray's View of the Neighbor's Back Yard from his Apartment Where He Grew
+        Up
+      objectReference: {fileID: 0}
+    - target: {fileID: 473966377750500467, guid: 6c2f161bcd1894c409c0cc5142ed56c8, type: 3}
       propertyPath: paintingData.Array.data[4].paintingImage
       value: 
       objectReference: {fileID: 21300000, guid: b62a6816a17c23143b0d56517e2c8ff7, type: 3}
     - target: {fileID: 473966377750500467, guid: 6c2f161bcd1894c409c0cc5142ed56c8, type: 3}
+      propertyPath: paintingData.Array.data[50].paintingName
+      value: Riva outside our home enjoying the aftermath of a winter snow fall (Afternoon)
+      objectReference: {fileID: 0}
+    - target: {fileID: 473966377750500467, guid: 6c2f161bcd1894c409c0cc5142ed56c8, type: 3}
+      propertyPath: paintingData.Array.data[51].paintingName
+      value: Hockey in Our Backyard for Jonas, Ethan, and Raphael, Lyon, France 2009
+      objectReference: {fileID: 0}
+    - target: {fileID: 473966377750500467, guid: 6c2f161bcd1894c409c0cc5142ed56c8, type: 3}
+      propertyPath: paintingData.Array.data[52].paintingName
+      value: Kea'lani Pretending to Drive Mommy's Audi on her Third Birthday, Mountain
+        View, CA; March 25, 2014
+      objectReference: {fileID: 0}
+    - target: {fileID: 473966377750500467, guid: 6c2f161bcd1894c409c0cc5142ed56c8, type: 3}
+      propertyPath: paintingData.Array.data[53].paintingName
+      value: Yetta with High School Diploma in Hand
+      objectReference: {fileID: 0}
+    - target: {fileID: 473966377750500467, guid: 6c2f161bcd1894c409c0cc5142ed56c8, type: 3}
+      propertyPath: paintingData.Array.data[54].paintingName
+      value: Irene Sunning Herself On hte Garden Walk on a Summer Day on 58th Street
+        in Brooklyn, 1947
+      objectReference: {fileID: 0}
+    - target: {fileID: 473966377750500467, guid: 6c2f161bcd1894c409c0cc5142ed56c8, type: 3}
+      propertyPath: paintingData.Array.data[55].paintingName
+      value: Summer in Provence, Fleur in her Twenty's, France
+      objectReference: {fileID: 0}
+    - target: {fileID: 473966377750500467, guid: 6c2f161bcd1894c409c0cc5142ed56c8, type: 3}
+      propertyPath: paintingData.Array.data[56].paintingName
+      value: Holy City - Jonas, Raphael, and Ethan in Jerusalem, Israel; December
+        2011
+      objectReference: {fileID: 0}
+    - target: {fileID: 473966377750500467, guid: 6c2f161bcd1894c409c0cc5142ed56c8, type: 3}
+      propertyPath: paintingData.Array.data[57].paintingName
+      value: Danny Reading from the Tora at His Bar Mitzvah
+      objectReference: {fileID: 0}
+    - target: {fileID: 473966377750500467, guid: 6c2f161bcd1894c409c0cc5142ed56c8, type: 3}
+      propertyPath: paintingData.Array.data[58].paintingName
+      value: Yael as a Queen of the Night for Purim
+      objectReference: {fileID: 0}
+    - target: {fileID: 473966377750500467, guid: 6c2f161bcd1894c409c0cc5142ed56c8, type: 3}
+      propertyPath: paintingData.Array.data[59].paintingName
+      value: Susanna Holding Kea'lani Zaire, Sausalito, CA; February 23rd, 2014
+      objectReference: {fileID: 0}
+    - target: {fileID: 473966377750500467, guid: 6c2f161bcd1894c409c0cc5142ed56c8, type: 3}
       propertyPath: paintingData.Array.data[5].paintingImage
       value: 
       objectReference: {fileID: 21300000, guid: adb779c5336f201439b84b880fb2e5e8, type: 3}
+    - target: {fileID: 473966377750500467, guid: 6c2f161bcd1894c409c0cc5142ed56c8, type: 3}
+      propertyPath: paintingData.Array.data[60].paintingName
+      value: John Plays with Berry, Jack, and Esme the Pugs in Our Apartment in San
+        Francisco; August 2018
+      objectReference: {fileID: 0}
+    - target: {fileID: 473966377750500467, guid: 6c2f161bcd1894c409c0cc5142ed56c8, type: 3}
+      propertyPath: paintingData.Array.data[61].paintingName
+      value: Chema Israel, Raphael's Bar Mitzvah, Marseille, France, May 2016
+      objectReference: {fileID: 0}
+    - target: {fileID: 473966377750500467, guid: 6c2f161bcd1894c409c0cc5142ed56c8, type: 3}
+      propertyPath: paintingData.Array.data[62].paintingName
+      value: Irene and Irving Dancing at Thier Wdding, Feb. 8, 1948
+      objectReference: {fileID: 0}
+    - target: {fileID: 473966377750500467, guid: 6c2f161bcd1894c409c0cc5142ed56c8, type: 3}
+      propertyPath: paintingData.Array.data[63].paintingName
+      value: Rockets of Desire Paying Off for Ray
+      objectReference: {fileID: 0}
+    - target: {fileID: 473966377750500467, guid: 6c2f161bcd1894c409c0cc5142ed56c8, type: 3}
+      propertyPath: paintingData.Array.data[64].paintingName
+      value: Some Like It Hot | Ray's Aunt's Dancing Instructor (or Someone Like
+        That) | Hot Tamale
+      objectReference: {fileID: 0}
+    - target: {fileID: 473966377750500467, guid: 6c2f161bcd1894c409c0cc5142ed56c8, type: 3}
+      propertyPath: paintingData.Array.data[65].paintingName
+      value: Irene's grandfather, Moses Bookspan, As Part of Her Wedding Procession,
+        February 8, 1948
+      objectReference: {fileID: 0}
+    - target: {fileID: 473966377750500467, guid: 6c2f161bcd1894c409c0cc5142ed56c8, type: 3}
+      propertyPath: paintingData.Array.data[66].paintingName
+      value: Ray at Coney Island with His friend S.C.
+      objectReference: {fileID: 0}
+    - target: {fileID: 473966377750500467, guid: 6c2f161bcd1894c409c0cc5142ed56c8, type: 3}
+      propertyPath: paintingData.Array.data[67].paintingName
+      value: Yael and a friend at Purim, as a Muslim and a Jew, with A Sign that
+        Reads "Peace" Written in Arabic and Hebrew
+      objectReference: {fileID: 0}
+    - target: {fileID: 473966377750500467, guid: 6c2f161bcd1894c409c0cc5142ed56c8, type: 3}
+      propertyPath: paintingData.Array.data[68].paintingName
+      value: Sailor, Irving on a Stop Over in Hilo, Hawaii, 1946. (Around Noon)
+      objectReference: {fileID: 0}
+    - target: {fileID: 473966377750500467, guid: 6c2f161bcd1894c409c0cc5142ed56c8, type: 3}
+      propertyPath: paintingData.Array.data[69].paintingName
+      value: Ruth Rosenwald's Mother's Grave Stone in Isreal
+      objectReference: {fileID: 0}
+    - target: {fileID: 473966377750500467, guid: 6c2f161bcd1894c409c0cc5142ed56c8, type: 3}
+      propertyPath: paintingData.Array.data[70].paintingName
+      value: '#MeToo: Artist, HEIDI Hardin Is Still Burnt Up, Meditating on the Apple
+        that Men Hide Behind and Blame Her For'
+      objectReference: {fileID: 0}
+    - target: {fileID: 473966377750500467, guid: 6c2f161bcd1894c409c0cc5142ed56c8, type: 3}
+      propertyPath: paintingData.Array.data[71].paintingName
+      value: Ethan, Raphael, and Jonas at Universal Studio's, Los Angeles, USA; May
+        2017
+      objectReference: {fileID: 0}
+    - target: {fileID: 473966377750500467, guid: 6c2f161bcd1894c409c0cc5142ed56c8, type: 3}
+      propertyPath: paintingData.Array.data[72].paintingName
+      value: Rays Very Special View of the Empire State Building
+      objectReference: {fileID: 0}
+    - target: {fileID: 473966377750500467, guid: 6c2f161bcd1894c409c0cc5142ed56c8, type: 3}
+      propertyPath: paintingData.Array.data[73].paintingName
+      value: Susanna Wears Baby Kea'lani Zaire, CA; April 18, 2012
+      objectReference: {fileID: 0}
+    - target: {fileID: 473966377750500467, guid: 6c2f161bcd1894c409c0cc5142ed56c8, type: 3}
+      propertyPath: paintingData.Array.data[74].paintingName
+      value: Irene on Her Wedding Day, February 8, 1948
+      objectReference: {fileID: 0}
+    - target: {fileID: 473966377750500467, guid: 6c2f161bcd1894c409c0cc5142ed56c8, type: 3}
+      propertyPath: paintingData.Array.data[75].paintingName
+      value: Jonathan on the "Bimah" (of the Congregation Anshai Sfard), Peabody,
+        MA, 1963. (Morning)
+      objectReference: {fileID: 0}
+    - target: {fileID: 473966377750500467, guid: 6c2f161bcd1894c409c0cc5142ed56c8, type: 3}
+      propertyPath: paintingData.Array.data[76].paintingName
+      value: URI/IRU [Uri Seeing Himself Reflected in You and Vis Versa (If You Please)]
+      objectReference: {fileID: 0}
+    - target: {fileID: 473966377750500467, guid: 6c2f161bcd1894c409c0cc5142ed56c8, type: 3}
+      propertyPath: paintingData.Array.data[77].paintingName
+      value: You, The Viewer
+      objectReference: {fileID: 0}
     - target: {fileID: 473966377750500467, guid: 6c2f161bcd1894c409c0cc5142ed56c8, type: 3}
       propertyPath: paintingData.Array.data[7].paintingImage
       value: 
@@ -10150,6 +10390,202 @@ PrefabInstance:
       propertyPath: paintingData.Array.data[23].paintingImage
       value: 
       objectReference: {fileID: 21300000, guid: 613e25545085efb4d818067a095e636c, type: 3}
+    - target: {fileID: 473966377750500467, guid: 6c2f161bcd1894c409c0cc5142ed56c8, type: 3}
+      propertyPath: paintingData.Array.data[24].paintingImage
+      value: 
+      objectReference: {fileID: 21300000, guid: 1931a02322106734db6976e9e862e388, type: 3}
+    - target: {fileID: 473966377750500467, guid: 6c2f161bcd1894c409c0cc5142ed56c8, type: 3}
+      propertyPath: paintingData.Array.data[25].paintingImage
+      value: 
+      objectReference: {fileID: 21300000, guid: a6b14a8d8787d4249aa367fe7d286430, type: 3}
+    - target: {fileID: 473966377750500467, guid: 6c2f161bcd1894c409c0cc5142ed56c8, type: 3}
+      propertyPath: paintingData.Array.data[26].paintingImage
+      value: 
+      objectReference: {fileID: 21300000, guid: 58150ec9c17fdca4398386464a18acf7, type: 3}
+    - target: {fileID: 473966377750500467, guid: 6c2f161bcd1894c409c0cc5142ed56c8, type: 3}
+      propertyPath: paintingData.Array.data[27].paintingImage
+      value: 
+      objectReference: {fileID: 21300000, guid: e1db4e6a79df0364d82c99c05bc29403, type: 3}
+    - target: {fileID: 473966377750500467, guid: 6c2f161bcd1894c409c0cc5142ed56c8, type: 3}
+      propertyPath: paintingData.Array.data[29].paintingImage
+      value: 
+      objectReference: {fileID: 21300000, guid: 4ea22cd89fec81540b6734e9f7014dde, type: 3}
+    - target: {fileID: 473966377750500467, guid: 6c2f161bcd1894c409c0cc5142ed56c8, type: 3}
+      propertyPath: paintingData.Array.data[30].paintingImage
+      value: 
+      objectReference: {fileID: 21300000, guid: 41356fad220abe34da8a66a2a93db601, type: 3}
+    - target: {fileID: 473966377750500467, guid: 6c2f161bcd1894c409c0cc5142ed56c8, type: 3}
+      propertyPath: paintingData.Array.data[32].paintingImage
+      value: 
+      objectReference: {fileID: 21300000, guid: d382c742caa5d1d4f980b46aad370250, type: 3}
+    - target: {fileID: 473966377750500467, guid: 6c2f161bcd1894c409c0cc5142ed56c8, type: 3}
+      propertyPath: paintingData.Array.data[36].paintingImage
+      value: 
+      objectReference: {fileID: 21300000, guid: 288eddf20f681b540ac16f9e4ec4e2bd, type: 3}
+    - target: {fileID: 473966377750500467, guid: 6c2f161bcd1894c409c0cc5142ed56c8, type: 3}
+      propertyPath: paintingData.Array.data[37].paintingImage
+      value: 
+      objectReference: {fileID: 21300000, guid: f627ffd357d735a4099c349a059611e5, type: 3}
+    - target: {fileID: 473966377750500467, guid: 6c2f161bcd1894c409c0cc5142ed56c8, type: 3}
+      propertyPath: paintingData.Array.data[38].paintingImage
+      value: 
+      objectReference: {fileID: 21300000, guid: 9413d89d0ac0c441488108150ed85925, type: 3}
+    - target: {fileID: 473966377750500467, guid: 6c2f161bcd1894c409c0cc5142ed56c8, type: 3}
+      propertyPath: paintingData.Array.data[39].paintingImage
+      value: 
+      objectReference: {fileID: 21300000, guid: 4a23e13422f5e5147b7999548e719e92, type: 3}
+    - target: {fileID: 473966377750500467, guid: 6c2f161bcd1894c409c0cc5142ed56c8, type: 3}
+      propertyPath: paintingData.Array.data[40].paintingImage
+      value: 
+      objectReference: {fileID: 21300000, guid: caa000d4719cd1249bbfe7bb3235ad3a, type: 3}
+    - target: {fileID: 473966377750500467, guid: 6c2f161bcd1894c409c0cc5142ed56c8, type: 3}
+      propertyPath: paintingData.Array.data[41].paintingImage
+      value: 
+      objectReference: {fileID: 21300000, guid: cd3ce8399f4e67146b7763300c62baa7, type: 3}
+    - target: {fileID: 473966377750500467, guid: 6c2f161bcd1894c409c0cc5142ed56c8, type: 3}
+      propertyPath: paintingData.Array.data[42].paintingImage
+      value: 
+      objectReference: {fileID: 21300000, guid: b5ff0f283bb07f54385346809fef19a5, type: 3}
+    - target: {fileID: 473966377750500467, guid: 6c2f161bcd1894c409c0cc5142ed56c8, type: 3}
+      propertyPath: paintingData.Array.data[43].paintingImage
+      value: 
+      objectReference: {fileID: 21300000, guid: 911c9333d7f273749a9d6d5619c10cf8, type: 3}
+    - target: {fileID: 473966377750500467, guid: 6c2f161bcd1894c409c0cc5142ed56c8, type: 3}
+      propertyPath: paintingData.Array.data[44].paintingImage
+      value: 
+      objectReference: {fileID: 21300000, guid: 670c034b06d6347448a7fa311d337bf0, type: 3}
+    - target: {fileID: 473966377750500467, guid: 6c2f161bcd1894c409c0cc5142ed56c8, type: 3}
+      propertyPath: paintingData.Array.data[45].paintingImage
+      value: 
+      objectReference: {fileID: 21300000, guid: fd242ecdfcbc57548aa13fc237f9bd0c, type: 3}
+    - target: {fileID: 473966377750500467, guid: 6c2f161bcd1894c409c0cc5142ed56c8, type: 3}
+      propertyPath: paintingData.Array.data[46].paintingImage
+      value: 
+      objectReference: {fileID: 21300000, guid: 0d5a74fc97ed442ceb56a5a6399c1eb8, type: 3}
+    - target: {fileID: 473966377750500467, guid: 6c2f161bcd1894c409c0cc5142ed56c8, type: 3}
+      propertyPath: paintingData.Array.data[47].paintingImage
+      value: 
+      objectReference: {fileID: 21300000, guid: 45c109a4a19e44549b586a92b339b7d3, type: 3}
+    - target: {fileID: 473966377750500467, guid: 6c2f161bcd1894c409c0cc5142ed56c8, type: 3}
+      propertyPath: paintingData.Array.data[48].paintingImage
+      value: 
+      objectReference: {fileID: 21300000, guid: bdfddeb71f5017047b108c40683ceddf, type: 3}
+    - target: {fileID: 473966377750500467, guid: 6c2f161bcd1894c409c0cc5142ed56c8, type: 3}
+      propertyPath: paintingData.Array.data[49].paintingImage
+      value: 
+      objectReference: {fileID: 21300000, guid: b3590ab3cec3b4f4b9710f5c59999f34, type: 3}
+    - target: {fileID: 473966377750500467, guid: 6c2f161bcd1894c409c0cc5142ed56c8, type: 3}
+      propertyPath: paintingData.Array.data[50].paintingImage
+      value: 
+      objectReference: {fileID: 21300000, guid: cb5059503b4fa2b4887eff100910afaf, type: 3}
+    - target: {fileID: 473966377750500467, guid: 6c2f161bcd1894c409c0cc5142ed56c8, type: 3}
+      propertyPath: paintingData.Array.data[51].paintingImage
+      value: 
+      objectReference: {fileID: 21300000, guid: 2484ee7d3ceab634bbdef8f6a3f87f90, type: 3}
+    - target: {fileID: 473966377750500467, guid: 6c2f161bcd1894c409c0cc5142ed56c8, type: 3}
+      propertyPath: paintingData.Array.data[52].paintingImage
+      value: 
+      objectReference: {fileID: 21300000, guid: 8aed09426d8356c4fa33fb9873347065, type: 3}
+    - target: {fileID: 473966377750500467, guid: 6c2f161bcd1894c409c0cc5142ed56c8, type: 3}
+      propertyPath: paintingData.Array.data[53].paintingImage
+      value: 
+      objectReference: {fileID: 21300000, guid: c695a0946d634db43a403cbf5bb73b74, type: 3}
+    - target: {fileID: 473966377750500467, guid: 6c2f161bcd1894c409c0cc5142ed56c8, type: 3}
+      propertyPath: paintingData.Array.data[54].paintingImage
+      value: 
+      objectReference: {fileID: 21300000, guid: fc1bd2e3976b78f44b25d6c2560428fd, type: 3}
+    - target: {fileID: 473966377750500467, guid: 6c2f161bcd1894c409c0cc5142ed56c8, type: 3}
+      propertyPath: paintingData.Array.data[55].paintingImage
+      value: 
+      objectReference: {fileID: 21300000, guid: 91faa2df21aac4f42b3341885c291869, type: 3}
+    - target: {fileID: 473966377750500467, guid: 6c2f161bcd1894c409c0cc5142ed56c8, type: 3}
+      propertyPath: paintingData.Array.data[56].paintingImage
+      value: 
+      objectReference: {fileID: 21300000, guid: 2b8abaa08ef7c184aa82997737a265b8, type: 3}
+    - target: {fileID: 473966377750500467, guid: 6c2f161bcd1894c409c0cc5142ed56c8, type: 3}
+      propertyPath: paintingData.Array.data[57].paintingImage
+      value: 
+      objectReference: {fileID: 21300000, guid: caead8bd01f158c44b5dbd5ab40902b2, type: 3}
+    - target: {fileID: 473966377750500467, guid: 6c2f161bcd1894c409c0cc5142ed56c8, type: 3}
+      propertyPath: paintingData.Array.data[58].paintingImage
+      value: 
+      objectReference: {fileID: 21300000, guid: 8959355c42cba6345a590aca16bb28cc, type: 3}
+    - target: {fileID: 473966377750500467, guid: 6c2f161bcd1894c409c0cc5142ed56c8, type: 3}
+      propertyPath: paintingData.Array.data[59].paintingImage
+      value: 
+      objectReference: {fileID: 21300000, guid: 3a20c6cd3f9cdd141838aec93b21048e, type: 3}
+    - target: {fileID: 473966377750500467, guid: 6c2f161bcd1894c409c0cc5142ed56c8, type: 3}
+      propertyPath: paintingData.Array.data[60].paintingImage
+      value: 
+      objectReference: {fileID: 21300000, guid: 25c9afa8f2084d64c9c5c22b4636c53c, type: 3}
+    - target: {fileID: 473966377750500467, guid: 6c2f161bcd1894c409c0cc5142ed56c8, type: 3}
+      propertyPath: paintingData.Array.data[61].paintingImage
+      value: 
+      objectReference: {fileID: 21300000, guid: c3ce52d83c3bd0641a356e1d24219563, type: 3}
+    - target: {fileID: 473966377750500467, guid: 6c2f161bcd1894c409c0cc5142ed56c8, type: 3}
+      propertyPath: paintingData.Array.data[62].paintingImage
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 473966377750500467, guid: 6c2f161bcd1894c409c0cc5142ed56c8, type: 3}
+      propertyPath: paintingData.Array.data[63].paintingImage
+      value: 
+      objectReference: {fileID: 21300000, guid: 10091d36ebf0d9a4c922d25fd3742222, type: 3}
+    - target: {fileID: 473966377750500467, guid: 6c2f161bcd1894c409c0cc5142ed56c8, type: 3}
+      propertyPath: paintingData.Array.data[64].paintingImage
+      value: 
+      objectReference: {fileID: 21300000, guid: 95933c2944f088d408d3ff9e8a14939a, type: 3}
+    - target: {fileID: 473966377750500467, guid: 6c2f161bcd1894c409c0cc5142ed56c8, type: 3}
+      propertyPath: paintingData.Array.data[65].paintingImage
+      value: 
+      objectReference: {fileID: 21300000, guid: 7f8bdd7a8780a4b4989b0f7da9ed125b, type: 3}
+    - target: {fileID: 473966377750500467, guid: 6c2f161bcd1894c409c0cc5142ed56c8, type: 3}
+      propertyPath: paintingData.Array.data[66].paintingImage
+      value: 
+      objectReference: {fileID: 21300000, guid: a64b19710d7bf774a9ff8c1d9f73db1f, type: 3}
+    - target: {fileID: 473966377750500467, guid: 6c2f161bcd1894c409c0cc5142ed56c8, type: 3}
+      propertyPath: paintingData.Array.data[67].paintingImage
+      value: 
+      objectReference: {fileID: 21300000, guid: 78998d103524b7147b65e9eff4dafc8f, type: 3}
+    - target: {fileID: 473966377750500467, guid: 6c2f161bcd1894c409c0cc5142ed56c8, type: 3}
+      propertyPath: paintingData.Array.data[68].paintingImage
+      value: 
+      objectReference: {fileID: 21300000, guid: f56fafaf48f5c2c48866a12fcbff86f1, type: 3}
+    - target: {fileID: 473966377750500467, guid: 6c2f161bcd1894c409c0cc5142ed56c8, type: 3}
+      propertyPath: paintingData.Array.data[69].paintingImage
+      value: 
+      objectReference: {fileID: 21300000, guid: ba7ceeb8787576749bf5d5bf73ae82cf, type: 3}
+    - target: {fileID: 473966377750500467, guid: 6c2f161bcd1894c409c0cc5142ed56c8, type: 3}
+      propertyPath: paintingData.Array.data[70].paintingImage
+      value: 
+      objectReference: {fileID: 21300000, guid: 7c77dc20238a15745af08d7dfc0ae9d1, type: 3}
+    - target: {fileID: 473966377750500467, guid: 6c2f161bcd1894c409c0cc5142ed56c8, type: 3}
+      propertyPath: paintingData.Array.data[71].paintingImage
+      value: 
+      objectReference: {fileID: 21300000, guid: 789b53c83744ad64ea281c0d55932640, type: 3}
+    - target: {fileID: 473966377750500467, guid: 6c2f161bcd1894c409c0cc5142ed56c8, type: 3}
+      propertyPath: paintingData.Array.data[72].paintingImage
+      value: 
+      objectReference: {fileID: 21300000, guid: d37561a45db98df4383471dad4f18245, type: 3}
+    - target: {fileID: 473966377750500467, guid: 6c2f161bcd1894c409c0cc5142ed56c8, type: 3}
+      propertyPath: paintingData.Array.data[73].paintingImage
+      value: 
+      objectReference: {fileID: 21300000, guid: d0f46522391ce3342a57b09355728042, type: 3}
+    - target: {fileID: 473966377750500467, guid: 6c2f161bcd1894c409c0cc5142ed56c8, type: 3}
+      propertyPath: paintingData.Array.data[74].paintingImage
+      value: 
+      objectReference: {fileID: 21300000, guid: 4790f4fd1f9d3314f8dde7ed406fdee4, type: 3}
+    - target: {fileID: 473966377750500467, guid: 6c2f161bcd1894c409c0cc5142ed56c8, type: 3}
+      propertyPath: paintingData.Array.data[75].paintingImage
+      value: 
+      objectReference: {fileID: 21300000, guid: e36a274977e204a40af0fb3bee12afcd, type: 3}
+    - target: {fileID: 473966377750500467, guid: 6c2f161bcd1894c409c0cc5142ed56c8, type: 3}
+      propertyPath: paintingData.Array.data[76].paintingImage
+      value: 
+      objectReference: {fileID: 21300000, guid: e7dd3b85b771c2c4d868b49ffa60077d, type: 3}
+    - target: {fileID: 473966377750500467, guid: 6c2f161bcd1894c409c0cc5142ed56c8, type: 3}
+      propertyPath: paintingData.Array.data[77].paintingImage
+      value: 
+      objectReference: {fileID: 0}
     - target: {fileID: 598813463566870029, guid: 6c2f161bcd1894c409c0cc5142ed56c8, type: 3}
       propertyPath: m_Name
       value: Screen 1b
@@ -10164,11 +10600,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5944510903610548990, guid: 6c2f161bcd1894c409c0cc5142ed56c8, type: 3}
       propertyPath: m_Name
-      value: SectionMain (1)
+      value: SectionMain_Jews
       objectReference: {fileID: 0}
     - target: {fileID: 5944510903610548991, guid: 6c2f161bcd1894c409c0cc5142ed56c8, type: 3}
       propertyPath: m_RootOrder
-      value: 1
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 5944510903610548991, guid: 6c2f161bcd1894c409c0cc5142ed56c8, type: 3}
       propertyPath: m_LocalPosition.x
@@ -10529,11 +10965,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5944510903610548990, guid: 6c2f161bcd1894c409c0cc5142ed56c8, type: 3}
       propertyPath: m_Name
-      value: SectionMain (3)
+      value: SectionMain_Hindus
       objectReference: {fileID: 0}
     - target: {fileID: 5944510903610548991, guid: 6c2f161bcd1894c409c0cc5142ed56c8, type: 3}
       propertyPath: m_RootOrder
-      value: 3
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 5944510903610548991, guid: 6c2f161bcd1894c409c0cc5142ed56c8, type: 3}
       propertyPath: m_LocalPosition.x
@@ -12696,11 +13132,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5944510903610548990, guid: 6c2f161bcd1894c409c0cc5142ed56c8, type: 3}
       propertyPath: m_Name
-      value: SectionMain
+      value: SectionMain_Christians
       objectReference: {fileID: 0}
     - target: {fileID: 5944510903610548991, guid: 6c2f161bcd1894c409c0cc5142ed56c8, type: 3}
       propertyPath: m_RootOrder
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 5944510903610548991, guid: 6c2f161bcd1894c409c0cc5142ed56c8, type: 3}
       propertyPath: m_LocalPosition.x
@@ -13203,7 +13639,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 7199090669515276761, guid: 35b7190a87a343549b2ba59c8b0a84aa, type: 3}
       propertyPath: m_RootOrder
-      value: 15
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 7199090669515276761, guid: 35b7190a87a343549b2ba59c8b0a84aa, type: 3}
       propertyPath: m_LocalScale.x
