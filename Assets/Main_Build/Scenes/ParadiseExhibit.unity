@@ -12254,6 +12254,10 @@ PrefabInstance:
       value: Hideki's Granddad
       objectReference: {fileID: 0}
     - target: {fileID: 473966377750500467, guid: 6c2f161bcd1894c409c0cc5142ed56c8, type: 3}
+      propertyPath: paintingData.Array.data[61].paintingName
+      value: Shelley's Family Preacher
+      objectReference: {fileID: 0}
+    - target: {fileID: 473966377750500467, guid: 6c2f161bcd1894c409c0cc5142ed56c8, type: 3}
       propertyPath: paintingData.Array.data[63].paintingName
       value: Shelley and Her Son Imagining Their Future
       objectReference: {fileID: 0}
@@ -12426,9 +12430,17 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 21300000, guid: 067237d1eed725b41872173fabb5dbbc, type: 3}
     - target: {fileID: 473966377750500467, guid: 6c2f161bcd1894c409c0cc5142ed56c8, type: 3}
+      propertyPath: paintingData.Array.data[24].paintingImage
+      value: 
+      objectReference: {fileID: 21300000, guid: 133a9871be2dd284bafb428c38ad2e46, type: 3}
+    - target: {fileID: 473966377750500467, guid: 6c2f161bcd1894c409c0cc5142ed56c8, type: 3}
       propertyPath: paintingData.Array.data[25].paintingImage
       value: 
       objectReference: {fileID: 21300000, guid: c2c0cf11edad4be448f0b3e08dbcb96e, type: 3}
+    - target: {fileID: 473966377750500467, guid: 6c2f161bcd1894c409c0cc5142ed56c8, type: 3}
+      propertyPath: paintingData.Array.data[26].paintingImage
+      value: 
+      objectReference: {fileID: 21300000, guid: 787d12d9b33a9eb43a2bec05563d4647, type: 3}
     - target: {fileID: 473966377750500467, guid: 6c2f161bcd1894c409c0cc5142ed56c8, type: 3}
       propertyPath: paintingData.Array.data[27].paintingImage
       value: 
@@ -12552,7 +12564,7 @@ PrefabInstance:
     - target: {fileID: 473966377750500467, guid: 6c2f161bcd1894c409c0cc5142ed56c8, type: 3}
       propertyPath: paintingData.Array.data[57].paintingImage
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 21300000, guid: 4b66c1813511de04c885d1716ce567b8, type: 3}
     - target: {fileID: 473966377750500467, guid: 6c2f161bcd1894c409c0cc5142ed56c8, type: 3}
       propertyPath: paintingData.Array.data[58].paintingImage
       value: 
@@ -12565,6 +12577,10 @@ PrefabInstance:
       propertyPath: paintingData.Array.data[60].paintingImage
       value: 
       objectReference: {fileID: 21300000, guid: d49bc8e4822cd114cb8e422f3f701cbc, type: 3}
+    - target: {fileID: 473966377750500467, guid: 6c2f161bcd1894c409c0cc5142ed56c8, type: 3}
+      propertyPath: paintingData.Array.data[61].paintingImage
+      value: 
+      objectReference: {fileID: 21300000, guid: d612dbc124f73ce40b8ae74c203e8bf2, type: 3}
     - target: {fileID: 473966377750500467, guid: 6c2f161bcd1894c409c0cc5142ed56c8, type: 3}
       propertyPath: paintingData.Array.data[62].paintingImage
       value: 
