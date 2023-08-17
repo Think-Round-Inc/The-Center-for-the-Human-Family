@@ -544,6 +544,104 @@ PrefabInstance:
       propertyPath: paintingTextures.Array.data[15]
       value: 
       objectReference: {fileID: 0}
+    - target: {fileID: 473966377750500467, guid: 6c2f161bcd1894c409c0cc5142ed56c8, type: 3}
+      propertyPath: paintingData.Array.data[0].paintingName
+      value: Biaye family including sister-in-law Fatou Sadio on the far left and
+        Patience in East Legon, Accra, Ghana 2001.
+      objectReference: {fileID: 0}
+    - target: {fileID: 473966377750500467, guid: 6c2f161bcd1894c409c0cc5142ed56c8, type: 3}
+      propertyPath: paintingData.Array.data[1].paintingName
+      value: "Mona Turning the Jump Rope for Two of Her Children in Their \u201CBackyard\u201D"
+      objectReference: {fileID: 0}
+    - target: {fileID: 473966377750500467, guid: 6c2f161bcd1894c409c0cc5142ed56c8, type: 3}
+      propertyPath: paintingData.Array.data[2].paintingName
+      value: "Backyard of Salma\u2019s family home in Bethlehem"
+      objectReference: {fileID: 0}
+    - target: {fileID: 473966377750500467, guid: 6c2f161bcd1894c409c0cc5142ed56c8, type: 3}
+      propertyPath: paintingData.Array.data[3].paintingName
+      value: "Souleiman and Doaa\u2019s Muhammad in the Backyard/Heidi\u2019s Atom"
+      objectReference: {fileID: 0}
+    - target: {fileID: 473966377750500467, guid: 6c2f161bcd1894c409c0cc5142ed56c8, type: 3}
+      propertyPath: paintingData.Array.data[4].paintingName
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 473966377750500467, guid: 6c2f161bcd1894c409c0cc5142ed56c8, type: 3}
+      propertyPath: paintingData.Array.data[5].paintingName
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 473966377750500467, guid: 6c2f161bcd1894c409c0cc5142ed56c8, type: 3}
+      propertyPath: paintingData.Array.data[6].paintingName
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 473966377750500467, guid: 6c2f161bcd1894c409c0cc5142ed56c8, type: 3}
+      propertyPath: paintingData.Array.data[7].paintingName
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 473966377750500467, guid: 6c2f161bcd1894c409c0cc5142ed56c8, type: 3}
+      propertyPath: paintingData.Array.data[8].paintingName
+      value: Biaye Family including sister-in-law Fatou Sadio on the far left on
+        Tabaski, Eid El Kebir 2001, Accra, Ghana.
+      objectReference: {fileID: 0}
+    - target: {fileID: 473966377750500467, guid: 6c2f161bcd1894c409c0cc5142ed56c8, type: 3}
+      propertyPath: paintingData.Array.data[9].paintingName
+      value: Zayd at Ocean Beach with Two of His Children, Sabreen and Ali
+      objectReference: {fileID: 0}
+    - target: {fileID: 473966377750500467, guid: 6c2f161bcd1894c409c0cc5142ed56c8, type: 3}
+      propertyPath: paintingData.Array.data[0].paintingImage
+      value: 
+      objectReference: {fileID: 21300000, guid: 7ed7a38a47cf0924b9d300011fd5ad95, type: 3}
+    - target: {fileID: 473966377750500467, guid: 6c2f161bcd1894c409c0cc5142ed56c8, type: 3}
+      propertyPath: paintingData.Array.data[10].paintingName
+      value: Alam and Salma
+      objectReference: {fileID: 0}
+    - target: {fileID: 473966377750500467, guid: 6c2f161bcd1894c409c0cc5142ed56c8, type: 3}
+      propertyPath: paintingData.Array.data[11].paintingName
+      value: The Day Muhammad Was Born, Burlingame, CA, Sepember 26, 2002
+      objectReference: {fileID: 0}
+    - target: {fileID: 473966377750500467, guid: 6c2f161bcd1894c409c0cc5142ed56c8, type: 3}
+      propertyPath: paintingData.Array.data[1].paintingImage
+      value: 
+      objectReference: {fileID: 21300000, guid: 1e699773aaa910f45a1bd0b345cd894a, type: 3}
+    - target: {fileID: 473966377750500467, guid: 6c2f161bcd1894c409c0cc5142ed56c8, type: 3}
+      propertyPath: paintingData.Array.data[2].paintingImage
+      value: 
+      objectReference: {fileID: 21300000, guid: c9bac22bc5caf4f8fb0eb2fb0a5c5089, type: 3}
+    - target: {fileID: 473966377750500467, guid: 6c2f161bcd1894c409c0cc5142ed56c8, type: 3}
+      propertyPath: paintingData.Array.data[3].paintingImage
+      value: 
+      objectReference: {fileID: 21300000, guid: 733adc464d2e592418d021f2076ad2fd, type: 3}
+    - target: {fileID: 473966377750500467, guid: 6c2f161bcd1894c409c0cc5142ed56c8, type: 3}
+      propertyPath: paintingData.Array.data[4].paintingImage
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 473966377750500467, guid: 6c2f161bcd1894c409c0cc5142ed56c8, type: 3}
+      propertyPath: paintingData.Array.data[5].paintingImage
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 473966377750500467, guid: 6c2f161bcd1894c409c0cc5142ed56c8, type: 3}
+      propertyPath: paintingData.Array.data[6].paintingImage
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 473966377750500467, guid: 6c2f161bcd1894c409c0cc5142ed56c8, type: 3}
+      propertyPath: paintingData.Array.data[7].paintingImage
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 473966377750500467, guid: 6c2f161bcd1894c409c0cc5142ed56c8, type: 3}
+      propertyPath: paintingData.Array.data[8].paintingImage
+      value: 
+      objectReference: {fileID: 21300000, guid: cb8a81acc7aca094cbbb643ff8e247c8, type: 3}
+    - target: {fileID: 473966377750500467, guid: 6c2f161bcd1894c409c0cc5142ed56c8, type: 3}
+      propertyPath: paintingData.Array.data[9].paintingImage
+      value: 
+      objectReference: {fileID: 21300000, guid: c119a53b05a66a74296173b9c62c7453, type: 3}
+    - target: {fileID: 473966377750500467, guid: 6c2f161bcd1894c409c0cc5142ed56c8, type: 3}
+      propertyPath: paintingData.Array.data[10].paintingImage
+      value: 
+      objectReference: {fileID: 21300000, guid: 51932a27b51b8b449bb45f42007d3b62, type: 3}
+    - target: {fileID: 473966377750500467, guid: 6c2f161bcd1894c409c0cc5142ed56c8, type: 3}
+      propertyPath: paintingData.Array.data[11].paintingImage
+      value: 
+      objectReference: {fileID: 21300000, guid: b5c97d94879ebed4e9e8b11ffc6f2cbc, type: 3}
     - target: {fileID: 598813463566870029, guid: 6c2f161bcd1894c409c0cc5142ed56c8, type: 3}
       propertyPath: m_Name
       value: Screen 1b
@@ -12266,6 +12364,10 @@ PrefabInstance:
       value: Shelley's Family Preacher
       objectReference: {fileID: 0}
     - target: {fileID: 473966377750500467, guid: 6c2f161bcd1894c409c0cc5142ed56c8, type: 3}
+      propertyPath: paintingData.Array.data[62].paintingName
+      value: Scott and His Sister on a Teeter-Totter (The Lovers)
+      objectReference: {fileID: 0}
+    - target: {fileID: 473966377750500467, guid: 6c2f161bcd1894c409c0cc5142ed56c8, type: 3}
       propertyPath: paintingData.Array.data[63].paintingName
       value: Shelley and Her Son Imagining Their Future
       objectReference: {fileID: 0}
@@ -12592,7 +12694,7 @@ PrefabInstance:
     - target: {fileID: 473966377750500467, guid: 6c2f161bcd1894c409c0cc5142ed56c8, type: 3}
       propertyPath: paintingData.Array.data[62].paintingImage
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 21300000, guid: b875e09ece336b04a9d002df9efdee14, type: 3}
     - target: {fileID: 473966377750500467, guid: 6c2f161bcd1894c409c0cc5142ed56c8, type: 3}
       propertyPath: paintingData.Array.data[63].paintingImage
       value: 
