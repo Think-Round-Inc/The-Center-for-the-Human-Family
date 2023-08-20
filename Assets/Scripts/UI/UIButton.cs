@@ -9,7 +9,7 @@ using UnityEngine.UI;
 public sealed class UIButton : CustomUIComponent
 {
     [SerializeField] ThemeSO theme;
-    [SerializeField] StyleViewContainer style;
+    [SerializeField] Style style;
     [SerializeField] UnityEvent onClick;
     private Button button;
     private TextMeshProUGUI text;

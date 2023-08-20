@@ -5,11 +5,11 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
-public enum StyleViewContainer
+public enum Style
 {
-    Top,
-    Center,
-    Bottom
+    Primary,
+    Secondary,
+    Tertiary
 }
 
 public sealed class View : CustomUIComponent

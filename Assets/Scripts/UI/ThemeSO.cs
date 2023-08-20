@@ -15,24 +15,24 @@ public class ThemeSO : ScriptableObject
     [Header("Other")]
     public Color disable;
 
-    public Color GetBackgroundColor(StyleViewContainer style)
+    public Color GetBackgroundColor(Style style)
     {
         return style switch
         {
-            StyleViewContainer.Top => top_bg,
-            StyleViewContainer.Center => center_bg,
-            StyleViewContainer.Bottom => bottom_bg,
+            Style.Primary => top_bg,
+            Style.Secondary => center_bg,
+            Style.Tertiary => bottom_bg,
             _ => disable,
         };
     }
 
-    public Color GetTextColor(StyleViewContainer style)
+    public Color GetTextColor(Style style)
     {
         return style switch
         {
-            StyleViewContainer.Top => top_text,
-            StyleViewContainer.Center => center_text,
-            StyleViewContainer.Bottom => bottom_text,
+            Style.Primary => top_text,
+            Style.Secondary => center_text,
+            Style.Tertiary => bottom_text,
             _ => disable,
         };
     }

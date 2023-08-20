@@ -3,7 +3,7 @@ using TMPro;
 public sealed class Text : CustomUIComponent
 {
     public TextSO textData;
-    public StyleViewContainer style;
+    public Style style;
     public TextMeshProUGUI textMeshProUGUI;
 
     public override void Setup()
