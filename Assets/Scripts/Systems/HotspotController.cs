@@ -12,8 +12,9 @@ public class HotspotController : MonoBehaviour
     [SerializeField] GameObject hotspotIcon;
     [SerializeField] Color hotspotVisitedColor = Color.gray;
     [SerializeField] float maxDistanceFromHotspot = 3f;
-    [SerializeField] float visibilityThreshold = 0.5f; // Adjust this value as needed
+    [SerializeField] float visibilityThreshold = 0.5f;
     [SerializeField] UnityEvent<GameObject> onNearHotspot;
+    [SerializeField] UnityEvent<GameObject> onHotspotClicked;
     [SerializeField] Camera mainCamera;
     private List<HotSpot> hotSpots;
     GameObject closestHotspot;
@@ -25,6 +26,18 @@ public class HotspotController : MonoBehaviour
             mainCamera = Camera.main;
         HideHotspotIcon();
     }
+
+    private void OnEnable()
+    {
+        HotspotIcon.HotSotClicked += HotSpotClickedEventTriggered;
+    }
+
+    private void OnDisable()
+    {
+        HotspotIcon.HotSotClicked -= HotSpotClickedEventTriggered;
+    }
+
+    void HotSpotClickedEventTriggered() => onHotspotClicked?.Invoke(closestHotspot);
 
     private void Update()
     {
@@ -74,6 +87,13 @@ public class HotspotController : MonoBehaviour
         }
     }
 
+    public void ClickedViewButton()
+    {
+        if (closestHotspot != null)
+            if (closestHotspot.TryGetComponent(out HotSpot hotSpot))
+                hotSpot.onClickedViewButton?.Invoke();
+    }
+
     public void MoveIconToHotspot(GameObject targetHotspot)
     {
         if (hotspotIcon == null || targetHotspot == null) return;
@@ -87,8 +107,8 @@ public class HotspotController : MonoBehaviour
             else
                 hotspotIconImage.color = Color.white;
 
-            Vector3 hotspotScreenPos = mainCamera.WorldToScreenPoint(targetHotspot.transform.position);
-            hotspotIcon.transform.position = hotspotScreenPos + hotSpot.hotspotIconOffset;
+            Vector3 hotspotScreenPos = mainCamera.WorldToScreenPoint(targetHotspot.transform.position + hotSpot.hotspotIconOffset);
+            hotspotIcon.transform.position = hotspotScreenPos;
             hotspotIcon.SetActive(true);
         }
     }

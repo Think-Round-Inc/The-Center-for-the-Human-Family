@@ -45,7 +45,7 @@ Shader "Custom/Hologram" {
                 v2f vert(appdata v) {
                     v2f o;
                     o.vertex = UnityObjectToClipPos(v.vertex);
-                    o.uv = v.uv * _TextureScale.xy + _TextureOffset.xy; // Apply texture offset and scale
+                    o.uv = v.uv * _TextureScale.xy + _TextureOffset.xy;
                     return o;
                 }
 

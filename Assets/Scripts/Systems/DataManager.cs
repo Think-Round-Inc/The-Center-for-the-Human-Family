@@ -1,12 +1,20 @@
 using TMPro;
 using UnityEngine;
+using UnityEngine.Events;
 using UnityEngine.UI;
 
 public sealed class DataManager : MonoBehaviour
 {
     [SerializeField] AudioSource audioSource;
-    [SerializeField] CanvasRenderer paintingDataPanel;
-    [SerializeField] Image paintingImage;
+    [SerializeField] CanvasRenderer dataInfoPanel;
+    [SerializeField] Image paintingZoomableCanvas;
+    [SerializeField] UnityEvent onInfoPanelOpened;
+    [SerializeField] UnityEvent onInfoPanelClosed;
+
+    void Start()
+    {
+        dataInfoPanel.gameObject.SetActive(false);
+    }
 
     public void PrintPaintingName(GameObject screen)
     {
@@ -21,16 +29,26 @@ public sealed class DataManager : MonoBehaviour
         }
     }
 
-    public void HidePaitingDataPanel() => paintingDataPanel.gameObject.SetActive(false);
+    public void HideInfoDataPanel()
+    {
+        dataInfoPanel.gameObject.SetActive(false);
+        onInfoPanelClosed?.Invoke();
+    }
 
-    public void HidePaintingImage() => paintingImage.gameObject.SetActive(false);
+    public void ShowInfoDataPanel()
+    {
+        dataInfoPanel.gameObject.SetActive(true);
+        onInfoPanelOpened?.Invoke();
+    }
+
+    public void HidePaintingImage() => paintingZoomableCanvas.gameObject.SetActive(false);
     
     public void DisplayPaintingNameOnCanvas(GameObject screen)
     {
         PaintingData data = screen.GetComponent<PaintingData>();
-        for (int i = 0; i < paintingDataPanel.gameObject.transform.childCount; i++)
+        for (int i = 0; i < dataInfoPanel.gameObject.transform.childCount; i++)
         {
-            GameObject currentGO = paintingDataPanel.gameObject.transform.GetChild(i).gameObject;
+            GameObject currentGO = dataInfoPanel.gameObject.transform.GetChild(i).gameObject;
             if (currentGO.name == "PaintingName") // hate using string compare as the name may accidentally get renamed...
             {
                 if (currentGO.TryGetComponent(out TMP_Text text) && data != null)
@@ -38,7 +56,7 @@ public sealed class DataManager : MonoBehaviour
             }
         }
         if (data != null)
-            paintingDataPanel.gameObject.SetActive(true);
+            ShowInfoDataPanel();
     }
 
     public void PlayAudioAtPainting(GameObject stand)
@@ -65,7 +83,8 @@ public sealed class DataManager : MonoBehaviour
     public void SetPaintingImageFromData(GameObject screen)
     {
         if (screen.TryGetComponent(out PaintingData data))
-            paintingImage.sprite = data.paintingData.paintingImage;
+            if (data.paintingData.paintingImage != null)
+                paintingZoomableCanvas.sprite = data.paintingData.paintingImage;
     }
 
     public void StopPlayingAudio()
