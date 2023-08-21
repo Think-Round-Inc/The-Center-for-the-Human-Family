@@ -8,6 +8,7 @@ public sealed class DataManager : MonoBehaviour
     [SerializeField] AudioSource audioSource;
     [SerializeField] CanvasRenderer dataInfoPanel;
     [SerializeField] Image paintingZoomableCanvas;
+    [SerializeField] TMP_Text infoText;
     [SerializeField] UnityEvent onInfoPanelOpened;
     [SerializeField] UnityEvent onInfoPanelClosed;
 
@@ -42,21 +43,22 @@ public sealed class DataManager : MonoBehaviour
     }
 
     public void HidePaintingImage() => paintingZoomableCanvas.gameObject.SetActive(false);
-    
-    public void DisplayPaintingNameOnCanvas(GameObject screen)
+
+    public void ClearInfoPanelText() => infoText.text = string.Empty;
+
+    public void SetPaintingNameAndInfoToInfoText(GameObject screen)
     {
-        PaintingData data = screen.GetComponent<PaintingData>();
-        for (int i = 0; i < dataInfoPanel.gameObject.transform.childCount; i++)
+        if (screen.TryGetComponent(out PaintingData data))
+            infoText.text = $"{data.paintingData.paintingName}\n{data.paintingData.paintingInfo}";
+    }
+    
+    public void DisplayPainting(GameObject screen)
+    {
+        if (screen.TryGetComponent(out PaintingData data))
         {
-            GameObject currentGO = dataInfoPanel.gameObject.transform.GetChild(i).gameObject;
-            if (currentGO.name == "PaintingName") // hate using string compare as the name may accidentally get renamed...
-            {
-                if (currentGO.TryGetComponent(out TMP_Text text) && data != null)
-                    text.text = $"{data.paintingData.paintingName}";
-            }
+            if (data.paintingData.paintingImage != null)
+                paintingZoomableCanvas.sprite = data.paintingData.paintingImage;
         }
-        if (data != null)
-            ShowInfoDataPanel();
     }
 
     public void PlayAudioAtPainting(GameObject stand)
@@ -78,13 +80,6 @@ public sealed class DataManager : MonoBehaviour
             else
                 audioSource.Pause();
         }
-    }
-
-    public void SetPaintingImageFromData(GameObject screen)
-    {
-        if (screen.TryGetComponent(out PaintingData data))
-            if (data.paintingData.paintingImage != null)
-                paintingZoomableCanvas.sprite = data.paintingData.paintingImage;
     }
 
     public void StopPlayingAudio()

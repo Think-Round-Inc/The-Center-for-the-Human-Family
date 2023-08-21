@@ -91,7 +91,7 @@ public class HotspotController : MonoBehaviour
     {
         if (closestHotspot != null)
             if (closestHotspot.TryGetComponent(out HotSpot hotSpot))
-                hotSpot.onClickedViewButton?.Invoke();
+                hotSpot.onClickedViewButton?.Invoke(closestHotspot);
     }
 
     public void MoveIconToHotspot(GameObject targetHotspot)

@@ -5,6 +5,7 @@ public class PaintingDataHolder
 {
     public Sprite paintingImage;
     public string paintingName;
+    [TextArea(0, 10)] public string paintingInfo;
     public AudioClip paintingClip;
     [HideInInspector] public Color paintingTextureColor = Color.white;
 }
