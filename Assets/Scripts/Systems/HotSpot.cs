@@ -6,5 +6,5 @@ public sealed class HotSpot : MonoBehaviour
 {
     public bool hasSeenBefore;
     public Vector3 hotspotIconOffset;
-    public UnityEvent<GameObject> onClickedViewButton;
+    public UnityEvent<GameObject> onClickedHotspot;
 }

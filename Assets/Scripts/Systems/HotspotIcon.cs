@@ -5,13 +5,13 @@ using UnityEngine;
 using UnityEngine.Events;
 using UnityEngine.EventSystems;
 
-public class HotspotIcon : MonoBehaviour, IPointerDownHandler, IPointerExitHandler, IPointerEnterHandler
+public class HotspotIcon : MonoBehaviour,  IPointerExitHandler, IPointerEnterHandler, IPointerClickHandler
 {
-    public static event Action HotSotClicked;
+    public UnityEvent onPointerClicked;
     public UnityEvent onPointerEnter;
     public UnityEvent onPointerExit;
 
-    public void OnPointerDown(PointerEventData eventData) => HotSotClicked?.Invoke();
+    public void OnPointerClick(PointerEventData eventData) => onPointerClicked?.Invoke();
 
     public void OnPointerEnter(PointerEventData eventData) => onPointerEnter?.Invoke();
 

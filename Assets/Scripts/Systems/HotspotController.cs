@@ -1,5 +1,6 @@
 using System.Collections.Generic;
 using System.Linq;
+using TMPro;
 using UnityEngine;
 using UnityEngine.Events;
 using UnityEngine.EventSystems;
@@ -13,8 +14,8 @@ public class HotspotController : MonoBehaviour
     [SerializeField] Color hotspotVisitedColor = Color.gray;
     [SerializeField] float maxDistanceFromHotspot = 3f;
     [SerializeField] float visibilityThreshold = 0.5f;
+    [SerializeField] TMP_Text infoText;
     [SerializeField] UnityEvent<GameObject> onNearHotspot;
-    [SerializeField] UnityEvent<GameObject> onHotspotClicked;
     [SerializeField] Camera mainCamera;
     private List<HotSpot> hotSpots;
     GameObject closestHotspot;
@@ -27,17 +28,19 @@ public class HotspotController : MonoBehaviour
         HideHotspotIcon();
     }
 
-    private void OnEnable()
+    public void SetPaintingNameAndInfoToInfoText(GameObject screen)
     {
-        HotspotIcon.HotSotClicked += HotSpotClickedEventTriggered;
+        if (screen.TryGetComponent(out PaintingData data))
+            infoText.text = $"{data.paintingData.paintingName}\n{data.paintingData.paintingInfo}";
     }
 
-    private void OnDisable()
-    {
-        HotspotIcon.HotSotClicked -= HotSpotClickedEventTriggered;
-    }
+    public void ClearInfoPanelText() => infoText.text = string.Empty;
 
-    void HotSpotClickedEventTriggered() => onHotspotClicked?.Invoke(closestHotspot);
+    public void HotSpotClickedEventTriggered()
+    {
+        if (closestHotspot.TryGetComponent(out HotSpot hotSpot))
+            hotSpot.onClickedHotspot?.Invoke(closestHotspot);
+    }
 
     private void Update()
     {
@@ -85,13 +88,6 @@ public class HotspotController : MonoBehaviour
             if (closestHotspot.TryGetComponent(out HotSpot hotspot))
                 hotspot.hasSeenBefore = true;
         }
-    }
-
-    public void ClickedViewButton()
-    {
-        if (closestHotspot != null)
-            if (closestHotspot.TryGetComponent(out HotSpot hotSpot))
-                hotSpot.onClickedViewButton?.Invoke(closestHotspot);
     }
 
     public void MoveIconToHotspot(GameObject targetHotspot)

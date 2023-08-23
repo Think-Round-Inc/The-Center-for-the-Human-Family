@@ -3,6 +3,12 @@ using UnityEngine.UI;
 
 public class ZoomAndDragCanvas : MonoBehaviour
 {
+    public enum MouseButton
+    {
+        Left, Right, Middle
+    }
+
+    public MouseButton dragButton;
     public float zoomSpeed = 1f;
     public float minZoom = 1f;
     public float maxZoom = 3f;
@@ -19,17 +25,15 @@ public class ZoomAndDragCanvas : MonoBehaviour
 
     private void Update()
     {
-        // Zoom
         float zoomDelta = Input.GetAxis("Mouse ScrollWheel") * zoomSpeed;
         float newScale = Mathf.Clamp(canvasRectTransform.localScale.x + zoomDelta, minZoom, maxZoom);
         canvasRectTransform.localScale = Vector3.one * newScale;
 
-        // Drag
-        if (Input.GetMouseButtonDown(0))
+        if (Input.GetMouseButtonDown((int)dragButton))
         {
             lastMousePosition = Input.mousePosition;
         }
-        else if (Input.GetMouseButton(0))
+        else if (Input.GetMouseButton((int)dragButton))
         {
             Vector3 deltaMouse = Input.mousePosition - lastMousePosition;
             canvasRectTransform.anchoredPosition += (Vector2)deltaMouse * dragSpeed;

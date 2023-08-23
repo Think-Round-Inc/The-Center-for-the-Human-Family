@@ -1,13 +1,26 @@
+using TMPro;
 using UnityEngine;
 
 public class UIController : MonoBehaviour
 {
     [SerializeField] GameObject[] navigationInfoLabels;
+    [SerializeField] TMP_Text hotspotInfoText;
+    [SerializeField] float paintingNameTextSize;
+    [SerializeField] float paintingInfoTextSize;
 
     private void Start()
     {
         SetAllNavigationLabelsInactive();
     }
+
+
+    public void SetPaintingNameAndInfoToInfoText(GameObject screen)
+    {
+        if (screen.TryGetComponent(out PaintingData data))
+            hotspotInfoText.text = $"<size={paintingNameTextSize}>{data.paintingData.paintingName}</size>\n\n<size={paintingInfoTextSize}>{data.paintingData.paintingInfo}</size>";
+    }
+
+    public void ClearInfoPanelText() => hotspotInfoText.text = string.Empty;
 
     public void SetNavigationInfoLabelActive(int index)
     {

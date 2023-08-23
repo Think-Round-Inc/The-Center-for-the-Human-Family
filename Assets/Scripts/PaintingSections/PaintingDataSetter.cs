@@ -5,6 +5,8 @@ using UnityEngine;
 [System.Serializable]
 public sealed class PaintingDataSetter : MonoBehaviour
 {
+    [SerializeField, Tooltip("When TRUE, each change will update all data to all paintings while in the Editor, or else use button on bottom of script to set data to paintings when done.")] 
+    bool setAllDataWhenAValueChanges;
     [SerializeField] PaintingDataHolder[] paintingData;
     [SerializeField] GameObject[] screens;
     [SerializeField] Color paintingTextureColor;
@@ -26,17 +28,18 @@ public sealed class PaintingDataSetter : MonoBehaviour
                 if (screens[i].TryGetComponent(out PaintingData data))
                 {
                     data.paintingData.paintingImage = paintingData[i].paintingImage;
-                    if (paintingData[i].paintingName != "")
+                    if (paintingData[i].paintingName != string.Empty)
                     {
                         data.paintingData.paintingTextureColor = paintingTextureColor;
                         data.paintingData.paintingName = paintingData[i].paintingName;
                         data.paintingData.paintingClip = paintingData[i].paintingClip;
+                        data.paintingData.paintingInfo = paintingData[i].paintingInfo;
                     }
                     else
                     {
                         if (missingPaintingTexture != null)
                             data.paintingData.paintingImage = missingPaintingTexture;
-                        data.paintingData.paintingName = "";
+                        data.paintingData.paintingName = string.Empty;
                         data.paintingData.paintingTextureColor = paintingTextureColor;
                     }
                     EditorUtility.SetDirty(screens[i]);
@@ -46,6 +49,12 @@ public sealed class PaintingDataSetter : MonoBehaviour
 
         AssetDatabase.SaveAssets();
         AssetDatabase.Refresh();
+    }
+
+    private void OnValidate()
+    {
+        if (setAllDataWhenAValueChanges)
+            SetPaintingData();
     }
 }
 
