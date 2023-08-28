@@ -1,7 +1,7 @@
 using UnityEngine;
 
 [System.Serializable]
-public class PaintingDataHolder
+public sealed class PaintingDataHolder
 {
     public Sprite paintingImage;
     public string paintingName;

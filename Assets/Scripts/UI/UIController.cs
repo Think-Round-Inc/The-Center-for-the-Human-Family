@@ -1,7 +1,7 @@
 using TMPro;
 using UnityEngine;
 
-public class UIController : MonoBehaviour
+public sealed class UIController : MonoBehaviour
 {
     [SerializeField] GameObject[] navigationInfoLabels;
     [SerializeField] TMP_Text hotspotInfoText;

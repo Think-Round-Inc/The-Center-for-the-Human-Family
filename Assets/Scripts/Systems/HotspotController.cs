@@ -3,11 +3,10 @@ using System.Linq;
 using TMPro;
 using UnityEngine;
 using UnityEngine.Events;
-using UnityEngine.EventSystems;
 using UnityEngine.UI;
 
 [System.Serializable]
-public class HotspotController : MonoBehaviour
+public sealed class HotspotController : MonoBehaviour
 {
     [SerializeField] GameObject viewer;
     [SerializeField] GameObject hotspotIcon;
@@ -51,16 +50,12 @@ public class HotspotController : MonoBehaviour
 
         for (int i = 0; i < hotSpots.Count; i++)
         {
-            Vector3 hotspotPoint = hotSpots[i].transform.position;
-            hotspotPoint.y = 0;
-
+            Vector3 hotspotPoint = hotSpots[i].transform.position + hotSpots[i].hotspotIconOffset;
+            
             Vector3 cameraToHotspot = hotspotPoint - mainCamera.transform.position;
             cameraToHotspot.Normalize();
-
             float dotProduct = Vector3.Dot(cameraForward, cameraToHotspot);
-
-            float distance = Vector3.Distance(hotspotPoint, viewer.transform.position);
-
+            float distance = Vector3.Distance(new Vector3(hotspotPoint.x, viewer.transform.position.y, hotspotPoint.z), viewer.transform.position);
             if (dotProduct > visibilityThreshold && distance < maxDistanceFromHotspot && distance < closestDistance)
             {
                 closestDistance = distance;

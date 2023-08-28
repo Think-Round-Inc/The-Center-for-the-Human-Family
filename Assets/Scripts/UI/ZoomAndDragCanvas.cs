@@ -1,7 +1,7 @@
 using UnityEngine;
 using UnityEngine.UI;
 
-public class ZoomAndDragCanvas : MonoBehaviour
+public sealed class ZoomAndDragCanvas : MonoBehaviour
 {
     public enum MouseButton
     {
