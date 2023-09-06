@@ -30,7 +30,7 @@ public sealed class HotspotController : MonoBehaviour
     public void SetPaintingNameAndInfoToInfoText(GameObject screen)
     {
         if (screen.TryGetComponent(out PaintingData data))
-            infoText.text = $"{data.paintingData.paintingName}\n{data.paintingData.paintingInfo}";
+            infoText.text = $"{data.paintingData.paintingName}\n{data.paintingData.extraPaintingInfo}";
     }
 
     public void ClearInfoPanelText() => infoText.text = string.Empty;

@@ -33,7 +33,7 @@ public sealed class PaintingDataSetter : MonoBehaviour
                         data.paintingData.paintingTextureColor = paintingTextureColor;
                         data.paintingData.paintingName = paintingData[i].paintingName;
                         data.paintingData.paintingClip = paintingData[i].paintingClip;
-                        data.paintingData.paintingInfo = paintingData[i].paintingInfo;
+                        data.paintingData.extraPaintingInfo = paintingData[i].extraPaintingInfo;
                     }
                     else
                     {

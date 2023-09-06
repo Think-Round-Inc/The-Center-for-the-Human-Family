@@ -32,6 +32,12 @@ public sealed class ZoomCanvas : MonoBehaviour
         print("Canvas Opened");
     }
 
+    public void ClearPaintingCanvas()
+    {
+        if (paintingZoomableCanvas == null) return;
+        paintingZoomableCanvas.sprite = null;
+    }
+
     public void SwitchCanvasVisibility()
     {
         if (zoomCanvasRenderer.gameObject.activeSelf)
