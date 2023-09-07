@@ -127912,6 +127912,10 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 21300000, guid: ebc64195fb25dd348bd7ef1a06667c47, type: 3}
     - target: {fileID: 473966377750500467, guid: 6c2f161bcd1894c409c0cc5142ed56c8, type: 3}
+      propertyPath: paintingData.Array.data[44].paintingImage
+      value: 
+      objectReference: {fileID: 21300000, guid: fdee77a577ba95b4d86bdabe106d894b, type: 3}
+    - target: {fileID: 473966377750500467, guid: 6c2f161bcd1894c409c0cc5142ed56c8, type: 3}
       propertyPath: paintingData.Array.data[45].paintingImage
       value: 
       objectReference: {fileID: 21300000, guid: 9c12bcdfbdc98604fb36e69313c0ef9b, type: 3}
@@ -127958,7 +127962,7 @@ PrefabInstance:
     - target: {fileID: 473966377750500467, guid: 6c2f161bcd1894c409c0cc5142ed56c8, type: 3}
       propertyPath: paintingData.Array.data[56].paintingImage
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 21300000, guid: da5f6216591a0da4cb728920d1e2c3b1, type: 3}
     - target: {fileID: 473966377750500467, guid: 6c2f161bcd1894c409c0cc5142ed56c8, type: 3}
       propertyPath: paintingData.Array.data[57].paintingImage
       value: 
@@ -127986,7 +127990,7 @@ PrefabInstance:
     - target: {fileID: 473966377750500467, guid: 6c2f161bcd1894c409c0cc5142ed56c8, type: 3}
       propertyPath: paintingData.Array.data[63].paintingImage
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 21300000, guid: 4dc9b5d117a28684bbedfa88dcdff5db, type: 3}
     - target: {fileID: 473966377750500467, guid: 6c2f161bcd1894c409c0cc5142ed56c8, type: 3}
       propertyPath: paintingData.Array.data[64].paintingImage
       value: 
