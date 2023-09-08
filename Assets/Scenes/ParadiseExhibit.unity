@@ -25446,7 +25446,7 @@ PrefabInstance:
     - target: {fileID: 473966377750500467, guid: 6c2f161bcd1894c409c0cc5142ed56c8, type: 3}
       propertyPath: paintingData.Array.data[16].paintingImage
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 21300000, guid: 8b097a6932101ce43b4d6b146e59cdfd, type: 3}
     - target: {fileID: 473966377750500467, guid: 6c2f161bcd1894c409c0cc5142ed56c8, type: 3}
       propertyPath: paintingData.Array.data[17].paintingImage
       value: 
@@ -25511,6 +25511,18 @@ PrefabInstance:
       propertyPath: paintingData.Array.data[32].paintingImage
       value: 
       objectReference: {fileID: 21300000, guid: d382c742caa5d1d4f980b46aad370250, type: 3}
+    - target: {fileID: 473966377750500467, guid: 6c2f161bcd1894c409c0cc5142ed56c8, type: 3}
+      propertyPath: paintingData.Array.data[33].paintingImage
+      value: 
+      objectReference: {fileID: 21300000, guid: f498844cf19afdf43a4e88f5b38f6fd9, type: 3}
+    - target: {fileID: 473966377750500467, guid: 6c2f161bcd1894c409c0cc5142ed56c8, type: 3}
+      propertyPath: paintingData.Array.data[34].paintingImage
+      value: 
+      objectReference: {fileID: 21300000, guid: 65c5be7ba23851e41af272fb17dfbd5c, type: 3}
+    - target: {fileID: 473966377750500467, guid: 6c2f161bcd1894c409c0cc5142ed56c8, type: 3}
+      propertyPath: paintingData.Array.data[35].paintingImage
+      value: 
+      objectReference: {fileID: 21300000, guid: a89d8d2e7b173034f8f63e8d31aabba3, type: 3}
     - target: {fileID: 473966377750500467, guid: 6c2f161bcd1894c409c0cc5142ed56c8, type: 3}
       propertyPath: paintingData.Array.data[36].paintingImage
       value: 
@@ -25618,7 +25630,7 @@ PrefabInstance:
     - target: {fileID: 473966377750500467, guid: 6c2f161bcd1894c409c0cc5142ed56c8, type: 3}
       propertyPath: paintingData.Array.data[62].paintingImage
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 21300000, guid: f317badaf1abb634399f3dcfe0f4939c, type: 3}
     - target: {fileID: 473966377750500467, guid: 6c2f161bcd1894c409c0cc5142ed56c8, type: 3}
       propertyPath: paintingData.Array.data[63].paintingImage
       value: 
