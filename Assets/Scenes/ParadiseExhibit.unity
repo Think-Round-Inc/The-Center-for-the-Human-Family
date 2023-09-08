@@ -25062,6 +25062,10 @@ PrefabInstance:
       value: David Reading The Jewish Daily (at age 60), New York City, 1950
       objectReference: {fileID: 0}
     - target: {fileID: 473966377750500467, guid: 6c2f161bcd1894c409c0cc5142ed56c8, type: 3}
+      propertyPath: paintingData.Array.data[6].paintingName
+      value: Lee, Reva, Irene, Jonathan and Irving Sacks. Fall, early 1980s
+      objectReference: {fileID: 0}
+    - target: {fileID: 473966377750500467, guid: 6c2f161bcd1894c409c0cc5142ed56c8, type: 3}
       propertyPath: paintingData.Array.data[7].paintingName
       value: Happy Fiftieth Birthday of Marc, Celebrated in Paris, France, November
         2017
@@ -25365,6 +25369,10 @@ PrefabInstance:
       value: Ruth Rosenwald's Mother's Grave Stone in Isreal
       objectReference: {fileID: 0}
     - target: {fileID: 473966377750500467, guid: 6c2f161bcd1894c409c0cc5142ed56c8, type: 3}
+      propertyPath: paintingData.Array.data[6].paintingImage
+      value: 
+      objectReference: {fileID: 21300000, guid: 7fb00503dc6382b4587b93199f894503, type: 3}
+    - target: {fileID: 473966377750500467, guid: 6c2f161bcd1894c409c0cc5142ed56c8, type: 3}
       propertyPath: paintingData.Array.data[70].paintingName
       value: '#MeToo: Artist, HEIDI Hardin Is Still Burnt Up, Meditating on the Apple
         that Men Hide Behind and Blame Her For'
@@ -25418,7 +25426,7 @@ PrefabInstance:
     - target: {fileID: 473966377750500467, guid: 6c2f161bcd1894c409c0cc5142ed56c8, type: 3}
       propertyPath: paintingData.Array.data[11].paintingImage
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 21300000, guid: 179fac354d92c5d469fcd2c10b387bbc, type: 3}
     - target: {fileID: 473966377750500467, guid: 6c2f161bcd1894c409c0cc5142ed56c8, type: 3}
       propertyPath: paintingData.Array.data[12].paintingImage
       value: 
