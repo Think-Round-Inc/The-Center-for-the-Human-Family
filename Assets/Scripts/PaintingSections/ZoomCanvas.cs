@@ -6,14 +6,14 @@ using UnityEngine.UI;
 public sealed class ZoomCanvas : MonoBehaviour
 {
     [InfoBox("Check canvas for ZoomAndDragCanvas script for more zoom options")]
-    public CanvasRenderer zoomCanvasRenderer;
+    public Canvas zoomCanvas;
     [SerializeField] Image paintingZoomableCanvas;
     [SerializeField] UnityEvent onCanvasOpened;
     [SerializeField] UnityEvent onCanvasClosed;
 
     private void Start()
     {
-        zoomCanvasRenderer.gameObject.SetActive(false);
+        zoomCanvas.gameObject.SetActive(false);
     }
 
     public void DisplayPaintingToZoomableCanvas(GameObject screen)
@@ -27,7 +27,7 @@ public sealed class ZoomCanvas : MonoBehaviour
 
     public void OpenCanvas()
     {
-        zoomCanvasRenderer.gameObject.SetActive(true);
+        zoomCanvas.gameObject.SetActive(true);
         onCanvasOpened?.Invoke();
         print("Canvas Opened");
     }
@@ -40,7 +40,7 @@ public sealed class ZoomCanvas : MonoBehaviour
 
     public void SwitchCanvasVisibility()
     {
-        if (zoomCanvasRenderer.gameObject.activeSelf)
+        if (zoomCanvas.gameObject.activeSelf)
             CloseCanvas();
         else
             OpenCanvas();
@@ -48,7 +48,7 @@ public sealed class ZoomCanvas : MonoBehaviour
 
     public void CloseCanvas()
     {
-        zoomCanvasRenderer.gameObject.SetActive(false);
+        zoomCanvas.gameObject.SetActive(false);
         onCanvasClosed?.Invoke();
         print("Canvas Closed");
     }
