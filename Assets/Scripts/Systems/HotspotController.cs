@@ -11,16 +11,21 @@ public sealed class HotspotController : MonoBehaviour
     [SerializeField] GameObject viewer;
     [SerializeField] GameObject hotspotIcon;
     [SerializeField] Color hotspotVisitedColor = Color.gray;
-    [SerializeField] float maxDistanceFromHotspot = 3f;
+    [SerializeField] float distanceAbovePlayer = 2f;
+    [SerializeField] float maxDistanceFromHotspot = 20f;
+    [SerializeField] float maxDistanceFromHotspotAbovePlayer = 100f;
     [SerializeField] float visibilityThreshold = 0.5f;
+    [SerializeField] float viewAngleThreshold = 0.5f;
     [SerializeField] TMP_Text infoText;
     [SerializeField] UnityEvent<GameObject> onNearHotspot;
     [SerializeField] Camera mainCamera;
     private List<HotSpot> hotSpots;
+    private float currentMaxDistance;
     GameObject closestHotspot;
 
     private void Start()
     {
+        currentMaxDistance = maxDistanceFromHotspotAbovePlayer;
         hotSpots = FindObjectsOfType<HotSpot>().ToList();
         if (mainCamera == null)
             mainCamera = Camera.main;
@@ -50,13 +55,18 @@ public sealed class HotspotController : MonoBehaviour
 
         for (int i = 0; i < hotSpots.Count; i++)
         {
+            if (hotSpots[i] == null) continue;
+            if (hotSpots[i].transform.position.y + hotSpots[i].hotspotIconOffset.y > distanceAbovePlayer)
+                currentMaxDistance = maxDistanceFromHotspotAbovePlayer;
+            else
+                currentMaxDistance = maxDistanceFromHotspot;
             Vector3 hotspotPoint = hotSpots[i].transform.position + hotSpots[i].hotspotIconOffset;
-            
             Vector3 cameraToHotspot = hotspotPoint - mainCamera.transform.position;
             cameraToHotspot.Normalize();
             float dotProduct = Vector3.Dot(cameraForward, cameraToHotspot);
+            float screenDot = Vector3.Dot(-cameraForward, hotSpots[i].transform.forward);
             float distance = Vector3.Distance(new Vector3(hotspotPoint.x, viewer.transform.position.y, hotspotPoint.z), viewer.transform.position);
-            if (dotProduct > visibilityThreshold && distance < maxDistanceFromHotspot && distance < closestDistance)
+            if (dotProduct > visibilityThreshold && screenDot > viewAngleThreshold && distance < currentMaxDistance && distance < closestDistance)
             {
                 closestDistance = distance;
                 closestHotspot = hotSpots[i].gameObject;

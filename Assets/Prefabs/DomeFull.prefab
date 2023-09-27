@@ -144,7 +144,7 @@ GameObject:
   - component: {fileID: 5454389276098679773}
   - component: {fileID: 5454389276098679772}
   m_Layer: 0
-  m_Name: FaithInfo -Section1
+  m_Name: FaithInfo -Christain
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -274,7 +274,7 @@ GameObject:
   - component: {fileID: 5156278637227401755}
   - component: {fileID: 5156278637227401754}
   m_Layer: 0
-  m_Name: FaithImage -Section2
+  m_Name: FaithImage -Jewish
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -405,7 +405,7 @@ GameObject:
   - component: {fileID: 8780917968360475511}
   - component: {fileID: 8780917968360475510}
   m_Layer: 0
-  m_Name: FaithImage -Section5
+  m_Name: FaithImage -Taoist
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -666,7 +666,7 @@ GameObject:
   - component: {fileID: 7435771508810365848}
   - component: {fileID: 7435771508810365855}
   m_Layer: 0
-  m_Name: FaithImage -Section4
+  m_Name: FaithImage -Hindus
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -927,7 +927,7 @@ GameObject:
   - component: {fileID: 7443717213683155546}
   - component: {fileID: 7443717213683155545}
   m_Layer: 0
-  m_Name: FaithInfo -Section3
+  m_Name: FaithInfo -Buddhist
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1057,7 +1057,7 @@ GameObject:
   - component: {fileID: 7182864700339708599}
   - component: {fileID: 7182864700339708598}
   m_Layer: 0
-  m_Name: FaithImage -Section1
+  m_Name: FaithImage -Christian
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1455,7 +1455,7 @@ GameObject:
   - component: {fileID: 4788849847663191037}
   - component: {fileID: 4788849847663191036}
   m_Layer: 0
-  m_Name: FaithInfo -Section4
+  m_Name: FaithInfo -Hindus
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1585,7 +1585,7 @@ GameObject:
   - component: {fileID: 5770281399583122737}
   - component: {fileID: 5770281399583122736}
   m_Layer: 0
-  m_Name: FaithImage -Section3
+  m_Name: FaithImage -Buddhist
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1846,7 +1846,7 @@ GameObject:
   - component: {fileID: 4717211459884852462}
   - component: {fileID: 4717211459884852461}
   m_Layer: 0
-  m_Name: FaithInfo -Section7
+  m_Name: FaithInfo -Muslim
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2236,7 +2236,7 @@ GameObject:
   - component: {fileID: 4640687763826854143}
   - component: {fileID: 4640687763826854142}
   m_Layer: 0
-  m_Name: FaithInfo -Section5
+  m_Name: FaithInfo -Taoist
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2449,7 +2449,7 @@ GameObject:
   - component: {fileID: 8047620544587472039}
   - component: {fileID: 8047620544587472038}
   m_Layer: 0
-  m_Name: FaithInfo -Section6
+  m_Name: FaithInfo -Indigenous
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2579,7 +2579,7 @@ GameObject:
   - component: {fileID: 4739063898236607702}
   - component: {fileID: 4739063898236607701}
   m_Layer: 0
-  m_Name: FaithImage -Section7
+  m_Name: FaithImage -Muslim
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2710,7 +2710,7 @@ GameObject:
   - component: {fileID: 6870933580245839662}
   - component: {fileID: 6870933580245839661}
   m_Layer: 0
-  m_Name: FaithInfo -Section2
+  m_Name: FaithInfo -Jewish
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2840,7 +2840,7 @@ GameObject:
   - component: {fileID: 7546480087865658901}
   - component: {fileID: 7546480087865658900}
   m_Layer: 0
-  m_Name: FaithImage -Section6
+  m_Name: FaithImage -Indigenous
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

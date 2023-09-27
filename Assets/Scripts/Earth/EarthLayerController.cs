@@ -20,9 +20,7 @@ public class EarthLayerController : MonoBehaviour
         if (toggles[3].isOn) toggleState += 8;
 
         for (int i = 0; i < images.Length; i++)
-        {
             images[i].gameObject.SetActive(i == toggleState);
-        }
     }
 
     public void CheckIfPanelIsLayers(EarthViewPanel panel)
@@ -48,14 +46,12 @@ public class EarthLayerController : MonoBehaviour
     }
 
     // not working or need to rework
-    public void SingleLayerDeselect(int togglePressed)
+    public void LayerDeselect()
     {
         for (int i = 0; i < toggles.Length; i++)
         {
-            if (i == togglePressed)
-                toggles[i].isOn = false;
-            else
-                toggles[i].isOn = false;
+            toggles[i].isOn = false;
+            toggles[i].targetGraphic.enabled = false;
         }
         UpdateSprites();
     }

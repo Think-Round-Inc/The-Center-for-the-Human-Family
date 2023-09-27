@@ -2,7 +2,8 @@
 
 public sealed class DomeWall : MonoBehaviour
 {
-    [SerializeField] Sprite[] wallSprites;
+    [SerializeField] Sprite[] artSprites;
+    [SerializeField] Sprite[] religionSprites;
     private Renderer wallRenderer;
     private int currentIndex;
 
@@ -19,11 +20,25 @@ public sealed class DomeWall : MonoBehaviour
 
     public void SwitchWallSprite()
     {
-        if (wallRenderer == null) return;
-        currentIndex++;
-        if (currentIndex >= wallSprites.Length)
-            currentIndex = 0;
-        if (wallSprites[currentIndex] != null)
-            wallRenderer.material.mainTexture = wallSprites[currentIndex].texture;
+        DomeWallState currentWallState = DomeWallChanger.CurrentDomeWallState;
+        switch (currentWallState)
+        {
+            case DomeWallState.Art:
+                if (wallRenderer == null) return;
+                currentIndex++;
+                if (currentIndex >= artSprites.Length)
+                    currentIndex = 0;
+                if (artSprites[currentIndex] != null)
+                    wallRenderer.material.mainTexture = artSprites[currentIndex].texture;
+                break;
+            case DomeWallState.Religion:
+                if (wallRenderer == null) return;
+                currentIndex++;
+                if (currentIndex >= religionSprites.Length)
+                    currentIndex = 0;
+                if (religionSprites[currentIndex] != null)
+                    wallRenderer.material.mainTexture = religionSprites[currentIndex].texture;
+                break;
+        }
     }
 }

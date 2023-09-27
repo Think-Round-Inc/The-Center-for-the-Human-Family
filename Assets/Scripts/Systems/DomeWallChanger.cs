@@ -1,9 +1,17 @@
 using System.Collections;
 using UnityEngine;
 
+public enum DomeWallState
+{
+    Art,
+    Religion
+}
+
 public sealed class DomeWallChanger : MonoBehaviour
 {
-    [SerializeField] bool isActive;
+    public static DomeWallState CurrentDomeWallState = DomeWallState.Religion;
+    [SerializeField] DomeWallState currentDomeWallState = DomeWallState.Religion;
+    [SerializeField] bool isActive = true;
     [SerializeField] float timeToChangeWalls;
     [SerializeField] float timeBetweenWallChanges;
     [SerializeField] DomeWall[] faithWalls;
@@ -15,6 +23,8 @@ public sealed class DomeWallChanger : MonoBehaviour
     {
         currentTime = Mathf.Max(1, timeToChangeWalls);
     }
+
+    public void SetDomeWallChangerActive(bool isActive) => this.isActive = isActive;
 
     private void Update()
     {
@@ -37,4 +47,6 @@ public sealed class DomeWallChanger : MonoBehaviour
             walls[i].SwitchWallSprite();
         }
     }
+
+    private void OnValidate() => CurrentDomeWallState = currentDomeWallState;
 }
