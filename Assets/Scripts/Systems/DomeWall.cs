@@ -14,13 +14,16 @@ public sealed class DomeWall : MonoBehaviour
 
     private void Start()
     {
-        currentIndex = -1;
+        ResetIndex();
         SwitchWallSprite();
     }
+    
+    public void ResetIndex() => currentIndex = -1;
 
     public void SwitchWallSprite()
     {
         DomeWallState currentWallState = DomeWallChanger.CurrentDomeWallState;
+        print($"{gameObject.name} wall state == {currentWallState}");
         switch (currentWallState)
         {
             case DomeWallState.Art:
@@ -28,7 +31,7 @@ public sealed class DomeWall : MonoBehaviour
                 currentIndex++;
                 if (currentIndex >= artSprites.Length)
                     currentIndex = 0;
-                if (artSprites[currentIndex] != null)
+                if (artSprites.Length > 0 && artSprites[currentIndex] != null)
                     wallRenderer.material.mainTexture = artSprites[currentIndex].texture;
                 break;
             case DomeWallState.Religion:

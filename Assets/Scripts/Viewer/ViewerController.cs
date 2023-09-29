@@ -23,16 +23,13 @@ public sealed class ViewerController : MonoBehaviour
             float mouseY = Input.GetAxis("Mouse Y");
             Cursor.visible = false;
 
-            // Calculate the rotation around the X-axis
             Vector3 currentRotation = transform.localRotation.eulerAngles;
             float newAngleX = currentRotation.x - mouseY * rotationSpeed;
-            newAngleX = WrapAngle(newAngleX); // Wrap the angle to -180 to 180 degrees
+            newAngleX = WrapAngle(newAngleX);
             newAngleX = Mathf.Clamp(newAngleX, -maxHeadRotateAngle, maxHeadRotateAngle);
 
-            // Apply the new rotation around the X-axis
             transform.localRotation = Quaternion.Euler(newAngleX, currentRotation.y, 0f);
 
-            // Rotate around the Y-axis separately
             transform.Rotate(Vector3.up, mouseX * rotationSpeed, Space.World);
         }
         else
@@ -41,7 +38,6 @@ public sealed class ViewerController : MonoBehaviour
         }
     }
 
-    // Wrap the angle to -180 to 180 degrees
     private float WrapAngle(float angle)
     {
         angle %= 360f;
@@ -59,7 +55,6 @@ public sealed class ViewerController : MonoBehaviour
         float horizontalInput = Input.GetAxis("Horizontal");
         float verticalInput = Input.GetAxis("Vertical");
 
-        // Use the main camera's forward direction instead of headTransform.forward
         Vector3 cameraForward = Camera.main.transform.forward;
         Vector3 movementDirection = cameraForward * verticalInput + Camera.main.transform.right * horizontalInput;
         movementDirection.y = 0f;

@@ -9,14 +9,17 @@ public enum DomeWallState
 
 public sealed class DomeWallChanger : MonoBehaviour
 {
-    public static DomeWallState CurrentDomeWallState = DomeWallState.Religion;
-    [SerializeField] DomeWallState currentDomeWallState = DomeWallState.Religion;
+    public static DomeWallState CurrentDomeWallState = DomeWallState.Art;
+    [SerializeField] DomeWallState currentDomeWallState = DomeWallState.Art;
     [SerializeField] bool isActive = true;
     [SerializeField] float timeToChangeWalls;
     [SerializeField] float timeBetweenWallChanges;
     [SerializeField] DomeWall[] faithWalls;
+    [SerializeField] bool faithWallsToggle = true;
     [SerializeField] DomeWall[] faunaWalls;
+    [SerializeField] bool faunaWallsToggle = true;
     [SerializeField] DomeWall[] infoWalls;
+    [SerializeField] bool infoWallsToggle = true;
     private float currentTime;
 
     private void Start()
@@ -24,18 +27,41 @@ public sealed class DomeWallChanger : MonoBehaviour
         currentTime = Mathf.Max(1, timeToChangeWalls);
     }
 
+    public void SetCurrentWallStateToArt()
+    {
+        StopAllCoroutines();
+        currentDomeWallState = DomeWallState.Art;
+        CurrentDomeWallState = currentDomeWallState;
+        currentTime = 0;
+    }
+
+    public void SetCurrentWallStateToReligion()
+    {
+        StopAllCoroutines();
+        currentDomeWallState = DomeWallState.Religion;
+        CurrentDomeWallState = currentDomeWallState;
+        currentTime = 0;
+    }
+
     public void SetDomeWallChangerActive(bool isActive) => this.isActive = isActive;
 
     private void Update()
     {
-        if (!isActive) return;
+        if (!isActive)
+        {
+            StopAllCoroutines();
+            return;
+        }
         currentTime = currentTime < 0 ? 0 : currentTime -= Time.deltaTime;
         if (currentTime == 0)
         {
             currentTime = Mathf.Max(1, timeToChangeWalls);
-            StartCoroutine(ChangeWalls(faithWalls));
-            StartCoroutine(ChangeWalls(faunaWalls));
-            StartCoroutine(ChangeWalls(infoWalls));
+            if (faithWallsToggle)
+                StartCoroutine(ChangeWalls(faithWalls));
+            if (faunaWallsToggle)
+                StartCoroutine(ChangeWalls(faunaWalls));
+            if (infoWallsToggle)
+                StartCoroutine(ChangeWalls(infoWalls));
         }
     }
 
