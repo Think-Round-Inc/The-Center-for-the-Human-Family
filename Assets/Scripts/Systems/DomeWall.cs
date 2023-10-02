@@ -1,4 +1,5 @@
 ﻿using UnityEngine;
+using UnityEngine.Events;
 
 [System.Serializable]
 public sealed class DomeWallSpriteGroup
@@ -13,6 +14,7 @@ public sealed class DomeWall : MonoBehaviour
 {
     [SerializeField] DomeWallSpriteGroup artGroup;
     [SerializeField] DomeWallSpriteGroup religionGroup;
+    [SerializeField] UnityEvent onDomeWallSwitched;
     private Sprite currentSprite;
     private string currentTitle;
     private string currentInfo;
@@ -50,6 +52,7 @@ public sealed class DomeWall : MonoBehaviour
                 SwitchFromGroup(religionGroup);
                 break;
         }
+        onDomeWallSwitched?.Invoke();
     }
 
     void SwitchFromGroup(DomeWallSpriteGroup spriteGroup)

@@ -29,7 +29,6 @@ public sealed class ZoomCanvas : MonoBehaviour
     {
         zoomCanvas.gameObject.SetActive(true);
         onCanvasOpened?.Invoke();
-        print("Canvas Opened");
     }
 
     public void ClearPaintingCanvas()
@@ -50,6 +49,5 @@ public sealed class ZoomCanvas : MonoBehaviour
     {
         zoomCanvas.gameObject.SetActive(false);
         onCanvasClosed?.Invoke();
-        print("Canvas Closed");
     }
 }
