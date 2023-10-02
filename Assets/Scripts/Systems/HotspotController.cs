@@ -15,7 +15,6 @@ public sealed class HotspotController : MonoBehaviour
     [SerializeField] float maxDistanceFromHotspot = 20f;
     [SerializeField] float maxDistanceFromHotspotAbovePlayer = 100f;
     [SerializeField] float visibilityThreshold = 0.5f;
-    [SerializeField] float viewAngleThreshold = 0.5f;
     [SerializeField] TMP_Text infoText;
     [SerializeField] UnityEvent<GameObject> onNearHotspot;
     [SerializeField] Camera mainCamera;
@@ -39,6 +38,8 @@ public sealed class HotspotController : MonoBehaviour
     }
 
     public void ClearInfoPanelText() => infoText.text = string.Empty;
+
+    public GameObject GetClosestHotspotGameObject() => closestHotspot;
 
     public void HotSpotClickedEventTriggered()
     {
@@ -64,9 +65,8 @@ public sealed class HotspotController : MonoBehaviour
             Vector3 cameraToHotspot = hotspotPoint - mainCamera.transform.position;
             cameraToHotspot.Normalize();
             float dotProduct = Vector3.Dot(cameraForward, cameraToHotspot);
-            float screenDot = Vector3.Dot(-cameraForward, hotSpots[i].transform.forward);
             float distance = Vector3.Distance(new Vector3(hotspotPoint.x, viewer.transform.position.y, hotspotPoint.z), viewer.transform.position);
-            if (dotProduct > visibilityThreshold && screenDot > viewAngleThreshold && distance < currentMaxDistance && distance < closestDistance)
+            if (dotProduct > visibilityThreshold && distance < currentMaxDistance && distance < closestDistance)
             {
                 closestDistance = distance;
                 closestHotspot = hotSpots[i].gameObject;

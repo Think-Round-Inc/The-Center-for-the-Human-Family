@@ -1,4 +1,5 @@
-﻿using UnityEngine;
+﻿using NaughtyAttributes;
+using UnityEngine;
 using UnityEngine.Events;
 
 [System.Serializable]
@@ -14,7 +15,7 @@ public sealed class DomeWall : MonoBehaviour
 {
     [SerializeField] DomeWallSpriteGroup artGroup;
     [SerializeField] DomeWallSpriteGroup religionGroup;
-    [SerializeField] UnityEvent onDomeWallSwitched;
+    [SerializeField, HorizontalLine] UnityEvent onDomeWallSwitched;
     private Sprite currentSprite;
     private string currentTitle;
     private string currentInfo;

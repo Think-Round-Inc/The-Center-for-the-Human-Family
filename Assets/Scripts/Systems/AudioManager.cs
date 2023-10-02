@@ -1,31 +1,42 @@
-using TMPro;
 using UnityEngine;
-using UnityEngine.Events;
-using UnityEngine.UI;
 
 public sealed class AudioManager : MonoBehaviour
 {
     [SerializeField] AudioSource audioSource;
-
-    public void PlayAudioAtPainting(GameObject stand)
+    [SerializeField] HotspotController hotspotController; // lack of time
+    
+    public void SwitchAudioAtPainting(GameObject stand)
     {
-        if (audioSource == null) return;
+        if (audioSource == null || stand == null) return;
         if (stand.TryGetComponent<PaintingData>(out var data))
         {
             AudioClip clip = data.paintingData.paintingClip;
             if (clip != null)
             {
                 if (clip == audioSource.clip)
-                    audioSource.UnPause();
+                {
+                    if (audioSource.isPlaying)
+                        audioSource.Pause();
+                    else
+                        audioSource.UnPause();
+                }
                 else
                 {
                     audioSource.clip = clip;
-                    audioSource.Play();
+                    if (!audioSource.isPlaying)
+                        audioSource.Play();
+                    else
+                        audioSource.Pause();
                 }
             }
-            else
-                audioSource.Pause();
         }
+    }
+
+    public void PlayAudioFromClosest()
+    {
+        GameObject stand = hotspotController.GetClosestHotspotGameObject();
+        if (stand == null) return;
+        SwitchAudioAtPainting(stand);
     }
 
     public void StopPlayingAudio()
