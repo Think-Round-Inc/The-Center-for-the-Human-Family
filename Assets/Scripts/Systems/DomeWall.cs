@@ -1,9 +1,21 @@
 ﻿using UnityEngine;
 
+[System.Serializable]
+public sealed class DomeWallSpriteGroup
+{
+    public Sprite[] groupSprites;
+    public string[] groupTitles;
+    [TextArea(0, 20)] public string[] groupInfo;
+}
+
+
 public sealed class DomeWall : MonoBehaviour
 {
-    [SerializeField] Sprite[] artSprites;
-    [SerializeField] Sprite[] religionSprites;
+    [SerializeField] DomeWallSpriteGroup artGroup;
+    [SerializeField] DomeWallSpriteGroup religionGroup;
+    private Sprite currentSprite;
+    private string currentTitle;
+    private string currentInfo;
     private Renderer wallRenderer;
     private int currentIndex;
 
@@ -18,30 +30,41 @@ public sealed class DomeWall : MonoBehaviour
         SwitchWallSprite();
     }
     
+    public string GetCurrentTitle() => currentTitle;
+
+    public string GetCurrentInfo() => currentInfo;
+
+    public Sprite GetCurrentSprite() => currentSprite;
+
     public void ResetIndex() => currentIndex = -1;
 
     public void SwitchWallSprite()
     {
         DomeWallState currentWallState = DomeWallChanger.CurrentDomeWallState;
-        print($"{gameObject.name} wall state == {currentWallState}");
         switch (currentWallState)
         {
             case DomeWallState.Art:
-                if (wallRenderer == null) return;
-                currentIndex++;
-                if (currentIndex >= artSprites.Length)
-                    currentIndex = 0;
-                if (artSprites.Length > 0 && artSprites[currentIndex] != null)
-                    wallRenderer.material.mainTexture = artSprites[currentIndex].texture;
+                SwitchFromGroup(artGroup);
                 break;
             case DomeWallState.Religion:
-                if (wallRenderer == null) return;
-                currentIndex++;
-                if (currentIndex >= religionSprites.Length)
-                    currentIndex = 0;
-                if (religionSprites[currentIndex] != null)
-                    wallRenderer.material.mainTexture = religionSprites[currentIndex].texture;
+                SwitchFromGroup(religionGroup);
                 break;
         }
+    }
+
+    void SwitchFromGroup(DomeWallSpriteGroup spriteGroup)
+    {
+        if (wallRenderer == null) return;
+        currentIndex++;
+        if (currentIndex >= spriteGroup.groupSprites.Length)
+            currentIndex = 0;
+        if (spriteGroup.groupSprites.Length > 0)
+            currentSprite = spriteGroup.groupSprites[currentIndex];
+        if (spriteGroup.groupTitles.Length > 0 && currentIndex < spriteGroup.groupTitles.Length)
+            currentTitle = spriteGroup.groupTitles[currentIndex];
+        if (spriteGroup.groupInfo.Length > 0 && currentIndex < spriteGroup.groupInfo.Length)
+            currentInfo = spriteGroup.groupInfo[currentIndex];
+        if (currentSprite != null)
+            wallRenderer.material.mainTexture = currentSprite.texture;
     }
 }
