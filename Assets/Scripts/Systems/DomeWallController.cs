@@ -19,6 +19,8 @@ public class DomeWallController : MonoBehaviour
     public void UpdateDomeWallViewingPanel(GameObject hotSpotObject)
     {
         currentDomeInfoText.text = "";
+        currentDomeImage.sprite = null;
+        currentDomeTitleText.text = "";
 
         if (DomeWallChanger.CurrentDomeWallState == DomeWallState.Religion)
             bulletIcon.gameObject.SetActive(true);

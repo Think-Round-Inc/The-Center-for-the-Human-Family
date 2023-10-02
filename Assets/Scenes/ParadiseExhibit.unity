@@ -26152,6 +26152,82 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 293757245}
   m_CullTransparentMesh: 1
+--- !u!1 &296005148
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 296005149}
+  - component: {fileID: 296005151}
+  - component: {fileID: 296005150}
+  m_Layer: 0
+  m_Name: CrustInfoCard
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!224 &296005149
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 296005148}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1658914861}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: -198, y: -265}
+  m_SizeDelta: {x: 328, y: 472}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &296005150
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 296005148}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 0
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 21300000, guid: aa8a788d3cee8d440b205761853bc976, type: 3}
+  m_Type: 0
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!222 &296005151
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 296005148}
+  m_CullTransparentMesh: 1
 --- !u!1 &316427095
 GameObject:
   m_ObjectHideFlags: 0
@@ -50806,15 +50882,15 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.24705882, g: 0.27058825, b: 0.29411766, a: 1}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 10905, guid: 0000000000000000f000000000000000, type: 0}
-  m_Type: 1
+  m_Sprite: {fileID: 21300000, guid: 3e948b67329337d4194dafd5041c4cc8, type: 3}
+  m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
   m_FillMethod: 4
@@ -50956,10 +51032,34 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   onToggleTurnedOn:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 688505763}
+        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+        m_MethodName: SetActive
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 1
+        m_CallState: 2
   onToggleTurnedOff:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 688505763}
+        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+        m_MethodName: SetActive
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!1 &365467861
 GameObject:
   m_ObjectHideFlags: 0
@@ -51105,15 +51205,15 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.24705882, g: 0.27058825, b: 0.29411766, a: 1}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 10905, guid: 0000000000000000f000000000000000, type: 0}
-  m_Type: 1
+  m_Sprite: {fileID: 21300000, guid: 3e948b67329337d4194dafd5041c4cc8, type: 3}
+  m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
   m_FillMethod: 4
@@ -51504,6 +51604,10 @@ RectTransform:
   - {fileID: 1790971908}
   - {fileID: 1428302472}
   - {fileID: 892748542}
+  - {fileID: 1658914861}
+  - {fileID: 1715997458}
+  - {fileID: 494046879}
+  - {fileID: 688505764}
   m_Father: {fileID: 1563565965}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -52785,6 +52889,126 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 487358451}
   m_CullTransparentMesh: 1
+--- !u!1 &494046878
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 494046879}
+  - component: {fileID: 494046881}
+  - component: {fileID: 494046880}
+  - component: {fileID: 494046882}
+  m_Layer: 0
+  m_Name: OuterHotspotIcon
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &494046879
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 494046878}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 1350896499}
+  m_Father: {fileID: 391424579}
+  m_RootOrder: 18
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 4, y: 133}
+  m_SizeDelta: {x: 40, y: 40}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &494046880
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 494046878}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 21300000, guid: f78382474d930b14dadb532c5dfa7b58, type: 3}
+  m_Type: 0
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!222 &494046881
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 494046878}
+  m_CullTransparentMesh: 1
+--- !u!114 &494046882
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 494046878}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 66856e008591e4f4683da1c3a5ec0df9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  onPointerEnter:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 1350896498}
+        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+        m_MethodName: SetActive
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 1
+        m_CallState: 2
+  onPointerExit:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 1350896498}
+        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+        m_MethodName: SetActive
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!1 &495707091
 GameObject:
   m_ObjectHideFlags: 0
@@ -54481,15 +54705,15 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.24705882, g: 0.27058825, b: 0.29411766, a: 1}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 0
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 10907, guid: 0000000000000000f000000000000000, type: 0}
-  m_Type: 1
+  m_Sprite: {fileID: 21300000, guid: 3e948b67329337d4194dafd5041c4cc8, type: 3}
+  m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
   m_FillMethod: 4
@@ -54497,7 +54721,7 @@ MonoBehaviour:
   m_FillClockwise: 1
   m_FillOrigin: 0
   m_UseSpriteMesh: 0
-  m_PixelsPerUnitMultiplier: 1
+  m_PixelsPerUnitMultiplier: 0.01
 --- !u!222 &606453233
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -54701,15 +54925,15 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.24705882, g: 0.27058825, b: 0.29411766, a: 1}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 10905, guid: 0000000000000000f000000000000000, type: 0}
-  m_Type: 1
+  m_Sprite: {fileID: 21300000, guid: 3e948b67329337d4194dafd5041c4cc8, type: 3}
+  m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
   m_FillMethod: 4
@@ -55332,6 +55556,126 @@ Transform:
   m_Father: {fileID: 824837582}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 228.88, z: 0}
+--- !u!1 &688505763
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 688505764}
+  - component: {fileID: 688505766}
+  - component: {fileID: 688505765}
+  - component: {fileID: 688505767}
+  m_Layer: 0
+  m_Name: InnerHotspotIcon
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &688505764
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 688505763}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 1850773696}
+  m_Father: {fileID: 391424579}
+  m_RootOrder: 19
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 46, y: 42}
+  m_SizeDelta: {x: 40, y: 40}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &688505765
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 688505763}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 21300000, guid: f78382474d930b14dadb532c5dfa7b58, type: 3}
+  m_Type: 0
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!222 &688505766
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 688505763}
+  m_CullTransparentMesh: 1
+--- !u!114 &688505767
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 688505763}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 66856e008591e4f4683da1c3a5ec0df9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  onPointerEnter:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 1850773695}
+        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+        m_MethodName: SetActive
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 1
+        m_CallState: 2
+  onPointerExit:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 1850773695}
+        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+        m_MethodName: SetActive
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!1 &688853381
 GameObject:
   m_ObjectHideFlags: 0
@@ -55453,15 +55797,15 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.24705882, g: 0.27058825, b: 0.29411766, a: 1}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 10905, guid: 0000000000000000f000000000000000, type: 0}
-  m_Type: 1
+  m_Sprite: {fileID: 21300000, guid: 3e948b67329337d4194dafd5041c4cc8, type: 3}
+  m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
   m_FillMethod: 4
@@ -79765,15 +80109,15 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.24705882, g: 0.27058825, b: 0.29411766, a: 1}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 10905, guid: 0000000000000000f000000000000000, type: 0}
-  m_Type: 1
+  m_Sprite: {fileID: 21300000, guid: 3e948b67329337d4194dafd5041c4cc8, type: 3}
+  m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
   m_FillMethod: 4
@@ -79945,7 +80289,7 @@ MonoBehaviour:
     m_PressedTrigger: Pressed
     m_SelectedTrigger: Selected
     m_DisabledTrigger: Disabled
-  m_Interactable: 1
+  m_Interactable: 0
   m_TargetGraphic: {fileID: 877321748}
   m_OnClick:
     m_PersistentCalls:
@@ -83153,15 +83497,15 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.24705882, g: 0.27058825, b: 0.29411766, a: 1}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 10905, guid: 0000000000000000f000000000000000, type: 0}
-  m_Type: 1
+  m_Sprite: {fileID: 21300000, guid: 3e948b67329337d4194dafd5041c4cc8, type: 3}
+  m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
   m_FillMethod: 4
@@ -83169,7 +83513,7 @@ MonoBehaviour:
   m_FillClockwise: 1
   m_FillOrigin: 0
   m_UseSpriteMesh: 0
-  m_PixelsPerUnitMultiplier: 1
+  m_PixelsPerUnitMultiplier: 0.01
 --- !u!222 &1092189751
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -83380,10 +83724,34 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   onToggleTurnedOn:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1658914860}
+        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+        m_MethodName: SetActive
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 1
+        m_CallState: 2
   onToggleTurnedOff:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1658914860}
+        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+        m_MethodName: SetActive
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!1 &1105267324
 GameObject:
   m_ObjectHideFlags: 0
@@ -84587,15 +84955,15 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.24705882, g: 0.27058825, b: 0.29411766, a: 1}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 10905, guid: 0000000000000000f000000000000000, type: 0}
-  m_Type: 1
+  m_Sprite: {fileID: 21300000, guid: 3e948b67329337d4194dafd5041c4cc8, type: 3}
+  m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
   m_FillMethod: 4
@@ -86480,15 +86848,15 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.24705882, g: 0.27058825, b: 0.29411766, a: 1}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 0
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 10907, guid: 0000000000000000f000000000000000, type: 0}
-  m_Type: 1
+  m_Sprite: {fileID: 21300000, guid: 3e948b67329337d4194dafd5041c4cc8, type: 3}
+  m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
   m_FillMethod: 4
@@ -86607,6 +86975,82 @@ CanvasRenderer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1319287241}
+  m_CullTransparentMesh: 1
+--- !u!1 &1350896498
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1350896499}
+  - component: {fileID: 1350896501}
+  - component: {fileID: 1350896500}
+  m_Layer: 0
+  m_Name: OuterCoreInfoCard
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!224 &1350896499
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1350896498}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 494046879}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: -310, y: -92.100006}
+  m_SizeDelta: {x: 327.6, y: 470.4}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1350896500
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1350896498}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 0
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 21300000, guid: a10e392a8bc7d1249a66bc5288943d32, type: 3}
+  m_Type: 0
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!222 &1350896501
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1350896498}
   m_CullTransparentMesh: 1
 --- !u!1 &1358963327
 GameObject:
@@ -87056,15 +87500,15 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.24705882, g: 0.27058825, b: 0.29411766, a: 1}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 10905, guid: 0000000000000000f000000000000000, type: 0}
-  m_Type: 1
+  m_Sprite: {fileID: 21300000, guid: 3e948b67329337d4194dafd5041c4cc8, type: 3}
+  m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
   m_FillMethod: 4
@@ -87607,6 +88051,82 @@ CanvasRenderer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1391465100}
+  m_CullTransparentMesh: 1
+--- !u!1 &1401443948
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1401443949}
+  - component: {fileID: 1401443951}
+  - component: {fileID: 1401443950}
+  m_Layer: 0
+  m_Name: MantleInfoCard
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!224 &1401443949
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1401443948}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1715997458}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: -254, y: -182.1}
+  m_SizeDelta: {x: 327.6, y: 470.4}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1401443950
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1401443948}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 0
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 21300000, guid: 327eea87128e68b43abbd76ad9bca3a8, type: 3}
+  m_Type: 0
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!222 &1401443951
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1401443948}
   m_CullTransparentMesh: 1
 --- !u!1 &1425841263
 GameObject:
@@ -88372,15 +88892,15 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.24705882, g: 0.27058825, b: 0.29411766, a: 1}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 10905, guid: 0000000000000000f000000000000000, type: 0}
-  m_Type: 1
+  m_Sprite: {fileID: 21300000, guid: 3e948b67329337d4194dafd5041c4cc8, type: 3}
+  m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
   m_FillMethod: 4
@@ -88843,15 +89363,15 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.24705882, g: 0.27058825, b: 0.29411766, a: 1}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 10905, guid: 0000000000000000f000000000000000, type: 0}
-  m_Type: 1
+  m_Sprite: {fileID: 21300000, guid: 3e948b67329337d4194dafd5041c4cc8, type: 3}
+  m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
   m_FillMethod: 4
@@ -112824,10 +113344,34 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   onToggleTurnedOn:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 494046878}
+        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+        m_MethodName: SetActive
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 1
+        m_CallState: 2
   onToggleTurnedOff:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 494046878}
+        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+        m_MethodName: SetActive
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!1 &1635477928
 GameObject:
   m_ObjectHideFlags: 0
@@ -113192,7 +113736,7 @@ MonoBehaviour:
     m_PressedTrigger: Pressed
     m_SelectedTrigger: Selected
     m_DisabledTrigger: Disabled
-  m_Interactable: 1
+  m_Interactable: 0
   m_TargetGraphic: {fileID: 1657916993}
   m_OnClick:
     m_PersistentCalls:
@@ -113235,6 +113779,126 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1657916990}
   m_CullTransparentMesh: 1
+--- !u!1 &1658914860
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1658914861}
+  - component: {fileID: 1658914863}
+  - component: {fileID: 1658914862}
+  - component: {fileID: 1658914864}
+  m_Layer: 0
+  m_Name: CrustHotspotIcon
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1658914861
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1658914860}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 296005149}
+  m_Father: {fileID: 391424579}
+  m_RootOrder: 16
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: -108, y: 300}
+  m_SizeDelta: {x: 40, y: 40}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1658914862
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1658914860}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 21300000, guid: f78382474d930b14dadb532c5dfa7b58, type: 3}
+  m_Type: 0
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!222 &1658914863
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1658914860}
+  m_CullTransparentMesh: 1
+--- !u!114 &1658914864
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1658914860}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 66856e008591e4f4683da1c3a5ec0df9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  onPointerEnter:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 296005148}
+        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+        m_MethodName: SetActive
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 1
+        m_CallState: 2
+  onPointerExit:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 296005148}
+        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+        m_MethodName: SetActive
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!1 &1661124946
 GameObject:
   m_ObjectHideFlags: 0
@@ -113356,15 +114020,15 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.24705882, g: 0.27058825, b: 0.29411766, a: 1}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 10905, guid: 0000000000000000f000000000000000, type: 0}
-  m_Type: 1
+  m_Sprite: {fileID: 21300000, guid: 3e948b67329337d4194dafd5041c4cc8, type: 3}
+  m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
   m_FillMethod: 4
@@ -114197,6 +114861,126 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1712303657}
   m_CullTransparentMesh: 1
+--- !u!1 &1715997457
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1715997458}
+  - component: {fileID: 1715997460}
+  - component: {fileID: 1715997459}
+  - component: {fileID: 1715997461}
+  m_Layer: 0
+  m_Name: MantleHotspotIcon
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1715997458
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1715997457}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 1401443949}
+  m_Father: {fileID: 391424579}
+  m_RootOrder: 17
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: -52, y: 223}
+  m_SizeDelta: {x: 40, y: 40}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1715997459
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1715997457}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 21300000, guid: f78382474d930b14dadb532c5dfa7b58, type: 3}
+  m_Type: 0
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!222 &1715997460
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1715997457}
+  m_CullTransparentMesh: 1
+--- !u!114 &1715997461
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1715997457}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 66856e008591e4f4683da1c3a5ec0df9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  onPointerEnter:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 1401443948}
+        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+        m_MethodName: SetActive
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 1
+        m_CallState: 2
+  onPointerExit:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 1401443948}
+        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+        m_MethodName: SetActive
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!1 &1718577614
 GameObject:
   m_ObjectHideFlags: 0
@@ -115558,6 +116342,18 @@ MonoBehaviour:
           m_FloatArgument: 0
           m_StringArgument: 
           m_BoolArgument: 1
+        m_CallState: 2
+      - m_Target: {fileID: 846923786}
+        m_TargetAssemblyTypeName: AudioManager, Assembly-CSharp
+        m_MethodName: PauseAudio
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
         m_CallState: 2
       - m_Target: {fileID: 1150527005}
         m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
@@ -142590,6 +143386,82 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1842321416}
   m_CullTransparentMesh: 1
+--- !u!1 &1850773695
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1850773696}
+  - component: {fileID: 1850773698}
+  - component: {fileID: 1850773697}
+  m_Layer: 0
+  m_Name: InnerCoreInfoCard
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!224 &1850773696
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1850773695}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 688505764}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: -352, y: -1.1000061}
+  m_SizeDelta: {x: 327.6, y: 470.4}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1850773697
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1850773695}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 0
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 21300000, guid: 35d8b9e6ccbc7024a8066b0606ef0a23, type: 3}
+  m_Type: 0
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!222 &1850773698
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1850773695}
+  m_CullTransparentMesh: 1
 --- !u!1 &1858154361
 GameObject:
   m_ObjectHideFlags: 0
@@ -143594,7 +144466,7 @@ MonoBehaviour:
     m_PressedTrigger: Pressed
     m_SelectedTrigger: Selected
     m_DisabledTrigger: Disabled
-  m_Interactable: 1
+  m_Interactable: 0
   m_TargetGraphic: {fileID: 1919832173}
   m_OnClick:
     m_PersistentCalls:
@@ -168550,10 +169422,34 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   onToggleTurnedOn:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1715997457}
+        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+        m_MethodName: SetActive
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 1
+        m_CallState: 2
   onToggleTurnedOff:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1715997457}
+        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+        m_MethodName: SetActive
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!1 &2013913715
 GameObject:
   m_ObjectHideFlags: 0
@@ -168635,15 +169531,15 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.24705882, g: 0.27058825, b: 0.29411766, a: 1}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 0
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 10907, guid: 0000000000000000f000000000000000, type: 0}
-  m_Type: 1
+  m_Sprite: {fileID: 21300000, guid: 3e948b67329337d4194dafd5041c4cc8, type: 3}
+  m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
   m_FillMethod: 4
@@ -172439,6 +173335,306 @@ PrefabInstance:
       propertyPath: paintingTextures.Array.data[15]
       value: 
       objectReference: {fileID: 0}
+    - target: {fileID: 473966377750500467, guid: 6c2f161bcd1894c409c0cc5142ed56c8, type: 3}
+      propertyPath: paintingData.Array.data[0].paintingImage
+      value: 
+      objectReference: {fileID: 21300000, guid: 09e63dfdaa1bceb409d336faabaf8705, type: 3}
+    - target: {fileID: 473966377750500467, guid: 6c2f161bcd1894c409c0cc5142ed56c8, type: 3}
+      propertyPath: paintingData.Array.data[1].paintingImage
+      value: 
+      objectReference: {fileID: 21300000, guid: 417efc4f0f302d34c9bb953edab63687, type: 3}
+    - target: {fileID: 473966377750500467, guid: 6c2f161bcd1894c409c0cc5142ed56c8, type: 3}
+      propertyPath: paintingData.Array.data[2].paintingImage
+      value: 
+      objectReference: {fileID: 21300000, guid: 981a1f3d8adce2b42bb3ee7aa0d05683, type: 3}
+    - target: {fileID: 473966377750500467, guid: 6c2f161bcd1894c409c0cc5142ed56c8, type: 3}
+      propertyPath: paintingData.Array.data[3].paintingImage
+      value: 
+      objectReference: {fileID: 21300000, guid: 0284b730ad4fe724dbb8fa10db07bdda, type: 3}
+    - target: {fileID: 473966377750500467, guid: 6c2f161bcd1894c409c0cc5142ed56c8, type: 3}
+      propertyPath: paintingData.Array.data[4].paintingImage
+      value: 
+      objectReference: {fileID: 21300000, guid: 1d4ffd26e93fc6149ae8b97c50b9f4de, type: 3}
+    - target: {fileID: 473966377750500467, guid: 6c2f161bcd1894c409c0cc5142ed56c8, type: 3}
+      propertyPath: paintingData.Array.data[5].paintingImage
+      value: 
+      objectReference: {fileID: 21300000, guid: 85b16bd741a6b4a45b85b41980bdbe96, type: 3}
+    - target: {fileID: 473966377750500467, guid: 6c2f161bcd1894c409c0cc5142ed56c8, type: 3}
+      propertyPath: paintingData.Array.data[6].paintingImage
+      value: 
+      objectReference: {fileID: 21300000, guid: 6ba21cde3f35cce49ab81d03c568a3e2, type: 3}
+    - target: {fileID: 473966377750500467, guid: 6c2f161bcd1894c409c0cc5142ed56c8, type: 3}
+      propertyPath: paintingData.Array.data[7].paintingImage
+      value: 
+      objectReference: {fileID: 21300000, guid: fd56abd21b41a6e4e96c43e3cfe3c28a, type: 3}
+    - target: {fileID: 473966377750500467, guid: 6c2f161bcd1894c409c0cc5142ed56c8, type: 3}
+      propertyPath: paintingData.Array.data[8].paintingImage
+      value: 
+      objectReference: {fileID: 21300000, guid: f8751640e0ea4e14597b4f3da65fed4d, type: 3}
+    - target: {fileID: 473966377750500467, guid: 6c2f161bcd1894c409c0cc5142ed56c8, type: 3}
+      propertyPath: paintingData.Array.data[9].paintingImage
+      value: 
+      objectReference: {fileID: 21300000, guid: be4f78dac2c4fcd49b2c1cfd1f94d5e8, type: 3}
+    - target: {fileID: 473966377750500467, guid: 6c2f161bcd1894c409c0cc5142ed56c8, type: 3}
+      propertyPath: paintingData.Array.data[10].paintingImage
+      value: 
+      objectReference: {fileID: 21300000, guid: 450a6b26c55e7da429907de385730544, type: 3}
+    - target: {fileID: 473966377750500467, guid: 6c2f161bcd1894c409c0cc5142ed56c8, type: 3}
+      propertyPath: paintingData.Array.data[11].paintingImage
+      value: 
+      objectReference: {fileID: 21300000, guid: 9072992e35916a74c89eff2d88fb447f, type: 3}
+    - target: {fileID: 473966377750500467, guid: 6c2f161bcd1894c409c0cc5142ed56c8, type: 3}
+      propertyPath: paintingData.Array.data[12].paintingImage
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 473966377750500467, guid: 6c2f161bcd1894c409c0cc5142ed56c8, type: 3}
+      propertyPath: paintingData.Array.data[13].paintingImage
+      value: 
+      objectReference: {fileID: 21300000, guid: 16251db09a5a53045a6a55ee0d3e22a8, type: 3}
+    - target: {fileID: 473966377750500467, guid: 6c2f161bcd1894c409c0cc5142ed56c8, type: 3}
+      propertyPath: paintingData.Array.data[14].paintingImage
+      value: 
+      objectReference: {fileID: 21300000, guid: 6fbbdaec48a41fc4b99f640e147806ea, type: 3}
+    - target: {fileID: 473966377750500467, guid: 6c2f161bcd1894c409c0cc5142ed56c8, type: 3}
+      propertyPath: paintingData.Array.data[15].paintingImage
+      value: 
+      objectReference: {fileID: 21300000, guid: 58d29cc378f11a840be202ceb2134803, type: 3}
+    - target: {fileID: 473966377750500467, guid: 6c2f161bcd1894c409c0cc5142ed56c8, type: 3}
+      propertyPath: paintingData.Array.data[16].paintingImage
+      value: 
+      objectReference: {fileID: 21300000, guid: f61ce8af475e57348b6e735248e51fd8, type: 3}
+    - target: {fileID: 473966377750500467, guid: 6c2f161bcd1894c409c0cc5142ed56c8, type: 3}
+      propertyPath: paintingData.Array.data[17].paintingImage
+      value: 
+      objectReference: {fileID: 21300000, guid: 6fa15666a70576f44a31054d4e2e60ac, type: 3}
+    - target: {fileID: 473966377750500467, guid: 6c2f161bcd1894c409c0cc5142ed56c8, type: 3}
+      propertyPath: paintingData.Array.data[18].paintingImage
+      value: 
+      objectReference: {fileID: 21300000, guid: 579cd050ead000f40b24d67a1b1df18c, type: 3}
+    - target: {fileID: 473966377750500467, guid: 6c2f161bcd1894c409c0cc5142ed56c8, type: 3}
+      propertyPath: paintingData.Array.data[19].paintingImage
+      value: 
+      objectReference: {fileID: 21300000, guid: 1edb399c96ec6fb49871412fe968eee5, type: 3}
+    - target: {fileID: 473966377750500467, guid: 6c2f161bcd1894c409c0cc5142ed56c8, type: 3}
+      propertyPath: paintingData.Array.data[20].paintingImage
+      value: 
+      objectReference: {fileID: 21300000, guid: 4c6efd88be513754a895eb3bc41c43d7, type: 3}
+    - target: {fileID: 473966377750500467, guid: 6c2f161bcd1894c409c0cc5142ed56c8, type: 3}
+      propertyPath: paintingData.Array.data[21].paintingImage
+      value: 
+      objectReference: {fileID: 21300000, guid: 1dd194992abc57f4f8bb821443dfc6b7, type: 3}
+    - target: {fileID: 473966377750500467, guid: 6c2f161bcd1894c409c0cc5142ed56c8, type: 3}
+      propertyPath: paintingData.Array.data[23].paintingImage
+      value: 
+      objectReference: {fileID: 21300000, guid: 891ae1bdf1c45314e8df58487f511d00, type: 3}
+    - target: {fileID: 473966377750500467, guid: 6c2f161bcd1894c409c0cc5142ed56c8, type: 3}
+      propertyPath: paintingData.Array.data[24].paintingImage
+      value: 
+      objectReference: {fileID: 21300000, guid: f5680be19114c2f4a8be9a2db6742524, type: 3}
+    - target: {fileID: 473966377750500467, guid: 6c2f161bcd1894c409c0cc5142ed56c8, type: 3}
+      propertyPath: paintingData.Array.data[25].paintingImage
+      value: 
+      objectReference: {fileID: 21300000, guid: 6f88b46405bf37f49a9db9434d7873a6, type: 3}
+    - target: {fileID: 473966377750500467, guid: 6c2f161bcd1894c409c0cc5142ed56c8, type: 3}
+      propertyPath: paintingData.Array.data[26].paintingImage
+      value: 
+      objectReference: {fileID: 21300000, guid: 45c56bf947333494493bb80a8027dea1, type: 3}
+    - target: {fileID: 473966377750500467, guid: 6c2f161bcd1894c409c0cc5142ed56c8, type: 3}
+      propertyPath: paintingData.Array.data[27].paintingImage
+      value: 
+      objectReference: {fileID: 21300000, guid: 71489e6f1f272004e9def0f9e17bb3b9, type: 3}
+    - target: {fileID: 473966377750500467, guid: 6c2f161bcd1894c409c0cc5142ed56c8, type: 3}
+      propertyPath: paintingData.Array.data[28].paintingImage
+      value: 
+      objectReference: {fileID: 21300000, guid: 9beab879cf9562c498d2b007d45ac3ee, type: 3}
+    - target: {fileID: 473966377750500467, guid: 6c2f161bcd1894c409c0cc5142ed56c8, type: 3}
+      propertyPath: paintingData.Array.data[29].paintingImage
+      value: 
+      objectReference: {fileID: 21300000, guid: 46e8ab4ad013bc648966616cae6a8a58, type: 3}
+    - target: {fileID: 473966377750500467, guid: 6c2f161bcd1894c409c0cc5142ed56c8, type: 3}
+      propertyPath: paintingData.Array.data[30].paintingImage
+      value: 
+      objectReference: {fileID: 21300000, guid: ffa32dcd89988ec4c9f2271c9e6c9f86, type: 3}
+    - target: {fileID: 473966377750500467, guid: 6c2f161bcd1894c409c0cc5142ed56c8, type: 3}
+      propertyPath: paintingData.Array.data[31].paintingImage
+      value: 
+      objectReference: {fileID: 21300000, guid: 35e24382c919da64fb609da00168cf8a, type: 3}
+    - target: {fileID: 473966377750500467, guid: 6c2f161bcd1894c409c0cc5142ed56c8, type: 3}
+      propertyPath: paintingData.Array.data[32].paintingImage
+      value: 
+      objectReference: {fileID: 21300000, guid: 5e11083647e235c458dfa7f798df5633, type: 3}
+    - target: {fileID: 473966377750500467, guid: 6c2f161bcd1894c409c0cc5142ed56c8, type: 3}
+      propertyPath: paintingData.Array.data[33].paintingImage
+      value: 
+      objectReference: {fileID: 21300000, guid: 7c7e7b377ea3128418fdbffb116e3f43, type: 3}
+    - target: {fileID: 473966377750500467, guid: 6c2f161bcd1894c409c0cc5142ed56c8, type: 3}
+      propertyPath: paintingData.Array.data[34].paintingImage
+      value: 
+      objectReference: {fileID: 21300000, guid: e5b4e6fb64b3990478350b539487b7e6, type: 3}
+    - target: {fileID: 473966377750500467, guid: 6c2f161bcd1894c409c0cc5142ed56c8, type: 3}
+      propertyPath: paintingData.Array.data[35].paintingImage
+      value: 
+      objectReference: {fileID: 21300000, guid: ae3953a7a4b1dd041ad80052fbeffe6c, type: 3}
+    - target: {fileID: 473966377750500467, guid: 6c2f161bcd1894c409c0cc5142ed56c8, type: 3}
+      propertyPath: paintingData.Array.data[36].paintingImage
+      value: 
+      objectReference: {fileID: 21300000, guid: 06d4ae498ce252541ab6a3f6af9be432, type: 3}
+    - target: {fileID: 473966377750500467, guid: 6c2f161bcd1894c409c0cc5142ed56c8, type: 3}
+      propertyPath: paintingData.Array.data[37].paintingImage
+      value: 
+      objectReference: {fileID: 21300000, guid: 79b9e6829958d8c4d8861658df16bdd5, type: 3}
+    - target: {fileID: 473966377750500467, guid: 6c2f161bcd1894c409c0cc5142ed56c8, type: 3}
+      propertyPath: paintingData.Array.data[38].paintingImage
+      value: 
+      objectReference: {fileID: 21300000, guid: d08373a9f6a64f1449dc9a86e31bf882, type: 3}
+    - target: {fileID: 473966377750500467, guid: 6c2f161bcd1894c409c0cc5142ed56c8, type: 3}
+      propertyPath: paintingData.Array.data[39].paintingImage
+      value: 
+      objectReference: {fileID: 21300000, guid: 4878e818d3b6c2d42ad3ed77d250adf1, type: 3}
+    - target: {fileID: 473966377750500467, guid: 6c2f161bcd1894c409c0cc5142ed56c8, type: 3}
+      propertyPath: paintingData.Array.data[40].paintingImage
+      value: 
+      objectReference: {fileID: 21300000, guid: 01f77bb44ad320241b8303e741b671f2, type: 3}
+    - target: {fileID: 473966377750500467, guid: 6c2f161bcd1894c409c0cc5142ed56c8, type: 3}
+      propertyPath: paintingData.Array.data[41].paintingImage
+      value: 
+      objectReference: {fileID: 21300000, guid: b5bb5ffb27149344b88ba6bc8b70c618, type: 3}
+    - target: {fileID: 473966377750500467, guid: 6c2f161bcd1894c409c0cc5142ed56c8, type: 3}
+      propertyPath: paintingData.Array.data[43].paintingImage
+      value: 
+      objectReference: {fileID: 21300000, guid: 8c6d684863da6f642b9ceb979138fae1, type: 3}
+    - target: {fileID: 473966377750500467, guid: 6c2f161bcd1894c409c0cc5142ed56c8, type: 3}
+      propertyPath: paintingData.Array.data[44].paintingImage
+      value: 
+      objectReference: {fileID: 21300000, guid: 61b200491cb04d34a9a05beb0d38c812, type: 3}
+    - target: {fileID: 473966377750500467, guid: 6c2f161bcd1894c409c0cc5142ed56c8, type: 3}
+      propertyPath: paintingData.Array.data[45].paintingImage
+      value: 
+      objectReference: {fileID: 21300000, guid: b7a6df6add9cc3f4d9a9a2442aa79036, type: 3}
+    - target: {fileID: 473966377750500467, guid: 6c2f161bcd1894c409c0cc5142ed56c8, type: 3}
+      propertyPath: paintingData.Array.data[46].paintingImage
+      value: 
+      objectReference: {fileID: 21300000, guid: 854635ba1defc1444bac32b6eeb2a6f0, type: 3}
+    - target: {fileID: 473966377750500467, guid: 6c2f161bcd1894c409c0cc5142ed56c8, type: 3}
+      propertyPath: paintingData.Array.data[47].paintingImage
+      value: 
+      objectReference: {fileID: 21300000, guid: 01bb1c487c322f14d93376811ed1fcd5, type: 3}
+    - target: {fileID: 473966377750500467, guid: 6c2f161bcd1894c409c0cc5142ed56c8, type: 3}
+      propertyPath: paintingData.Array.data[48].paintingImage
+      value: 
+      objectReference: {fileID: 21300000, guid: 38cf0912bf1975248a12555908a8e817, type: 3}
+    - target: {fileID: 473966377750500467, guid: 6c2f161bcd1894c409c0cc5142ed56c8, type: 3}
+      propertyPath: paintingData.Array.data[49].paintingImage
+      value: 
+      objectReference: {fileID: 21300000, guid: a506fbaa88be84846ba303c945eeb89a, type: 3}
+    - target: {fileID: 473966377750500467, guid: 6c2f161bcd1894c409c0cc5142ed56c8, type: 3}
+      propertyPath: paintingData.Array.data[50].paintingImage
+      value: 
+      objectReference: {fileID: 21300000, guid: 867a1178aac39014eb9c00dd87edad1e, type: 3}
+    - target: {fileID: 473966377750500467, guid: 6c2f161bcd1894c409c0cc5142ed56c8, type: 3}
+      propertyPath: paintingData.Array.data[51].paintingImage
+      value: 
+      objectReference: {fileID: 21300000, guid: 50c83d77613937c4099849f14746e45a, type: 3}
+    - target: {fileID: 473966377750500467, guid: 6c2f161bcd1894c409c0cc5142ed56c8, type: 3}
+      propertyPath: paintingData.Array.data[52].paintingImage
+      value: 
+      objectReference: {fileID: 21300000, guid: d109473597f6f6643b8ef92cf4514139, type: 3}
+    - target: {fileID: 473966377750500467, guid: 6c2f161bcd1894c409c0cc5142ed56c8, type: 3}
+      propertyPath: paintingData.Array.data[53].paintingImage
+      value: 
+      objectReference: {fileID: 21300000, guid: 89f62db659add1949bac33eb4af4e067, type: 3}
+    - target: {fileID: 473966377750500467, guid: 6c2f161bcd1894c409c0cc5142ed56c8, type: 3}
+      propertyPath: paintingData.Array.data[54].paintingImage
+      value: 
+      objectReference: {fileID: 21300000, guid: 09024fd5b6be72744b51a1f83134e7a9, type: 3}
+    - target: {fileID: 473966377750500467, guid: 6c2f161bcd1894c409c0cc5142ed56c8, type: 3}
+      propertyPath: paintingData.Array.data[55].paintingImage
+      value: 
+      objectReference: {fileID: 21300000, guid: 4f9ad701d0a4b434da4ac5316d2a4282, type: 3}
+    - target: {fileID: 473966377750500467, guid: 6c2f161bcd1894c409c0cc5142ed56c8, type: 3}
+      propertyPath: paintingData.Array.data[56].paintingImage
+      value: 
+      objectReference: {fileID: 21300000, guid: 7db840dbff70aa94fa734827b13bd757, type: 3}
+    - target: {fileID: 473966377750500467, guid: 6c2f161bcd1894c409c0cc5142ed56c8, type: 3}
+      propertyPath: paintingData.Array.data[58].paintingImage
+      value: 
+      objectReference: {fileID: 21300000, guid: b336f009103db794ab381c6bf1c16695, type: 3}
+    - target: {fileID: 473966377750500467, guid: 6c2f161bcd1894c409c0cc5142ed56c8, type: 3}
+      propertyPath: paintingData.Array.data[59].paintingImage
+      value: 
+      objectReference: {fileID: 21300000, guid: 5faea09a3a750d546bc90cdbe4d674ce, type: 3}
+    - target: {fileID: 473966377750500467, guid: 6c2f161bcd1894c409c0cc5142ed56c8, type: 3}
+      propertyPath: paintingData.Array.data[60].paintingImage
+      value: 
+      objectReference: {fileID: 21300000, guid: bcd0ab9b974d2924bae1cb92877c1680, type: 3}
+    - target: {fileID: 473966377750500467, guid: 6c2f161bcd1894c409c0cc5142ed56c8, type: 3}
+      propertyPath: paintingData.Array.data[61].paintingImage
+      value: 
+      objectReference: {fileID: 21300000, guid: 04bce84075422f14aa239628d06d47ca, type: 3}
+    - target: {fileID: 473966377750500467, guid: 6c2f161bcd1894c409c0cc5142ed56c8, type: 3}
+      propertyPath: paintingData.Array.data[62].paintingImage
+      value: 
+      objectReference: {fileID: 21300000, guid: 8c11324cc38919149925b51d5dbe4f12, type: 3}
+    - target: {fileID: 473966377750500467, guid: 6c2f161bcd1894c409c0cc5142ed56c8, type: 3}
+      propertyPath: paintingData.Array.data[63].paintingImage
+      value: 
+      objectReference: {fileID: 21300000, guid: 8aa0a9a46bdbefc4ba68e08cab5da600, type: 3}
+    - target: {fileID: 473966377750500467, guid: 6c2f161bcd1894c409c0cc5142ed56c8, type: 3}
+      propertyPath: paintingData.Array.data[64].paintingImage
+      value: 
+      objectReference: {fileID: 21300000, guid: 60b3a0b17afa5b244b867f95028d7388, type: 3}
+    - target: {fileID: 473966377750500467, guid: 6c2f161bcd1894c409c0cc5142ed56c8, type: 3}
+      propertyPath: paintingData.Array.data[65].paintingImage
+      value: 
+      objectReference: {fileID: 21300000, guid: f980bc3302901d24a89b81a8c6048133, type: 3}
+    - target: {fileID: 473966377750500467, guid: 6c2f161bcd1894c409c0cc5142ed56c8, type: 3}
+      propertyPath: paintingData.Array.data[66].paintingImage
+      value: 
+      objectReference: {fileID: 21300000, guid: 3459bcdb02092054b842a03df5ca0c58, type: 3}
+    - target: {fileID: 473966377750500467, guid: 6c2f161bcd1894c409c0cc5142ed56c8, type: 3}
+      propertyPath: paintingData.Array.data[67].paintingImage
+      value: 
+      objectReference: {fileID: 21300000, guid: 7449eb77c210fea4ebde43bd5d7c1c89, type: 3}
+    - target: {fileID: 473966377750500467, guid: 6c2f161bcd1894c409c0cc5142ed56c8, type: 3}
+      propertyPath: paintingData.Array.data[68].paintingImage
+      value: 
+      objectReference: {fileID: 21300000, guid: 7d792e8e58e5e364fae74ef9a05119c5, type: 3}
+    - target: {fileID: 473966377750500467, guid: 6c2f161bcd1894c409c0cc5142ed56c8, type: 3}
+      propertyPath: paintingData.Array.data[69].paintingImage
+      value: 
+      objectReference: {fileID: 21300000, guid: de1c4af71e4d9574c89f0fdad089b232, type: 3}
+    - target: {fileID: 473966377750500467, guid: 6c2f161bcd1894c409c0cc5142ed56c8, type: 3}
+      propertyPath: paintingData.Array.data[70].paintingImage
+      value: 
+      objectReference: {fileID: 21300000, guid: 96940b27a6e72af44bf95f4b9b4997b6, type: 3}
+    - target: {fileID: 473966377750500467, guid: 6c2f161bcd1894c409c0cc5142ed56c8, type: 3}
+      propertyPath: paintingData.Array.data[71].paintingImage
+      value: 
+      objectReference: {fileID: 21300000, guid: c69abdf5cef252f439697b60585e1492, type: 3}
+    - target: {fileID: 473966377750500467, guid: 6c2f161bcd1894c409c0cc5142ed56c8, type: 3}
+      propertyPath: paintingData.Array.data[72].paintingImage
+      value: 
+      objectReference: {fileID: 21300000, guid: cd9ad2fc3794e1944953b8813113d362, type: 3}
+    - target: {fileID: 473966377750500467, guid: 6c2f161bcd1894c409c0cc5142ed56c8, type: 3}
+      propertyPath: paintingData.Array.data[73].paintingImage
+      value: 
+      objectReference: {fileID: 21300000, guid: 0add5d380110f66408e043341fe2bd13, type: 3}
+    - target: {fileID: 473966377750500467, guid: 6c2f161bcd1894c409c0cc5142ed56c8, type: 3}
+      propertyPath: paintingData.Array.data[74].paintingImage
+      value: 
+      objectReference: {fileID: 21300000, guid: ea47be683c2075e40bcba71ea03f4d2e, type: 3}
+    - target: {fileID: 473966377750500467, guid: 6c2f161bcd1894c409c0cc5142ed56c8, type: 3}
+      propertyPath: paintingData.Array.data[75].paintingImage
+      value: 
+      objectReference: {fileID: 21300000, guid: 8662dada3e1b5034fa01ef87215f048c, type: 3}
+    - target: {fileID: 473966377750500467, guid: 6c2f161bcd1894c409c0cc5142ed56c8, type: 3}
+      propertyPath: paintingData.Array.data[76].paintingImage
+      value: 
+      objectReference: {fileID: 21300000, guid: 484d16c04abbd454e9f68e458839d95e, type: 3}
+    - target: {fileID: 473966377750500467, guid: 6c2f161bcd1894c409c0cc5142ed56c8, type: 3}
+      propertyPath: paintingData.Array.data[77].paintingImage
+      value: 
+      objectReference: {fileID: 21300000, guid: 0000c5d29dca59e438d03ed648612b5d, type: 3}
     - target: {fileID: 598813463566870029, guid: 6c2f161bcd1894c409c0cc5142ed56c8, type: 3}
       propertyPath: m_Name
       value: Screen 1b
@@ -193679,15 +194875,15 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.24705882, g: 0.27058825, b: 0.29411766, a: 1}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 0
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 10907, guid: 0000000000000000f000000000000000, type: 0}
-  m_Type: 1
+  m_Sprite: {fileID: 21300000, guid: 3e948b67329337d4194dafd5041c4cc8, type: 3}
+  m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
   m_FillMethod: 4
@@ -194426,6 +195622,10 @@ PrefabInstance:
       value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 4739063898236607701, guid: 2bbd146ed19372745a0378bea32e716f, type: 3}
+      propertyPath: artGroup.groupInfo.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 4739063898236607701, guid: 2bbd146ed19372745a0378bea32e716f, type: 3}
       propertyPath: religionSprites.Array.data[0]
       value: 
       objectReference: {fileID: 21300000, guid: cfc0165ae29ca0442b67557c6f26182e, type: 3}
@@ -194437,6 +195637,110 @@ PrefabInstance:
       propertyPath: religionSprites.Array.data[2]
       value: 
       objectReference: {fileID: 21300000, guid: fcde7075452e0614daefafa71b8a90b5, type: 3}
+    - target: {fileID: 4739063898236607701, guid: 2bbd146ed19372745a0378bea32e716f, type: 3}
+      propertyPath: artGroup.groupTitles.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 4739063898236607701, guid: 2bbd146ed19372745a0378bea32e716f, type: 3}
+      propertyPath: artGroup.groupInfo.Array.data[0]
+      value: "Group: Argentinian \r\n\nContinent: South America\r\n\nArtist: Antonio
+        Berni\r\n\nYear: 1932 CE\r\n\nMedium: Oil on canvas\r\n\nLocation: Private
+        Collection\r"
+      objectReference: {fileID: 0}
+    - target: {fileID: 4739063898236607701, guid: 2bbd146ed19372745a0378bea32e716f, type: 3}
+      propertyPath: artGroup.groupInfo.Array.data[1]
+      value: "Group: Nazca people\r\n\nContinent: South America\r\n\nArtist: Nazca
+        people\r\n\nYear: 500 BC - 500 BCE\r\n\nMedium: Geoglyphs made \nin soil\r\nLocation:
+        Nazca Desert, \nPeru\r"
+      objectReference: {fileID: 0}
+    - target: {fileID: 4739063898236607701, guid: 2bbd146ed19372745a0378bea32e716f, type: 3}
+      propertyPath: artGroup.groupInfo.Array.data[2]
+      value: "Group: Cuban\r\n\nContinent: South America\r\n\nArtist: Wifredo Lam\r\n\nYear: 
+        1965 CE\r\n\nMedium: Oil on Canvas\r\n\nLocation: Museo Nacional de \nBellas
+        Artes de La Habana\r"
+      objectReference: {fileID: 0}
+    - target: {fileID: 4739063898236607701, guid: 2bbd146ed19372745a0378bea32e716f, type: 3}
+      propertyPath: artGroup.groupSprites.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 4739063898236607701, guid: 2bbd146ed19372745a0378bea32e716f, type: 3}
+      propertyPath: artGroup.groupTitles.Array.data[0]
+      value: Landru in the Hotel
+      objectReference: {fileID: 0}
+    - target: {fileID: 4739063898236607701, guid: 2bbd146ed19372745a0378bea32e716f, type: 3}
+      propertyPath: artGroup.groupTitles.Array.data[1]
+      value: Nazca Lines
+      objectReference: {fileID: 0}
+    - target: {fileID: 4739063898236607701, guid: 2bbd146ed19372745a0378bea32e716f, type: 3}
+      propertyPath: artGroup.groupTitles.Array.data[2]
+      value: The Third World
+      objectReference: {fileID: 0}
+    - target: {fileID: 4739063898236607701, guid: 2bbd146ed19372745a0378bea32e716f, type: 3}
+      propertyPath: religionGroup.groupInfo.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 4739063898236607701, guid: 2bbd146ed19372745a0378bea32e716f, type: 3}
+      propertyPath: artGroup.groupSprites.Array.data[0]
+      value: 
+      objectReference: {fileID: 21300000, guid: 10931c494fb9d3140a08a97a6bd299f0, type: 3}
+    - target: {fileID: 4739063898236607701, guid: 2bbd146ed19372745a0378bea32e716f, type: 3}
+      propertyPath: artGroup.groupSprites.Array.data[1]
+      value: 
+      objectReference: {fileID: 21300000, guid: 44ffb0182d7ff294a86184d1a71e10b6, type: 3}
+    - target: {fileID: 4739063898236607701, guid: 2bbd146ed19372745a0378bea32e716f, type: 3}
+      propertyPath: artGroup.groupSprites.Array.data[2]
+      value: 
+      objectReference: {fileID: 21300000, guid: 2fd01d13f4967674b8f3ff2d3d9801bc, type: 3}
+    - target: {fileID: 4739063898236607701, guid: 2bbd146ed19372745a0378bea32e716f, type: 3}
+      propertyPath: religionGroup.groupTitles.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 4739063898236607701, guid: 2bbd146ed19372745a0378bea32e716f, type: 3}
+      propertyPath: religionGroup.groupInfo.Array.data[0]
+      value: "Group: Islam \r\n\nContinent: Arabic Peninsula\r\n\nArtist: Unknown
+        Artist\r\n\nYear: Medieval Persia\r\n\nMedium: Unknown\r\n\nSource: The Middle
+        Ages\r\n\nLocation: Unknown\r"
+      objectReference: {fileID: 0}
+    - target: {fileID: 4739063898236607701, guid: 2bbd146ed19372745a0378bea32e716f, type: 3}
+      propertyPath: religionGroup.groupInfo.Array.data[1]
+      value: "Group: Islam\r\n\nContinent: Arabic Peninsula\r\n\nArtist: Abraham\r\n\nYear:
+        Rebuilt in 608 AD\r\n\nMedium: Marble, Gray stone \r\n\nSource: Unknown\r\n\nLocation:
+        Mecca, Saudi \nArabia"
+      objectReference: {fileID: 0}
+    - target: {fileID: 4739063898236607701, guid: 2bbd146ed19372745a0378bea32e716f, type: 3}
+      propertyPath: religionGroup.groupInfo.Array.data[2]
+      value: "Group: Islam\r\n\nContinent: Ancient Near East\r\n\nArtist: Unknown\r\n\nYear: 
+        15th Century\r\n\nMedium: Unknown \r\n\nSource: Miraj Nama\r\n\nLocation:
+        Bibliotheque\nNationale, Paris\r"
+      objectReference: {fileID: 0}
+    - target: {fileID: 4739063898236607701, guid: 2bbd146ed19372745a0378bea32e716f, type: 3}
+      propertyPath: religionGroup.groupSprites.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 4739063898236607701, guid: 2bbd146ed19372745a0378bea32e716f, type: 3}
+      propertyPath: religionGroup.groupTitles.Array.data[0]
+      value: Muhammad leads prayer
+      objectReference: {fileID: 0}
+    - target: {fileID: 4739063898236607701, guid: 2bbd146ed19372745a0378bea32e716f, type: 3}
+      propertyPath: religionGroup.groupTitles.Array.data[1]
+      value: The Kaaba
+      objectReference: {fileID: 0}
+    - target: {fileID: 4739063898236607701, guid: 2bbd146ed19372745a0378bea32e716f, type: 3}
+      propertyPath: religionGroup.groupTitles.Array.data[2]
+      value: Muhammad visiting Paradise
+      objectReference: {fileID: 0}
+    - target: {fileID: 4739063898236607701, guid: 2bbd146ed19372745a0378bea32e716f, type: 3}
+      propertyPath: religionGroup.groupSprites.Array.data[0]
+      value: 
+      objectReference: {fileID: 21300000, guid: cfc0165ae29ca0442b67557c6f26182e, type: 3}
+    - target: {fileID: 4739063898236607701, guid: 2bbd146ed19372745a0378bea32e716f, type: 3}
+      propertyPath: religionGroup.groupSprites.Array.data[1]
+      value: 
+      objectReference: {fileID: 21300000, guid: fcde7075452e0614daefafa71b8a90b5, type: 3}
+    - target: {fileID: 4739063898236607701, guid: 2bbd146ed19372745a0378bea32e716f, type: 3}
+      propertyPath: religionGroup.groupSprites.Array.data[2]
+      value: 
+      objectReference: {fileID: 21300000, guid: 536acfd57c95e7447a60de7da273c720, type: 3}
     - target: {fileID: 4739063898236607702, guid: 2bbd146ed19372745a0378bea32e716f, type: 3}
       propertyPath: onClickedHotspot.m_PersistentCalls.m_Calls.Array.size
       value: 4
@@ -194854,6 +196158,10 @@ PrefabInstance:
       value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 5156278637227401754, guid: 2bbd146ed19372745a0378bea32e716f, type: 3}
+      propertyPath: artGroup.groupInfo.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 5156278637227401754, guid: 2bbd146ed19372745a0378bea32e716f, type: 3}
       propertyPath: religionSprites.Array.data[0]
       value: 
       objectReference: {fileID: 21300000, guid: 6601fc907817a234faea5e9f8dfddb6e, type: 3}
@@ -194865,6 +196173,128 @@ PrefabInstance:
       propertyPath: religionSprites.Array.data[2]
       value: 
       objectReference: {fileID: 21300000, guid: 4b9c9ca9b9b0a7041aaab9c00868e648, type: 3}
+    - target: {fileID: 5156278637227401754, guid: 2bbd146ed19372745a0378bea32e716f, type: 3}
+      propertyPath: artGroup.groupTitles.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 5156278637227401754, guid: 2bbd146ed19372745a0378bea32e716f, type: 3}
+      propertyPath: artGroup.groupInfo.Array.data[0]
+      value: "Group: Roman Catholic \nChurch\r\nContinent: Europe\r\n\nArtist: Hildegard
+        von \nBingen\r\nYear:  1165 CE\r\n\nMedium: Illustration\r\n\nLocation: Wiesbaden
+        State \nLibrary\r"
+      objectReference: {fileID: 0}
+    - target: {fileID: 5156278637227401754, guid: 2bbd146ed19372745a0378bea32e716f, type: 3}
+      propertyPath: artGroup.groupInfo.Array.data[1]
+      value: "Group: Italian\r\n\nContinent: Europe\r\n\nArtist: Raphael\r\n\nYear: 
+        1509\u20131511 CE\r\n\nMedium: Fresco\r\n\nLocation: Apostolic Palace, \nVatican
+        City\r"
+      objectReference: {fileID: 0}
+    - target: {fileID: 5156278637227401754, guid: 2bbd146ed19372745a0378bea32e716f, type: 3}
+      propertyPath: artGroup.groupInfo.Array.data[2]
+      value: "Group:  N/A\r\n\nContinent: Europe\r\n\nArtist: Gustav Klim\r\n\nYear: 
+        1907 - 1908 CE\r\n\nMedium: Oil on canvas\r\n\nLocation: \xD6sterreichische
+        \nGalerie Belvedere, Vienna, \nAustria\r"
+      objectReference: {fileID: 0}
+    - target: {fileID: 5156278637227401754, guid: 2bbd146ed19372745a0378bea32e716f, type: 3}
+      propertyPath: artGroup.groupSprites.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 5156278637227401754, guid: 2bbd146ed19372745a0378bea32e716f, type: 3}
+      propertyPath: artGroup.groupTitles.Array.data[0]
+      value: Cosmic Egg
+      objectReference: {fileID: 0}
+    - target: {fileID: 5156278637227401754, guid: 2bbd146ed19372745a0378bea32e716f, type: 3}
+      propertyPath: artGroup.groupTitles.Array.data[1]
+      value: The School of Athens
+      objectReference: {fileID: 0}
+    - target: {fileID: 5156278637227401754, guid: 2bbd146ed19372745a0378bea32e716f, type: 3}
+      propertyPath: artGroup.groupTitles.Array.data[2]
+      value: The Kiss
+      objectReference: {fileID: 0}
+    - target: {fileID: 5156278637227401754, guid: 2bbd146ed19372745a0378bea32e716f, type: 3}
+      propertyPath: religionGroup.groupInfo.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 5156278637227401754, guid: 2bbd146ed19372745a0378bea32e716f, type: 3}
+      propertyPath: artGroup.groupSprites.Array.data[0]
+      value: 
+      objectReference: {fileID: 21300000, guid: 1fbc369e82bfc80499a0f0115886d897, type: 3}
+    - target: {fileID: 5156278637227401754, guid: 2bbd146ed19372745a0378bea32e716f, type: 3}
+      propertyPath: artGroup.groupSprites.Array.data[1]
+      value: 
+      objectReference: {fileID: 21300000, guid: b8c7d0b7473ac7f4183fa75baf50fd1a, type: 3}
+    - target: {fileID: 5156278637227401754, guid: 2bbd146ed19372745a0378bea32e716f, type: 3}
+      propertyPath: artGroup.groupSprites.Array.data[2]
+      value: 
+      objectReference: {fileID: 21300000, guid: 024f853584697954f802c2c114825c36, type: 3}
+    - target: {fileID: 5156278637227401754, guid: 2bbd146ed19372745a0378bea32e716f, type: 3}
+      propertyPath: religionGroup.groupTitles.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 5156278637227401754, guid: 2bbd146ed19372745a0378bea32e716f, type: 3}
+      propertyPath: religionGroup.groupInfo.Array.data[0]
+      value: "Group: Judaism\r\n\nContinent: Ancient Near East\r\n\nArtist: Matth\xE4us
+        Merian\r\n\nYear: Before 1650 AD\r\n\nMedium: Illustration\r\n\nSource: Book
+        of Ezekiel\r\n\nLocation: Neo-Babylonian Empire\r\r\n"
+      objectReference: {fileID: 0}
+    - target: {fileID: 5156278637227401754, guid: 2bbd146ed19372745a0378bea32e716f, type: 3}
+      propertyPath: religionGroup.groupInfo.Array.data[1]
+      value: "Group: Judaism\r\n\nContinent: Ancient Near East\r\n\nArtist: Gustave
+        Dor\xE9\r\n\nYear: 1866 AD\r\n\nMedium: Illustration\r\n\nSource: Book of
+        Exodus\r\n\nLocation: Mount Sinai\r"
+      objectReference: {fileID: 0}
+    - target: {fileID: 5156278637227401754, guid: 2bbd146ed19372745a0378bea32e716f, type: 3}
+      propertyPath: religionGroup.groupInfo.Array.data[2]
+      value: 'Group: Judaism
+
+
+        Continent: Ancient Near East
+
+
+        Artist:
+        Benjamin West
+
+
+        Year: 1800 AD
+
+
+        Medium: Oil on wood
+
+
+        Source:
+        Book of Joshua
+
+
+        Location: River Jordan'
+      objectReference: {fileID: 0}
+    - target: {fileID: 5156278637227401754, guid: 2bbd146ed19372745a0378bea32e716f, type: 3}
+      propertyPath: religionGroup.groupSprites.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 5156278637227401754, guid: 2bbd146ed19372745a0378bea32e716f, type: 3}
+      propertyPath: religionGroup.groupTitles.Array.data[0]
+      value: "Ezekiel\u2019s Vision"
+      objectReference: {fileID: 0}
+    - target: {fileID: 5156278637227401754, guid: 2bbd146ed19372745a0378bea32e716f, type: 3}
+      propertyPath: religionGroup.groupTitles.Array.data[1]
+      value: 10 Commandments
+      objectReference: {fileID: 0}
+    - target: {fileID: 5156278637227401754, guid: 2bbd146ed19372745a0378bea32e716f, type: 3}
+      propertyPath: religionGroup.groupTitles.Array.data[2]
+      value: Ark of the Covenant
+      objectReference: {fileID: 0}
+    - target: {fileID: 5156278637227401754, guid: 2bbd146ed19372745a0378bea32e716f, type: 3}
+      propertyPath: religionGroup.groupSprites.Array.data[0]
+      value: 
+      objectReference: {fileID: 21300000, guid: 4b9c9ca9b9b0a7041aaab9c00868e648, type: 3}
+    - target: {fileID: 5156278637227401754, guid: 2bbd146ed19372745a0378bea32e716f, type: 3}
+      propertyPath: religionGroup.groupSprites.Array.data[1]
+      value: 
+      objectReference: {fileID: 21300000, guid: 6601fc907817a234faea5e9f8dfddb6e, type: 3}
+    - target: {fileID: 5156278637227401754, guid: 2bbd146ed19372745a0378bea32e716f, type: 3}
+      propertyPath: religionGroup.groupSprites.Array.data[2]
+      value: 
+      objectReference: {fileID: 21300000, guid: fd96bf89e0993d648b81ea642538263d, type: 3}
     - target: {fileID: 5156278637227401755, guid: 2bbd146ed19372745a0378bea32e716f, type: 3}
       propertyPath: onClickedHotspot.m_PersistentCalls.m_Calls.Array.size
       value: 4
@@ -195282,6 +196712,10 @@ PrefabInstance:
       value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 5770281399583122736, guid: 2bbd146ed19372745a0378bea32e716f, type: 3}
+      propertyPath: artGroup.groupInfo.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 5770281399583122736, guid: 2bbd146ed19372745a0378bea32e716f, type: 3}
       propertyPath: religionSprites.Array.data[0]
       value: 
       objectReference: {fileID: 21300000, guid: e64dfe12b66d4324bb1539be531f0e08, type: 3}
@@ -195291,6 +196725,108 @@ PrefabInstance:
       objectReference: {fileID: 21300000, guid: 203c69bcbaef89f4a866a099b5186f91, type: 3}
     - target: {fileID: 5770281399583122736, guid: 2bbd146ed19372745a0378bea32e716f, type: 3}
       propertyPath: religionSprites.Array.data[2]
+      value: 
+      objectReference: {fileID: 21300000, guid: a0e1a394d8e5b61499507a382eb9faf9, type: 3}
+    - target: {fileID: 5770281399583122736, guid: 2bbd146ed19372745a0378bea32e716f, type: 3}
+      propertyPath: artGroup.groupTitles.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 5770281399583122736, guid: 2bbd146ed19372745a0378bea32e716f, type: 3}
+      propertyPath: artGroup.groupInfo.Array.data[0]
+      value: "Group: Aboriginals  \r\n\nContinent: Australia \r\n\nArtist: Barnaby
+        and Ray Norris\r\n\nYear: Approx. 2007\r\n\nMedium: Photograph \r\n\nLocation:
+        N/A\r"
+      objectReference: {fileID: 0}
+    - target: {fileID: 5770281399583122736, guid: 2bbd146ed19372745a0378bea32e716f, type: 3}
+      propertyPath: artGroup.groupInfo.Array.data[1]
+      value: "Group: Aboriginals \r\n\nContinent: Australia\r\n\nArtist: Belanjee\r\n\nYear:
+        Unknown\r\n\nMedium: Acrylic on canvas\r\n\nLocation: N/A\r"
+      objectReference: {fileID: 0}
+    - target: {fileID: 5770281399583122736, guid: 2bbd146ed19372745a0378bea32e716f, type: 3}
+      propertyPath: artGroup.groupInfo.Array.data[2]
+      value: "Group: Aboriginal\r\n\nContinent: Australia\r\n\nArtist: Belanjee\r\n\nYear:
+        Unknown \r\n\nMedium: Ochre on paper\r\n\nLocation: Unknown"
+      objectReference: {fileID: 0}
+    - target: {fileID: 5770281399583122736, guid: 2bbd146ed19372745a0378bea32e716f, type: 3}
+      propertyPath: artGroup.groupSprites.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 5770281399583122736, guid: 2bbd146ed19372745a0378bea32e716f, type: 3}
+      propertyPath: artGroup.groupTitles.Array.data[0]
+      value: Emu in the Sky
+      objectReference: {fileID: 0}
+    - target: {fileID: 5770281399583122736, guid: 2bbd146ed19372745a0378bea32e716f, type: 3}
+      propertyPath: artGroup.groupTitles.Array.data[1]
+      value: Untitled
+      objectReference: {fileID: 0}
+    - target: {fileID: 5770281399583122736, guid: 2bbd146ed19372745a0378bea32e716f, type: 3}
+      propertyPath: artGroup.groupTitles.Array.data[2]
+      value: Gunyalungalung
+      objectReference: {fileID: 0}
+    - target: {fileID: 5770281399583122736, guid: 2bbd146ed19372745a0378bea32e716f, type: 3}
+      propertyPath: religionGroup.groupInfo.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 5770281399583122736, guid: 2bbd146ed19372745a0378bea32e716f, type: 3}
+      propertyPath: artGroup.groupSprites.Array.data[0]
+      value: 
+      objectReference: {fileID: 21300000, guid: c02de874cfaefa749a111dec927ec501, type: 3}
+    - target: {fileID: 5770281399583122736, guid: 2bbd146ed19372745a0378bea32e716f, type: 3}
+      propertyPath: artGroup.groupSprites.Array.data[1]
+      value: 
+      objectReference: {fileID: 21300000, guid: 39be3a81e6087754bbc58e326a40d221, type: 3}
+    - target: {fileID: 5770281399583122736, guid: 2bbd146ed19372745a0378bea32e716f, type: 3}
+      propertyPath: artGroup.groupSprites.Array.data[2]
+      value: 
+      objectReference: {fileID: 21300000, guid: 93318040e70f54b4d96da6bd2e6e3fb4, type: 3}
+    - target: {fileID: 5770281399583122736, guid: 2bbd146ed19372745a0378bea32e716f, type: 3}
+      propertyPath: religionGroup.groupTitles.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 5770281399583122736, guid: 2bbd146ed19372745a0378bea32e716f, type: 3}
+      propertyPath: religionGroup.groupInfo.Array.data[0]
+      value: "Group: Jainism\r\n\nContinent: Indian subcontinent\r\n\nArtist: Unknown\r\n\nYear:
+        1850 AD\r\n\nMedium: Unknown\r\n\nSource: Jain Miniature Painting\r\n\nLocation:
+        Japiur, Rajasthan, India\r"
+      objectReference: {fileID: 0}
+    - target: {fileID: 5770281399583122736, guid: 2bbd146ed19372745a0378bea32e716f, type: 3}
+      propertyPath: religionGroup.groupInfo.Array.data[1]
+      value: "Group: Tibetan Buddhism \r\n\nContinent: Indian subcontinent\r\n\nArtist:
+        Unknown\r\n\nYear: 18th Century\r\n\nMedium: Pigments on cloth\r\n\nSource:
+        Kyi Monastery\r\n\nLocation: Tibet\r"
+      objectReference: {fileID: 0}
+    - target: {fileID: 5770281399583122736, guid: 2bbd146ed19372745a0378bea32e716f, type: 3}
+      propertyPath: religionGroup.groupInfo.Array.data[2]
+      value: "Group: Buddhism\r\n\nContinent: Indian subcontinent\r\n\nArtist: Unknown\r\n\nYear:
+        Unknown\r\n\nMedium: Unknown\r\n\nSource: P\u0101li Canon\r\n\nLocation:
+        Unknown\r"
+      objectReference: {fileID: 0}
+    - target: {fileID: 5770281399583122736, guid: 2bbd146ed19372745a0378bea32e716f, type: 3}
+      propertyPath: religionGroup.groupSprites.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 5770281399583122736, guid: 2bbd146ed19372745a0378bea32e716f, type: 3}
+      propertyPath: religionGroup.groupTitles.Array.data[0]
+      value: 24 Tirthankaras
+      objectReference: {fileID: 0}
+    - target: {fileID: 5770281399583122736, guid: 2bbd146ed19372745a0378bea32e716f, type: 3}
+      propertyPath: religionGroup.groupTitles.Array.data[1]
+      value: Tsongkhapa Thangka
+      objectReference: {fileID: 0}
+    - target: {fileID: 5770281399583122736, guid: 2bbd146ed19372745a0378bea32e716f, type: 3}
+      propertyPath: religionGroup.groupTitles.Array.data[2]
+      value: "Siddh\u0101rtha Guatama"
+      objectReference: {fileID: 0}
+    - target: {fileID: 5770281399583122736, guid: 2bbd146ed19372745a0378bea32e716f, type: 3}
+      propertyPath: religionGroup.groupSprites.Array.data[0]
+      value: 
+      objectReference: {fileID: 21300000, guid: e64dfe12b66d4324bb1539be531f0e08, type: 3}
+    - target: {fileID: 5770281399583122736, guid: 2bbd146ed19372745a0378bea32e716f, type: 3}
+      propertyPath: religionGroup.groupSprites.Array.data[1]
+      value: 
+      objectReference: {fileID: 21300000, guid: 203c69bcbaef89f4a866a099b5186f91, type: 3}
+    - target: {fileID: 5770281399583122736, guid: 2bbd146ed19372745a0378bea32e716f, type: 3}
+      propertyPath: religionGroup.groupSprites.Array.data[2]
       value: 
       objectReference: {fileID: 21300000, guid: a0e1a394d8e5b61499507a382eb9faf9, type: 3}
     - target: {fileID: 5770281399583122737, guid: 2bbd146ed19372745a0378bea32e716f, type: 3}
@@ -195658,7 +197194,6 @@ PrefabInstance:
         Location:
         National Gallery of
 
-
         Canada'
       objectReference: {fileID: 0}
     - target: {fileID: 7182864700339708598, guid: 2bbd146ed19372745a0378bea32e716f, type: 3}
@@ -195682,7 +197217,6 @@ PrefabInstance:
         Location:
         School of The Art
 
-
         Institute of Chicago'
       objectReference: {fileID: 0}
     - target: {fileID: 7182864700339708598, guid: 2bbd146ed19372745a0378bea32e716f, type: 3}
@@ -195705,7 +197239,6 @@ PrefabInstance:
 
         Location:
         Museo de Arte
-
 
         Moderno, Mexico City'
       objectReference: {fileID: 0}
@@ -195788,7 +197321,6 @@ PrefabInstance:
 
         Location: Church of Santa Maria
 
-
         della
         Vittoria, Rome'
       objectReference: {fileID: 0}
@@ -195796,7 +197328,7 @@ PrefabInstance:
       propertyPath: religionGroup.groupInfo.Array.data[1]
       value: "Group: Christianity\n\nContinent: N/A\n\nArtist: Rembrandt\n\nYear:
         1631 AD\n\nMedium: Oil on canvas\n\nSource: Gospel of Matthew \nand Luke\nLocation:
-        Leiden or Amsterdam\n\nNetherlands"
+        Leiden or Amsterdam\nNetherlands"
       objectReference: {fileID: 0}
     - target: {fileID: 7182864700339708598, guid: 2bbd146ed19372745a0378bea32e716f, type: 3}
       propertyPath: religionGroup.groupInfo.Array.data[2]
@@ -196241,6 +197773,10 @@ PrefabInstance:
       value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 7435771508810365855, guid: 2bbd146ed19372745a0378bea32e716f, type: 3}
+      propertyPath: artGroup.groupInfo.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 7435771508810365855, guid: 2bbd146ed19372745a0378bea32e716f, type: 3}
       propertyPath: religionSprites.Array.data[0]
       value: 
       objectReference: {fileID: 21300000, guid: 48f52a9485ed57e4fb64d9343a2e8668, type: 3}
@@ -196252,6 +197788,127 @@ PrefabInstance:
       propertyPath: religionSprites.Array.data[2]
       value: 
       objectReference: {fileID: 21300000, guid: 48b973f5b51360344be8e7e7fb5775b6, type: 3}
+    - target: {fileID: 7435771508810365855, guid: 2bbd146ed19372745a0378bea32e716f, type: 3}
+      propertyPath: artGroup.groupTitles.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 7435771508810365855, guid: 2bbd146ed19372745a0378bea32e716f, type: 3}
+      propertyPath: artGroup.groupInfo.Array.data[0]
+      value: "Group: Qing dynasty\r\n\nContinent: Asia\r\n\nArtist: Wang Yuanqi\r\n\nYear:
+        1711 CE\r\n\nMedium: Handscroll, ink\r\n\nLocation: Shaanxi province, China\r"
+      objectReference: {fileID: 0}
+    - target: {fileID: 7435771508810365855, guid: 2bbd146ed19372745a0378bea32e716f, type: 3}
+      propertyPath: artGroup.groupInfo.Array.data[1]
+      value: "Group: Japanese \r\n\nContinent: Asia\r\n\nArtist: Katsushika Hokusai\r\n\nYear:
+        1830\u20131832 CE\r\n\nMedium: Woodblock print\r\n\nLocation: Museums worlwide\r"
+      objectReference: {fileID: 0}
+    - target: {fileID: 7435771508810365855, guid: 2bbd146ed19372745a0378bea32e716f, type: 3}
+      propertyPath: artGroup.groupInfo.Array.data[2]
+      value: "Group: Cirebonese\r\n\nContinent: Asia\r\n\nArtist: A King of the Pajajaran
+        Kingdom\r\n\nYear: 923-1428 CE\r\n\nMedium: Paint on cloth\r\n\nLocation:
+        Cirebon, Indonesia \r"
+      objectReference: {fileID: 0}
+    - target: {fileID: 7435771508810365855, guid: 2bbd146ed19372745a0378bea32e716f, type: 3}
+      propertyPath: artGroup.groupSprites.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 7435771508810365855, guid: 2bbd146ed19372745a0378bea32e716f, type: 3}
+      propertyPath: artGroup.groupTitles.Array.data[0]
+      value: Wangchaun Villa
+      objectReference: {fileID: 0}
+    - target: {fileID: 7435771508810365855, guid: 2bbd146ed19372745a0378bea32e716f, type: 3}
+      propertyPath: artGroup.groupTitles.Array.data[1]
+      value: Fine Wind, Clear Morning
+      objectReference: {fileID: 0}
+    - target: {fileID: 7435771508810365855, guid: 2bbd146ed19372745a0378bea32e716f, type: 3}
+      propertyPath: artGroup.groupTitles.Array.data[2]
+      value: Mega Mendung
+      objectReference: {fileID: 0}
+    - target: {fileID: 7435771508810365855, guid: 2bbd146ed19372745a0378bea32e716f, type: 3}
+      propertyPath: religionGroup.groupInfo.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 7435771508810365855, guid: 2bbd146ed19372745a0378bea32e716f, type: 3}
+      propertyPath: artGroup.groupSprites.Array.data[0]
+      value: 
+      objectReference: {fileID: 21300000, guid: e48d866ab422eab44aeb3d8eaf75bf99, type: 3}
+    - target: {fileID: 7435771508810365855, guid: 2bbd146ed19372745a0378bea32e716f, type: 3}
+      propertyPath: artGroup.groupSprites.Array.data[1]
+      value: 
+      objectReference: {fileID: 21300000, guid: e0ff7ef5699f32e4db05c2d14295f5c0, type: 3}
+    - target: {fileID: 7435771508810365855, guid: 2bbd146ed19372745a0378bea32e716f, type: 3}
+      propertyPath: artGroup.groupSprites.Array.data[2]
+      value: 
+      objectReference: {fileID: 21300000, guid: 9bcdcd1d1eada7140a366d204fdc4da8, type: 3}
+    - target: {fileID: 7435771508810365855, guid: 2bbd146ed19372745a0378bea32e716f, type: 3}
+      propertyPath: religionGroup.groupTitles.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 7435771508810365855, guid: 2bbd146ed19372745a0378bea32e716f, type: 3}
+      propertyPath: religionGroup.groupInfo.Array.data[0]
+      value: "Group: Hinduism/Sikhism\r\n\nContinent: Indian subcontinent\r\n\nArtist:
+        Unknown\r\n\nYear:  Unknown\r\n\nMedium: Unknown\r\n\nSource: Vishnu Purana\r\n\nLocation:
+        Mathura, Northern India\r"
+      objectReference: {fileID: 0}
+    - target: {fileID: 7435771508810365855, guid: 2bbd146ed19372745a0378bea32e716f, type: 3}
+      propertyPath: religionGroup.groupInfo.Array.data[1]
+      value: 'Group: Hinduism/Sikhism
+
+
+        Continent: Asia
+
+
+        Artist:
+        N/A
+
+
+        Year: 5th or 6th century AD
+
+
+        Medium: N/A
+
+
+        Source:
+        Tevaram and Thiruvasagam
+
+
+        Location: Southern India
+
+'
+      objectReference: {fileID: 0}
+    - target: {fileID: 7435771508810365855, guid: 2bbd146ed19372745a0378bea32e716f, type: 3}
+      propertyPath: religionGroup.groupInfo.Array.data[2]
+      value: "Group: Hinduism/Sikhism\r\n\nContinent: Asia\r\n\nArtist: N/A\r\n\nYear:
+        1 AD\r\n\nMedium: N/A\r\n\nSource: Gatha Saptasati\r\n\nLocation: India\r"
+      objectReference: {fileID: 0}
+    - target: {fileID: 7435771508810365855, guid: 2bbd146ed19372745a0378bea32e716f, type: 3}
+      propertyPath: religionGroup.groupSprites.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 7435771508810365855, guid: 2bbd146ed19372745a0378bea32e716f, type: 3}
+      propertyPath: religionGroup.groupTitles.Array.data[0]
+      value: Birth of Krishna
+      objectReference: {fileID: 0}
+    - target: {fileID: 7435771508810365855, guid: 2bbd146ed19372745a0378bea32e716f, type: 3}
+      propertyPath: religionGroup.groupTitles.Array.data[1]
+      value: Dancing Shiva
+      objectReference: {fileID: 0}
+    - target: {fileID: 7435771508810365855, guid: 2bbd146ed19372745a0378bea32e716f, type: 3}
+      propertyPath: religionGroup.groupTitles.Array.data[2]
+      value: Radha & Krishna
+      objectReference: {fileID: 0}
+    - target: {fileID: 7435771508810365855, guid: 2bbd146ed19372745a0378bea32e716f, type: 3}
+      propertyPath: religionGroup.groupSprites.Array.data[0]
+      value: 
+      objectReference: {fileID: 21300000, guid: 48f52a9485ed57e4fb64d9343a2e8668, type: 3}
+    - target: {fileID: 7435771508810365855, guid: 2bbd146ed19372745a0378bea32e716f, type: 3}
+      propertyPath: religionGroup.groupSprites.Array.data[1]
+      value: 
+      objectReference: {fileID: 21300000, guid: 48b973f5b51360344be8e7e7fb5775b6, type: 3}
+    - target: {fileID: 7435771508810365855, guid: 2bbd146ed19372745a0378bea32e716f, type: 3}
+      propertyPath: religionGroup.groupSprites.Array.data[2]
+      value: 
+      objectReference: {fileID: 21300000, guid: 8a0a280b758f7a04a8af94ad8e46e0de, type: 3}
     - target: {fileID: 7443717213683155545, guid: 2bbd146ed19372745a0378bea32e716f, type: 3}
       propertyPath: artSprites.Array.size
       value: 1
@@ -196357,6 +198014,10 @@ PrefabInstance:
       value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 7546480087865658900, guid: 2bbd146ed19372745a0378bea32e716f, type: 3}
+      propertyPath: artGroup.groupInfo.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 7546480087865658900, guid: 2bbd146ed19372745a0378bea32e716f, type: 3}
       propertyPath: religionSprites.Array.data[0]
       value: 
       objectReference: {fileID: 21300000, guid: cdd283ec81304ac4782959dfcb33cf53, type: 3}
@@ -196368,6 +198029,109 @@ PrefabInstance:
       propertyPath: religionSprites.Array.data[2]
       value: 
       objectReference: {fileID: 21300000, guid: bdfd15462a5339542ac64572a21be75e, type: 3}
+    - target: {fileID: 7546480087865658900, guid: 2bbd146ed19372745a0378bea32e716f, type: 3}
+      propertyPath: artGroup.groupTitles.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 7546480087865658900, guid: 2bbd146ed19372745a0378bea32e716f, type: 3}
+      propertyPath: artGroup.groupInfo.Array.data[0]
+      value: "Group:  Sandawe people\r\n\nContinent: Africa\r\n\nArtist: Ancestors
+        of the\nSandawe people\r\nYear: 19,000-30,000 \nyears ago\r\nMedium: Painting
+        on rock\r\n\nLocation: Tanzania\r\n"
+      objectReference: {fileID: 0}
+    - target: {fileID: 7546480087865658900, guid: 2bbd146ed19372745a0378bea32e716f, type: 3}
+      propertyPath: artGroup.groupInfo.Array.data[1]
+      value: "Group: Kongo people\r\n\nContinent: Africa\r\n\nArtist: Kongo artist\r\n\nYear: 
+        19th Century  \r\n\nMedium: Wood and mixed \nmedia\r\nLocation: Republic
+        of the\nKongo"
+      objectReference: {fileID: 0}
+    - target: {fileID: 7546480087865658900, guid: 2bbd146ed19372745a0378bea32e716f, type: 3}
+      propertyPath: artGroup.groupInfo.Array.data[2]
+      value: "Group: Mali Culture\r\n\nContinent: Africa\r\n\nArtist: woven by Mali
+        men, \ndyed by Mali women \nYear: 12th century   \r\n\nMedium: Mud painted
+        cloth\r\n\nLocation: San, Mali\r"
+      objectReference: {fileID: 0}
+    - target: {fileID: 7546480087865658900, guid: 2bbd146ed19372745a0378bea32e716f, type: 3}
+      propertyPath: artGroup.groupSprites.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 7546480087865658900, guid: 2bbd146ed19372745a0378bea32e716f, type: 3}
+      propertyPath: artGroup.groupTitles.Array.data[0]
+      value: Kolo-Kondoa Rock Painting
+      objectReference: {fileID: 0}
+    - target: {fileID: 7546480087865658900, guid: 2bbd146ed19372745a0378bea32e716f, type: 3}
+      propertyPath: artGroup.groupTitles.Array.data[1]
+      value: Power Figure
+      objectReference: {fileID: 0}
+    - target: {fileID: 7546480087865658900, guid: 2bbd146ed19372745a0378bea32e716f, type: 3}
+      propertyPath: artGroup.groupTitles.Array.data[2]
+      value: "B\xF2g\xF2lanfini"
+      objectReference: {fileID: 0}
+    - target: {fileID: 7546480087865658900, guid: 2bbd146ed19372745a0378bea32e716f, type: 3}
+      propertyPath: religionGroup.groupInfo.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 7546480087865658900, guid: 2bbd146ed19372745a0378bea32e716f, type: 3}
+      propertyPath: artGroup.groupSprites.Array.data[0]
+      value: 
+      objectReference: {fileID: 21300000, guid: 3d796558568ea4b47bcbe325117e6440, type: 3}
+    - target: {fileID: 7546480087865658900, guid: 2bbd146ed19372745a0378bea32e716f, type: 3}
+      propertyPath: artGroup.groupSprites.Array.data[1]
+      value: 
+      objectReference: {fileID: 21300000, guid: eae884e0985cd3c49ba955732d2745f6, type: 3}
+    - target: {fileID: 7546480087865658900, guid: 2bbd146ed19372745a0378bea32e716f, type: 3}
+      propertyPath: artGroup.groupSprites.Array.data[2]
+      value: 
+      objectReference: {fileID: 21300000, guid: 64f8a364c2751bc46a468405eb657a0f, type: 3}
+    - target: {fileID: 7546480087865658900, guid: 2bbd146ed19372745a0378bea32e716f, type: 3}
+      propertyPath: religionGroup.groupTitles.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 7546480087865658900, guid: 2bbd146ed19372745a0378bea32e716f, type: 3}
+      propertyPath: religionGroup.groupInfo.Array.data[0]
+      value: "Group: Indigenous \r\n\nContinent: North America\r\n\nArtist: Hunter-gatherers\r\n\nYear: 
+        2500 BC - 500 AD\r\n\nMedium: Cliff walls \r\n\nLocation: Lower Pecos \nCanyonlands\r"
+      objectReference: {fileID: 0}
+    - target: {fileID: 7546480087865658900, guid: 2bbd146ed19372745a0378bea32e716f, type: 3}
+      propertyPath: religionGroup.groupInfo.Array.data[1]
+      value: "Group: Indigenous \r\n\nContinent: North America\r\n\nArtist: Johnny
+        Kit Elswa\r\n\nYear: 1883 AD\r\n\nMedium: Painting\r\n\nSource: N/A\r\n\nLocation:
+        Pacific North \nWestern Mountains, US\r"
+      objectReference: {fileID: 0}
+    - target: {fileID: 7546480087865658900, guid: 2bbd146ed19372745a0378bea32e716f, type: 3}
+      propertyPath: religionGroup.groupInfo.Array.data[2]
+      value: "Group: Aboriginal \r\n\nContinent: Australia\r\n\nArtist: David Wroth\r\n\nYear:
+        2015 AD\r\n\nMedium: Painting\r\n\nSource: The Dreaming myth\r\n\nLocation:
+        Japingka Gallery\r"
+      objectReference: {fileID: 0}
+    - target: {fileID: 7546480087865658900, guid: 2bbd146ed19372745a0378bea32e716f, type: 3}
+      propertyPath: religionGroup.groupSprites.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 7546480087865658900, guid: 2bbd146ed19372745a0378bea32e716f, type: 3}
+      propertyPath: religionGroup.groupTitles.Array.data[0]
+      value: White Shaman Mural
+      objectReference: {fileID: 0}
+    - target: {fileID: 7546480087865658900, guid: 2bbd146ed19372745a0378bea32e716f, type: 3}
+      propertyPath: religionGroup.groupTitles.Array.data[1]
+      value: Thunderbird
+      objectReference: {fileID: 0}
+    - target: {fileID: 7546480087865658900, guid: 2bbd146ed19372745a0378bea32e716f, type: 3}
+      propertyPath: religionGroup.groupTitles.Array.data[2]
+      value: The Star Dreaming
+      objectReference: {fileID: 0}
+    - target: {fileID: 7546480087865658900, guid: 2bbd146ed19372745a0378bea32e716f, type: 3}
+      propertyPath: religionGroup.groupSprites.Array.data[0]
+      value: 
+      objectReference: {fileID: 21300000, guid: c393dfcd2c4f8ff4898df95b2205d403, type: 3}
+    - target: {fileID: 7546480087865658900, guid: 2bbd146ed19372745a0378bea32e716f, type: 3}
+      propertyPath: religionGroup.groupSprites.Array.data[1]
+      value: 
+      objectReference: {fileID: 21300000, guid: bdfd15462a5339542ac64572a21be75e, type: 3}
+    - target: {fileID: 7546480087865658900, guid: 2bbd146ed19372745a0378bea32e716f, type: 3}
+      propertyPath: religionGroup.groupSprites.Array.data[2]
+      value: 
+      objectReference: {fileID: 21300000, guid: cdd283ec81304ac4782959dfcb33cf53, type: 3}
     - target: {fileID: 7546480087865658901, guid: 2bbd146ed19372745a0378bea32e716f, type: 3}
       propertyPath: onClickedHotspot.m_PersistentCalls.m_Calls.Array.size
       value: 4
@@ -196693,6 +198457,10 @@ PrefabInstance:
       value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 8780917968360475510, guid: 2bbd146ed19372745a0378bea32e716f, type: 3}
+      propertyPath: artGroup.groupInfo.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 8780917968360475510, guid: 2bbd146ed19372745a0378bea32e716f, type: 3}
       propertyPath: religionSprites.Array.data[0]
       value: 
       objectReference: {fileID: 21300000, guid: db162aed7b6dc66478875b633ed45381, type: 3}
@@ -196704,6 +198472,110 @@ PrefabInstance:
       propertyPath: religionSprites.Array.data[2]
       value: 
       objectReference: {fileID: 21300000, guid: eef72bc6f9f934c44884d3e5658c065a, type: 3}
+    - target: {fileID: 8780917968360475510, guid: 2bbd146ed19372745a0378bea32e716f, type: 3}
+      propertyPath: artGroup.groupTitles.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 8780917968360475510, guid: 2bbd146ed19372745a0378bea32e716f, type: 3}
+      propertyPath: artGroup.groupInfo.Array.data[0]
+      value: "Group: Inuit\r\n\nContinent: Antartica/Polar \nRegion\r\nArtist: Kenojuak
+        Ashevak\r\n\nYear: 1960 CE\r\n\nMedium: Stone cut on paper\r\n\nLocation:
+        Ikirisaq, Northwest \nTerritories, Nunavut Territory, \nCanada\r"
+      objectReference: {fileID: 0}
+    - target: {fileID: 8780917968360475510, guid: 2bbd146ed19372745a0378bea32e716f, type: 3}
+      propertyPath: artGroup.groupInfo.Array.data[1]
+      value: "Group: Swedish \r\n\nContinent: Antartica/Polar\nRegion\r\nArtist:
+        Hilma Af Klint\r\n\nYear: 1915 CE\r\n\nMedium: Painting\r\n\nLocation: Moderna
+        Museet\r"
+      objectReference: {fileID: 0}
+    - target: {fileID: 8780917968360475510, guid: 2bbd146ed19372745a0378bea32e716f, type: 3}
+      propertyPath: artGroup.groupInfo.Array.data[2]
+      value: "Group: Nordic\r\n\nContinent: Antartica/Polar \nRegion\r\nArtist: S\xE1mi
+        people \r\n\nYear: 1871 CE\r\n\nMedium: Unknown \r\n\nLocation: RiddoDuottarMuseat,
+        \nKarasjok, Norway \r"
+      objectReference: {fileID: 0}
+    - target: {fileID: 8780917968360475510, guid: 2bbd146ed19372745a0378bea32e716f, type: 3}
+      propertyPath: artGroup.groupSprites.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 8780917968360475510, guid: 2bbd146ed19372745a0378bea32e716f, type: 3}
+      propertyPath: artGroup.groupTitles.Array.data[0]
+      value: The Enchanted Owl
+      objectReference: {fileID: 0}
+    - target: {fileID: 8780917968360475510, guid: 2bbd146ed19372745a0378bea32e716f, type: 3}
+      propertyPath: artGroup.groupTitles.Array.data[1]
+      value: The Altar Piece
+      objectReference: {fileID: 0}
+    - target: {fileID: 8780917968360475510, guid: 2bbd146ed19372745a0378bea32e716f, type: 3}
+      propertyPath: artGroup.groupTitles.Array.data[2]
+      value: "S\xE1mi Drum"
+      objectReference: {fileID: 0}
+    - target: {fileID: 8780917968360475510, guid: 2bbd146ed19372745a0378bea32e716f, type: 3}
+      propertyPath: religionGroup.groupInfo.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 8780917968360475510, guid: 2bbd146ed19372745a0378bea32e716f, type: 3}
+      propertyPath: artGroup.groupSprites.Array.data[0]
+      value: 
+      objectReference: {fileID: 21300000, guid: fa1f6d21f84cdbf489c17e226c05aeee, type: 3}
+    - target: {fileID: 8780917968360475510, guid: 2bbd146ed19372745a0378bea32e716f, type: 3}
+      propertyPath: artGroup.groupSprites.Array.data[1]
+      value: 
+      objectReference: {fileID: 21300000, guid: 5cf2cadf9fe24ce45b7b028e3d3ea92c, type: 3}
+    - target: {fileID: 8780917968360475510, guid: 2bbd146ed19372745a0378bea32e716f, type: 3}
+      propertyPath: artGroup.groupSprites.Array.data[2]
+      value: 
+      objectReference: {fileID: 21300000, guid: cfef74e55a49b464a92d9e74668567d5, type: 3}
+    - target: {fileID: 8780917968360475510, guid: 2bbd146ed19372745a0378bea32e716f, type: 3}
+      propertyPath: religionGroup.groupTitles.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 8780917968360475510, guid: 2bbd146ed19372745a0378bea32e716f, type: 3}
+      propertyPath: religionGroup.groupInfo.Array.data[0]
+      value: "Group: Daoism\r\n\nContinent: Asia\r\n\nArtist: Unknown\r\n\nYear:
+        Before 1922 AD\r\n\nMedium: Illustration\r\n\nSource: Myths and Legends \nof
+        China\r\nLocation: Unknown\r"
+      objectReference: {fileID: 0}
+    - target: {fileID: 8780917968360475510, guid: 2bbd146ed19372745a0378bea32e716f, type: 3}
+      propertyPath: religionGroup.groupInfo.Array.data[1]
+      value: "Group: Daoism\r\n\nContinent: Asia\r\n\nArtist: Unidentified Painter\r\n\nYear:
+        17th Century\r\n\nMedium: Scroll, Ink, Silk\r\n\nSource: Met Museum\r\n\nLocation:
+        Japan\r"
+      objectReference: {fileID: 0}
+    - target: {fileID: 8780917968360475510, guid: 2bbd146ed19372745a0378bea32e716f, type: 3}
+      propertyPath: religionGroup.groupInfo.Array.data[2]
+      value: "Group: Confucianism/Daoism\r\n\nContinent: Asia\r\n\nArtist: Anonymous\r\n\nYear:
+        16th Century\r\n\nMedium: Ink, Color, Gold \non Silk\r\nSource: Museum of
+        Fine \nArts\r\nLocation: Ming Dynasty, \nChina\r"
+      objectReference: {fileID: 0}
+    - target: {fileID: 8780917968360475510, guid: 2bbd146ed19372745a0378bea32e716f, type: 3}
+      propertyPath: religionGroup.groupSprites.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 8780917968360475510, guid: 2bbd146ed19372745a0378bea32e716f, type: 3}
+      propertyPath: religionGroup.groupTitles.Array.data[0]
+      value: Three Pure Ones
+      objectReference: {fileID: 0}
+    - target: {fileID: 8780917968360475510, guid: 2bbd146ed19372745a0378bea32e716f, type: 3}
+      propertyPath: religionGroup.groupTitles.Array.data[1]
+      value: The Eight Immortals
+      objectReference: {fileID: 0}
+    - target: {fileID: 8780917968360475510, guid: 2bbd146ed19372745a0378bea32e716f, type: 3}
+      propertyPath: religionGroup.groupTitles.Array.data[2]
+      value: Jade Emperor
+      objectReference: {fileID: 0}
+    - target: {fileID: 8780917968360475510, guid: 2bbd146ed19372745a0378bea32e716f, type: 3}
+      propertyPath: religionGroup.groupSprites.Array.data[0]
+      value: 
+      objectReference: {fileID: 21300000, guid: eef72bc6f9f934c44884d3e5658c065a, type: 3}
+    - target: {fileID: 8780917968360475510, guid: 2bbd146ed19372745a0378bea32e716f, type: 3}
+      propertyPath: religionGroup.groupSprites.Array.data[1]
+      value: 
+      objectReference: {fileID: 21300000, guid: 254d6684aca566a4892d3e96a473f45d, type: 3}
+    - target: {fileID: 8780917968360475510, guid: 2bbd146ed19372745a0378bea32e716f, type: 3}
+      propertyPath: religionGroup.groupSprites.Array.data[2]
+      value: 
+      objectReference: {fileID: 21300000, guid: db162aed7b6dc66478875b633ed45381, type: 3}
     - target: {fileID: 8780917968360475511, guid: 2bbd146ed19372745a0378bea32e716f, type: 3}
       propertyPath: onClickedHotspot.m_PersistentCalls.m_Calls.Array.size
       value: 4
