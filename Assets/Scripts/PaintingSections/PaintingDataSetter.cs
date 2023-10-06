@@ -1,4 +1,3 @@
-using NaughtyAttributes;
 using UnityEditor;
 using UnityEngine;
 
@@ -17,7 +16,7 @@ public sealed class PaintingDataSetter : MonoBehaviour
         SetPaintingData();
     }
 
-    [Button("Set Painting Data")]
+    [ContextMenu(nameof(SetPaintingData))]
     public void SetPaintingData()
     {
         for (int i = 0; i < paintingData.Length; i++)
@@ -42,13 +41,13 @@ public sealed class PaintingDataSetter : MonoBehaviour
                         data.paintingData.paintingName = string.Empty;
                         data.paintingData.paintingTextureColor = paintingTextureColor;
                     }
-                    EditorUtility.SetDirty(screens[i]);
+                    //EditorUtility.SetDirty(screens[i]);
                 }
             }
         }
 
-        AssetDatabase.SaveAssets();
-        AssetDatabase.Refresh();
+        //AssetDatabase.SaveAssets();
+        //AssetDatabase.Refresh();
     }
 
     private void OnValidate()

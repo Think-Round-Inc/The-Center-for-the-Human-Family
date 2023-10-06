@@ -4,5 +4,8 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/ParadiseExhibit.unity
+    guid: e577894426e3eb9448600e5c978227f9
   m_configObjects: {}

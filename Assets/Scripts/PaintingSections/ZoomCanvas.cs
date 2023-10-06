@@ -1,11 +1,9 @@
-using NaughtyAttributes;
 using UnityEngine;
 using UnityEngine.Events;
 using UnityEngine.UI;
 
 public sealed class ZoomCanvas : MonoBehaviour
 {
-    [InfoBox("Check canvas for ZoomAndDragCanvas script for more zoom options")]
     public Canvas zoomCanvas;
     [SerializeField] Image paintingZoomableCanvas;
     [SerializeField] UnityEvent onCanvasOpened;

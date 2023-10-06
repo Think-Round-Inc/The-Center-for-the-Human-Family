@@ -15,6 +15,7 @@ public sealed class HotspotController : MonoBehaviour
     [SerializeField] float maxDistanceFromHotspot = 20f;
     [SerializeField] float maxDistanceFromHotspotAbovePlayer = 100f;
     [SerializeField] float visibilityThreshold = 0.5f;
+    [SerializeField] float viewThreshold = 0.5f;
     [SerializeField] TMP_Text infoText;
     [SerializeField] UnityEvent<GameObject> onNearHotspot;
     [SerializeField] Camera mainCamera;

@@ -6,30 +6,6 @@ public static class SectionColorHolder
     public static Color EmptyScreenColor;
 }
 
-public sealed class SectionEditorWindow : EditorWindow
-{
-    private Color emptyScreenColor = Color.black;
-
-    [MenuItem("Window/Section Editor")]
-    public static void OpenWindow()
-    {
-        SectionEditorWindow window = GetWindow<SectionEditorWindow>("Section Editor");
-        window.Show();
-    }
-
-    private void OnGUI()
-    {
-        GUILayout.Label("Section Settings", EditorStyles.boldLabel);
-        emptyScreenColor = EditorGUILayout.ColorField("Empty Screen Color", emptyScreenColor);
-
-        if (GUILayout.Button("Apply"))
-        {
-            SectionColorHolder.EmptyScreenColor = emptyScreenColor;
-            Debug.Log("Empty Screen Color Applied: " + emptyScreenColor);
-        }
-    }
-}
-
 public enum SectionType
 {
     Christians,

@@ -1,4 +1,3 @@
-using NaughtyAttributes;
 using System.Collections;
 using UnityEngine;
 
@@ -29,7 +28,6 @@ public class AutoMover : MonoBehaviour
         }
     }
 
-    [Button("Move To Previous Target")]
     public void MoveToPreviousTarget()
     {
         if (!autoMoverActive) return;
@@ -45,7 +43,6 @@ public class AutoMover : MonoBehaviour
         MoveToTarget(currentIndex);
     }
 
-    [Button(nameof(MoveToNextTarget))]
     public void MoveToNextTarget()
     {
         if (!Application.isPlaying) return;
@@ -118,7 +115,6 @@ public class AutoMover : MonoBehaviour
     }
 
 
-    [Button(nameof(ResetHeadRotation))]
     public void ResetHeadRotation()
     {
         if (!Application.isPlaying) return;

@@ -67,6 +67,7 @@ public sealed class DomeWallChanger : MonoBehaviour
 
     public IEnumerator ChangeWalls(DomeWall[] walls)
     {
+        if (walls.Length.Equals(0)) yield return null;
         for (int i = 0; i < walls.Length; i++)
         {
             yield return new WaitForSeconds(Mathf.Max(0, timeBetweenWallChanges));
