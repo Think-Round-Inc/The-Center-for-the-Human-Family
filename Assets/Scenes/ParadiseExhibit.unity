@@ -344,7 +344,7 @@ MonoBehaviour:
   - {fileID: 9188152644132103955}
   - {fileID: 6956226812044625211}
   - {fileID: 8411615413789039574}
-  faunaWallsToggle: 0
+  faunaWallsToggle: 1
   infoWalls:
   - {fileID: 9082974280644624816}
   - {fileID: 7273936170914467900}
@@ -353,7 +353,7 @@ MonoBehaviour:
   - {fileID: 7280246684798280702}
   - {fileID: 8991212036781447584}
   - {fileID: 7192642461133821262}
-  infoWallsToggle: 0
+  infoWallsToggle: 1
 --- !u!1 &27671993
 GameObject:
   m_ObjectHideFlags: 0
@@ -199306,7 +199306,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: 96eb74c4e43f0904db3a5bc805afed89, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -200927,7 +200927,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: 96eb74c4e43f0904db3a5bc805afed89, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -201151,7 +201151,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: 96eb74c4e43f0904db3a5bc805afed89, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -201500,7 +201500,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   artGroup:
-    groupSprites: []
+    groupSprites:
+    - {fileID: 21300000, guid: 375e3c1252cca2449b4903a492aebcee, type: 3}
     groupTitles: []
     groupInfo: []
   religionGroup:
@@ -201531,7 +201532,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: 96eb74c4e43f0904db3a5bc805afed89, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -201755,7 +201756,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: 96eb74c4e43f0904db3a5bc805afed89, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -202105,12 +202106,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   artGroup:
-    groupSprites: []
+    groupSprites:
+    - {fileID: 21300000, guid: 2da30a65656c27c4fa9c8b584d161135, type: 3}
     groupTitles: []
     groupInfo: []
   religionGroup:
     groupSprites:
-    - {fileID: 21300000, guid: f052994bfb5ec96409ae7c5cadbf3d9a, type: 3}
+    - {fileID: 21300000, guid: ef5f74860739e5a47869960deec6ce5e, type: 3}
     groupTitles: []
     groupInfo: []
   onDomeWallSwitched:
@@ -202244,7 +202246,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   artGroup:
-    groupSprites: []
+    groupSprites:
+    - {fileID: 21300000, guid: 2a8b2ae8ac667eb499e78df1cbc59b35, type: 3}
     groupTitles: []
     groupInfo: []
   religionGroup:
@@ -202294,7 +202297,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   artGroup:
-    groupSprites: []
+    groupSprites:
+    - {fileID: 21300000, guid: 5f2e46c70f8421946a87c6ed905e1932, type: 3}
     groupTitles: []
     groupInfo: []
   religionGroup:
@@ -202326,7 +202330,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   artGroup:
-    groupSprites: []
+    groupSprites:
+    - {fileID: 21300000, guid: 1999872d3b07614498d0e128df0f825b, type: 3}
     groupTitles: []
     groupInfo: []
   religionGroup:
@@ -202654,7 +202659,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: 96eb74c4e43f0904db3a5bc805afed89, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -202940,7 +202945,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: 96eb74c4e43f0904db3a5bc805afed89, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -203366,7 +203371,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   artGroup:
-    groupSprites: []
+    groupSprites:
+    - {fileID: 21300000, guid: 61e42fb7c913e854980522692c164312, type: 3}
     groupTitles: []
     groupInfo: []
   religionGroup:
@@ -203432,7 +203438,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   artGroup:
-    groupSprites: []
+    groupSprites:
+    - {fileID: 21300000, guid: 25e73c9fe0b6ea2469616ce80b9065f3, type: 3}
     groupTitles: []
     groupInfo: []
   religionGroup:
