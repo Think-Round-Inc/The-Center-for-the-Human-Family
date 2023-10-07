@@ -203232,12 +203232,14 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   artGroup:
-    groupSprites: []
+    groupSprites:
+    - {fileID: 21300000, guid: f6776b38541175e4cb30495e838182cc, type: 3}
     groupTitles: []
     groupInfo: []
     groupShortInfo: []
   religionGroup:
-    groupSprites: []
+    groupSprites:
+    - {fileID: 21300000, guid: f6776b38541175e4cb30495e838182cc, type: 3}
     groupTitles: []
     groupInfo: []
     groupShortInfo: []
@@ -204148,12 +204150,14 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   artGroup:
-    groupSprites: []
+    groupSprites:
+    - {fileID: 21300000, guid: d5f0d01a527662046bde3da7eaf10776, type: 3}
     groupTitles: []
     groupInfo: []
     groupShortInfo: []
   religionGroup:
-    groupSprites: []
+    groupSprites:
+    - {fileID: 21300000, guid: d5f0d01a527662046bde3da7eaf10776, type: 3}
     groupTitles: []
     groupInfo: []
     groupShortInfo: []
@@ -204798,12 +204802,14 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   artGroup:
-    groupSprites: []
+    groupSprites:
+    - {fileID: 21300000, guid: 8acae8f40cd7c4f47b99b6e14e27523b, type: 3}
     groupTitles: []
     groupInfo: []
     groupShortInfo: []
   religionGroup:
-    groupSprites: []
+    groupSprites:
+    - {fileID: 21300000, guid: 8acae8f40cd7c4f47b99b6e14e27523b, type: 3}
     groupTitles: []
     groupInfo: []
     groupShortInfo: []
@@ -204839,12 +204845,14 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   artGroup:
-    groupSprites: []
+    groupSprites:
+    - {fileID: 21300000, guid: f12b4fc6d65dda240823135c1cbbcf8f, type: 3}
     groupTitles: []
     groupInfo: []
     groupShortInfo: []
   religionGroup:
-    groupSprites: []
+    groupSprites:
+    - {fileID: 21300000, guid: f12b4fc6d65dda240823135c1cbbcf8f, type: 3}
     groupTitles: []
     groupInfo: []
     groupShortInfo: []
@@ -205224,12 +205232,14 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   artGroup:
-    groupSprites: []
+    groupSprites:
+    - {fileID: 21300000, guid: 487cdb396a2334949848e01c619d61c6, type: 3}
     groupTitles: []
     groupInfo: []
     groupShortInfo: []
   religionGroup:
-    groupSprites: []
+    groupSprites:
+    - {fileID: 21300000, guid: 487cdb396a2334949848e01c619d61c6, type: 3}
     groupTitles: []
     groupInfo: []
     groupShortInfo: []
@@ -205782,12 +205792,14 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   artGroup:
-    groupSprites: []
+    groupSprites:
+    - {fileID: 21300000, guid: da5d1e85ea57e674daf949d7657af683, type: 3}
     groupTitles: []
     groupInfo: []
     groupShortInfo: []
   religionGroup:
-    groupSprites: []
+    groupSprites:
+    - {fileID: 21300000, guid: da5d1e85ea57e674daf949d7657af683, type: 3}
     groupTitles: []
     groupInfo: []
     groupShortInfo: []
