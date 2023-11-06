@@ -3,8 +3,8 @@ using UnityEngine.UI;
 
 public class EarthLayerController : MonoBehaviour
 {
-    [SerializeField] Toggle[] toggles = new Toggle[4];
-    [SerializeField] Image[] images;
+    [SerializeField, Tooltip("Earth Layer Toggles")] Toggle[] toggles = new Toggle[4];
+    [SerializeField, Tooltip("All images for each state")] Image[] images;
     [SerializeField] CanvasRenderer layerPanelParent;
     [SerializeField] string layerPanelName;
 

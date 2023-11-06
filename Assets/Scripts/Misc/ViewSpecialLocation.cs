@@ -1,9 +1,7 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Events;
-
-public class ViewSpecialLocation : MonoBehaviour
+// was being used for launch, but currently leaving in as a "feature" to be able to see from above
+public sealed class ViewSpecialLocation : MonoBehaviour
 {
     [SerializeField] Transform targetTransform;
     [SerializeField] KeyCode specialKey;

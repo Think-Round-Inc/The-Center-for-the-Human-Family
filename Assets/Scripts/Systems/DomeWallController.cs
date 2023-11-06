@@ -1,7 +1,6 @@
-using System.Collections;
-using UnityEngine.UI;
 using TMPro;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class DomeWallController : MonoBehaviour
 {
@@ -30,23 +29,23 @@ public class DomeWallController : MonoBehaviour
         if (hotSpotObject.TryGetComponent(out DomeWall domeWall))
         {
             SetInfoText();
-            
+
             Sprite domeSprite = domeWall.GetCurrentSprite();
 
             if (domeSprite != null)
                 currentDomeImage.sprite = domeSprite;
             else if (missingImageSprite != null)
                 currentDomeImage.sprite = missingImageSprite;
-            
+
             string title = domeWall.GetCurrentTitle();
-            
+
             if (title != "")
                 currentDomeTitleText.text = title;
             else
                 currentDomeTitleText.text = "Data coming soon!";
-            
+
             string info = domeWall.GetCurrentInfo();
-            
+
             if (info != "")
                 currentDomeInfoText.text = info;
         }

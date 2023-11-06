@@ -27,6 +27,9 @@ public sealed class DomeWallChanger : MonoBehaviour
         currentTime = Mathf.Max(1, timeToChangeWalls);
     }
 
+    /// <summary>
+    /// changes the current dome wal images to art type
+    /// </summary>
     public void SetCurrentWallStateToArt()
     {
         StopAllCoroutines();
@@ -35,6 +38,9 @@ public sealed class DomeWallChanger : MonoBehaviour
         currentTime = 0;
     }
 
+    /// <summary>
+    /// changes the current dome wal images to religion type
+    /// </summary>
     public void SetCurrentWallStateToReligion()
     {
         StopAllCoroutines();
@@ -43,6 +49,10 @@ public sealed class DomeWallChanger : MonoBehaviour
         currentTime = 0;
     }
 
+    /// <summary>
+    /// sets the walls actively changing or not (pause/unpause)
+    /// </summary>
+    /// <param name="isActive">new state for walls changing</param>
     public void SetDomeWallChangerActive(bool isActive) => this.isActive = isActive;
 
     private void Update()
@@ -65,6 +75,11 @@ public sealed class DomeWallChanger : MonoBehaviour
         }
     }
 
+    /// <summary>
+    /// starts changing walls with data from array of dome walls
+    /// </summary>
+    /// <param name="walls"></param>
+    /// <returns>null</returns>
     public IEnumerator ChangeWalls(DomeWall[] walls)
     {
         if (walls.Length.Equals(0)) yield return null;
@@ -75,5 +90,8 @@ public sealed class DomeWallChanger : MonoBehaviour
         }
     }
 
+    /// <summary>
+    /// makes sure static field is updated when currentDomeWallState changes in the inspector
+    /// </summary>
     private void OnValidate() => CurrentDomeWallState = currentDomeWallState;
 }

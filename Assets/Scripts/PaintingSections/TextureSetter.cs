@@ -1,6 +1,6 @@
 using UnityEngine;
 
-public class TextureSetter : MonoBehaviour
+public sealed class TextureSetter : MonoBehaviour
 {
     [SerializeField] GameObject[] objects;
     [SerializeField] Texture2D[] textures;

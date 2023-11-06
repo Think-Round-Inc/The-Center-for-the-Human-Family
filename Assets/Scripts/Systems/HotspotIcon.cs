@@ -1,11 +1,8 @@
-using System;
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Events;
 using UnityEngine.EventSystems;
 
-public class HotspotIcon : MonoBehaviour,  IPointerExitHandler, IPointerEnterHandler, IPointerClickHandler
+public class HotspotIcon : MonoBehaviour, IPointerExitHandler, IPointerEnterHandler, IPointerClickHandler
 {
     public UnityEvent onPointerClicked;
     public UnityEvent onPointerEnter;

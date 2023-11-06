@@ -4,7 +4,7 @@ public sealed class AudioManager : MonoBehaviour
 {
     [SerializeField] AudioSource audioSource;
     [SerializeField] HotspotController hotspotController; // lack of time
-    
+
     public void SwitchAudioAtPainting(GameObject stand)
     {
         if (audioSource == null || stand == null) return;

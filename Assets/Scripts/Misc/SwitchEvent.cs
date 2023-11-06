@@ -7,7 +7,9 @@ public class SwitchEvent : MonoBehaviour
     [SerializeField] UnityEvent onSwitchedOn;
     [SerializeField] UnityEvent onSwitchedOff;
 
-
+    /// <summary>
+    /// switch state, on or off depending on last state and throws UnityEvent based on state switched to
+    /// </summary>
     public void Switch()
     {
         if (currentState)

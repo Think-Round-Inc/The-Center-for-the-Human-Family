@@ -1,11 +1,9 @@
-using TMPro;
 using UnityEngine;
 using UnityEngine.Events;
 
 public sealed class EarthView : MonoBehaviour
 {
     [SerializeField] Canvas earthViewCanvas;
-    [SerializeField] GameObject earthLayered;
     [SerializeField] EarthViewPanel[] earthViewPanels = new EarthViewPanel[4];
     [SerializeField] GameObject viewerHead;
     [SerializeField] UnityEvent onEarthViewCanvasOpened;
@@ -20,6 +18,9 @@ public sealed class EarthView : MonoBehaviour
         earthViewCanvas.gameObject.SetActive(false);
     }
 
+    /// <summary>
+    /// hides all earth panels
+    /// </summary>
     public void HideAllPanels()
     {
         for (int i = 0; i < earthViewPanels.Length; i++)
@@ -29,6 +30,10 @@ public sealed class EarthView : MonoBehaviour
         }
     }
 
+    /// <summary>
+    /// moves to a specific Earth panel
+    /// </summary>
+    /// <param name="panelToMoveTo">view panel to move to</param>
     public void MoveToPanel(EarthViewPanel panelToMoveTo)
     {
         for (int i = 0; i < earthViewPanels.Length; i++)
@@ -44,6 +49,9 @@ public sealed class EarthView : MonoBehaviour
         }
     }
 
+    /// <summary>
+    /// Move to previous Earth panel
+    /// </summary>
     public void MoveToPreviousPanel()
     {
         _currentPanelOpen--;
@@ -52,6 +60,9 @@ public sealed class EarthView : MonoBehaviour
         MoveToPanel(earthViewPanels[_currentPanelOpen]);
     }
 
+    /// <summary>
+    /// move to next earth panel
+    /// </summary>
     public void MoveToNextPanel()
     {
         _currentPanelOpen++;
@@ -60,6 +71,10 @@ public sealed class EarthView : MonoBehaviour
         MoveToPanel(earthViewPanels[_currentPanelOpen]);
     }
 
+    /// <summary>
+    /// set earth view canvas active
+    /// </summary>
+    /// <param name="isActive">new state of panel</param>
     public void SetEarthViewCanvasActive(bool isActive)
     {
         if (earthViewCanvas == null) return;

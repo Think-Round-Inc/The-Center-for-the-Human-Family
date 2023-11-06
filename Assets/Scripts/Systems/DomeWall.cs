@@ -36,7 +36,7 @@ public sealed class DomeWall : MonoBehaviour
         if (infoText != null)
             infoText.text = string.Empty;
     }
-    
+
     public string GetCurrentTitle() => currentTitle;
 
     public string GetCurrentInfo() => currentInfo;

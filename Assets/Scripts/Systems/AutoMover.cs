@@ -1,6 +1,7 @@
 using System.Collections;
 using UnityEngine;
 
+// this is currently not being implemented
 public class AutoMover : MonoBehaviour
 {
     public bool autoMoverActive = false;
