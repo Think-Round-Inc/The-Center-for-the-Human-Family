@@ -6,6 +6,7 @@ TagManager:
   tags:
   - Stand
   - Screen
+  - PausePoint
   layers:
   - Default
   - TransparentFX

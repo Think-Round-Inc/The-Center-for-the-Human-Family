@@ -523,6 +523,37 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 37108174}
   m_CullTransparentMesh: 1
+--- !u!1 &39419033
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 39419034}
+  m_Layer: 0
+  m_Name: PausePoint
+  m_TagString: PausePoint
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &39419034
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 39419033}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: 1, z: -0, w: 0}
+  m_LocalPosition: {x: 1, y: 0, z: -1}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 586697076}
+  m_LocalEulerAnglesHint: {x: 0, y: 180, z: 0}
 --- !u!1 &52187238
 GameObject:
   m_ObjectHideFlags: 0
@@ -734,6 +765,11 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 52994313}
   m_CullTransparentMesh: 1
+--- !u!4 &54772282 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 7530433967810305102, guid: 6c2f161bcd1894c409c0cc5142ed56c8, type: 3}
+  m_PrefabInstance: {fileID: 1788907014}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &54908800
 GameObject:
   m_ObjectHideFlags: 0
@@ -1380,6 +1416,11 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 95397946}
   m_CullTransparentMesh: 1
+--- !u!4 &100364449 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 8332752345411435311, guid: 6c2f161bcd1894c409c0cc5142ed56c8, type: 3}
+  m_PrefabInstance: {fileID: 1788907014}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &115367297
 GameObject:
   m_ObjectHideFlags: 0
@@ -1783,13 +1824,13 @@ RectTransform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
-  - {fileID: 2137905901}
   - {fileID: 1807784954}
-  - {fileID: 950193366}
-  - {fileID: 1549720252}
   - {fileID: 2002551272}
-  - {fileID: 841606094}
+  - {fileID: 2137905901}
+  - {fileID: 950193366}
   - {fileID: 1070291482}
+  - {fileID: 1549720252}
+  - {fileID: 841606094}
   - {fileID: 2044689686}
   - {fileID: 1059851193}
   - {fileID: 1449028060}
@@ -2609,6 +2650,11 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 183809911}
   m_CullTransparentMesh: 1
+--- !u!4 &188103798 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 2512052852619053646, guid: 6c2f161bcd1894c409c0cc5142ed56c8, type: 3}
+  m_PrefabInstance: {fileID: 1788907014}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &190379528
 GameObject:
   m_ObjectHideFlags: 0
@@ -27040,6 +27086,26 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+--- !u!4 &292263268 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 2770032043282094934, guid: 6c2f161bcd1894c409c0cc5142ed56c8, type: 3}
+  m_PrefabInstance: {fileID: 1788907014}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &292263269 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 9060681675249675572, guid: 6c2f161bcd1894c409c0cc5142ed56c8, type: 3}
+  m_PrefabInstance: {fileID: 1788907014}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &292263270 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 933796101482334106, guid: 6c2f161bcd1894c409c0cc5142ed56c8, type: 3}
+  m_PrefabInstance: {fileID: 1788907014}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &292263271 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 8903897469843072398, guid: 6c2f161bcd1894c409c0cc5142ed56c8, type: 3}
+  m_PrefabInstance: {fileID: 1788907014}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &293757245
 GameObject:
   m_ObjectHideFlags: 0
@@ -27436,6 +27502,11 @@ MonoBehaviour:
   m_ChildScaleWidth: 0
   m_ChildScaleHeight: 0
   m_ReverseArrangement: 0
+--- !u!4 &334558288 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 2512052854310493569, guid: 6c2f161bcd1894c409c0cc5142ed56c8, type: 3}
+  m_PrefabInstance: {fileID: 1788907014}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &342268322
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -53008,6 +53079,11 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 384630354}
   m_CullTransparentMesh: 1
+--- !u!4 &385117612 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 620273303016775136, guid: 6c2f161bcd1894c409c0cc5142ed56c8, type: 3}
+  m_PrefabInstance: {fileID: 1788907014}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &386838051
 GameObject:
   m_ObjectHideFlags: 0
@@ -53522,6 +53598,11 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 409635503}
   m_CullTransparentMesh: 1
+--- !u!4 &420149131 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 7422685550532770908, guid: 6c2f161bcd1894c409c0cc5142ed56c8, type: 3}
+  m_PrefabInstance: {fileID: 1788907014}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &426332117
 GameObject:
   m_ObjectHideFlags: 0
@@ -53753,6 +53834,11 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 429093515}
   m_CullTransparentMesh: 1
+--- !u!4 &435094673 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 6697657979924787950, guid: 6c2f161bcd1894c409c0cc5142ed56c8, type: 3}
+  m_PrefabInstance: {fileID: 1788907014}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &436467475
 GameObject:
   m_ObjectHideFlags: 0
@@ -53828,6 +53914,11 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 436467475}
   m_CullTransparentMesh: 1
+--- !u!4 &439247149 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 5756543890759474401, guid: 6c2f161bcd1894c409c0cc5142ed56c8, type: 3}
+  m_PrefabInstance: {fileID: 1788907014}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &451835207
 GameObject:
   m_ObjectHideFlags: 0
@@ -53985,6 +54076,11 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 451835207}
   m_CullTransparentMesh: 1
+--- !u!4 &456194803 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 6778732163327737673, guid: 6c2f161bcd1894c409c0cc5142ed56c8, type: 3}
+  m_PrefabInstance: {fileID: 1788907014}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &456511392
 GameObject:
   m_ObjectHideFlags: 0
@@ -55855,6 +55951,11 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 1
         m_CallState: 2
+--- !u!4 &545357534 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 4431887775058952328, guid: 6c2f161bcd1894c409c0cc5142ed56c8, type: 3}
+  m_PrefabInstance: {fileID: 1788907014}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &561570755
 GameObject:
   m_ObjectHideFlags: 0
@@ -56081,6 +56182,11 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 570109515}
   m_CullTransparentMesh: 1
+--- !u!4 &576396229 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 6697657978965188343, guid: 6c2f161bcd1894c409c0cc5142ed56c8, type: 3}
+  m_PrefabInstance: {fileID: 1788907014}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &581557278
 GameObject:
   m_ObjectHideFlags: 0
@@ -56510,6 +56616,16 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 583625076}
   m_CullTransparentMesh: 1
+--- !u!4 &586697076 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 620273303384312601, guid: 6c2f161bcd1894c409c0cc5142ed56c8, type: 3}
+  m_PrefabInstance: {fileID: 1788907014}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &595243160 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 6971426316063203755, guid: 6c2f161bcd1894c409c0cc5142ed56c8, type: 3}
+  m_PrefabInstance: {fileID: 1788907014}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &606453229
 GameObject:
   m_ObjectHideFlags: 0
@@ -56615,6 +56731,42 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 606453229}
   m_CullTransparentMesh: 1
+--- !u!4 &607293445 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 6971426315829884754, guid: 6c2f161bcd1894c409c0cc5142ed56c8, type: 3}
+  m_PrefabInstance: {fileID: 1788907014}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &615034306
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 615034307}
+  m_Layer: 0
+  m_Name: PausePoint
+  m_TagString: PausePoint
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &615034307
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 615034306}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 1, z: 0, w: 0}
+  m_LocalPosition: {x: -1, y: 0, z: 1}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 385117612}
+  m_LocalEulerAnglesHint: {x: 0, y: 180, z: 0}
 --- !u!1 &620368942
 GameObject:
   m_ObjectHideFlags: 0
@@ -57997,6 +58149,11 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 690407001}
   m_CullTransparentMesh: 1
+--- !u!4 &693849987 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 5549387628815176006, guid: 6c2f161bcd1894c409c0cc5142ed56c8, type: 3}
+  m_PrefabInstance: {fileID: 1788907014}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &701012716
 GameObject:
   m_ObjectHideFlags: 0
@@ -59542,6 +59699,11 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 744435944}
   m_CullTransparentMesh: 1
+--- !u!4 &765940334 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 4431887775294379633, guid: 6c2f161bcd1894c409c0cc5142ed56c8, type: 3}
+  m_PrefabInstance: {fileID: 1788907014}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &772729448
 GameObject:
   m_ObjectHideFlags: 0
@@ -81654,6 +81816,37 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 5944510903610548991, guid: 6c2f161bcd1894c409c0cc5142ed56c8, type: 3}
   m_PrefabInstance: {fileID: 780009378}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &785895885
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 785895886}
+  m_Layer: 0
+  m_Name: center
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 123
+  m_IsActive: 1
+--- !u!4 &785895886
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 785895885}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: 0.7071068, z: -0, w: 0.7071068}
+  m_LocalPosition: {x: 2, y: 0.37688613, z: -2}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 586697076}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &788091851
 GameObject:
   m_ObjectHideFlags: 0
@@ -82373,6 +82566,11 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 831481486}
   m_CullTransparentMesh: 1
+--- !u!4 &839340080 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 8332752345109982678, guid: 6c2f161bcd1894c409c0cc5142ed56c8, type: 3}
+  m_PrefabInstance: {fileID: 1788907014}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &841606093
 GameObject:
   m_ObjectHideFlags: 0
@@ -82411,7 +82609,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: -36.5}
+  m_AnchoredPosition: {x: 0, y: -86.5}
   m_SizeDelta: {x: 200, y: 53}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &841606095
@@ -82499,7 +82697,7 @@ MonoBehaviour:
     m_ColorMultiplier: 1
     m_FadeDuration: 0.1
   m_SpriteState:
-    m_HighlightedSprite: {fileID: 21300000, guid: 527d993a78ba20f49928e4635b6c0d32, type: 3}
+    m_HighlightedSprite: {fileID: 21300000, guid: 5af0c972325beae4493654ee2b1c33e6, type: 3}
     m_PressedSprite: {fileID: 0}
     m_SelectedSprite: {fileID: 0}
     m_DisabledSprite: {fileID: 0}
@@ -82521,7 +82719,7 @@ MonoBehaviour:
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 1
+          m_IntArgument: 6
           m_FloatArgument: 0
           m_StringArgument: 
           m_BoolArgument: 0
@@ -82558,7 +82756,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: f90e2313896bef94d9cabfed97fadd3a, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 170075889db27aa42a843954ac28f11c, type: 3}
   m_Type: 1
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -83064,6 +83262,11 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 858485453}
   m_CullTransparentMesh: 1
+--- !u!4 &859312362 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 8335878227002218603, guid: 6c2f161bcd1894c409c0cc5142ed56c8, type: 3}
+  m_PrefabInstance: {fileID: 1788907014}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &877321745
 GameObject:
   m_ObjectHideFlags: 0
@@ -83480,6 +83683,11 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 891139135}
   m_CullTransparentMesh: 1
+--- !u!4 &891918444 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 7422685549373411397, guid: 6c2f161bcd1894c409c0cc5142ed56c8, type: 3}
+  m_PrefabInstance: {fileID: 1788907014}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &892748541
 GameObject:
   m_ObjectHideFlags: 0
@@ -84089,6 +84297,11 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 935638995}
   m_CullTransparentMesh: 1
+--- !u!4 &936283475 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 4715893946394050544, guid: 6c2f161bcd1894c409c0cc5142ed56c8, type: 3}
+  m_PrefabInstance: {fileID: 1788907014}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &936497814
 GameObject:
   m_ObjectHideFlags: 0
@@ -84290,7 +84503,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 113.5}
+  m_AnchoredPosition: {x: 0, y: 63.5}
   m_SizeDelta: {x: 200, y: 53}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &950193367
@@ -84455,6 +84668,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   targetText: {fileID: 727856105}
   targetColor: {r: 0, g: 0, b: 0, a: 1}
+--- !u!4 &952801098 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 6778732162794685599, guid: 6c2f161bcd1894c409c0cc5142ed56c8, type: 3}
+  m_PrefabInstance: {fileID: 1788907014}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &962007256
 GameObject:
   m_ObjectHideFlags: 0
@@ -84746,6 +84964,11 @@ MonoBehaviour:
   m_ChildScaleWidth: 0
   m_ChildScaleHeight: 0
   m_ReverseArrangement: 0
+--- !u!4 &979663834 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 5936798567627985097, guid: 6c2f161bcd1894c409c0cc5142ed56c8, type: 3}
+  m_PrefabInstance: {fileID: 1788907014}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &981654153
 GameObject:
   m_ObjectHideFlags: 0
@@ -84880,6 +85103,11 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 981654153}
   m_CullTransparentMesh: 1
+--- !u!4 &982182166 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 3846257901239263894, guid: 6c2f161bcd1894c409c0cc5142ed56c8, type: 3}
+  m_PrefabInstance: {fileID: 1788907014}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &988961213
 GameObject:
   m_ObjectHideFlags: 0
@@ -85077,11 +85305,47 @@ MonoBehaviour:
     m_PressedTrigger: Pressed
     m_SelectedTrigger: Selected
     m_DisabledTrigger: Disabled
-  m_Interactable: 0
+  m_Interactable: 1
   m_TargetGraphic: {fileID: 989223703}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1673526887}
+        m_TargetAssemblyTypeName: ViewerController, Assembly-CSharp
+        m_MethodName: SetViewerControlsActive
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1038019725}
+        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+        m_MethodName: SetActive
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 1
+        m_CallState: 2
+      - m_Target: {fileID: 2020517681}
+        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+        m_MethodName: SetActive
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &989223703
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -85120,6 +85384,11 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 989223700}
   m_CullTransparentMesh: 1
+--- !u!4 &999478437 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 6967741811116069910, guid: 6c2f161bcd1894c409c0cc5142ed56c8, type: 3}
+  m_PrefabInstance: {fileID: 1788907014}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1006400967
 GameObject:
   m_ObjectHideFlags: 0
@@ -85867,7 +86136,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1038019726
 RectTransform:
   m_ObjectHideFlags: 0
@@ -86822,7 +87091,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: -86.5}
+  m_AnchoredPosition: {x: 0, y: 13.5}
   m_SizeDelta: {x: 200, y: 53}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1070291483
@@ -86854,7 +87123,7 @@ MonoBehaviour:
     m_ColorMultiplier: 1
     m_FadeDuration: 0.1
   m_SpriteState:
-    m_HighlightedSprite: {fileID: 21300000, guid: 5af0c972325beae4493654ee2b1c33e6, type: 3}
+    m_HighlightedSprite: {fileID: 21300000, guid: 527d993a78ba20f49928e4635b6c0d32, type: 3}
     m_PressedSprite: {fileID: 0}
     m_SelectedSprite: {fileID: 0}
     m_DisabledSprite: {fileID: 0}
@@ -86876,7 +87145,7 @@ MonoBehaviour:
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 6
+          m_IntArgument: 4
           m_FloatArgument: 0
           m_StringArgument: 
           m_BoolArgument: 0
@@ -86913,7 +87182,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 170075889db27aa42a843954ac28f11c, type: 3}
+  m_Sprite: {fileID: 21300000, guid: f90e2313896bef94d9cabfed97fadd3a, type: 3}
   m_Type: 1
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -87828,6 +88097,11 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1105402440}
   m_CullTransparentMesh: 1
+--- !u!4 &1111694874 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 5549387630002847071, guid: 6c2f161bcd1894c409c0cc5142ed56c8, type: 3}
+  m_PrefabInstance: {fileID: 1788907014}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1120620472
 GameObject:
   m_ObjectHideFlags: 0
@@ -88383,6 +88657,11 @@ MonoBehaviour:
   m_ChildScaleWidth: 0
   m_ChildScaleHeight: 0
   m_ReverseArrangement: 0
+--- !u!4 &1131890239 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 3355388611459135816, guid: 6c2f161bcd1894c409c0cc5142ed56c8, type: 3}
+  m_PrefabInstance: {fileID: 1788907014}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1141356110
 GameObject:
   m_ObjectHideFlags: 0
@@ -89113,6 +89392,11 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1164943774}
   m_CullTransparentMesh: 1
+--- !u!4 &1167239409 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 3588555933075006529, guid: 6c2f161bcd1894c409c0cc5142ed56c8, type: 3}
+  m_PrefabInstance: {fileID: 1788907014}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1169210454
 GameObject:
   m_ObjectHideFlags: 0
@@ -91258,6 +91542,11 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1274721770}
   m_CullTransparentMesh: 1
+--- !u!4 &1275434067 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 5936798567260472880, guid: 6c2f161bcd1894c409c0cc5142ed56c8, type: 3}
+  m_PrefabInstance: {fileID: 1788907014}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1283246813
 GameObject:
   m_ObjectHideFlags: 0
@@ -91535,6 +91824,11 @@ MonoBehaviour:
   m_ChildScaleWidth: 0
   m_ChildScaleHeight: 0
   m_ReverseArrangement: 0
+--- !u!4 &1307833518 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 6967741810880643823, guid: 6c2f161bcd1894c409c0cc5142ed56c8, type: 3}
+  m_PrefabInstance: {fileID: 1788907014}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1310812660
 GameObject:
   m_ObjectHideFlags: 0
@@ -92677,6 +92971,11 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1367826541}
   m_CullTransparentMesh: 1
+--- !u!4 &1368575518 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 7422685551064549258, guid: 6c2f161bcd1894c409c0cc5142ed56c8, type: 3}
+  m_PrefabInstance: {fileID: 1788907014}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1381709750
 GameObject:
   m_ObjectHideFlags: 0
@@ -92920,6 +93219,37 @@ Canvas:
   m_SortingLayerID: 0
   m_SortingOrder: 0
   m_TargetDisplay: 0
+--- !u!1 &1389316384
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1389316385}
+  m_Layer: 0
+  m_Name: center
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 123
+  m_IsActive: 1
+--- !u!4 &1389316385
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1389316384}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: 0.7071068, z: -0, w: 0.7071068}
+  m_LocalPosition: {x: 0, y: 0.37688613, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 385117612}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1390835435
 GameObject:
   m_ObjectHideFlags: 0
@@ -93282,6 +93612,21 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1403041067}
   m_CullTransparentMesh: 1
+--- !u!4 &1407713315 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 6697657978424223009, guid: 6c2f161bcd1894c409c0cc5142ed56c8, type: 3}
+  m_PrefabInstance: {fileID: 1788907014}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &1415524335 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 8364076723712573002, guid: 6c2f161bcd1894c409c0cc5142ed56c8, type: 3}
+  m_PrefabInstance: {fileID: 1788907014}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &1416169971 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 7975742600278004980, guid: 6c2f161bcd1894c409c0cc5142ed56c8, type: 3}
+  m_PrefabInstance: {fileID: 1788907014}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1425841263
 GameObject:
   m_ObjectHideFlags: 0
@@ -94533,6 +94878,11 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1505025628}
   m_CullTransparentMesh: 1
+--- !u!4 &1505042777 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 6778732163783813254, guid: 6c2f161bcd1894c409c0cc5142ed56c8, type: 3}
+  m_PrefabInstance: {fileID: 1788907014}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1511951707 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 7199090669515276765, guid: 35b7190a87a343549b2ba59c8b0a84aa, type: 3}
@@ -94693,6 +95043,11 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1513749811}
   m_CullTransparentMesh: 1
+--- !u!4 &1516144747 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 2297966941150608986, guid: 6c2f161bcd1894c409c0cc5142ed56c8, type: 3}
+  m_PrefabInstance: {fileID: 1788907014}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1520524861
 GameObject:
   m_ObjectHideFlags: 0
@@ -95321,6 +95676,11 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1541688262}
   m_CullTransparentMesh: 1
+--- !u!4 &1545169923 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 3355388611157684145, guid: 6c2f161bcd1894c409c0cc5142ed56c8, type: 3}
+  m_PrefabInstance: {fileID: 1788907014}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1547278419
 GameObject:
   m_ObjectHideFlags: 0
@@ -95435,7 +95795,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 63.5}
+  m_AnchoredPosition: {x: 0, y: -36.5}
   m_SizeDelta: {x: 200, y: 53}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1549720253
@@ -118465,6 +118825,11 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 1
         m_CallState: 2
+--- !u!4 &1596812968 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 8335878227305762450, guid: 6c2f161bcd1894c409c0cc5142ed56c8, type: 3}
+  m_PrefabInstance: {fileID: 1788907014}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1599092945
 GameObject:
   m_ObjectHideFlags: 0
@@ -120321,11 +120686,66 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 90d623e22241c2343b6e39f1c27bd181, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  viewerControllerActive: 0
+  viewerControllerActive: 1
   headTransform: {fileID: 2020381932}
   movementSpeed: 6
   rotationSpeed: 5
   maxHeadRotateAngle: 75
+  targetPositions:
+  - {fileID: 292263268}
+  - {fileID: 292263271}
+  - {fileID: 292263270}
+  - {fileID: 292263269}
+  - {fileID: 615034307}
+  - {fileID: 1596812968}
+  - {fileID: 1275434067}
+  - {fileID: 1545169923}
+  - {fileID: 999478437}
+  - {fileID: 2126165371}
+  - {fileID: 952801098}
+  - {fileID: 420149131}
+  - {fileID: 1811974453}
+  - {fileID: 188103798}
+  - {fileID: 456194803}
+  - {fileID: 1368575518}
+  - {fileID: 439247149}
+  - {fileID: 334558288}
+  - {fileID: 2068940333}
+  - {fileID: 891918444}
+  - {fileID: 1505042777}
+  - {fileID: 1307833518}
+  - {fileID: 859312362}
+  - {fileID: 979663834}
+  - {fileID: 1131890239}
+  targetRotations:
+  - {fileID: 982182166}
+  - {fileID: 54772282}
+  - {fileID: 1516144747}
+  - {fileID: 1416169971}
+  - {fileID: 1389316385}
+  - {fileID: 607293445}
+  - {fileID: 936283475}
+  - {fileID: 765940334}
+  - {fileID: 839340080}
+  - {fileID: 2074651231}
+  - {fileID: 1111694874}
+  - {fileID: 1945989438}
+  - {fileID: 576396229}
+  - {fileID: 2074235408}
+  - {fileID: 2024488835}
+  - {fileID: 1415524335}
+  - {fileID: 1407713315}
+  - {fileID: 1167239409}
+  - {fileID: 435094673}
+  - {fileID: 1870275297}
+  - {fileID: 693849987}
+  - {fileID: 100364449}
+  - {fileID: 595243160}
+  - {fileID: 1969231386}
+  - {fileID: 545357534}
+  moveSpeed: 3
+  rotSpeed: 5
+  pauseDuration: 1
 --- !u!65 &1673526888
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -148595,7 +149015,19 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
-    m_AddedGameObjects: []
+    m_AddedGameObjects:
+    - targetCorrespondingSourceObject: {fileID: 620273303384312601, guid: 6c2f161bcd1894c409c0cc5142ed56c8, type: 3}
+      insertIndex: 1
+      addedObject: {fileID: 39419034}
+    - targetCorrespondingSourceObject: {fileID: 620273303384312601, guid: 6c2f161bcd1894c409c0cc5142ed56c8, type: 3}
+      insertIndex: 2
+      addedObject: {fileID: 785895886}
+    - targetCorrespondingSourceObject: {fileID: 620273303016775136, guid: 6c2f161bcd1894c409c0cc5142ed56c8, type: 3}
+      insertIndex: 1
+      addedObject: {fileID: 615034307}
+    - targetCorrespondingSourceObject: {fileID: 620273303016775136, guid: 6c2f161bcd1894c409c0cc5142ed56c8, type: 3}
+      insertIndex: 2
+      addedObject: {fileID: 1389316385}
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6c2f161bcd1894c409c0cc5142ed56c8, type: 3}
 --- !u!1 &1788907015 stripped
@@ -149158,7 +149590,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 163.5}
+  m_AnchoredPosition: {x: 0, y: 213.5}
   m_SizeDelta: {x: 200, y: 53}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1807784955
@@ -149190,7 +149622,7 @@ MonoBehaviour:
     m_ColorMultiplier: 1
     m_FadeDuration: 0.1
   m_SpriteState:
-    m_HighlightedSprite: {fileID: 21300000, guid: 527d993a78ba20f49928e4635b6c0d32, type: 3}
+    m_HighlightedSprite: {fileID: 21300000, guid: 4dac5b06ec5fab34db34103dd47062fd, type: 3}
     m_PressedSprite: {fileID: 0}
     m_SelectedSprite: {fileID: 0}
     m_DisabledSprite: {fileID: 0}
@@ -149249,7 +149681,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: f90e2313896bef94d9cabfed97fadd3a, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 2c4b672e92c2dba4c95028b2ed05fc1e, type: 3}
   m_Type: 1
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -149323,6 +149755,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   targetText: {fileID: 1105267326}
   targetColor: {r: 0, g: 0, b: 0, a: 1}
+--- !u!4 &1811974453 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 5756543891300378423, guid: 6c2f161bcd1894c409c0cc5142ed56c8, type: 3}
+  m_PrefabInstance: {fileID: 1788907014}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1826836629
 GameObject:
   m_ObjectHideFlags: 0
@@ -150419,6 +150856,11 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1866151367}
   m_CullTransparentMesh: 1
+--- !u!4 &1870275297 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 8364076724139551109, guid: 6c2f161bcd1894c409c0cc5142ed56c8, type: 3}
+  m_PrefabInstance: {fileID: 1788907014}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1870946061
 GameObject:
   m_ObjectHideFlags: 0
@@ -151320,6 +151762,11 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1936380938}
   m_CullTransparentMesh: 1
+--- !u!4 &1945989438 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 8364076723180832156, guid: 6c2f161bcd1894c409c0cc5142ed56c8, type: 3}
+  m_PrefabInstance: {fileID: 1788907014}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1967106199
 GameObject:
   m_ObjectHideFlags: 0
@@ -151397,6 +151844,11 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1967106199}
   m_CullTransparentMesh: 1
+--- !u!4 &1969231386 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 4715893946224683273, guid: 6c2f161bcd1894c409c0cc5142ed56c8, type: 3}
+  m_PrefabInstance: {fileID: 1788907014}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1977062502
 GameObject:
   m_ObjectHideFlags: 0
@@ -175848,7 +176300,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 13.5}
+  m_AnchoredPosition: {x: 0, y: 163.5}
   m_SizeDelta: {x: 200, y: 53}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2002551273
@@ -176875,6 +177327,11 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2021944948}
   m_CullTransparentMesh: 1
+--- !u!4 &2024488835 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 5549387630535935625, guid: 6c2f161bcd1894c409c0cc5142ed56c8, type: 3}
+  m_PrefabInstance: {fileID: 1788907014}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &2027327687
 GameObject:
   m_ObjectHideFlags: 0
@@ -178107,6 +178564,11 @@ MonoBehaviour:
   m_FlexibleWidth: 6
   m_FlexibleHeight: -1
   m_LayoutPriority: 1
+--- !u!4 &2068940333 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 5756543890141907758, guid: 6c2f161bcd1894c409c0cc5142ed56c8, type: 3}
+  m_PrefabInstance: {fileID: 1788907014}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &2069684720
 GameObject:
   m_ObjectHideFlags: 0
@@ -178310,6 +178772,16 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2069684720}
   m_CullTransparentMesh: 1
+--- !u!4 &2074235408 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 3588555933501698958, guid: 6c2f161bcd1894c409c0cc5142ed56c8, type: 3}
+  m_PrefabInstance: {fileID: 1788907014}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &2074651231 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 3588555934033741912, guid: 6c2f161bcd1894c409c0cc5142ed56c8, type: 3}
+  m_PrefabInstance: {fileID: 1788907014}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &2078033481
 GameObject:
   m_ObjectHideFlags: 0
@@ -179570,6 +180042,11 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2126095528}
   m_CullTransparentMesh: 1
+--- !u!4 &2126165371 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 2512052853151052184, guid: 6c2f161bcd1894c409c0cc5142ed56c8, type: 3}
+  m_PrefabInstance: {fileID: 1788907014}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &2128969028
 GameObject:
   m_ObjectHideFlags: 0
@@ -181092,6 +181569,87 @@ PrefabInstance:
       propertyPath: onClickedViewButton.m_PersistentCalls.m_Calls.Array.data[2].m_Arguments.m_ObjectArgumentAssemblyTypeName
       value: UnityEngine.Object, UnityEngine
       objectReference: {fileID: 0}
+    - target: {fileID: 242831048443376251, guid: 6c2f161bcd1894c409c0cc5142ed56c8, type: 3}
+      propertyPath: paintingData.paintingName
+      value: Ever Supporting Smile of Father -2005
+      objectReference: {fileID: 0}
+    - target: {fileID: 242831048443376251, guid: 6c2f161bcd1894c409c0cc5142ed56c8, type: 3}
+      propertyPath: paintingData.paintingImage
+      value: 
+      objectReference: {fileID: 21300000, guid: be4f78dac2c4fcd49b2c1cfd1f94d5e8, type: 3}
+    - target: {fileID: 242831048443376251, guid: 6c2f161bcd1894c409c0cc5142ed56c8, type: 3}
+      propertyPath: paintingData.paintingTextureColor.b
+      value: 0.7058824
+      objectReference: {fileID: 0}
+    - target: {fileID: 242831048443376251, guid: 6c2f161bcd1894c409c0cc5142ed56c8, type: 3}
+      propertyPath: paintingData.paintingTextureColor.g
+      value: 0.7058824
+      objectReference: {fileID: 0}
+    - target: {fileID: 242831048443376251, guid: 6c2f161bcd1894c409c0cc5142ed56c8, type: 3}
+      propertyPath: paintingData.paintingTextureColor.r
+      value: 0.7058824
+      objectReference: {fileID: 0}
+    - target: {fileID: 242831048855463979, guid: 6c2f161bcd1894c409c0cc5142ed56c8, type: 3}
+      propertyPath: paintingData.paintingName
+      value: "Adolescent One day family became King\u2019s family"
+      objectReference: {fileID: 0}
+    - target: {fileID: 242831048855463979, guid: 6c2f161bcd1894c409c0cc5142ed56c8, type: 3}
+      propertyPath: paintingData.paintingImage
+      value: 
+      objectReference: {fileID: 21300000, guid: 7c7e7b377ea3128418fdbffb116e3f43, type: 3}
+    - target: {fileID: 242831048855463979, guid: 6c2f161bcd1894c409c0cc5142ed56c8, type: 3}
+      propertyPath: paintingData.paintingTextureColor.b
+      value: 0.7058824
+      objectReference: {fileID: 0}
+    - target: {fileID: 242831048855463979, guid: 6c2f161bcd1894c409c0cc5142ed56c8, type: 3}
+      propertyPath: paintingData.paintingTextureColor.g
+      value: 0.7058824
+      objectReference: {fileID: 0}
+    - target: {fileID: 242831048855463979, guid: 6c2f161bcd1894c409c0cc5142ed56c8, type: 3}
+      propertyPath: paintingData.paintingTextureColor.r
+      value: 0.7058824
+      objectReference: {fileID: 0}
+    - target: {fileID: 242831049022734034, guid: 6c2f161bcd1894c409c0cc5142ed56c8, type: 3}
+      propertyPath: paintingData.paintingName
+      value: Freedom of playfulness
+      objectReference: {fileID: 0}
+    - target: {fileID: 242831049022734034, guid: 6c2f161bcd1894c409c0cc5142ed56c8, type: 3}
+      propertyPath: paintingData.paintingImage
+      value: 
+      objectReference: {fileID: 21300000, guid: 89f62db659add1949bac33eb4af4e067, type: 3}
+    - target: {fileID: 242831049022734034, guid: 6c2f161bcd1894c409c0cc5142ed56c8, type: 3}
+      propertyPath: paintingData.paintingTextureColor.b
+      value: 0.7058824
+      objectReference: {fileID: 0}
+    - target: {fileID: 242831049022734034, guid: 6c2f161bcd1894c409c0cc5142ed56c8, type: 3}
+      propertyPath: paintingData.paintingTextureColor.g
+      value: 0.7058824
+      objectReference: {fileID: 0}
+    - target: {fileID: 242831049022734034, guid: 6c2f161bcd1894c409c0cc5142ed56c8, type: 3}
+      propertyPath: paintingData.paintingTextureColor.r
+      value: 0.7058824
+      objectReference: {fileID: 0}
+    - target: {fileID: 325515715403416855, guid: 6c2f161bcd1894c409c0cc5142ed56c8, type: 3}
+      propertyPath: paintingData.paintingName
+      value: Mom dressed up for Lord Krishna&#39;s birthday (Krishna Janmashtmi)
+        at home, Jaipur, 2016
+      objectReference: {fileID: 0}
+    - target: {fileID: 325515715403416855, guid: 6c2f161bcd1894c409c0cc5142ed56c8, type: 3}
+      propertyPath: paintingData.paintingImage
+      value: 
+      objectReference: {fileID: 21300000, guid: f61ce8af475e57348b6e735248e51fd8, type: 3}
+    - target: {fileID: 325515715403416855, guid: 6c2f161bcd1894c409c0cc5142ed56c8, type: 3}
+      propertyPath: paintingData.paintingTextureColor.b
+      value: 0.7058824
+      objectReference: {fileID: 0}
+    - target: {fileID: 325515715403416855, guid: 6c2f161bcd1894c409c0cc5142ed56c8, type: 3}
+      propertyPath: paintingData.paintingTextureColor.g
+      value: 0.7058824
+      objectReference: {fileID: 0}
+    - target: {fileID: 325515715403416855, guid: 6c2f161bcd1894c409c0cc5142ed56c8, type: 3}
+      propertyPath: paintingData.paintingTextureColor.r
+      value: 0.7058824
+      objectReference: {fileID: 0}
     - target: {fileID: 473966377750500467, guid: 6c2f161bcd1894c409c0cc5142ed56c8, type: 3}
       propertyPath: paintingTextureColor.a
       value: 1
@@ -182077,6 +182635,106 @@ PrefabInstance:
       propertyPath: onClickedViewButton.m_PersistentCalls.m_Calls.Array.data[2].m_Arguments.m_ObjectArgumentAssemblyTypeName
       value: UnityEngine.Object, UnityEngine
       objectReference: {fileID: 0}
+    - target: {fileID: 846440132307420828, guid: 6c2f161bcd1894c409c0cc5142ed56c8, type: 3}
+      propertyPath: paintingData.paintingName
+      value: "Tahil\u2019s parents holding Tahil (in the middle)"
+      objectReference: {fileID: 0}
+    - target: {fileID: 846440132307420828, guid: 6c2f161bcd1894c409c0cc5142ed56c8, type: 3}
+      propertyPath: paintingData.paintingImage
+      value: 
+      objectReference: {fileID: 21300000, guid: 6ba21cde3f35cce49ab81d03c568a3e2, type: 3}
+    - target: {fileID: 846440132307420828, guid: 6c2f161bcd1894c409c0cc5142ed56c8, type: 3}
+      propertyPath: paintingData.paintingTextureColor.b
+      value: 0.7058824
+      objectReference: {fileID: 0}
+    - target: {fileID: 846440132307420828, guid: 6c2f161bcd1894c409c0cc5142ed56c8, type: 3}
+      propertyPath: paintingData.paintingTextureColor.g
+      value: 0.7058824
+      objectReference: {fileID: 0}
+    - target: {fileID: 846440132307420828, guid: 6c2f161bcd1894c409c0cc5142ed56c8, type: 3}
+      propertyPath: paintingData.paintingTextureColor.r
+      value: 0.7058824
+      objectReference: {fileID: 0}
+    - target: {fileID: 846440132786113077, guid: 6c2f161bcd1894c409c0cc5142ed56c8, type: 3}
+      propertyPath: paintingData.paintingName
+      value: "Grandparents\u2019 new home, mid 1990s"
+      objectReference: {fileID: 0}
+    - target: {fileID: 846440132786113077, guid: 6c2f161bcd1894c409c0cc5142ed56c8, type: 3}
+      propertyPath: paintingData.paintingImage
+      value: 
+      objectReference: {fileID: 21300000, guid: 867a1178aac39014eb9c00dd87edad1e, type: 3}
+    - target: {fileID: 846440132786113077, guid: 6c2f161bcd1894c409c0cc5142ed56c8, type: 3}
+      propertyPath: paintingData.paintingTextureColor.b
+      value: 0.7058824
+      objectReference: {fileID: 0}
+    - target: {fileID: 846440132786113077, guid: 6c2f161bcd1894c409c0cc5142ed56c8, type: 3}
+      propertyPath: paintingData.paintingTextureColor.g
+      value: 0.7058824
+      objectReference: {fileID: 0}
+    - target: {fileID: 846440132786113077, guid: 6c2f161bcd1894c409c0cc5142ed56c8, type: 3}
+      propertyPath: paintingData.paintingTextureColor.r
+      value: 0.7058824
+      objectReference: {fileID: 0}
+    - target: {fileID: 846440132952300748, guid: 6c2f161bcd1894c409c0cc5142ed56c8, type: 3}
+      propertyPath: paintingData.paintingName
+      value: "Tahil\u2019s mother, Tanu Nardip Singh"
+      objectReference: {fileID: 0}
+    - target: {fileID: 846440132952300748, guid: 6c2f161bcd1894c409c0cc5142ed56c8, type: 3}
+      propertyPath: paintingData.paintingImage
+      value: 
+      objectReference: {fileID: 21300000, guid: ffa32dcd89988ec4c9f2271c9e6c9f86, type: 3}
+    - target: {fileID: 846440132952300748, guid: 6c2f161bcd1894c409c0cc5142ed56c8, type: 3}
+      propertyPath: paintingData.paintingTextureColor.b
+      value: 0.7058824
+      objectReference: {fileID: 0}
+    - target: {fileID: 846440132952300748, guid: 6c2f161bcd1894c409c0cc5142ed56c8, type: 3}
+      propertyPath: paintingData.paintingTextureColor.g
+      value: 0.7058824
+      objectReference: {fileID: 0}
+    - target: {fileID: 846440132952300748, guid: 6c2f161bcd1894c409c0cc5142ed56c8, type: 3}
+      propertyPath: paintingData.paintingTextureColor.r
+      value: 0.7058824
+      objectReference: {fileID: 0}
+    - target: {fileID: 917173388758904331, guid: 6c2f161bcd1894c409c0cc5142ed56c8, type: 3}
+      propertyPath: paintingData.paintingName
+      value: Strength of joint family -2016
+      objectReference: {fileID: 0}
+    - target: {fileID: 917173388758904331, guid: 6c2f161bcd1894c409c0cc5142ed56c8, type: 3}
+      propertyPath: paintingData.paintingImage
+      value: 
+      objectReference: {fileID: 21300000, guid: 16251db09a5a53045a6a55ee0d3e22a8, type: 3}
+    - target: {fileID: 917173388758904331, guid: 6c2f161bcd1894c409c0cc5142ed56c8, type: 3}
+      propertyPath: paintingData.paintingTextureColor.b
+      value: 0.7058824
+      objectReference: {fileID: 0}
+    - target: {fileID: 917173388758904331, guid: 6c2f161bcd1894c409c0cc5142ed56c8, type: 3}
+      propertyPath: paintingData.paintingTextureColor.g
+      value: 0.7058824
+      objectReference: {fileID: 0}
+    - target: {fileID: 917173388758904331, guid: 6c2f161bcd1894c409c0cc5142ed56c8, type: 3}
+      propertyPath: paintingData.paintingTextureColor.r
+      value: 0.7058824
+      objectReference: {fileID: 0}
+    - target: {fileID: 1032528071112895588, guid: 6c2f161bcd1894c409c0cc5142ed56c8, type: 3}
+      propertyPath: paintingData.paintingName
+      value: "Ruchi\u2019s Family at The Festival of Color, A Celebration of Holi"
+      objectReference: {fileID: 0}
+    - target: {fileID: 1032528071112895588, guid: 6c2f161bcd1894c409c0cc5142ed56c8, type: 3}
+      propertyPath: paintingData.paintingImage
+      value: 
+      objectReference: {fileID: 21300000, guid: 7db840dbff70aa94fa734827b13bd757, type: 3}
+    - target: {fileID: 1032528071112895588, guid: 6c2f161bcd1894c409c0cc5142ed56c8, type: 3}
+      propertyPath: paintingData.paintingTextureColor.b
+      value: 0.7058824
+      objectReference: {fileID: 0}
+    - target: {fileID: 1032528071112895588, guid: 6c2f161bcd1894c409c0cc5142ed56c8, type: 3}
+      propertyPath: paintingData.paintingTextureColor.g
+      value: 0.7058824
+      objectReference: {fileID: 0}
+    - target: {fileID: 1032528071112895588, guid: 6c2f161bcd1894c409c0cc5142ed56c8, type: 3}
+      propertyPath: paintingData.paintingTextureColor.r
+      value: 0.7058824
+      objectReference: {fileID: 0}
     - target: {fileID: 1049242899765694517, guid: 6c2f161bcd1894c409c0cc5142ed56c8, type: 3}
       propertyPath: debugSphereRadius
       value: 0.1
@@ -182357,6 +183015,66 @@ PrefabInstance:
       propertyPath: onClickedViewButton.m_PersistentCalls.m_Calls.Array.data[2].m_Arguments.m_ObjectArgumentAssemblyTypeName
       value: UnityEngine.Object, UnityEngine
       objectReference: {fileID: 0}
+    - target: {fileID: 1086092524502666466, guid: 6c2f161bcd1894c409c0cc5142ed56c8, type: 3}
+      propertyPath: paintingData.paintingName
+      value: Tahil at Home as a Young Boy
+      objectReference: {fileID: 0}
+    - target: {fileID: 1086092524502666466, guid: 6c2f161bcd1894c409c0cc5142ed56c8, type: 3}
+      propertyPath: paintingData.paintingImage
+      value: 
+      objectReference: {fileID: 21300000, guid: d08373a9f6a64f1449dc9a86e31bf882, type: 3}
+    - target: {fileID: 1086092524502666466, guid: 6c2f161bcd1894c409c0cc5142ed56c8, type: 3}
+      propertyPath: paintingData.paintingTextureColor.b
+      value: 0.7058824
+      objectReference: {fileID: 0}
+    - target: {fileID: 1086092524502666466, guid: 6c2f161bcd1894c409c0cc5142ed56c8, type: 3}
+      propertyPath: paintingData.paintingTextureColor.g
+      value: 0.7058824
+      objectReference: {fileID: 0}
+    - target: {fileID: 1086092524502666466, guid: 6c2f161bcd1894c409c0cc5142ed56c8, type: 3}
+      propertyPath: paintingData.paintingTextureColor.r
+      value: 0.7058824
+      objectReference: {fileID: 0}
+    - target: {fileID: 1086092525397679991, guid: 6c2f161bcd1894c409c0cc5142ed56c8, type: 3}
+      propertyPath: paintingData.paintingName
+      value: "Tahil\u2019s Mom in Her Mother\u2019s Arms"
+      objectReference: {fileID: 0}
+    - target: {fileID: 1086092525397679991, guid: 6c2f161bcd1894c409c0cc5142ed56c8, type: 3}
+      propertyPath: paintingData.paintingImage
+      value: 
+      objectReference: {fileID: 21300000, guid: 45c56bf947333494493bb80a8027dea1, type: 3}
+    - target: {fileID: 1086092525397679991, guid: 6c2f161bcd1894c409c0cc5142ed56c8, type: 3}
+      propertyPath: paintingData.paintingTextureColor.b
+      value: 0.7058824
+      objectReference: {fileID: 0}
+    - target: {fileID: 1086092525397679991, guid: 6c2f161bcd1894c409c0cc5142ed56c8, type: 3}
+      propertyPath: paintingData.paintingTextureColor.g
+      value: 0.7058824
+      objectReference: {fileID: 0}
+    - target: {fileID: 1086092525397679991, guid: 6c2f161bcd1894c409c0cc5142ed56c8, type: 3}
+      propertyPath: paintingData.paintingTextureColor.r
+      value: 0.7058824
+      objectReference: {fileID: 0}
+    - target: {fileID: 1086092526097734445, guid: 6c2f161bcd1894c409c0cc5142ed56c8, type: 3}
+      propertyPath: paintingData.paintingName
+      value: "Tahil\u2019s maternal grandmother with Tahil\u2019s Mother as an Infant"
+      objectReference: {fileID: 0}
+    - target: {fileID: 1086092526097734445, guid: 6c2f161bcd1894c409c0cc5142ed56c8, type: 3}
+      propertyPath: paintingData.paintingImage
+      value: 
+      objectReference: {fileID: 21300000, guid: 854635ba1defc1444bac32b6eeb2a6f0, type: 3}
+    - target: {fileID: 1086092526097734445, guid: 6c2f161bcd1894c409c0cc5142ed56c8, type: 3}
+      propertyPath: paintingData.paintingTextureColor.b
+      value: 0.7058824
+      objectReference: {fileID: 0}
+    - target: {fileID: 1086092526097734445, guid: 6c2f161bcd1894c409c0cc5142ed56c8, type: 3}
+      propertyPath: paintingData.paintingTextureColor.g
+      value: 0.7058824
+      objectReference: {fileID: 0}
+    - target: {fileID: 1086092526097734445, guid: 6c2f161bcd1894c409c0cc5142ed56c8, type: 3}
+      propertyPath: paintingData.paintingTextureColor.r
+      value: 0.7058824
+      objectReference: {fileID: 0}
     - target: {fileID: 1439707442516010939, guid: 6c2f161bcd1894c409c0cc5142ed56c8, type: 3}
       propertyPath: debugSphereRadius
       value: 0.1
@@ -183756,6 +184474,26 @@ PrefabInstance:
     - target: {fileID: 1439707443961484553, guid: 6c2f161bcd1894c409c0cc5142ed56c8, type: 3}
       propertyPath: onClickedViewButton.m_PersistentCalls.m_Calls.Array.data[2].m_Arguments.m_ObjectArgumentAssemblyTypeName
       value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 1700372218910957459, guid: 6c2f161bcd1894c409c0cc5142ed56c8, type: 3}
+      propertyPath: paintingData.paintingName
+      value: Naisha with grandma
+      objectReference: {fileID: 0}
+    - target: {fileID: 1700372218910957459, guid: 6c2f161bcd1894c409c0cc5142ed56c8, type: 3}
+      propertyPath: paintingData.paintingImage
+      value: 
+      objectReference: {fileID: 21300000, guid: 1edb399c96ec6fb49871412fe968eee5, type: 3}
+    - target: {fileID: 1700372218910957459, guid: 6c2f161bcd1894c409c0cc5142ed56c8, type: 3}
+      propertyPath: paintingData.paintingTextureColor.b
+      value: 0.7058824
+      objectReference: {fileID: 0}
+    - target: {fileID: 1700372218910957459, guid: 6c2f161bcd1894c409c0cc5142ed56c8, type: 3}
+      propertyPath: paintingData.paintingTextureColor.g
+      value: 0.7058824
+      objectReference: {fileID: 0}
+    - target: {fileID: 1700372218910957459, guid: 6c2f161bcd1894c409c0cc5142ed56c8, type: 3}
+      propertyPath: paintingData.paintingTextureColor.r
+      value: 0.7058824
       objectReference: {fileID: 0}
     - target: {fileID: 1855157023404721573, guid: 6c2f161bcd1894c409c0cc5142ed56c8, type: 3}
       propertyPath: m_Name
@@ -186561,6 +187299,66 @@ PrefabInstance:
       propertyPath: onClickedViewButton.m_PersistentCalls.m_Calls.Array.data[2].m_Arguments.m_ObjectArgumentAssemblyTypeName
       value: UnityEngine.Object, UnityEngine
       objectReference: {fileID: 0}
+    - target: {fileID: 2394660717176887888, guid: 6c2f161bcd1894c409c0cc5142ed56c8, type: 3}
+      propertyPath: paintingData.paintingName
+      value: Dad with Youngest Daughter during an Indian festival
+      objectReference: {fileID: 0}
+    - target: {fileID: 2394660717176887888, guid: 6c2f161bcd1894c409c0cc5142ed56c8, type: 3}
+      propertyPath: paintingData.paintingImage
+      value: 
+      objectReference: {fileID: 21300000, guid: fd56abd21b41a6e4e96c43e3cfe3c28a, type: 3}
+    - target: {fileID: 2394660717176887888, guid: 6c2f161bcd1894c409c0cc5142ed56c8, type: 3}
+      propertyPath: paintingData.paintingTextureColor.b
+      value: 0.7058824
+      objectReference: {fileID: 0}
+    - target: {fileID: 2394660717176887888, guid: 6c2f161bcd1894c409c0cc5142ed56c8, type: 3}
+      propertyPath: paintingData.paintingTextureColor.g
+      value: 0.7058824
+      objectReference: {fileID: 0}
+    - target: {fileID: 2394660717176887888, guid: 6c2f161bcd1894c409c0cc5142ed56c8, type: 3}
+      propertyPath: paintingData.paintingTextureColor.r
+      value: 0.7058824
+      objectReference: {fileID: 0}
+    - target: {fileID: 2394660717285431033, guid: 6c2f161bcd1894c409c0cc5142ed56c8, type: 3}
+      propertyPath: paintingData.paintingName
+      value: Naisha with mom on Diwali in San Fransisco
+      objectReference: {fileID: 0}
+    - target: {fileID: 2394660717285431033, guid: 6c2f161bcd1894c409c0cc5142ed56c8, type: 3}
+      propertyPath: paintingData.paintingImage
+      value: 
+      objectReference: {fileID: 21300000, guid: 50c83d77613937c4099849f14746e45a, type: 3}
+    - target: {fileID: 2394660717285431033, guid: 6c2f161bcd1894c409c0cc5142ed56c8, type: 3}
+      propertyPath: paintingData.paintingTextureColor.b
+      value: 0.7058824
+      objectReference: {fileID: 0}
+    - target: {fileID: 2394660717285431033, guid: 6c2f161bcd1894c409c0cc5142ed56c8, type: 3}
+      propertyPath: paintingData.paintingTextureColor.g
+      value: 0.7058824
+      objectReference: {fileID: 0}
+    - target: {fileID: 2394660717285431033, guid: 6c2f161bcd1894c409c0cc5142ed56c8, type: 3}
+      propertyPath: paintingData.paintingTextureColor.r
+      value: 0.7058824
+      objectReference: {fileID: 0}
+    - target: {fileID: 2394660717588971520, guid: 6c2f161bcd1894c409c0cc5142ed56c8, type: 3}
+      propertyPath: paintingData.paintingName
+      value: 'Naisha: Oldest daughter'
+      objectReference: {fileID: 0}
+    - target: {fileID: 2394660717588971520, guid: 6c2f161bcd1894c409c0cc5142ed56c8, type: 3}
+      propertyPath: paintingData.paintingImage
+      value: 
+      objectReference: {fileID: 21300000, guid: 35e24382c919da64fb609da00168cf8a, type: 3}
+    - target: {fileID: 2394660717588971520, guid: 6c2f161bcd1894c409c0cc5142ed56c8, type: 3}
+      propertyPath: paintingData.paintingTextureColor.b
+      value: 0.7058824
+      objectReference: {fileID: 0}
+    - target: {fileID: 2394660717588971520, guid: 6c2f161bcd1894c409c0cc5142ed56c8, type: 3}
+      propertyPath: paintingData.paintingTextureColor.g
+      value: 0.7058824
+      objectReference: {fileID: 0}
+    - target: {fileID: 2394660717588971520, guid: 6c2f161bcd1894c409c0cc5142ed56c8, type: 3}
+      propertyPath: paintingData.paintingTextureColor.r
+      value: 0.7058824
+      objectReference: {fileID: 0}
     - target: {fileID: 2454434135914476494, guid: 6c2f161bcd1894c409c0cc5142ed56c8, type: 3}
       propertyPath: debugSphereRadius
       value: 0.1
@@ -186809,6 +187607,26 @@ PrefabInstance:
       propertyPath: onClickedViewButton.m_PersistentCalls.m_Calls.Array.data[2].m_Arguments.m_ObjectArgumentAssemblyTypeName
       value: UnityEngine.Object, UnityEngine
       objectReference: {fileID: 0}
+    - target: {fileID: 2686737009305669045, guid: 6c2f161bcd1894c409c0cc5142ed56c8, type: 3}
+      propertyPath: paintingData.paintingName
+      value: "Tahil\u2019s Maternal Grandmother"
+      objectReference: {fileID: 0}
+    - target: {fileID: 2686737009305669045, guid: 6c2f161bcd1894c409c0cc5142ed56c8, type: 3}
+      propertyPath: paintingData.paintingImage
+      value: 
+      objectReference: {fileID: 21300000, guid: 579cd050ead000f40b24d67a1b1df18c, type: 3}
+    - target: {fileID: 2686737009305669045, guid: 6c2f161bcd1894c409c0cc5142ed56c8, type: 3}
+      propertyPath: paintingData.paintingTextureColor.b
+      value: 0.7058824
+      objectReference: {fileID: 0}
+    - target: {fileID: 2686737009305669045, guid: 6c2f161bcd1894c409c0cc5142ed56c8, type: 3}
+      propertyPath: paintingData.paintingTextureColor.g
+      value: 0.7058824
+      objectReference: {fileID: 0}
+    - target: {fileID: 2686737009305669045, guid: 6c2f161bcd1894c409c0cc5142ed56c8, type: 3}
+      propertyPath: paintingData.paintingTextureColor.r
+      value: 0.7058824
+      objectReference: {fileID: 0}
     - target: {fileID: 2872315310469238263, guid: 6c2f161bcd1894c409c0cc5142ed56c8, type: 3}
       propertyPath: debugSphereRadius
       value: 0.1
@@ -190169,6 +190987,126 @@ PrefabInstance:
       propertyPath: onClickedViewButton.m_PersistentCalls.m_Calls.Array.data[2].m_Arguments.m_ObjectArgumentAssemblyTypeName
       value: UnityEngine.Object, UnityEngine
       objectReference: {fileID: 0}
+    - target: {fileID: 3100864790316327415, guid: 6c2f161bcd1894c409c0cc5142ed56c8, type: 3}
+      propertyPath: paintingData.paintingName
+      value: The feel of Freedom/Justice/Equality, UN Headquarters, New York, 2020
+      objectReference: {fileID: 0}
+    - target: {fileID: 3100864790316327415, guid: 6c2f161bcd1894c409c0cc5142ed56c8, type: 3}
+      propertyPath: paintingData.paintingImage
+      value: 
+      objectReference: {fileID: 21300000, guid: 7449eb77c210fea4ebde43bd5d7c1c89, type: 3}
+    - target: {fileID: 3100864790316327415, guid: 6c2f161bcd1894c409c0cc5142ed56c8, type: 3}
+      propertyPath: paintingData.paintingTextureColor.b
+      value: 0.7058824
+      objectReference: {fileID: 0}
+    - target: {fileID: 3100864790316327415, guid: 6c2f161bcd1894c409c0cc5142ed56c8, type: 3}
+      propertyPath: paintingData.paintingTextureColor.g
+      value: 0.7058824
+      objectReference: {fileID: 0}
+    - target: {fileID: 3100864790316327415, guid: 6c2f161bcd1894c409c0cc5142ed56c8, type: 3}
+      propertyPath: paintingData.paintingTextureColor.r
+      value: 0.7058824
+      objectReference: {fileID: 0}
+    - target: {fileID: 3100864790317521434, guid: 6c2f161bcd1894c409c0cc5142ed56c8, type: 3}
+      propertyPath: paintingData.paintingName
+      value: "From left: Tahil\u2019s paternal grandfather, father, and mother"
+      objectReference: {fileID: 0}
+    - target: {fileID: 3100864790317521434, guid: 6c2f161bcd1894c409c0cc5142ed56c8, type: 3}
+      propertyPath: paintingData.paintingImage
+      value: 
+      objectReference: {fileID: 21300000, guid: cd9ad2fc3794e1944953b8813113d362, type: 3}
+    - target: {fileID: 3100864790317521434, guid: 6c2f161bcd1894c409c0cc5142ed56c8, type: 3}
+      propertyPath: paintingData.paintingTextureColor.b
+      value: 0.7058824
+      objectReference: {fileID: 0}
+    - target: {fileID: 3100864790317521434, guid: 6c2f161bcd1894c409c0cc5142ed56c8, type: 3}
+      propertyPath: paintingData.paintingTextureColor.g
+      value: 0.7058824
+      objectReference: {fileID: 0}
+    - target: {fileID: 3100864790317521434, guid: 6c2f161bcd1894c409c0cc5142ed56c8, type: 3}
+      propertyPath: paintingData.paintingTextureColor.r
+      value: 0.7058824
+      objectReference: {fileID: 0}
+    - target: {fileID: 3100864790546615109, guid: 6c2f161bcd1894c409c0cc5142ed56c8, type: 3}
+      propertyPath: paintingData.paintingName
+      value: Universe-I, the Artist, See You. Do You See You?
+      objectReference: {fileID: 0}
+    - target: {fileID: 3100864790546615109, guid: 6c2f161bcd1894c409c0cc5142ed56c8, type: 3}
+      propertyPath: paintingData.paintingImage
+      value: 
+      objectReference: {fileID: 21300000, guid: 0000c5d29dca59e438d03ed648612b5d, type: 3}
+    - target: {fileID: 3100864790546615109, guid: 6c2f161bcd1894c409c0cc5142ed56c8, type: 3}
+      propertyPath: paintingData.paintingTextureColor.b
+      value: 0.7058824
+      objectReference: {fileID: 0}
+    - target: {fileID: 3100864790546615109, guid: 6c2f161bcd1894c409c0cc5142ed56c8, type: 3}
+      propertyPath: paintingData.paintingTextureColor.g
+      value: 0.7058824
+      objectReference: {fileID: 0}
+    - target: {fileID: 3100864790546615109, guid: 6c2f161bcd1894c409c0cc5142ed56c8, type: 3}
+      propertyPath: paintingData.paintingTextureColor.r
+      value: 0.7058824
+      objectReference: {fileID: 0}
+    - target: {fileID: 3100864790561692430, guid: 6c2f161bcd1894c409c0cc5142ed56c8, type: 3}
+      propertyPath: paintingData.paintingName
+      value: Feeling princessly, my wedding day, March 10th, 2015
+      objectReference: {fileID: 0}
+    - target: {fileID: 3100864790561692430, guid: 6c2f161bcd1894c409c0cc5142ed56c8, type: 3}
+      propertyPath: paintingData.paintingImage
+      value: 
+      objectReference: {fileID: 21300000, guid: b336f009103db794ab381c6bf1c16695, type: 3}
+    - target: {fileID: 3100864790561692430, guid: 6c2f161bcd1894c409c0cc5142ed56c8, type: 3}
+      propertyPath: paintingData.paintingTextureColor.b
+      value: 0.7058824
+      objectReference: {fileID: 0}
+    - target: {fileID: 3100864790561692430, guid: 6c2f161bcd1894c409c0cc5142ed56c8, type: 3}
+      propertyPath: paintingData.paintingTextureColor.g
+      value: 0.7058824
+      objectReference: {fileID: 0}
+    - target: {fileID: 3100864790561692430, guid: 6c2f161bcd1894c409c0cc5142ed56c8, type: 3}
+      propertyPath: paintingData.paintingTextureColor.r
+      value: 0.7058824
+      objectReference: {fileID: 0}
+    - target: {fileID: 3100864791659444309, guid: 6c2f161bcd1894c409c0cc5142ed56c8, type: 3}
+      propertyPath: paintingData.paintingName
+      value: 'The Paths of Happy Marriage: One Life-One Husband'
+      objectReference: {fileID: 0}
+    - target: {fileID: 3100864791659444309, guid: 6c2f161bcd1894c409c0cc5142ed56c8, type: 3}
+      propertyPath: paintingData.paintingImage
+      value: 
+      objectReference: {fileID: 21300000, guid: bcd0ab9b974d2924bae1cb92877c1680, type: 3}
+    - target: {fileID: 3100864791659444309, guid: 6c2f161bcd1894c409c0cc5142ed56c8, type: 3}
+      propertyPath: paintingData.paintingTextureColor.b
+      value: 0.7058824
+      objectReference: {fileID: 0}
+    - target: {fileID: 3100864791659444309, guid: 6c2f161bcd1894c409c0cc5142ed56c8, type: 3}
+      propertyPath: paintingData.paintingTextureColor.g
+      value: 0.7058824
+      objectReference: {fileID: 0}
+    - target: {fileID: 3100864791659444309, guid: 6c2f161bcd1894c409c0cc5142ed56c8, type: 3}
+      propertyPath: paintingData.paintingTextureColor.r
+      value: 0.7058824
+      objectReference: {fileID: 0}
+    - target: {fileID: 3100864792075826758, guid: 6c2f161bcd1894c409c0cc5142ed56c8, type: 3}
+      propertyPath: paintingData.paintingName
+      value: Gazing away/childlike wonder, Kashvi (niece), Gujarat, 2014
+      objectReference: {fileID: 0}
+    - target: {fileID: 3100864792075826758, guid: 6c2f161bcd1894c409c0cc5142ed56c8, type: 3}
+      propertyPath: paintingData.paintingImage
+      value: 
+      objectReference: {fileID: 21300000, guid: de1c4af71e4d9574c89f0fdad089b232, type: 3}
+    - target: {fileID: 3100864792075826758, guid: 6c2f161bcd1894c409c0cc5142ed56c8, type: 3}
+      propertyPath: paintingData.paintingTextureColor.b
+      value: 0.7058824
+      objectReference: {fileID: 0}
+    - target: {fileID: 3100864792075826758, guid: 6c2f161bcd1894c409c0cc5142ed56c8, type: 3}
+      propertyPath: paintingData.paintingTextureColor.g
+      value: 0.7058824
+      objectReference: {fileID: 0}
+    - target: {fileID: 3100864792075826758, guid: 6c2f161bcd1894c409c0cc5142ed56c8, type: 3}
+      propertyPath: paintingData.paintingTextureColor.r
+      value: 0.7058824
+      objectReference: {fileID: 0}
     - target: {fileID: 3268028884267467799, guid: 6c2f161bcd1894c409c0cc5142ed56c8, type: 3}
       propertyPath: debugSphereRadius
       value: 0.1
@@ -191008,6 +191946,26 @@ PrefabInstance:
     - target: {fileID: 3268028884694244935, guid: 6c2f161bcd1894c409c0cc5142ed56c8, type: 3}
       propertyPath: onClickedViewButton.m_PersistentCalls.m_Calls.Array.data[2].m_Arguments.m_ObjectArgumentAssemblyTypeName
       value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 3392922661312768170, guid: 6c2f161bcd1894c409c0cc5142ed56c8, type: 3}
+      propertyPath: paintingData.paintingName
+      value: Afternoon tea outside of Army residence in Sikkim, India
+      objectReference: {fileID: 0}
+    - target: {fileID: 3392922661312768170, guid: 6c2f161bcd1894c409c0cc5142ed56c8, type: 3}
+      propertyPath: paintingData.paintingImage
+      value: 
+      objectReference: {fileID: 21300000, guid: 981a1f3d8adce2b42bb3ee7aa0d05683, type: 3}
+    - target: {fileID: 3392922661312768170, guid: 6c2f161bcd1894c409c0cc5142ed56c8, type: 3}
+      propertyPath: paintingData.paintingTextureColor.b
+      value: 0.7058824
+      objectReference: {fileID: 0}
+    - target: {fileID: 3392922661312768170, guid: 6c2f161bcd1894c409c0cc5142ed56c8, type: 3}
+      propertyPath: paintingData.paintingTextureColor.g
+      value: 0.7058824
+      objectReference: {fileID: 0}
+    - target: {fileID: 3392922661312768170, guid: 6c2f161bcd1894c409c0cc5142ed56c8, type: 3}
+      propertyPath: paintingData.paintingTextureColor.r
+      value: 0.7058824
       objectReference: {fileID: 0}
     - target: {fileID: 3483036560703274293, guid: 6c2f161bcd1894c409c0cc5142ed56c8, type: 3}
       propertyPath: debugSphereRadius
@@ -195213,6 +196171,26 @@ PrefabInstance:
       propertyPath: onClickedViewButton.m_PersistentCalls.m_Calls.Array.data[2].m_Arguments.m_ObjectArgumentAssemblyTypeName
       value: UnityEngine.Object, UnityEngine
       objectReference: {fileID: 0}
+    - target: {fileID: 4767576730252606981, guid: 6c2f161bcd1894c409c0cc5142ed56c8, type: 3}
+      propertyPath: paintingData.paintingName
+      value: Mom and dad decorating the house on Diwali, 2018
+      objectReference: {fileID: 0}
+    - target: {fileID: 4767576730252606981, guid: 6c2f161bcd1894c409c0cc5142ed56c8, type: 3}
+      propertyPath: paintingData.paintingImage
+      value: 
+      objectReference: {fileID: 21300000, guid: 09e63dfdaa1bceb409d336faabaf8705, type: 3}
+    - target: {fileID: 4767576730252606981, guid: 6c2f161bcd1894c409c0cc5142ed56c8, type: 3}
+      propertyPath: paintingData.paintingTextureColor.b
+      value: 0.7058824
+      objectReference: {fileID: 0}
+    - target: {fileID: 4767576730252606981, guid: 6c2f161bcd1894c409c0cc5142ed56c8, type: 3}
+      propertyPath: paintingData.paintingTextureColor.g
+      value: 0.7058824
+      objectReference: {fileID: 0}
+    - target: {fileID: 4767576730252606981, guid: 6c2f161bcd1894c409c0cc5142ed56c8, type: 3}
+      propertyPath: paintingData.paintingTextureColor.r
+      value: 0.7058824
+      objectReference: {fileID: 0}
     - target: {fileID: 5003224318190469246, guid: 6c2f161bcd1894c409c0cc5142ed56c8, type: 3}
       propertyPath: debugSphereRadius
       value: 0.1
@@ -195493,6 +196471,246 @@ PrefabInstance:
       propertyPath: onClickedViewButton.m_PersistentCalls.m_Calls.Array.data[2].m_Arguments.m_ObjectArgumentAssemblyTypeName
       value: UnityEngine.Object, UnityEngine
       objectReference: {fileID: 0}
+    - target: {fileID: 5186652120482507430, guid: 6c2f161bcd1894c409c0cc5142ed56c8, type: 3}
+      propertyPath: paintingData.paintingName
+      value: 'The Paths of Happy Marriage: One Life/One Husband-One Wife'
+      objectReference: {fileID: 0}
+    - target: {fileID: 5186652120482507430, guid: 6c2f161bcd1894c409c0cc5142ed56c8, type: 3}
+      propertyPath: paintingData.paintingImage
+      value: 
+      objectReference: {fileID: 21300000, guid: 8aa0a9a46bdbefc4ba68e08cab5da600, type: 3}
+    - target: {fileID: 5186652120482507430, guid: 6c2f161bcd1894c409c0cc5142ed56c8, type: 3}
+      propertyPath: paintingData.paintingTextureColor.b
+      value: 0.7058824
+      objectReference: {fileID: 0}
+    - target: {fileID: 5186652120482507430, guid: 6c2f161bcd1894c409c0cc5142ed56c8, type: 3}
+      propertyPath: paintingData.paintingTextureColor.g
+      value: 0.7058824
+      objectReference: {fileID: 0}
+    - target: {fileID: 5186652120482507430, guid: 6c2f161bcd1894c409c0cc5142ed56c8, type: 3}
+      propertyPath: paintingData.paintingTextureColor.r
+      value: 0.7058824
+      objectReference: {fileID: 0}
+    - target: {fileID: 5186652120572824720, guid: 6c2f161bcd1894c409c0cc5142ed56c8, type: 3}
+      propertyPath: paintingData.paintingName
+      value: Durga Puja 2012
+      objectReference: {fileID: 0}
+    - target: {fileID: 5186652120572824720, guid: 6c2f161bcd1894c409c0cc5142ed56c8, type: 3}
+      propertyPath: paintingData.paintingImage
+      value: 
+      objectReference: {fileID: 21300000, guid: 7d792e8e58e5e364fae74ef9a05119c5, type: 3}
+    - target: {fileID: 5186652120572824720, guid: 6c2f161bcd1894c409c0cc5142ed56c8, type: 3}
+      propertyPath: paintingData.paintingTextureColor.b
+      value: 0.7058824
+      objectReference: {fileID: 0}
+    - target: {fileID: 5186652120572824720, guid: 6c2f161bcd1894c409c0cc5142ed56c8, type: 3}
+      propertyPath: paintingData.paintingTextureColor.g
+      value: 0.7058824
+      objectReference: {fileID: 0}
+    - target: {fileID: 5186652120572824720, guid: 6c2f161bcd1894c409c0cc5142ed56c8, type: 3}
+      propertyPath: paintingData.paintingTextureColor.r
+      value: 0.7058824
+      objectReference: {fileID: 0}
+    - target: {fileID: 5186652120595248330, guid: 6c2f161bcd1894c409c0cc5142ed56c8, type: 3}
+      propertyPath: paintingData.paintingName
+      value: Tahil on The Wheel-Thinking Round
+      objectReference: {fileID: 0}
+    - target: {fileID: 5186652120595248330, guid: 6c2f161bcd1894c409c0cc5142ed56c8, type: 3}
+      propertyPath: paintingData.paintingImage
+      value: 
+      objectReference: {fileID: 21300000, guid: 3459bcdb02092054b842a03df5ca0c58, type: 3}
+    - target: {fileID: 5186652120595248330, guid: 6c2f161bcd1894c409c0cc5142ed56c8, type: 3}
+      propertyPath: paintingData.paintingTextureColor.b
+      value: 0.7058824
+      objectReference: {fileID: 0}
+    - target: {fileID: 5186652120595248330, guid: 6c2f161bcd1894c409c0cc5142ed56c8, type: 3}
+      propertyPath: paintingData.paintingTextureColor.g
+      value: 0.7058824
+      objectReference: {fileID: 0}
+    - target: {fileID: 5186652120595248330, guid: 6c2f161bcd1894c409c0cc5142ed56c8, type: 3}
+      propertyPath: paintingData.paintingTextureColor.r
+      value: 0.7058824
+      objectReference: {fileID: 0}
+    - target: {fileID: 5186652120871946889, guid: 6c2f161bcd1894c409c0cc5142ed56c8, type: 3}
+      propertyPath: paintingData.paintingName
+      value: Adding colors to life. The joy of making Rangoli on Diwali, Jaipur
+      objectReference: {fileID: 0}
+    - target: {fileID: 5186652120871946889, guid: 6c2f161bcd1894c409c0cc5142ed56c8, type: 3}
+      propertyPath: paintingData.paintingImage
+      value: 
+      objectReference: {fileID: 21300000, guid: 8662dada3e1b5034fa01ef87215f048c, type: 3}
+    - target: {fileID: 5186652120871946889, guid: 6c2f161bcd1894c409c0cc5142ed56c8, type: 3}
+      propertyPath: paintingData.paintingTextureColor.b
+      value: 0.7058824
+      objectReference: {fileID: 0}
+    - target: {fileID: 5186652120871946889, guid: 6c2f161bcd1894c409c0cc5142ed56c8, type: 3}
+      propertyPath: paintingData.paintingTextureColor.g
+      value: 0.7058824
+      objectReference: {fileID: 0}
+    - target: {fileID: 5186652120871946889, guid: 6c2f161bcd1894c409c0cc5142ed56c8, type: 3}
+      propertyPath: paintingData.paintingTextureColor.r
+      value: 0.7058824
+      objectReference: {fileID: 0}
+    - target: {fileID: 5186652120906510259, guid: 6c2f161bcd1894c409c0cc5142ed56c8, type: 3}
+      propertyPath: paintingData.paintingName
+      value: "Tahil\u2019s parents during their Wedding Engagement ceremony"
+      objectReference: {fileID: 0}
+    - target: {fileID: 5186652120906510259, guid: 6c2f161bcd1894c409c0cc5142ed56c8, type: 3}
+      propertyPath: paintingData.paintingImage
+      value: 
+      objectReference: {fileID: 21300000, guid: 8c11324cc38919149925b51d5dbe4f12, type: 3}
+    - target: {fileID: 5186652120906510259, guid: 6c2f161bcd1894c409c0cc5142ed56c8, type: 3}
+      propertyPath: paintingData.paintingTextureColor.b
+      value: 0.7058824
+      objectReference: {fileID: 0}
+    - target: {fileID: 5186652120906510259, guid: 6c2f161bcd1894c409c0cc5142ed56c8, type: 3}
+      propertyPath: paintingData.paintingTextureColor.g
+      value: 0.7058824
+      objectReference: {fileID: 0}
+    - target: {fileID: 5186652120906510259, guid: 6c2f161bcd1894c409c0cc5142ed56c8, type: 3}
+      propertyPath: paintingData.paintingTextureColor.r
+      value: 0.7058824
+      objectReference: {fileID: 0}
+    - target: {fileID: 5186652121357007450, guid: 6c2f161bcd1894c409c0cc5142ed56c8, type: 3}
+      propertyPath: paintingData.paintingName
+      value: Durga Puja 2012
+      objectReference: {fileID: 0}
+    - target: {fileID: 5186652121357007450, guid: 6c2f161bcd1894c409c0cc5142ed56c8, type: 3}
+      propertyPath: paintingData.paintingImage
+      value: 
+      objectReference: {fileID: 21300000, guid: c69abdf5cef252f439697b60585e1492, type: 3}
+    - target: {fileID: 5186652121357007450, guid: 6c2f161bcd1894c409c0cc5142ed56c8, type: 3}
+      propertyPath: paintingData.paintingTextureColor.b
+      value: 0.7058824
+      objectReference: {fileID: 0}
+    - target: {fileID: 5186652121357007450, guid: 6c2f161bcd1894c409c0cc5142ed56c8, type: 3}
+      propertyPath: paintingData.paintingTextureColor.g
+      value: 0.7058824
+      objectReference: {fileID: 0}
+    - target: {fileID: 5186652121357007450, guid: 6c2f161bcd1894c409c0cc5142ed56c8, type: 3}
+      propertyPath: paintingData.paintingTextureColor.r
+      value: 0.7058824
+      objectReference: {fileID: 0}
+    - target: {fileID: 5186652121821790268, guid: 6c2f161bcd1894c409c0cc5142ed56c8, type: 3}
+      propertyPath: paintingData.paintingName
+      value: "Moon Celebrations, Mom and dad at sister\u2019s wedding, Jaipur, 2012"
+      objectReference: {fileID: 0}
+    - target: {fileID: 5186652121821790268, guid: 6c2f161bcd1894c409c0cc5142ed56c8, type: 3}
+      propertyPath: paintingData.paintingImage
+      value: 
+      objectReference: {fileID: 21300000, guid: ea47be683c2075e40bcba71ea03f4d2e, type: 3}
+    - target: {fileID: 5186652121821790268, guid: 6c2f161bcd1894c409c0cc5142ed56c8, type: 3}
+      propertyPath: paintingData.paintingTextureColor.b
+      value: 0.7058824
+      objectReference: {fileID: 0}
+    - target: {fileID: 5186652121821790268, guid: 6c2f161bcd1894c409c0cc5142ed56c8, type: 3}
+      propertyPath: paintingData.paintingTextureColor.g
+      value: 0.7058824
+      objectReference: {fileID: 0}
+    - target: {fileID: 5186652121821790268, guid: 6c2f161bcd1894c409c0cc5142ed56c8, type: 3}
+      propertyPath: paintingData.paintingTextureColor.r
+      value: 0.7058824
+      objectReference: {fileID: 0}
+    - target: {fileID: 5389863762452682473, guid: 6c2f161bcd1894c409c0cc5142ed56c8, type: 3}
+      propertyPath: paintingData.paintingName
+      value: Naisha as a baby on Christmas day
+      objectReference: {fileID: 0}
+    - target: {fileID: 5389863762452682473, guid: 6c2f161bcd1894c409c0cc5142ed56c8, type: 3}
+      propertyPath: paintingData.paintingImage
+      value: 
+      objectReference: {fileID: 21300000, guid: 01bb1c487c322f14d93376811ed1fcd5, type: 3}
+    - target: {fileID: 5389863762452682473, guid: 6c2f161bcd1894c409c0cc5142ed56c8, type: 3}
+      propertyPath: paintingData.paintingTextureColor.b
+      value: 0.7058824
+      objectReference: {fileID: 0}
+    - target: {fileID: 5389863762452682473, guid: 6c2f161bcd1894c409c0cc5142ed56c8, type: 3}
+      propertyPath: paintingData.paintingTextureColor.g
+      value: 0.7058824
+      objectReference: {fileID: 0}
+    - target: {fileID: 5389863762452682473, guid: 6c2f161bcd1894c409c0cc5142ed56c8, type: 3}
+      propertyPath: paintingData.paintingTextureColor.r
+      value: 0.7058824
+      objectReference: {fileID: 0}
+    - target: {fileID: 5389863762992868671, guid: 6c2f161bcd1894c409c0cc5142ed56c8, type: 3}
+      propertyPath: paintingData.paintingName
+      value: 'Aurisha: Youngest Daughter, 1st birthday'
+      objectReference: {fileID: 0}
+    - target: {fileID: 5389863762992868671, guid: 6c2f161bcd1894c409c0cc5142ed56c8, type: 3}
+      propertyPath: paintingData.paintingImage
+      value: 
+      objectReference: {fileID: 21300000, guid: 8c6d684863da6f642b9ceb979138fae1, type: 3}
+    - target: {fileID: 5389863762992868671, guid: 6c2f161bcd1894c409c0cc5142ed56c8, type: 3}
+      propertyPath: paintingData.paintingTextureColor.b
+      value: 0.7058824
+      objectReference: {fileID: 0}
+    - target: {fileID: 5389863762992868671, guid: 6c2f161bcd1894c409c0cc5142ed56c8, type: 3}
+      propertyPath: paintingData.paintingTextureColor.g
+      value: 0.7058824
+      objectReference: {fileID: 0}
+    - target: {fileID: 5389863762992868671, guid: 6c2f161bcd1894c409c0cc5142ed56c8, type: 3}
+      propertyPath: paintingData.paintingTextureColor.r
+      value: 0.7058824
+      objectReference: {fileID: 0}
+    - target: {fileID: 5389863763152474803, guid: 6c2f161bcd1894c409c0cc5142ed56c8, type: 3}
+      propertyPath: paintingData.paintingName
+      value: Mom with daughters at Home
+      objectReference: {fileID: 0}
+    - target: {fileID: 5389863763152474803, guid: 6c2f161bcd1894c409c0cc5142ed56c8, type: 3}
+      propertyPath: paintingData.paintingImage
+      value: 
+      objectReference: {fileID: 21300000, guid: 71489e6f1f272004e9def0f9e17bb3b9, type: 3}
+    - target: {fileID: 5389863763152474803, guid: 6c2f161bcd1894c409c0cc5142ed56c8, type: 3}
+      propertyPath: paintingData.paintingTextureColor.b
+      value: 0.7058824
+      objectReference: {fileID: 0}
+    - target: {fileID: 5389863763152474803, guid: 6c2f161bcd1894c409c0cc5142ed56c8, type: 3}
+      propertyPath: paintingData.paintingTextureColor.g
+      value: 0.7058824
+      objectReference: {fileID: 0}
+    - target: {fileID: 5389863763152474803, guid: 6c2f161bcd1894c409c0cc5142ed56c8, type: 3}
+      propertyPath: paintingData.paintingTextureColor.r
+      value: 0.7058824
+      objectReference: {fileID: 0}
+    - target: {fileID: 5389863764047511846, guid: 6c2f161bcd1894c409c0cc5142ed56c8, type: 3}
+      propertyPath: paintingData.paintingName
+      value: Aayansh with Radha Krishna
+      objectReference: {fileID: 0}
+    - target: {fileID: 5389863764047511846, guid: 6c2f161bcd1894c409c0cc5142ed56c8, type: 3}
+      propertyPath: paintingData.paintingImage
+      value: 
+      objectReference: {fileID: 21300000, guid: 4878e818d3b6c2d42ad3ed77d250adf1, type: 3}
+    - target: {fileID: 5389863764047511846, guid: 6c2f161bcd1894c409c0cc5142ed56c8, type: 3}
+      propertyPath: paintingData.paintingTextureColor.b
+      value: 0.7058824
+      objectReference: {fileID: 0}
+    - target: {fileID: 5389863764047511846, guid: 6c2f161bcd1894c409c0cc5142ed56c8, type: 3}
+      propertyPath: paintingData.paintingTextureColor.g
+      value: 0.7058824
+      objectReference: {fileID: 0}
+    - target: {fileID: 5389863764047511846, guid: 6c2f161bcd1894c409c0cc5142ed56c8, type: 3}
+      propertyPath: paintingData.paintingTextureColor.r
+      value: 0.7058824
+      objectReference: {fileID: 0}
+    - target: {fileID: 5389863764321132545, guid: 6c2f161bcd1894c409c0cc5142ed56c8, type: 3}
+      propertyPath: paintingData.paintingName
+      value: Dad with Grandpa
+      objectReference: {fileID: 0}
+    - target: {fileID: 5389863764321132545, guid: 6c2f161bcd1894c409c0cc5142ed56c8, type: 3}
+      propertyPath: paintingData.paintingImage
+      value: 
+      objectReference: {fileID: 21300000, guid: 891ae1bdf1c45314e8df58487f511d00, type: 3}
+    - target: {fileID: 5389863764321132545, guid: 6c2f161bcd1894c409c0cc5142ed56c8, type: 3}
+      propertyPath: paintingData.paintingTextureColor.b
+      value: 0.7058824
+      objectReference: {fileID: 0}
+    - target: {fileID: 5389863764321132545, guid: 6c2f161bcd1894c409c0cc5142ed56c8, type: 3}
+      propertyPath: paintingData.paintingTextureColor.g
+      value: 0.7058824
+      objectReference: {fileID: 0}
+    - target: {fileID: 5389863764321132545, guid: 6c2f161bcd1894c409c0cc5142ed56c8, type: 3}
+      propertyPath: paintingData.paintingTextureColor.r
+      value: 0.7058824
+      objectReference: {fileID: 0}
     - target: {fileID: 5417354297583631245, guid: 6c2f161bcd1894c409c0cc5142ed56c8, type: 3}
       propertyPath: debugSphereRadius
       value: 0.1
@@ -197172,6 +198390,66 @@ PrefabInstance:
     - target: {fileID: 5417354299645986446, guid: 6c2f161bcd1894c409c0cc5142ed56c8, type: 3}
       propertyPath: onClickedViewButton.m_PersistentCalls.m_Calls.Array.data[2].m_Arguments.m_ObjectArgumentAssemblyTypeName
       value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 5583458471705789813, guid: 6c2f161bcd1894c409c0cc5142ed56c8, type: 3}
+      propertyPath: paintingData.paintingName
+      value: Naisha on her 5th birthday, dressed as a princess
+      objectReference: {fileID: 0}
+    - target: {fileID: 5583458471705789813, guid: 6c2f161bcd1894c409c0cc5142ed56c8, type: 3}
+      propertyPath: paintingData.paintingImage
+      value: 
+      objectReference: {fileID: 21300000, guid: 4f9ad701d0a4b434da4ac5316d2a4282, type: 3}
+    - target: {fileID: 5583458471705789813, guid: 6c2f161bcd1894c409c0cc5142ed56c8, type: 3}
+      propertyPath: paintingData.paintingTextureColor.b
+      value: 0.7058824
+      objectReference: {fileID: 0}
+    - target: {fileID: 5583458471705789813, guid: 6c2f161bcd1894c409c0cc5142ed56c8, type: 3}
+      propertyPath: paintingData.paintingTextureColor.g
+      value: 0.7058824
+      objectReference: {fileID: 0}
+    - target: {fileID: 5583458471705789813, guid: 6c2f161bcd1894c409c0cc5142ed56c8, type: 3}
+      propertyPath: paintingData.paintingTextureColor.r
+      value: 0.7058824
+      objectReference: {fileID: 0}
+    - target: {fileID: 5583458472075400076, guid: 6c2f161bcd1894c409c0cc5142ed56c8, type: 3}
+      propertyPath: paintingData.paintingName
+      value: Aayansh, 1st cousin
+      objectReference: {fileID: 0}
+    - target: {fileID: 5583458472075400076, guid: 6c2f161bcd1894c409c0cc5142ed56c8, type: 3}
+      propertyPath: paintingData.paintingImage
+      value: 
+      objectReference: {fileID: 21300000, guid: ae3953a7a4b1dd041ad80052fbeffe6c, type: 3}
+    - target: {fileID: 5583458472075400076, guid: 6c2f161bcd1894c409c0cc5142ed56c8, type: 3}
+      propertyPath: paintingData.paintingTextureColor.b
+      value: 0.7058824
+      objectReference: {fileID: 0}
+    - target: {fileID: 5583458472075400076, guid: 6c2f161bcd1894c409c0cc5142ed56c8, type: 3}
+      propertyPath: paintingData.paintingTextureColor.g
+      value: 0.7058824
+      objectReference: {fileID: 0}
+    - target: {fileID: 5583458472075400076, guid: 6c2f161bcd1894c409c0cc5142ed56c8, type: 3}
+      propertyPath: paintingData.paintingTextureColor.r
+      value: 0.7058824
+      objectReference: {fileID: 0}
+    - target: {fileID: 5583458472502168028, guid: 6c2f161bcd1894c409c0cc5142ed56c8, type: 3}
+      propertyPath: paintingData.paintingName
+      value: 'Dad with daughters: Dance of 2020'
+      objectReference: {fileID: 0}
+    - target: {fileID: 5583458472502168028, guid: 6c2f161bcd1894c409c0cc5142ed56c8, type: 3}
+      propertyPath: paintingData.paintingImage
+      value: 
+      objectReference: {fileID: 21300000, guid: 9072992e35916a74c89eff2d88fb447f, type: 3}
+    - target: {fileID: 5583458472502168028, guid: 6c2f161bcd1894c409c0cc5142ed56c8, type: 3}
+      propertyPath: paintingData.paintingTextureColor.b
+      value: 0.7058824
+      objectReference: {fileID: 0}
+    - target: {fileID: 5583458472502168028, guid: 6c2f161bcd1894c409c0cc5142ed56c8, type: 3}
+      propertyPath: paintingData.paintingTextureColor.g
+      value: 0.7058824
+      objectReference: {fileID: 0}
+    - target: {fileID: 5583458472502168028, guid: 6c2f161bcd1894c409c0cc5142ed56c8, type: 3}
+      propertyPath: paintingData.paintingTextureColor.r
+      value: 0.7058824
       objectReference: {fileID: 0}
     - target: {fileID: 5706102777557689697, guid: 6c2f161bcd1894c409c0cc5142ed56c8, type: 3}
       propertyPath: debugSphereRadius
@@ -197456,6 +198734,86 @@ PrefabInstance:
     - target: {fileID: 5706102777557689697, guid: 6c2f161bcd1894c409c0cc5142ed56c8, type: 3}
       propertyPath: onClickedViewButton.m_PersistentCalls.m_Calls.Array.data[2].m_Arguments.m_ObjectArgumentAssemblyTypeName
       value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 5796141916087331502, guid: 6c2f161bcd1894c409c0cc5142ed56c8, type: 3}
+      propertyPath: paintingData.paintingName
+      value: Posing with my sisters in the dining room, Jaipur, 1998
+      objectReference: {fileID: 0}
+    - target: {fileID: 5796141916087331502, guid: 6c2f161bcd1894c409c0cc5142ed56c8, type: 3}
+      propertyPath: paintingData.paintingImage
+      value: 
+      objectReference: {fileID: 21300000, guid: 9beab879cf9562c498d2b007d45ac3ee, type: 3}
+    - target: {fileID: 5796141916087331502, guid: 6c2f161bcd1894c409c0cc5142ed56c8, type: 3}
+      propertyPath: paintingData.paintingTextureColor.b
+      value: 0.7058824
+      objectReference: {fileID: 0}
+    - target: {fileID: 5796141916087331502, guid: 6c2f161bcd1894c409c0cc5142ed56c8, type: 3}
+      propertyPath: paintingData.paintingTextureColor.g
+      value: 0.7058824
+      objectReference: {fileID: 0}
+    - target: {fileID: 5796141916087331502, guid: 6c2f161bcd1894c409c0cc5142ed56c8, type: 3}
+      propertyPath: paintingData.paintingTextureColor.r
+      value: 0.7058824
+      objectReference: {fileID: 0}
+    - target: {fileID: 5796141916458024023, guid: 6c2f161bcd1894c409c0cc5142ed56c8, type: 3}
+      propertyPath: paintingData.paintingName
+      value: Playful time, Backyard, Summer, 2014
+      objectReference: {fileID: 0}
+    - target: {fileID: 5796141916458024023, guid: 6c2f161bcd1894c409c0cc5142ed56c8, type: 3}
+      propertyPath: paintingData.paintingImage
+      value: 
+      objectReference: {fileID: 21300000, guid: 38cf0912bf1975248a12555908a8e817, type: 3}
+    - target: {fileID: 5796141916458024023, guid: 6c2f161bcd1894c409c0cc5142ed56c8, type: 3}
+      propertyPath: paintingData.paintingTextureColor.b
+      value: 0.7058824
+      objectReference: {fileID: 0}
+    - target: {fileID: 5796141916458024023, guid: 6c2f161bcd1894c409c0cc5142ed56c8, type: 3}
+      propertyPath: paintingData.paintingTextureColor.g
+      value: 0.7058824
+      objectReference: {fileID: 0}
+    - target: {fileID: 5796141916458024023, guid: 6c2f161bcd1894c409c0cc5142ed56c8, type: 3}
+      propertyPath: paintingData.paintingTextureColor.r
+      value: 0.7058824
+      objectReference: {fileID: 0}
+    - target: {fileID: 5796141916516200702, guid: 6c2f161bcd1894c409c0cc5142ed56c8, type: 3}
+      propertyPath: paintingData.paintingName
+      value: "Getting dad\u2019s blessing on the wedding day, March 2015"
+      objectReference: {fileID: 0}
+    - target: {fileID: 5796141916516200702, guid: 6c2f161bcd1894c409c0cc5142ed56c8, type: 3}
+      propertyPath: paintingData.paintingImage
+      value: 
+      objectReference: {fileID: 21300000, guid: 1d4ffd26e93fc6149ae8b97c50b9f4de, type: 3}
+    - target: {fileID: 5796141916516200702, guid: 6c2f161bcd1894c409c0cc5142ed56c8, type: 3}
+      propertyPath: paintingData.paintingTextureColor.b
+      value: 0.7058824
+      objectReference: {fileID: 0}
+    - target: {fileID: 5796141916516200702, guid: 6c2f161bcd1894c409c0cc5142ed56c8, type: 3}
+      propertyPath: paintingData.paintingTextureColor.g
+      value: 0.7058824
+      objectReference: {fileID: 0}
+    - target: {fileID: 5796141916516200702, guid: 6c2f161bcd1894c409c0cc5142ed56c8, type: 3}
+      propertyPath: paintingData.paintingTextureColor.r
+      value: 0.7058824
+      objectReference: {fileID: 0}
+    - target: {fileID: 5862467025868411091, guid: 6c2f161bcd1894c409c0cc5142ed56c8, type: 3}
+      propertyPath: paintingData.paintingName
+      value: "Tahil\u2019s Mother Dressed to Go Out with Tahil"
+      objectReference: {fileID: 0}
+    - target: {fileID: 5862467025868411091, guid: 6c2f161bcd1894c409c0cc5142ed56c8, type: 3}
+      propertyPath: paintingData.paintingImage
+      value: 
+      objectReference: {fileID: 21300000, guid: 6fbbdaec48a41fc4b99f640e147806ea, type: 3}
+    - target: {fileID: 5862467025868411091, guid: 6c2f161bcd1894c409c0cc5142ed56c8, type: 3}
+      propertyPath: paintingData.paintingTextureColor.b
+      value: 0.7058824
+      objectReference: {fileID: 0}
+    - target: {fileID: 5862467025868411091, guid: 6c2f161bcd1894c409c0cc5142ed56c8, type: 3}
+      propertyPath: paintingData.paintingTextureColor.g
+      value: 0.7058824
+      objectReference: {fileID: 0}
+    - target: {fileID: 5862467025868411091, guid: 6c2f161bcd1894c409c0cc5142ed56c8, type: 3}
+      propertyPath: paintingData.paintingTextureColor.r
+      value: 0.7058824
       objectReference: {fileID: 0}
     - target: {fileID: 5944510902472312875, guid: 6c2f161bcd1894c409c0cc5142ed56c8, type: 3}
       propertyPath: m_LocalPosition.z
@@ -197509,6 +198867,106 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6041696621783948717, guid: 6c2f161bcd1894c409c0cc5142ed56c8, type: 3}
+      propertyPath: paintingData.paintingName
+      value: Life has many colors -2022
+      objectReference: {fileID: 0}
+    - target: {fileID: 6041696621783948717, guid: 6c2f161bcd1894c409c0cc5142ed56c8, type: 3}
+      propertyPath: paintingData.paintingImage
+      value: 
+      objectReference: {fileID: 21300000, guid: 417efc4f0f302d34c9bb953edab63687, type: 3}
+    - target: {fileID: 6041696621783948717, guid: 6c2f161bcd1894c409c0cc5142ed56c8, type: 3}
+      propertyPath: paintingData.paintingTextureColor.b
+      value: 0.7058824
+      objectReference: {fileID: 0}
+    - target: {fileID: 6041696621783948717, guid: 6c2f161bcd1894c409c0cc5142ed56c8, type: 3}
+      propertyPath: paintingData.paintingTextureColor.g
+      value: 0.7058824
+      objectReference: {fileID: 0}
+    - target: {fileID: 6041696621783948717, guid: 6c2f161bcd1894c409c0cc5142ed56c8, type: 3}
+      propertyPath: paintingData.paintingTextureColor.r
+      value: 0.7058824
+      objectReference: {fileID: 0}
+    - target: {fileID: 6223682444755214868, guid: 6c2f161bcd1894c409c0cc5142ed56c8, type: 3}
+      propertyPath: paintingData.paintingName
+      value: Grandmother is the root of my family 2014
+      objectReference: {fileID: 0}
+    - target: {fileID: 6223682444755214868, guid: 6c2f161bcd1894c409c0cc5142ed56c8, type: 3}
+      propertyPath: paintingData.paintingImage
+      value: 
+      objectReference: {fileID: 21300000, guid: 46e8ab4ad013bc648966616cae6a8a58, type: 3}
+    - target: {fileID: 6223682444755214868, guid: 6c2f161bcd1894c409c0cc5142ed56c8, type: 3}
+      propertyPath: paintingData.paintingTextureColor.b
+      value: 0.7058824
+      objectReference: {fileID: 0}
+    - target: {fileID: 6223682444755214868, guid: 6c2f161bcd1894c409c0cc5142ed56c8, type: 3}
+      propertyPath: paintingData.paintingTextureColor.g
+      value: 0.7058824
+      objectReference: {fileID: 0}
+    - target: {fileID: 6223682444755214868, guid: 6c2f161bcd1894c409c0cc5142ed56c8, type: 3}
+      propertyPath: paintingData.paintingTextureColor.r
+      value: 0.7058824
+      objectReference: {fileID: 0}
+    - target: {fileID: 6223682445055653101, guid: 6c2f161bcd1894c409c0cc5142ed56c8, type: 3}
+      propertyPath: paintingData.paintingName
+      value: Rangoli in Varandah
+      objectReference: {fileID: 0}
+    - target: {fileID: 6223682445055653101, guid: 6c2f161bcd1894c409c0cc5142ed56c8, type: 3}
+      propertyPath: paintingData.paintingImage
+      value: 
+      objectReference: {fileID: 21300000, guid: a506fbaa88be84846ba303c945eeb89a, type: 3}
+    - target: {fileID: 6223682445055653101, guid: 6c2f161bcd1894c409c0cc5142ed56c8, type: 3}
+      propertyPath: paintingData.paintingTextureColor.b
+      value: 0.7058824
+      objectReference: {fileID: 0}
+    - target: {fileID: 6223682445055653101, guid: 6c2f161bcd1894c409c0cc5142ed56c8, type: 3}
+      propertyPath: paintingData.paintingTextureColor.g
+      value: 0.7058824
+      objectReference: {fileID: 0}
+    - target: {fileID: 6223682445055653101, guid: 6c2f161bcd1894c409c0cc5142ed56c8, type: 3}
+      propertyPath: paintingData.paintingTextureColor.r
+      value: 0.7058824
+      objectReference: {fileID: 0}
+    - target: {fileID: 6223682445450426436, guid: 6c2f161bcd1894c409c0cc5142ed56c8, type: 3}
+      propertyPath: paintingData.paintingName
+      value: "Getting ready for sweet and healthy Wedding\u20132017"
+      objectReference: {fileID: 0}
+    - target: {fileID: 6223682445450426436, guid: 6c2f161bcd1894c409c0cc5142ed56c8, type: 3}
+      propertyPath: paintingData.paintingImage
+      value: 
+      objectReference: {fileID: 21300000, guid: 85b16bd741a6b4a45b85b41980bdbe96, type: 3}
+    - target: {fileID: 6223682445450426436, guid: 6c2f161bcd1894c409c0cc5142ed56c8, type: 3}
+      propertyPath: paintingData.paintingTextureColor.b
+      value: 0.7058824
+      objectReference: {fileID: 0}
+    - target: {fileID: 6223682445450426436, guid: 6c2f161bcd1894c409c0cc5142ed56c8, type: 3}
+      propertyPath: paintingData.paintingTextureColor.g
+      value: 0.7058824
+      objectReference: {fileID: 0}
+    - target: {fileID: 6223682445450426436, guid: 6c2f161bcd1894c409c0cc5142ed56c8, type: 3}
+      propertyPath: paintingData.paintingTextureColor.r
+      value: 0.7058824
+      objectReference: {fileID: 0}
+    - target: {fileID: 6465541712925516852, guid: 6c2f161bcd1894c409c0cc5142ed56c8, type: 3}
+      propertyPath: paintingData.paintingName
+      value: Strength of joint family -2016
+      objectReference: {fileID: 0}
+    - target: {fileID: 6465541712925516852, guid: 6c2f161bcd1894c409c0cc5142ed56c8, type: 3}
+      propertyPath: paintingData.paintingImage
+      value: 
+      objectReference: {fileID: 21300000, guid: 6fa15666a70576f44a31054d4e2e60ac, type: 3}
+    - target: {fileID: 6465541712925516852, guid: 6c2f161bcd1894c409c0cc5142ed56c8, type: 3}
+      propertyPath: paintingData.paintingTextureColor.b
+      value: 0.7058824
+      objectReference: {fileID: 0}
+    - target: {fileID: 6465541712925516852, guid: 6c2f161bcd1894c409c0cc5142ed56c8, type: 3}
+      propertyPath: paintingData.paintingTextureColor.g
+      value: 0.7058824
+      objectReference: {fileID: 0}
+    - target: {fileID: 6465541712925516852, guid: 6c2f161bcd1894c409c0cc5142ed56c8, type: 3}
+      propertyPath: paintingData.paintingTextureColor.r
+      value: 0.7058824
+      objectReference: {fileID: 0}
     - target: {fileID: 6785154570976323562, guid: 6c2f161bcd1894c409c0cc5142ed56c8, type: 3}
       propertyPath: debugSphereRadius
       value: 0.1
@@ -197789,6 +199247,167 @@ PrefabInstance:
       propertyPath: onClickedViewButton.m_PersistentCalls.m_Calls.Array.data[2].m_Arguments.m_ObjectArgumentAssemblyTypeName
       value: UnityEngine.Object, UnityEngine
       objectReference: {fileID: 0}
+    - target: {fileID: 6800704484028699480, guid: 6c2f161bcd1894c409c0cc5142ed56c8, type: 3}
+      propertyPath: paintingData.paintingName
+      value: Our hero, Dad in the living room home, 2014
+      objectReference: {fileID: 0}
+    - target: {fileID: 6800704484028699480, guid: 6c2f161bcd1894c409c0cc5142ed56c8, type: 3}
+      propertyPath: paintingData.paintingImage
+      value: 
+      objectReference: {fileID: 21300000, guid: f8751640e0ea4e14597b4f3da65fed4d, type: 3}
+    - target: {fileID: 6800704484028699480, guid: 6c2f161bcd1894c409c0cc5142ed56c8, type: 3}
+      propertyPath: paintingData.paintingTextureColor.b
+      value: 0.7058824
+      objectReference: {fileID: 0}
+    - target: {fileID: 6800704484028699480, guid: 6c2f161bcd1894c409c0cc5142ed56c8, type: 3}
+      propertyPath: paintingData.paintingTextureColor.g
+      value: 0.7058824
+      objectReference: {fileID: 0}
+    - target: {fileID: 6800704484028699480, guid: 6c2f161bcd1894c409c0cc5142ed56c8, type: 3}
+      propertyPath: paintingData.paintingTextureColor.r
+      value: 0.7058824
+      objectReference: {fileID: 0}
+    - target: {fileID: 6800704484539867121, guid: 6c2f161bcd1894c409c0cc5142ed56c8, type: 3}
+      propertyPath: paintingData.paintingName
+      value: Sparkly eyes, Gamya (niece) Dressed up for Dandiya dance night, 2017
+      objectReference: {fileID: 0}
+    - target: {fileID: 6800704484539867121, guid: 6c2f161bcd1894c409c0cc5142ed56c8, type: 3}
+      propertyPath: paintingData.paintingImage
+      value: 
+      objectReference: {fileID: 21300000, guid: d109473597f6f6643b8ef92cf4514139, type: 3}
+    - target: {fileID: 6800704484539867121, guid: 6c2f161bcd1894c409c0cc5142ed56c8, type: 3}
+      propertyPath: paintingData.paintingTextureColor.b
+      value: 0.7058824
+      objectReference: {fileID: 0}
+    - target: {fileID: 6800704484539867121, guid: 6c2f161bcd1894c409c0cc5142ed56c8, type: 3}
+      propertyPath: paintingData.paintingTextureColor.g
+      value: 0.7058824
+      objectReference: {fileID: 0}
+    - target: {fileID: 6800704484539867121, guid: 6c2f161bcd1894c409c0cc5142ed56c8, type: 3}
+      propertyPath: paintingData.paintingTextureColor.r
+      value: 0.7058824
+      objectReference: {fileID: 0}
+    - target: {fileID: 6800704484709222664, guid: 6c2f161bcd1894c409c0cc5142ed56c8, type: 3}
+      propertyPath: paintingData.paintingName
+      value: Prakash on our wedding day (Baraat Procession), March 10th, 2015
+      objectReference: {fileID: 0}
+    - target: {fileID: 6800704484709222664, guid: 6c2f161bcd1894c409c0cc5142ed56c8, type: 3}
+      propertyPath: paintingData.paintingImage
+      value: 
+      objectReference: {fileID: 21300000, guid: 5e11083647e235c458dfa7f798df5633, type: 3}
+    - target: {fileID: 6800704484709222664, guid: 6c2f161bcd1894c409c0cc5142ed56c8, type: 3}
+      propertyPath: paintingData.paintingTextureColor.b
+      value: 0.7058824
+      objectReference: {fileID: 0}
+    - target: {fileID: 6800704484709222664, guid: 6c2f161bcd1894c409c0cc5142ed56c8, type: 3}
+      propertyPath: paintingData.paintingTextureColor.g
+      value: 0.7058824
+      objectReference: {fileID: 0}
+    - target: {fileID: 6800704484709222664, guid: 6c2f161bcd1894c409c0cc5142ed56c8, type: 3}
+      propertyPath: paintingData.paintingTextureColor.r
+      value: 0.7058824
+      objectReference: {fileID: 0}
+    - target: {fileID: 7074402450781369940, guid: 6c2f161bcd1894c409c0cc5142ed56c8, type: 3}
+      propertyPath: paintingData.paintingName
+      value: "Richa\u2019s happy moment, one breezy evening, Bangalore, Nov 2018"
+      objectReference: {fileID: 0}
+    - target: {fileID: 7074402450781369940, guid: 6c2f161bcd1894c409c0cc5142ed56c8, type: 3}
+      propertyPath: paintingData.paintingImage
+      value: 
+      objectReference: {fileID: 21300000, guid: 01f77bb44ad320241b8303e741b671f2, type: 3}
+    - target: {fileID: 7074402450781369940, guid: 6c2f161bcd1894c409c0cc5142ed56c8, type: 3}
+      propertyPath: paintingData.paintingTextureColor.b
+      value: 0.7058824
+      objectReference: {fileID: 0}
+    - target: {fileID: 7074402450781369940, guid: 6c2f161bcd1894c409c0cc5142ed56c8, type: 3}
+      propertyPath: paintingData.paintingTextureColor.g
+      value: 0.7058824
+      objectReference: {fileID: 0}
+    - target: {fileID: 7074402450781369940, guid: 6c2f161bcd1894c409c0cc5142ed56c8, type: 3}
+      propertyPath: paintingData.paintingTextureColor.r
+      value: 0.7058824
+      objectReference: {fileID: 0}
+    - target: {fileID: 7074402450940971480, guid: 6c2f161bcd1894c409c0cc5142ed56c8, type: 3}
+      propertyPath: paintingData.paintingName
+      value: Posing with my sisters in the dining room, Jaipur, 1998
+      objectReference: {fileID: 0}
+    - target: {fileID: 7074402450940971480, guid: 6c2f161bcd1894c409c0cc5142ed56c8, type: 3}
+      propertyPath: paintingData.paintingImage
+      value: 
+      objectReference: {fileID: 21300000, guid: f5680be19114c2f4a8be9a2db6742524, type: 3}
+    - target: {fileID: 7074402450940971480, guid: 6c2f161bcd1894c409c0cc5142ed56c8, type: 3}
+      propertyPath: paintingData.paintingTextureColor.b
+      value: 0.7058824
+      objectReference: {fileID: 0}
+    - target: {fileID: 7074402450940971480, guid: 6c2f161bcd1894c409c0cc5142ed56c8, type: 3}
+      propertyPath: paintingData.paintingTextureColor.g
+      value: 0.7058824
+      objectReference: {fileID: 0}
+    - target: {fileID: 7074402450940971480, guid: 6c2f161bcd1894c409c0cc5142ed56c8, type: 3}
+      propertyPath: paintingData.paintingTextureColor.r
+      value: 0.7058824
+      objectReference: {fileID: 0}
+    - target: {fileID: 7074402451313872258, guid: 6c2f161bcd1894c409c0cc5142ed56c8, type: 3}
+      propertyPath: paintingData.paintingName
+      value: Viraaj, the day he was born, June 16th, 2022
+      objectReference: {fileID: 0}
+    - target: {fileID: 7074402451313872258, guid: 6c2f161bcd1894c409c0cc5142ed56c8, type: 3}
+      propertyPath: paintingData.paintingImage
+      value: 
+      objectReference: {fileID: 21300000, guid: 61b200491cb04d34a9a05beb0d38c812, type: 3}
+    - target: {fileID: 7074402451313872258, guid: 6c2f161bcd1894c409c0cc5142ed56c8, type: 3}
+      propertyPath: paintingData.paintingTextureColor.b
+      value: 0.7058824
+      objectReference: {fileID: 0}
+    - target: {fileID: 7074402451313872258, guid: 6c2f161bcd1894c409c0cc5142ed56c8, type: 3}
+      propertyPath: paintingData.paintingTextureColor.g
+      value: 0.7058824
+      objectReference: {fileID: 0}
+    - target: {fileID: 7074402451313872258, guid: 6c2f161bcd1894c409c0cc5142ed56c8, type: 3}
+      propertyPath: paintingData.paintingTextureColor.r
+      value: 0.7058824
+      objectReference: {fileID: 0}
+    - target: {fileID: 7074402451571686250, guid: 6c2f161bcd1894c409c0cc5142ed56c8, type: 3}
+      propertyPath: paintingData.paintingName
+      value: "Three generations in one frame/Richa\u2019s Lil sis, Dad with his brothers
+        and Grandpa, Jaipur, 1996"
+      objectReference: {fileID: 0}
+    - target: {fileID: 7074402451571686250, guid: 6c2f161bcd1894c409c0cc5142ed56c8, type: 3}
+      propertyPath: paintingData.paintingImage
+      value: 
+      objectReference: {fileID: 21300000, guid: 4c6efd88be513754a895eb3bc41c43d7, type: 3}
+    - target: {fileID: 7074402451571686250, guid: 6c2f161bcd1894c409c0cc5142ed56c8, type: 3}
+      propertyPath: paintingData.paintingTextureColor.b
+      value: 0.7058824
+      objectReference: {fileID: 0}
+    - target: {fileID: 7074402451571686250, guid: 6c2f161bcd1894c409c0cc5142ed56c8, type: 3}
+      propertyPath: paintingData.paintingTextureColor.g
+      value: 0.7058824
+      objectReference: {fileID: 0}
+    - target: {fileID: 7074402451571686250, guid: 6c2f161bcd1894c409c0cc5142ed56c8, type: 3}
+      propertyPath: paintingData.paintingTextureColor.r
+      value: 0.7058824
+      objectReference: {fileID: 0}
+    - target: {fileID: 7074402451834804813, guid: 6c2f161bcd1894c409c0cc5142ed56c8, type: 3}
+      propertyPath: paintingData.paintingName
+      value: Prakash at his cousin's wedding, 2014
+      objectReference: {fileID: 0}
+    - target: {fileID: 7074402451834804813, guid: 6c2f161bcd1894c409c0cc5142ed56c8, type: 3}
+      propertyPath: paintingData.paintingImage
+      value: 
+      objectReference: {fileID: 21300000, guid: 06d4ae498ce252541ab6a3f6af9be432, type: 3}
+    - target: {fileID: 7074402451834804813, guid: 6c2f161bcd1894c409c0cc5142ed56c8, type: 3}
+      propertyPath: paintingData.paintingTextureColor.b
+      value: 0.7058824
+      objectReference: {fileID: 0}
+    - target: {fileID: 7074402451834804813, guid: 6c2f161bcd1894c409c0cc5142ed56c8, type: 3}
+      propertyPath: paintingData.paintingTextureColor.g
+      value: 0.7058824
+      objectReference: {fileID: 0}
+    - target: {fileID: 7074402451834804813, guid: 6c2f161bcd1894c409c0cc5142ed56c8, type: 3}
+      propertyPath: paintingData.paintingTextureColor.r
+      value: 0.7058824
+      objectReference: {fileID: 0}
     - target: {fileID: 7167626811712382432, guid: 6c2f161bcd1894c409c0cc5142ed56c8, type: 3}
       propertyPath: debugSphereRadius
       value: 0.1
@@ -199189,6 +200808,26 @@ PrefabInstance:
       propertyPath: onClickedViewButton.m_PersistentCalls.m_Calls.Array.data[2].m_Arguments.m_ObjectArgumentAssemblyTypeName
       value: UnityEngine.Object, UnityEngine
       objectReference: {fileID: 0}
+    - target: {fileID: 7694438188405138798, guid: 6c2f161bcd1894c409c0cc5142ed56c8, type: 3}
+      propertyPath: paintingData.paintingName
+      value: Naisha and Aurisha playing in their backyard
+      objectReference: {fileID: 0}
+    - target: {fileID: 7694438188405138798, guid: 6c2f161bcd1894c409c0cc5142ed56c8, type: 3}
+      propertyPath: paintingData.paintingImage
+      value: 
+      objectReference: {fileID: 21300000, guid: 0284b730ad4fe724dbb8fa10db07bdda, type: 3}
+    - target: {fileID: 7694438188405138798, guid: 6c2f161bcd1894c409c0cc5142ed56c8, type: 3}
+      propertyPath: paintingData.paintingTextureColor.b
+      value: 0.7058824
+      objectReference: {fileID: 0}
+    - target: {fileID: 7694438188405138798, guid: 6c2f161bcd1894c409c0cc5142ed56c8, type: 3}
+      propertyPath: paintingData.paintingTextureColor.g
+      value: 0.7058824
+      objectReference: {fileID: 0}
+    - target: {fileID: 7694438188405138798, guid: 6c2f161bcd1894c409c0cc5142ed56c8, type: 3}
+      propertyPath: paintingData.paintingTextureColor.r
+      value: 0.7058824
+      objectReference: {fileID: 0}
     - target: {fileID: 7753258751443879934, guid: 6c2f161bcd1894c409c0cc5142ed56c8, type: 3}
       propertyPath: debugSphereRadius
       value: 0.1
@@ -200589,6 +202228,26 @@ PrefabInstance:
       propertyPath: onClickedViewButton.m_PersistentCalls.m_Calls.Array.data[2].m_Arguments.m_ObjectArgumentAssemblyTypeName
       value: UnityEngine.Object, UnityEngine
       objectReference: {fileID: 0}
+    - target: {fileID: 7974075910854483454, guid: 6c2f161bcd1894c409c0cc5142ed56c8, type: 3}
+      propertyPath: paintingData.paintingName
+      value: 'The Paths of Happy Marriage: One Life-One Wife'
+      objectReference: {fileID: 0}
+    - target: {fileID: 7974075910854483454, guid: 6c2f161bcd1894c409c0cc5142ed56c8, type: 3}
+      propertyPath: paintingData.paintingImage
+      value: 
+      objectReference: {fileID: 21300000, guid: 5faea09a3a750d546bc90cdbe4d674ce, type: 3}
+    - target: {fileID: 7974075910854483454, guid: 6c2f161bcd1894c409c0cc5142ed56c8, type: 3}
+      propertyPath: paintingData.paintingTextureColor.b
+      value: 0.7058824
+      objectReference: {fileID: 0}
+    - target: {fileID: 7974075910854483454, guid: 6c2f161bcd1894c409c0cc5142ed56c8, type: 3}
+      propertyPath: paintingData.paintingTextureColor.g
+      value: 0.7058824
+      objectReference: {fileID: 0}
+    - target: {fileID: 7974075910854483454, guid: 6c2f161bcd1894c409c0cc5142ed56c8, type: 3}
+      propertyPath: paintingData.paintingTextureColor.r
+      value: 0.7058824
+      objectReference: {fileID: 0}
     - target: {fileID: 8013206059333883622, guid: 6c2f161bcd1894c409c0cc5142ed56c8, type: 3}
       propertyPath: debugSphereRadius
       value: 0.1
@@ -201988,6 +203647,106 @@ PrefabInstance:
     - target: {fileID: 8013206061206528014, guid: 6c2f161bcd1894c409c0cc5142ed56c8, type: 3}
       propertyPath: onClickedViewButton.m_PersistentCalls.m_Calls.Array.data[2].m_Arguments.m_ObjectArgumentAssemblyTypeName
       value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 8348808787083655653, guid: 6c2f161bcd1894c409c0cc5142ed56c8, type: 3}
+      propertyPath: paintingData.paintingName
+      value: Freedom of playfulness -2012 Boy
+      objectReference: {fileID: 0}
+    - target: {fileID: 8348808787083655653, guid: 6c2f161bcd1894c409c0cc5142ed56c8, type: 3}
+      propertyPath: paintingData.paintingImage
+      value: 
+      objectReference: {fileID: 21300000, guid: 79b9e6829958d8c4d8861658df16bdd5, type: 3}
+    - target: {fileID: 8348808787083655653, guid: 6c2f161bcd1894c409c0cc5142ed56c8, type: 3}
+      propertyPath: paintingData.paintingTextureColor.b
+      value: 0.7058824
+      objectReference: {fileID: 0}
+    - target: {fileID: 8348808787083655653, guid: 6c2f161bcd1894c409c0cc5142ed56c8, type: 3}
+      propertyPath: paintingData.paintingTextureColor.g
+      value: 0.7058824
+      objectReference: {fileID: 0}
+    - target: {fileID: 8348808787083655653, guid: 6c2f161bcd1894c409c0cc5142ed56c8, type: 3}
+      propertyPath: paintingData.paintingTextureColor.r
+      value: 0.7058824
+      objectReference: {fileID: 0}
+    - target: {fileID: 8348808787357259970, guid: 6c2f161bcd1894c409c0cc5142ed56c8, type: 3}
+      propertyPath: paintingData.paintingName
+      value: Strength of joint family -2016
+      objectReference: {fileID: 0}
+    - target: {fileID: 8348808787357259970, guid: 6c2f161bcd1894c409c0cc5142ed56c8, type: 3}
+      propertyPath: paintingData.paintingImage
+      value: 
+      objectReference: {fileID: 21300000, guid: 1dd194992abc57f4f8bb821443dfc6b7, type: 3}
+    - target: {fileID: 8348808787357259970, guid: 6c2f161bcd1894c409c0cc5142ed56c8, type: 3}
+      propertyPath: paintingData.paintingTextureColor.b
+      value: 0.7058824
+      objectReference: {fileID: 0}
+    - target: {fileID: 8348808787357259970, guid: 6c2f161bcd1894c409c0cc5142ed56c8, type: 3}
+      propertyPath: paintingData.paintingTextureColor.g
+      value: 0.7058824
+      objectReference: {fileID: 0}
+    - target: {fileID: 8348808787357259970, guid: 6c2f161bcd1894c409c0cc5142ed56c8, type: 3}
+      propertyPath: paintingData.paintingTextureColor.r
+      value: 0.7058824
+      objectReference: {fileID: 0}
+    - target: {fileID: 8348808787636039210, guid: 6c2f161bcd1894c409c0cc5142ed56c8, type: 3}
+      propertyPath: paintingData.paintingName
+      value: Innocence and joy spread lights through me
+      objectReference: {fileID: 0}
+    - target: {fileID: 8348808787636039210, guid: 6c2f161bcd1894c409c0cc5142ed56c8, type: 3}
+      propertyPath: paintingData.paintingImage
+      value: 
+      objectReference: {fileID: 21300000, guid: b7a6df6add9cc3f4d9a9a2442aa79036, type: 3}
+    - target: {fileID: 8348808787636039210, guid: 6c2f161bcd1894c409c0cc5142ed56c8, type: 3}
+      propertyPath: paintingData.paintingTextureColor.b
+      value: 0.7058824
+      objectReference: {fileID: 0}
+    - target: {fileID: 8348808787636039210, guid: 6c2f161bcd1894c409c0cc5142ed56c8, type: 3}
+      propertyPath: paintingData.paintingTextureColor.g
+      value: 0.7058824
+      objectReference: {fileID: 0}
+    - target: {fileID: 8348808787636039210, guid: 6c2f161bcd1894c409c0cc5142ed56c8, type: 3}
+      propertyPath: paintingData.paintingTextureColor.r
+      value: 0.7058824
+      objectReference: {fileID: 0}
+    - target: {fileID: 8348808788177458684, guid: 6c2f161bcd1894c409c0cc5142ed56c8, type: 3}
+      propertyPath: paintingData.paintingName
+      value: Freedom of playfulness
+      objectReference: {fileID: 0}
+    - target: {fileID: 8348808788177458684, guid: 6c2f161bcd1894c409c0cc5142ed56c8, type: 3}
+      propertyPath: paintingData.paintingImage
+      value: 
+      objectReference: {fileID: 21300000, guid: b5bb5ffb27149344b88ba6bc8b70c618, type: 3}
+    - target: {fileID: 8348808788177458684, guid: 6c2f161bcd1894c409c0cc5142ed56c8, type: 3}
+      propertyPath: paintingData.paintingTextureColor.b
+      value: 0.7058824
+      objectReference: {fileID: 0}
+    - target: {fileID: 8348808788177458684, guid: 6c2f161bcd1894c409c0cc5142ed56c8, type: 3}
+      propertyPath: paintingData.paintingTextureColor.g
+      value: 0.7058824
+      objectReference: {fileID: 0}
+    - target: {fileID: 8348808788177458684, guid: 6c2f161bcd1894c409c0cc5142ed56c8, type: 3}
+      propertyPath: paintingData.paintingTextureColor.r
+      value: 0.7058824
+      objectReference: {fileID: 0}
+    - target: {fileID: 8348808788337142384, guid: 6c2f161bcd1894c409c0cc5142ed56c8, type: 3}
+      propertyPath: paintingData.paintingName
+      value: Strength of joint family -2016
+      objectReference: {fileID: 0}
+    - target: {fileID: 8348808788337142384, guid: 6c2f161bcd1894c409c0cc5142ed56c8, type: 3}
+      propertyPath: paintingData.paintingImage
+      value: 
+      objectReference: {fileID: 21300000, guid: 6f88b46405bf37f49a9db9434d7873a6, type: 3}
+    - target: {fileID: 8348808788337142384, guid: 6c2f161bcd1894c409c0cc5142ed56c8, type: 3}
+      propertyPath: paintingData.paintingTextureColor.b
+      value: 0.7058824
+      objectReference: {fileID: 0}
+    - target: {fileID: 8348808788337142384, guid: 6c2f161bcd1894c409c0cc5142ed56c8, type: 3}
+      propertyPath: paintingData.paintingTextureColor.g
+      value: 0.7058824
+      objectReference: {fileID: 0}
+    - target: {fileID: 8348808788337142384, guid: 6c2f161bcd1894c409c0cc5142ed56c8, type: 3}
+      propertyPath: paintingData.paintingTextureColor.r
+      value: 0.7058824
       objectReference: {fileID: 0}
     - target: {fileID: 8628576478327001688, guid: 6c2f161bcd1894c409c0cc5142ed56c8, type: 3}
       propertyPath: debugSphereRadius
@@ -202285,6 +204044,208 @@ PrefabInstance:
       propertyPath: missingPaintingScreenColor.r
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8912169429768989905, guid: 6c2f161bcd1894c409c0cc5142ed56c8, type: 3}
+      propertyPath: paintingData.paintingName
+      value: Durga Puja 2012
+      objectReference: {fileID: 0}
+    - target: {fileID: 8912169429768989905, guid: 6c2f161bcd1894c409c0cc5142ed56c8, type: 3}
+      propertyPath: paintingData.paintingImage
+      value: 
+      objectReference: {fileID: 21300000, guid: 60b3a0b17afa5b244b867f95028d7388, type: 3}
+    - target: {fileID: 8912169429768989905, guid: 6c2f161bcd1894c409c0cc5142ed56c8, type: 3}
+      propertyPath: paintingData.paintingTextureColor.b
+      value: 0.7058824
+      objectReference: {fileID: 0}
+    - target: {fileID: 8912169429768989905, guid: 6c2f161bcd1894c409c0cc5142ed56c8, type: 3}
+      propertyPath: paintingData.paintingTextureColor.g
+      value: 0.7058824
+      objectReference: {fileID: 0}
+    - target: {fileID: 8912169429768989905, guid: 6c2f161bcd1894c409c0cc5142ed56c8, type: 3}
+      propertyPath: paintingData.paintingTextureColor.r
+      value: 0.7058824
+      objectReference: {fileID: 0}
+    - target: {fileID: 8912169429769911450, guid: 6c2f161bcd1894c409c0cc5142ed56c8, type: 3}
+      propertyPath: paintingData.paintingName
+      value: "Ruchi\u2019s family\u2019s cousin on head shaving day"
+      objectReference: {fileID: 0}
+    - target: {fileID: 8912169429769911450, guid: 6c2f161bcd1894c409c0cc5142ed56c8, type: 3}
+      propertyPath: paintingData.paintingImage
+      value: 
+      objectReference: {fileID: 21300000, guid: 484d16c04abbd454e9f68e458839d95e, type: 3}
+    - target: {fileID: 8912169429769911450, guid: 6c2f161bcd1894c409c0cc5142ed56c8, type: 3}
+      propertyPath: paintingData.paintingTextureColor.b
+      value: 0.7058824
+      objectReference: {fileID: 0}
+    - target: {fileID: 8912169429769911450, guid: 6c2f161bcd1894c409c0cc5142ed56c8, type: 3}
+      propertyPath: paintingData.paintingTextureColor.g
+      value: 0.7058824
+      objectReference: {fileID: 0}
+    - target: {fileID: 8912169429769911450, guid: 6c2f161bcd1894c409c0cc5142ed56c8, type: 3}
+      propertyPath: paintingData.paintingTextureColor.r
+      value: 0.7058824
+      objectReference: {fileID: 0}
+    - target: {fileID: 8912169430010156584, guid: 6c2f161bcd1894c409c0cc5142ed56c8, type: 3}
+      propertyPath: paintingData.paintingName
+      value: Enjoying a summer day with ice cream, Ghirardelli, San Francisco, 2018
+      objectReference: {fileID: 0}
+    - target: {fileID: 8912169430010156584, guid: 6c2f161bcd1894c409c0cc5142ed56c8, type: 3}
+      propertyPath: paintingData.paintingImage
+      value: 
+      objectReference: {fileID: 21300000, guid: 96940b27a6e72af44bf95f4b9b4997b6, type: 3}
+    - target: {fileID: 8912169430010156584, guid: 6c2f161bcd1894c409c0cc5142ed56c8, type: 3}
+      propertyPath: paintingData.paintingTextureColor.b
+      value: 0.7058824
+      objectReference: {fileID: 0}
+    - target: {fileID: 8912169430010156584, guid: 6c2f161bcd1894c409c0cc5142ed56c8, type: 3}
+      propertyPath: paintingData.paintingTextureColor.g
+      value: 0.7058824
+      objectReference: {fileID: 0}
+    - target: {fileID: 8912169430010156584, guid: 6c2f161bcd1894c409c0cc5142ed56c8, type: 3}
+      propertyPath: paintingData.paintingTextureColor.r
+      value: 0.7058824
+      objectReference: {fileID: 0}
+    - target: {fileID: 8912169430011588037, guid: 6c2f161bcd1894c409c0cc5142ed56c8, type: 3}
+      propertyPath: paintingData.paintingName
+      value: "Star-India\u2019s first prime minister, Jawaharlal Nehru, and Tahil\u2019s
+        grandmother, standing to his right"
+      objectReference: {fileID: 0}
+    - target: {fileID: 8912169430011588037, guid: 6c2f161bcd1894c409c0cc5142ed56c8, type: 3}
+      propertyPath: paintingData.paintingImage
+      value: 
+      objectReference: {fileID: 21300000, guid: 0add5d380110f66408e043341fe2bd13, type: 3}
+    - target: {fileID: 8912169430011588037, guid: 6c2f161bcd1894c409c0cc5142ed56c8, type: 3}
+      propertyPath: paintingData.paintingTextureColor.b
+      value: 0.7058824
+      objectReference: {fileID: 0}
+    - target: {fileID: 8912169430011588037, guid: 6c2f161bcd1894c409c0cc5142ed56c8, type: 3}
+      propertyPath: paintingData.paintingTextureColor.g
+      value: 0.7058824
+      objectReference: {fileID: 0}
+    - target: {fileID: 8912169430011588037, guid: 6c2f161bcd1894c409c0cc5142ed56c8, type: 3}
+      propertyPath: paintingData.paintingTextureColor.r
+      value: 0.7058824
+      objectReference: {fileID: 0}
+    - target: {fileID: 8912169430360392089, guid: 6c2f161bcd1894c409c0cc5142ed56c8, type: 3}
+      propertyPath: paintingData.paintingName
+      value: The light Durga Puja 2012
+      objectReference: {fileID: 0}
+    - target: {fileID: 8912169430360392089, guid: 6c2f161bcd1894c409c0cc5142ed56c8, type: 3}
+      propertyPath: paintingData.paintingImage
+      value: 
+      objectReference: {fileID: 21300000, guid: f980bc3302901d24a89b81a8c6048133, type: 3}
+    - target: {fileID: 8912169430360392089, guid: 6c2f161bcd1894c409c0cc5142ed56c8, type: 3}
+      propertyPath: paintingData.paintingTextureColor.b
+      value: 0.7058824
+      objectReference: {fileID: 0}
+    - target: {fileID: 8912169430360392089, guid: 6c2f161bcd1894c409c0cc5142ed56c8, type: 3}
+      propertyPath: paintingData.paintingTextureColor.g
+      value: 0.7058824
+      objectReference: {fileID: 0}
+    - target: {fileID: 8912169430360392089, guid: 6c2f161bcd1894c409c0cc5142ed56c8, type: 3}
+      propertyPath: paintingData.paintingTextureColor.r
+      value: 0.7058824
+      objectReference: {fileID: 0}
+    - target: {fileID: 8912169430816624522, guid: 6c2f161bcd1894c409c0cc5142ed56c8, type: 3}
+      propertyPath: paintingData.paintingName
+      value: Tahil Sharma as an Interfaith Teacher
+      objectReference: {fileID: 0}
+    - target: {fileID: 8912169430816624522, guid: 6c2f161bcd1894c409c0cc5142ed56c8, type: 3}
+      propertyPath: paintingData.paintingImage
+      value: 
+      objectReference: {fileID: 21300000, guid: 04bce84075422f14aa239628d06d47ca, type: 3}
+    - target: {fileID: 8912169430816624522, guid: 6c2f161bcd1894c409c0cc5142ed56c8, type: 3}
+      propertyPath: paintingData.paintingTextureColor.b
+      value: 0.7058824
+      objectReference: {fileID: 0}
+    - target: {fileID: 8912169430816624522, guid: 6c2f161bcd1894c409c0cc5142ed56c8, type: 3}
+      propertyPath: paintingData.paintingTextureColor.g
+      value: 0.7058824
+      objectReference: {fileID: 0}
+    - target: {fileID: 8912169430816624522, guid: 6c2f161bcd1894c409c0cc5142ed56c8, type: 3}
+      propertyPath: paintingData.paintingTextureColor.r
+      value: 0.7058824
+      objectReference: {fileID: 0}
+    - target: {fileID: 8925863293410298911, guid: 6c2f161bcd1894c409c0cc5142ed56c8, type: 3}
+      propertyPath: paintingData.paintingName
+      value: Mom with daughters during Diwali
+      objectReference: {fileID: 0}
+    - target: {fileID: 8925863293410298911, guid: 6c2f161bcd1894c409c0cc5142ed56c8, type: 3}
+      propertyPath: paintingData.paintingImage
+      value: 
+      objectReference: {fileID: 21300000, guid: 58d29cc378f11a840be202ceb2134803, type: 3}
+    - target: {fileID: 8925863293410298911, guid: 6c2f161bcd1894c409c0cc5142ed56c8, type: 3}
+      propertyPath: paintingData.paintingTextureColor.b
+      value: 0.7058824
+      objectReference: {fileID: 0}
+    - target: {fileID: 8925863293410298911, guid: 6c2f161bcd1894c409c0cc5142ed56c8, type: 3}
+      propertyPath: paintingData.paintingTextureColor.g
+      value: 0.7058824
+      objectReference: {fileID: 0}
+    - target: {fileID: 8925863293410298911, guid: 6c2f161bcd1894c409c0cc5142ed56c8, type: 3}
+      propertyPath: paintingData.paintingTextureColor.r
+      value: 0.7058824
+      objectReference: {fileID: 0}
+    - target: {fileID: 9200211308750635434, guid: 6c2f161bcd1894c409c0cc5142ed56c8, type: 3}
+      propertyPath: paintingData.paintingName
+      value: Tahil as Prince of His Family
+      objectReference: {fileID: 0}
+    - target: {fileID: 9200211308750635434, guid: 6c2f161bcd1894c409c0cc5142ed56c8, type: 3}
+      propertyPath: paintingData.paintingImage
+      value: 
+      objectReference: {fileID: 21300000, guid: e5b4e6fb64b3990478350b539487b7e6, type: 3}
+    - target: {fileID: 9200211308750635434, guid: 6c2f161bcd1894c409c0cc5142ed56c8, type: 3}
+      propertyPath: paintingData.paintingTextureColor.b
+      value: 0.7058824
+      objectReference: {fileID: 0}
+    - target: {fileID: 9200211308750635434, guid: 6c2f161bcd1894c409c0cc5142ed56c8, type: 3}
+      propertyPath: paintingData.paintingTextureColor.g
+      value: 0.7058824
+      objectReference: {fileID: 0}
+    - target: {fileID: 9200211308750635434, guid: 6c2f161bcd1894c409c0cc5142ed56c8, type: 3}
+      propertyPath: paintingData.paintingTextureColor.r
+      value: 0.7058824
+      objectReference: {fileID: 0}
+    - target: {fileID: 9200211308983965523, guid: 6c2f161bcd1894c409c0cc5142ed56c8, type: 3}
+      propertyPath: paintingData.paintingName
+      value: "Tahil\u2019s mother (Tanu Nardip Singh) as a bride on her wedding day,
+        2/26/84"
+      objectReference: {fileID: 0}
+    - target: {fileID: 9200211308983965523, guid: 6c2f161bcd1894c409c0cc5142ed56c8, type: 3}
+      propertyPath: paintingData.paintingImage
+      value: 
+      objectReference: {fileID: 21300000, guid: 09024fd5b6be72744b51a1f83134e7a9, type: 3}
+    - target: {fileID: 9200211308983965523, guid: 6c2f161bcd1894c409c0cc5142ed56c8, type: 3}
+      propertyPath: paintingData.paintingTextureColor.b
+      value: 0.7058824
+      objectReference: {fileID: 0}
+    - target: {fileID: 9200211308983965523, guid: 6c2f161bcd1894c409c0cc5142ed56c8, type: 3}
+      propertyPath: paintingData.paintingTextureColor.g
+      value: 0.7058824
+      objectReference: {fileID: 0}
+    - target: {fileID: 9200211308983965523, guid: 6c2f161bcd1894c409c0cc5142ed56c8, type: 3}
+      propertyPath: paintingData.paintingTextureColor.r
+      value: 0.7058824
+      objectReference: {fileID: 0}
+    - target: {fileID: 9200211309429070842, guid: 6c2f161bcd1894c409c0cc5142ed56c8, type: 3}
+      propertyPath: paintingData.paintingName
+      value: "Newlyweds: Tahil\u2019s maternal grandfather &amp; maternal grandmother"
+      objectReference: {fileID: 0}
+    - target: {fileID: 9200211309429070842, guid: 6c2f161bcd1894c409c0cc5142ed56c8, type: 3}
+      propertyPath: paintingData.paintingImage
+      value: 
+      objectReference: {fileID: 21300000, guid: 450a6b26c55e7da429907de385730544, type: 3}
+    - target: {fileID: 9200211309429070842, guid: 6c2f161bcd1894c409c0cc5142ed56c8, type: 3}
+      propertyPath: paintingData.paintingTextureColor.b
+      value: 0.7058824
+      objectReference: {fileID: 0}
+    - target: {fileID: 9200211309429070842, guid: 6c2f161bcd1894c409c0cc5142ed56c8, type: 3}
+      propertyPath: paintingData.paintingTextureColor.g
+      value: 0.7058824
+      objectReference: {fileID: 0}
+    - target: {fileID: 9200211309429070842, guid: 6c2f161bcd1894c409c0cc5142ed56c8, type: 3}
+      propertyPath: paintingData.paintingTextureColor.r
+      value: 0.7058824
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -202333,7 +204294,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 213.5}
+  m_AnchoredPosition: {x: 0, y: 113.5}
   m_SizeDelta: {x: 200, y: 53}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2137905902
@@ -202365,7 +204326,7 @@ MonoBehaviour:
     m_ColorMultiplier: 1
     m_FadeDuration: 0.1
   m_SpriteState:
-    m_HighlightedSprite: {fileID: 21300000, guid: 4dac5b06ec5fab34db34103dd47062fd, type: 3}
+    m_HighlightedSprite: {fileID: 21300000, guid: 527d993a78ba20f49928e4635b6c0d32, type: 3}
     m_PressedSprite: {fileID: 0}
     m_SelectedSprite: {fileID: 0}
     m_DisabledSprite: {fileID: 0}
@@ -202424,7 +204385,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 2c4b672e92c2dba4c95028b2ed05fc1e, type: 3}
+  m_Sprite: {fileID: 21300000, guid: f90e2313896bef94d9cabfed97fadd3a, type: 3}
   m_Type: 1
   m_PreserveAspect: 0
   m_FillCenter: 1
