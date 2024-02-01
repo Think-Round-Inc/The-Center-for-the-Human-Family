@@ -12,10 +12,7 @@ public sealed class ViewerController : MonoBehaviour
 
     void FixedUpdate()
     {
-        if (!viewerControllerActive)
-        {
-            SpiralTour();
-        }
+        if (!viewerControllerActive)return;
         RotateViewer();
         MoveCharacter();
     }

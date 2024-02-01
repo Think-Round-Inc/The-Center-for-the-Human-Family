@@ -7,6 +7,8 @@ TagManager:
   - Stand
   - Screen
   - PausePoint
+  - ViewingPoint
+  - Display
   layers:
   - Default
   - TransparentFX
