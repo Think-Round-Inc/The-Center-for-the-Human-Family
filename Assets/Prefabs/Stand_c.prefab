@@ -222,7 +222,7 @@ GameObject:
   - component: {fileID: 4610835082800558697}
   m_Layer: 0
   m_Name: Vp-
-  m_TagString: Untagged
+  m_TagString: ViewingPoint
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -413,7 +413,7 @@ GameObject:
   - component: {fileID: 6497532734903735219}
   m_Layer: 0
   m_Name: Dp-
-  m_TagString: Untagged
+  m_TagString: Display
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 123
