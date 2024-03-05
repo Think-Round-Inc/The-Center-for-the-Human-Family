@@ -115,10 +115,17 @@ public sealed class HotspotController : MonoBehaviour
             }
         }
 
+        for (int i = 0; i < hotSpots.Count; i++)
+        {
+            if (hotSpots[i] != null)
+                hotSpots[i].gameObject.tag = "Screen";
+        }
+
         // if there is a closest hotspot, move icon to that location or else hide it
         if (closestHotspot != null)
         {
             MoveIconToHotspot(closestHotspot);
+            closestHotspot.tag = "ClosestHotspot";
         }
         else
         {
