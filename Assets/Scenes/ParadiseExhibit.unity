@@ -131964,7 +131964,7 @@ PrefabInstance:
     - target: {fileID: 242831048443376251, guid: 6c2f161bcd1894c409c0cc5142ed56c8, type: 3}
       propertyPath: paintingData.paintingImage
       value: 
-      objectReference: {fileID: 21300000, guid: c92a57349151e6d4f96c6b7a1daf3aae, type: 3}
+      objectReference: {fileID: 21300000, guid: 93a237c610797fd4b87c3cc29ec20f09, type: 3}
     - target: {fileID: 242831048443376251, guid: 6c2f161bcd1894c409c0cc5142ed56c8, type: 3}
       propertyPath: paintingData.paintingTextureColor.b
       value: 0.7058824
@@ -131992,7 +131992,7 @@ PrefabInstance:
     - target: {fileID: 242831048855463979, guid: 6c2f161bcd1894c409c0cc5142ed56c8, type: 3}
       propertyPath: paintingData.paintingImage
       value: 
-      objectReference: {fileID: 21300000, guid: e2e8263b8950e0745af4c4b096d9e3cf, type: 3}
+      objectReference: {fileID: 21300000, guid: b6df7c4299763ea45afb7342b25f30a2, type: 3}
     - target: {fileID: 242831048855463979, guid: 6c2f161bcd1894c409c0cc5142ed56c8, type: 3}
       propertyPath: paintingData.paintingTextureColor.b
       value: 0.7058824
@@ -132036,7 +132036,7 @@ PrefabInstance:
     - target: {fileID: 242831049022734034, guid: 6c2f161bcd1894c409c0cc5142ed56c8, type: 3}
       propertyPath: paintingData.paintingImage
       value: 
-      objectReference: {fileID: 21300000, guid: 3d2878e5fea3ae1449189e889c9df600, type: 3}
+      objectReference: {fileID: 21300000, guid: d9a1ecc56e84819429943ba98bcc23fc, type: 3}
     - target: {fileID: 242831049022734034, guid: 6c2f161bcd1894c409c0cc5142ed56c8, type: 3}
       propertyPath: paintingData.paintingTextureColor.b
       value: 0.7058824
@@ -132064,7 +132064,7 @@ PrefabInstance:
     - target: {fileID: 325515715403416855, guid: 6c2f161bcd1894c409c0cc5142ed56c8, type: 3}
       propertyPath: paintingData.paintingImage
       value: 
-      objectReference: {fileID: 21300000, guid: 61d605d3781156e4c9e21c89d5b6065f, type: 3}
+      objectReference: {fileID: 21300000, guid: 82dba5888451dae418552a487e0854a5, type: 3}
     - target: {fileID: 325515715403416855, guid: 6c2f161bcd1894c409c0cc5142ed56c8, type: 3}
       propertyPath: paintingData.paintingTextureColor.b
       value: 0.7058824
@@ -133534,7 +133534,7 @@ PrefabInstance:
     - target: {fileID: 762386239989049009, guid: 6c2f161bcd1894c409c0cc5142ed56c8, type: 3}
       propertyPath: paintingData.paintingImage
       value: 
-      objectReference: {fileID: 21300000, guid: 61d605d3781156e4c9e21c89d5b6065f, type: 3}
+      objectReference: {fileID: 21300000, guid: fcf684db819b9df4cb334cce34a4e667, type: 3}
     - target: {fileID: 762386239989049009, guid: 6c2f161bcd1894c409c0cc5142ed56c8, type: 3}
       propertyPath: paintingData.paintingTextureColor.b
       value: 0.7058824
@@ -133870,7 +133870,7 @@ PrefabInstance:
     - target: {fileID: 846440132307420828, guid: 6c2f161bcd1894c409c0cc5142ed56c8, type: 3}
       propertyPath: paintingData.paintingImage
       value: 
-      objectReference: {fileID: 21300000, guid: 381b821ec47e9b34a9b3f5d5a7ba1a6c, type: 3}
+      objectReference: {fileID: 21300000, guid: 3f5b80eabbad1424192eb31552395882, type: 3}
     - target: {fileID: 846440132307420828, guid: 6c2f161bcd1894c409c0cc5142ed56c8, type: 3}
       propertyPath: paintingData.paintingTextureColor.b
       value: 0.7058824
@@ -133918,7 +133918,7 @@ PrefabInstance:
     - target: {fileID: 846440132786113077, guid: 6c2f161bcd1894c409c0cc5142ed56c8, type: 3}
       propertyPath: paintingData.paintingImage
       value: 
-      objectReference: {fileID: 21300000, guid: 743a6cea0f54e10438f0302904d03dd5, type: 3}
+      objectReference: {fileID: 21300000, guid: c394f97e888f5d24db83c1fb9f15ab5b, type: 3}
     - target: {fileID: 846440132786113077, guid: 6c2f161bcd1894c409c0cc5142ed56c8, type: 3}
       propertyPath: paintingData.paintingTextureColor.b
       value: 0.7058824
@@ -133946,7 +133946,7 @@ PrefabInstance:
     - target: {fileID: 846440132952300748, guid: 6c2f161bcd1894c409c0cc5142ed56c8, type: 3}
       propertyPath: paintingData.paintingImage
       value: 
-      objectReference: {fileID: 21300000, guid: 4445bf9af7cff5a429f4f2396f921089, type: 3}
+      objectReference: {fileID: 21300000, guid: 52617d576a7a7cc43949e8a9f2179171, type: 3}
     - target: {fileID: 846440132952300748, guid: 6c2f161bcd1894c409c0cc5142ed56c8, type: 3}
       propertyPath: paintingData.paintingTextureColor.b
       value: 0.7058824
@@ -133986,7 +133986,7 @@ PrefabInstance:
     - target: {fileID: 917173388758904331, guid: 6c2f161bcd1894c409c0cc5142ed56c8, type: 3}
       propertyPath: paintingData.paintingImage
       value: 
-      objectReference: {fileID: 21300000, guid: 2bf62e9235eafba4091db2059f846264, type: 3}
+      objectReference: {fileID: 21300000, guid: 04eb98cc13e54514295428b43f68a461, type: 3}
     - target: {fileID: 917173388758904331, guid: 6c2f161bcd1894c409c0cc5142ed56c8, type: 3}
       propertyPath: paintingData.paintingTextureColor.b
       value: 0.7058824
@@ -134046,7 +134046,7 @@ PrefabInstance:
     - target: {fileID: 1032528071112895588, guid: 6c2f161bcd1894c409c0cc5142ed56c8, type: 3}
       propertyPath: paintingData.paintingImage
       value: 
-      objectReference: {fileID: 21300000, guid: 46e1b66c5c33c5a49ae02ddcdf9cff36, type: 3}
+      objectReference: {fileID: 21300000, guid: d58324fa886ddb14896e515ccae6d771, type: 3}
     - target: {fileID: 1032528071112895588, guid: 6c2f161bcd1894c409c0cc5142ed56c8, type: 3}
       propertyPath: paintingData.paintingTextureColor.b
       value: 0.7058824
@@ -134366,7 +134366,7 @@ PrefabInstance:
     - target: {fileID: 1086092524502666466, guid: 6c2f161bcd1894c409c0cc5142ed56c8, type: 3}
       propertyPath: paintingData.paintingImage
       value: 
-      objectReference: {fileID: 21300000, guid: 6eb7d7385ffa74a4a9c234b67feb9c12, type: 3}
+      objectReference: {fileID: 21300000, guid: 73b54407b062ceb4fb3ffcf765410183, type: 3}
     - target: {fileID: 1086092524502666466, guid: 6c2f161bcd1894c409c0cc5142ed56c8, type: 3}
       propertyPath: paintingData.paintingTextureColor.b
       value: 0.7058824
@@ -134395,7 +134395,7 @@ PrefabInstance:
     - target: {fileID: 1086092524765932997, guid: 6c2f161bcd1894c409c0cc5142ed56c8, type: 3}
       propertyPath: paintingData.paintingImage
       value: 
-      objectReference: {fileID: 21300000, guid: 5f8c6b2647b6b574ea97720cf010dce7, type: 3}
+      objectReference: {fileID: 21300000, guid: 21157e4cb1787c340b829f9ec19c146b, type: 3}
     - target: {fileID: 1086092524765932997, guid: 6c2f161bcd1894c409c0cc5142ed56c8, type: 3}
       propertyPath: paintingData.paintingTextureColor.b
       value: 0.7058824
@@ -134423,7 +134423,7 @@ PrefabInstance:
     - target: {fileID: 1086092525397679991, guid: 6c2f161bcd1894c409c0cc5142ed56c8, type: 3}
       propertyPath: paintingData.paintingImage
       value: 
-      objectReference: {fileID: 21300000, guid: 787d12d9b33a9eb43a2bec05563d4647, type: 3}
+      objectReference: {fileID: 21300000, guid: e7fc4c3d65e429a4ba2329e0ff070b5f, type: 3}
     - target: {fileID: 1086092525397679991, guid: 6c2f161bcd1894c409c0cc5142ed56c8, type: 3}
       propertyPath: paintingData.paintingTextureColor.b
       value: 0.7058824
@@ -134455,7 +134455,7 @@ PrefabInstance:
     - target: {fileID: 1086092525557358843, guid: 6c2f161bcd1894c409c0cc5142ed56c8, type: 3}
       propertyPath: paintingData.paintingImage
       value: 
-      objectReference: {fileID: 21300000, guid: d889859e18d89664a9fd52ea5d6a9f89, type: 3}
+      objectReference: {fileID: 21300000, guid: 07f7a98adf73e514db8220898d0bbf4a, type: 3}
     - target: {fileID: 1086092525557358843, guid: 6c2f161bcd1894c409c0cc5142ed56c8, type: 3}
       propertyPath: paintingData.paintingTextureColor.b
       value: 0.7058824
@@ -134499,7 +134499,7 @@ PrefabInstance:
     - target: {fileID: 1086092526097734445, guid: 6c2f161bcd1894c409c0cc5142ed56c8, type: 3}
       propertyPath: paintingData.paintingImage
       value: 
-      objectReference: {fileID: 21300000, guid: fdc624ddafb8f634f86d315832bf5248, type: 3}
+      objectReference: {fileID: 21300000, guid: 2b3bdaf071a086940b6e8ae14e34ec83, type: 3}
     - target: {fileID: 1086092526097734445, guid: 6c2f161bcd1894c409c0cc5142ed56c8, type: 3}
       propertyPath: paintingData.paintingTextureColor.b
       value: 0.7058824
@@ -135987,7 +135987,7 @@ PrefabInstance:
     - target: {fileID: 1700372218910957459, guid: 6c2f161bcd1894c409c0cc5142ed56c8, type: 3}
       propertyPath: paintingData.paintingImage
       value: 
-      objectReference: {fileID: 21300000, guid: 758ae19ea21c1434085e172c41cdce2b, type: 3}
+      objectReference: {fileID: 21300000, guid: c59753ce8564b024cb809e9a180a6efd, type: 3}
     - target: {fileID: 1700372218910957459, guid: 6c2f161bcd1894c409c0cc5142ed56c8, type: 3}
       propertyPath: paintingData.paintingTextureColor.b
       value: 0.7058824
@@ -138899,7 +138899,7 @@ PrefabInstance:
     - target: {fileID: 2394660717176887888, guid: 6c2f161bcd1894c409c0cc5142ed56c8, type: 3}
       propertyPath: paintingData.paintingImage
       value: 
-      objectReference: {fileID: 21300000, guid: f7d444924845c2c448460bd7a30db173, type: 3}
+      objectReference: {fileID: 21300000, guid: c51d198918ae03147a787e86077ddcaa, type: 3}
     - target: {fileID: 2394660717176887888, guid: 6c2f161bcd1894c409c0cc5142ed56c8, type: 3}
       propertyPath: paintingData.paintingTextureColor.b
       value: 0.7058824
@@ -138947,7 +138947,7 @@ PrefabInstance:
     - target: {fileID: 2394660717285431033, guid: 6c2f161bcd1894c409c0cc5142ed56c8, type: 3}
       propertyPath: paintingData.paintingImage
       value: 
-      objectReference: {fileID: 21300000, guid: 96df5491efd01cc46978dcaa6dca16ad, type: 3}
+      objectReference: {fileID: 21300000, guid: b4b2804d37e95544ba083892d6ae5d1a, type: 3}
     - target: {fileID: 2394660717285431033, guid: 6c2f161bcd1894c409c0cc5142ed56c8, type: 3}
       propertyPath: paintingData.paintingTextureColor.b
       value: 0.7058824
@@ -138975,7 +138975,7 @@ PrefabInstance:
     - target: {fileID: 2394660717588971520, guid: 6c2f161bcd1894c409c0cc5142ed56c8, type: 3}
       propertyPath: paintingData.paintingImage
       value: 
-      objectReference: {fileID: 21300000, guid: ed4adb4f17ecac446b748ed11554de03, type: 3}
+      objectReference: {fileID: 21300000, guid: 73a81133b4ae1c74794878d7aedca85d, type: 3}
     - target: {fileID: 2394660717588971520, guid: 6c2f161bcd1894c409c0cc5142ed56c8, type: 3}
       propertyPath: paintingData.paintingTextureColor.b
       value: 0.7058824
@@ -139279,7 +139279,7 @@ PrefabInstance:
     - target: {fileID: 2686737009305669045, guid: 6c2f161bcd1894c409c0cc5142ed56c8, type: 3}
       propertyPath: paintingData.paintingImage
       value: 
-      objectReference: {fileID: 21300000, guid: c2e414df5b6477144ac429c722b2c7de, type: 3}
+      objectReference: {fileID: 21300000, guid: 24aa32a34cb5c3a4e9515ea4aa19a255, type: 3}
     - target: {fileID: 2686737009305669045, guid: 6c2f161bcd1894c409c0cc5142ed56c8, type: 3}
       propertyPath: paintingData.paintingTextureColor.b
       value: 0.7058824
@@ -142723,7 +142723,7 @@ PrefabInstance:
     - target: {fileID: 3100864790316327415, guid: 6c2f161bcd1894c409c0cc5142ed56c8, type: 3}
       propertyPath: paintingData.paintingImage
       value: 
-      objectReference: {fileID: 21300000, guid: 4d4c3986c20d23c44993115d328d5893, type: 3}
+      objectReference: {fileID: 21300000, guid: 8616666f0f3fd4f46b2b160cd6afe760, type: 3}
     - target: {fileID: 3100864790316327415, guid: 6c2f161bcd1894c409c0cc5142ed56c8, type: 3}
       propertyPath: paintingData.paintingTextureColor.b
       value: 0.7058824
@@ -142747,7 +142747,7 @@ PrefabInstance:
     - target: {fileID: 3100864790317521434, guid: 6c2f161bcd1894c409c0cc5142ed56c8, type: 3}
       propertyPath: paintingData.paintingImage
       value: 
-      objectReference: {fileID: 21300000, guid: 8f62b3ae82a110d4b9f856883de2f848, type: 3}
+      objectReference: {fileID: 21300000, guid: 06ed915b32bca3147afc18932ac13220, type: 3}
     - target: {fileID: 3100864790317521434, guid: 6c2f161bcd1894c409c0cc5142ed56c8, type: 3}
       propertyPath: paintingData.paintingTextureColor.b
       value: 0.7058824
@@ -142771,7 +142771,7 @@ PrefabInstance:
     - target: {fileID: 3100864790546615109, guid: 6c2f161bcd1894c409c0cc5142ed56c8, type: 3}
       propertyPath: paintingData.paintingImage
       value: 
-      objectReference: {fileID: 21300000, guid: 63c585601172f2b4eabf6ce7719bfa6c, type: 3}
+      objectReference: {fileID: 21300000, guid: 0cc46fd07ab56b34da53475580be726b, type: 3}
     - target: {fileID: 3100864790546615109, guid: 6c2f161bcd1894c409c0cc5142ed56c8, type: 3}
       propertyPath: paintingData.paintingTextureColor.b
       value: 0.7058824
@@ -142791,7 +142791,7 @@ PrefabInstance:
     - target: {fileID: 3100864790561692430, guid: 6c2f161bcd1894c409c0cc5142ed56c8, type: 3}
       propertyPath: paintingData.paintingImage
       value: 
-      objectReference: {fileID: 21300000, guid: eedd952cae2b7174f9342c51c3da4294, type: 3}
+      objectReference: {fileID: 21300000, guid: 62224b851cb35f04994fb70c88c32109, type: 3}
     - target: {fileID: 3100864790561692430, guid: 6c2f161bcd1894c409c0cc5142ed56c8, type: 3}
       propertyPath: paintingData.paintingTextureColor.b
       value: 0.7058824
@@ -142811,7 +142811,7 @@ PrefabInstance:
     - target: {fileID: 3100864791659444309, guid: 6c2f161bcd1894c409c0cc5142ed56c8, type: 3}
       propertyPath: paintingData.paintingImage
       value: 
-      objectReference: {fileID: 21300000, guid: d49bc8e4822cd114cb8e422f3f701cbc, type: 3}
+      objectReference: {fileID: 21300000, guid: ad51a2cdd00b7aa4cb625345600a2ce7, type: 3}
     - target: {fileID: 3100864791659444309, guid: 6c2f161bcd1894c409c0cc5142ed56c8, type: 3}
       propertyPath: paintingData.paintingTextureColor.b
       value: 0.7058824
@@ -142835,7 +142835,7 @@ PrefabInstance:
     - target: {fileID: 3100864792075826758, guid: 6c2f161bcd1894c409c0cc5142ed56c8, type: 3}
       propertyPath: paintingData.paintingImage
       value: 
-      objectReference: {fileID: 21300000, guid: 5e526b41cb738b841b5235b26d6f7d4d, type: 3}
+      objectReference: {fileID: 21300000, guid: ea0418e6aa066fd478af3c9c0f6b09f7, type: 3}
     - target: {fileID: 3100864792075826758, guid: 6c2f161bcd1894c409c0cc5142ed56c8, type: 3}
       propertyPath: paintingData.paintingTextureColor.b
       value: 0.7058824
@@ -143791,7 +143791,7 @@ PrefabInstance:
     - target: {fileID: 3392922661312768170, guid: 6c2f161bcd1894c409c0cc5142ed56c8, type: 3}
       propertyPath: paintingData.paintingImage
       value: 
-      objectReference: {fileID: 21300000, guid: 2f0eab86c801cb7479554a9246b04c48, type: 3}
+      objectReference: {fileID: 21300000, guid: 3e7684754bf1d5a4385f50b38b442838, type: 3}
     - target: {fileID: 3392922661312768170, guid: 6c2f161bcd1894c409c0cc5142ed56c8, type: 3}
       propertyPath: paintingData.paintingTextureColor.b
       value: 0.7058824
@@ -146407,7 +146407,7 @@ PrefabInstance:
     - target: {fileID: 4471939410718419489, guid: 6c2f161bcd1894c409c0cc5142ed56c8, type: 3}
       propertyPath: paintingData.paintingImage
       value: 
-      objectReference: {fileID: 21300000, guid: 4b66c1813511de04c885d1716ce567b8, type: 3}
+      objectReference: {fileID: 21300000, guid: f0d380a0252594141b24c2919c0b3804, type: 3}
     - target: {fileID: 4471939410718419489, guid: 6c2f161bcd1894c409c0cc5142ed56c8, type: 3}
       propertyPath: paintingData.paintingTextureColor.b
       value: 0.7058824
@@ -148207,7 +148207,7 @@ PrefabInstance:
     - target: {fileID: 4767576730252606981, guid: 6c2f161bcd1894c409c0cc5142ed56c8, type: 3}
       propertyPath: paintingData.paintingImage
       value: 
-      objectReference: {fileID: 21300000, guid: 091df98c064829941a568633ff004330, type: 3}
+      objectReference: {fileID: 21300000, guid: 2487b1ddc8b78f749b040bf566f432e0, type: 3}
     - target: {fileID: 4767576730252606981, guid: 6c2f161bcd1894c409c0cc5142ed56c8, type: 3}
       propertyPath: paintingData.paintingTextureColor.b
       value: 0.7058824
@@ -148519,7 +148519,7 @@ PrefabInstance:
     - target: {fileID: 5186652120482507430, guid: 6c2f161bcd1894c409c0cc5142ed56c8, type: 3}
       propertyPath: paintingData.paintingImage
       value: 
-      objectReference: {fileID: 21300000, guid: 2e28c4808227584488bae09c96f74b19, type: 3}
+      objectReference: {fileID: 21300000, guid: 88a412452567e75488273017b159811a, type: 3}
     - target: {fileID: 5186652120482507430, guid: 6c2f161bcd1894c409c0cc5142ed56c8, type: 3}
       propertyPath: paintingData.paintingTextureColor.b
       value: 0.7058824
@@ -148543,7 +148543,7 @@ PrefabInstance:
     - target: {fileID: 5186652120572824720, guid: 6c2f161bcd1894c409c0cc5142ed56c8, type: 3}
       propertyPath: paintingData.paintingImage
       value: 
-      objectReference: {fileID: 21300000, guid: b8c911971bf28ba40961aa9df0b3c190, type: 3}
+      objectReference: {fileID: 21300000, guid: 7135c27c59e27dd40816491b5ac45eb1, type: 3}
     - target: {fileID: 5186652120572824720, guid: 6c2f161bcd1894c409c0cc5142ed56c8, type: 3}
       propertyPath: paintingData.paintingTextureColor.b
       value: 0.7058824
@@ -148563,7 +148563,7 @@ PrefabInstance:
     - target: {fileID: 5186652120595248330, guid: 6c2f161bcd1894c409c0cc5142ed56c8, type: 3}
       propertyPath: paintingData.paintingImage
       value: 
-      objectReference: {fileID: 21300000, guid: c333bd916ed80d44fa65737748ea0acd, type: 3}
+      objectReference: {fileID: 21300000, guid: 2b6cc8e754d1e1f4ead7f4cb5cb1e995, type: 3}
     - target: {fileID: 5186652120595248330, guid: 6c2f161bcd1894c409c0cc5142ed56c8, type: 3}
       propertyPath: paintingData.paintingTextureColor.b
       value: 0.7058824
@@ -148587,7 +148587,7 @@ PrefabInstance:
     - target: {fileID: 5186652120871946889, guid: 6c2f161bcd1894c409c0cc5142ed56c8, type: 3}
       propertyPath: paintingData.paintingImage
       value: 
-      objectReference: {fileID: 21300000, guid: ba216b796a549ca40abce6c6dd34aab7, type: 3}
+      objectReference: {fileID: 21300000, guid: a9511dea4b9d3c942915c2a542b49415, type: 3}
     - target: {fileID: 5186652120871946889, guid: 6c2f161bcd1894c409c0cc5142ed56c8, type: 3}
       propertyPath: paintingData.paintingTextureColor.b
       value: 0.7058824
@@ -148607,7 +148607,7 @@ PrefabInstance:
     - target: {fileID: 5186652120906510259, guid: 6c2f161bcd1894c409c0cc5142ed56c8, type: 3}
       propertyPath: paintingData.paintingImage
       value: 
-      objectReference: {fileID: 21300000, guid: b875e09ece336b04a9d002df9efdee14, type: 3}
+      objectReference: {fileID: 21300000, guid: dc7c5b68b76513343bb00ffed1b8085f, type: 3}
     - target: {fileID: 5186652120906510259, guid: 6c2f161bcd1894c409c0cc5142ed56c8, type: 3}
       propertyPath: paintingData.paintingTextureColor.b
       value: 0.7058824
@@ -148627,7 +148627,7 @@ PrefabInstance:
     - target: {fileID: 5186652121357007450, guid: 6c2f161bcd1894c409c0cc5142ed56c8, type: 3}
       propertyPath: paintingData.paintingImage
       value: 
-      objectReference: {fileID: 21300000, guid: d59554dc882063e4a96e41676a913508, type: 3}
+      objectReference: {fileID: 21300000, guid: 292de855c558f7d4ca1cd75b93e0cbd1, type: 3}
     - target: {fileID: 5186652121357007450, guid: 6c2f161bcd1894c409c0cc5142ed56c8, type: 3}
       propertyPath: paintingData.paintingTextureColor.b
       value: 0.7058824
@@ -148651,7 +148651,7 @@ PrefabInstance:
     - target: {fileID: 5186652121821790268, guid: 6c2f161bcd1894c409c0cc5142ed56c8, type: 3}
       propertyPath: paintingData.paintingImage
       value: 
-      objectReference: {fileID: 21300000, guid: 20f6625022c2e4a49af7ba63d83c91a9, type: 3}
+      objectReference: {fileID: 21300000, guid: 54bdc388bfd5dd54583ceac7bf1cdf2c, type: 3}
     - target: {fileID: 5186652121821790268, guid: 6c2f161bcd1894c409c0cc5142ed56c8, type: 3}
       propertyPath: paintingData.paintingTextureColor.b
       value: 0.7058824
@@ -148735,7 +148735,7 @@ PrefabInstance:
     - target: {fileID: 5389863762452682473, guid: 6c2f161bcd1894c409c0cc5142ed56c8, type: 3}
       propertyPath: paintingData.paintingImage
       value: 
-      objectReference: {fileID: 21300000, guid: b8cf971edac2ef24489e6a55a432cdd2, type: 3}
+      objectReference: {fileID: 21300000, guid: 6f2990126ab791e40a54d4995387e411, type: 3}
     - target: {fileID: 5389863762452682473, guid: 6c2f161bcd1894c409c0cc5142ed56c8, type: 3}
       propertyPath: paintingData.paintingTextureColor.b
       value: 0.7058824
@@ -148767,7 +148767,7 @@ PrefabInstance:
     - target: {fileID: 5389863762992868671, guid: 6c2f161bcd1894c409c0cc5142ed56c8, type: 3}
       propertyPath: paintingData.paintingImage
       value: 
-      objectReference: {fileID: 21300000, guid: 8d2951409178540458f874c28034b76d, type: 3}
+      objectReference: {fileID: 21300000, guid: 6107ed51d3d9ea246a94ae1c20fb566d, type: 3}
     - target: {fileID: 5389863762992868671, guid: 6c2f161bcd1894c409c0cc5142ed56c8, type: 3}
       propertyPath: paintingData.paintingTextureColor.b
       value: 0.7058824
@@ -148796,7 +148796,7 @@ PrefabInstance:
     - target: {fileID: 5389863763152474803, guid: 6c2f161bcd1894c409c0cc5142ed56c8, type: 3}
       propertyPath: paintingData.paintingImage
       value: 
-      objectReference: {fileID: 21300000, guid: 900724692b530fa43a39a0400409b876, type: 3}
+      objectReference: {fileID: 21300000, guid: 7217690d34d466e4a86b009d050fb69a, type: 3}
     - target: {fileID: 5389863763152474803, guid: 6c2f161bcd1894c409c0cc5142ed56c8, type: 3}
       propertyPath: paintingData.paintingTextureColor.b
       value: 0.7058824
@@ -148828,7 +148828,7 @@ PrefabInstance:
     - target: {fileID: 5389863764047511846, guid: 6c2f161bcd1894c409c0cc5142ed56c8, type: 3}
       propertyPath: paintingData.paintingImage
       value: 
-      objectReference: {fileID: 21300000, guid: c48d0d83923caa247b82e83cca0c7028, type: 3}
+      objectReference: {fileID: 21300000, guid: 9db5e3d6e33290d48a3aef8eee42a070, type: 3}
     - target: {fileID: 5389863764047511846, guid: 6c2f161bcd1894c409c0cc5142ed56c8, type: 3}
       propertyPath: paintingData.paintingTextureColor.b
       value: 0.7058824
@@ -148856,7 +148856,7 @@ PrefabInstance:
     - target: {fileID: 5389863764321132545, guid: 6c2f161bcd1894c409c0cc5142ed56c8, type: 3}
       propertyPath: paintingData.paintingImage
       value: 
-      objectReference: {fileID: 21300000, guid: 067237d1eed725b41872173fabb5dbbc, type: 3}
+      objectReference: {fileID: 21300000, guid: e0e3ac62048bd7d4ba6fd2ea1012e3b5, type: 3}
     - target: {fileID: 5389863764321132545, guid: 6c2f161bcd1894c409c0cc5142ed56c8, type: 3}
       propertyPath: paintingData.paintingTextureColor.b
       value: 0.7058824
@@ -150592,7 +150592,7 @@ PrefabInstance:
     - target: {fileID: 5583458471705789813, guid: 6c2f161bcd1894c409c0cc5142ed56c8, type: 3}
       propertyPath: paintingData.paintingImage
       value: 
-      objectReference: {fileID: 21300000, guid: d91f7978e91d52244bc9b3159529ab9a, type: 3}
+      objectReference: {fileID: 21300000, guid: 801f82a52827ea64d9421df3664d8c6d, type: 3}
     - target: {fileID: 5583458471705789813, guid: 6c2f161bcd1894c409c0cc5142ed56c8, type: 3}
       propertyPath: paintingData.paintingTextureColor.b
       value: 0.7058824
@@ -150620,7 +150620,7 @@ PrefabInstance:
     - target: {fileID: 5583458472075400076, guid: 6c2f161bcd1894c409c0cc5142ed56c8, type: 3}
       propertyPath: paintingData.paintingImage
       value: 
-      objectReference: {fileID: 21300000, guid: 7b781f9dc7f35474dba61cfb483be6bc, type: 3}
+      objectReference: {fileID: 21300000, guid: 8e9d0c3cfc804a24885ce937bbbff988, type: 3}
     - target: {fileID: 5583458472075400076, guid: 6c2f161bcd1894c409c0cc5142ed56c8, type: 3}
       propertyPath: paintingData.paintingTextureColor.b
       value: 0.7058824
@@ -150648,7 +150648,7 @@ PrefabInstance:
     - target: {fileID: 5583458472502168028, guid: 6c2f161bcd1894c409c0cc5142ed56c8, type: 3}
       propertyPath: paintingData.paintingImage
       value: 
-      objectReference: {fileID: 21300000, guid: 162c11a11b4cde2419186e040e46924a, type: 3}
+      objectReference: {fileID: 21300000, guid: 480457d3991ee4c43acb70d5a4ba49fe, type: 3}
     - target: {fileID: 5583458472502168028, guid: 6c2f161bcd1894c409c0cc5142ed56c8, type: 3}
       propertyPath: paintingData.paintingTextureColor.b
       value: 0.7058824
@@ -151008,7 +151008,7 @@ PrefabInstance:
     - target: {fileID: 5796141916087331502, guid: 6c2f161bcd1894c409c0cc5142ed56c8, type: 3}
       propertyPath: paintingData.paintingImage
       value: 
-      objectReference: {fileID: 21300000, guid: 5de3ec8a7a49154409e308b07a770845, type: 3}
+      objectReference: {fileID: 21300000, guid: 377d0f643bfe81f429827cd0c95f1b70, type: 3}
     - target: {fileID: 5796141916087331502, guid: 6c2f161bcd1894c409c0cc5142ed56c8, type: 3}
       propertyPath: paintingData.paintingTextureColor.b
       value: 0.7058824
@@ -151056,7 +151056,7 @@ PrefabInstance:
     - target: {fileID: 5796141916458024023, guid: 6c2f161bcd1894c409c0cc5142ed56c8, type: 3}
       propertyPath: paintingData.paintingImage
       value: 
-      objectReference: {fileID: 21300000, guid: 86fefe3e482a9da4195dbaf414ddb5c1, type: 3}
+      objectReference: {fileID: 21300000, guid: 55890a13d75cf184b9916b9bef957cb2, type: 3}
     - target: {fileID: 5796141916458024023, guid: 6c2f161bcd1894c409c0cc5142ed56c8, type: 3}
       propertyPath: paintingData.paintingTextureColor.b
       value: 0.7058824
@@ -151084,7 +151084,7 @@ PrefabInstance:
     - target: {fileID: 5796141916516200702, guid: 6c2f161bcd1894c409c0cc5142ed56c8, type: 3}
       propertyPath: paintingData.paintingImage
       value: 
-      objectReference: {fileID: 21300000, guid: ac3d2bfaa3488b74382ce98df056fdd7, type: 3}
+      objectReference: {fileID: 21300000, guid: ad1f9bd1745ab3f4fa29ebb3f95627e6, type: 3}
     - target: {fileID: 5796141916516200702, guid: 6c2f161bcd1894c409c0cc5142ed56c8, type: 3}
       propertyPath: paintingData.paintingTextureColor.b
       value: 0.7058824
@@ -151112,7 +151112,7 @@ PrefabInstance:
     - target: {fileID: 5862467025868411091, guid: 6c2f161bcd1894c409c0cc5142ed56c8, type: 3}
       propertyPath: paintingData.paintingImage
       value: 
-      objectReference: {fileID: 21300000, guid: fc57249b217c90b4486a38a6fd60540d, type: 3}
+      objectReference: {fileID: 21300000, guid: 361b1120682090742ac4af459b77576d, type: 3}
     - target: {fileID: 5862467025868411091, guid: 6c2f161bcd1894c409c0cc5142ed56c8, type: 3}
       propertyPath: paintingData.paintingTextureColor.b
       value: 0.7058824
@@ -151244,7 +151244,7 @@ PrefabInstance:
     - target: {fileID: 6041696621783948717, guid: 6c2f161bcd1894c409c0cc5142ed56c8, type: 3}
       propertyPath: paintingData.paintingImage
       value: 
-      objectReference: {fileID: 21300000, guid: 52d96e35ead60474e99bd2b0d401639c, type: 3}
+      objectReference: {fileID: 21300000, guid: 8e8ea34575a980b468de737c194f6582, type: 3}
     - target: {fileID: 6041696621783948717, guid: 6c2f161bcd1894c409c0cc5142ed56c8, type: 3}
       propertyPath: paintingData.paintingTextureColor.b
       value: 0.7058824
@@ -151288,7 +151288,7 @@ PrefabInstance:
     - target: {fileID: 6223682444755214868, guid: 6c2f161bcd1894c409c0cc5142ed56c8, type: 3}
       propertyPath: paintingData.paintingImage
       value: 
-      objectReference: {fileID: 21300000, guid: c7a207d4735c0234f9c8ef350a1a6efe, type: 3}
+      objectReference: {fileID: 21300000, guid: bbc7e2c79f16094438a8418e973f8cc0, type: 3}
     - target: {fileID: 6223682444755214868, guid: 6c2f161bcd1894c409c0cc5142ed56c8, type: 3}
       propertyPath: paintingData.paintingTextureColor.b
       value: 0.7058824
@@ -151336,7 +151336,7 @@ PrefabInstance:
     - target: {fileID: 6223682445055653101, guid: 6c2f161bcd1894c409c0cc5142ed56c8, type: 3}
       propertyPath: paintingData.paintingImage
       value: 
-      objectReference: {fileID: 21300000, guid: bbd9358888f61674e83ecb7e61f98b50, type: 3}
+      objectReference: {fileID: 21300000, guid: ba111604d44bf84418b0efd73df4f79a, type: 3}
     - target: {fileID: 6223682445055653101, guid: 6c2f161bcd1894c409c0cc5142ed56c8, type: 3}
       propertyPath: paintingData.paintingTextureColor.b
       value: 0.7058824
@@ -151365,7 +151365,7 @@ PrefabInstance:
     - target: {fileID: 6223682445450426436, guid: 6c2f161bcd1894c409c0cc5142ed56c8, type: 3}
       propertyPath: paintingData.paintingImage
       value: 
-      objectReference: {fileID: 21300000, guid: a55fac30fbb95ad4699e3d9c1861ec15, type: 3}
+      objectReference: {fileID: 21300000, guid: f3683ef83179cef4e8c4f71f6489e891, type: 3}
     - target: {fileID: 6223682445450426436, guid: 6c2f161bcd1894c409c0cc5142ed56c8, type: 3}
       propertyPath: paintingData.paintingTextureColor.b
       value: 0.7058824
@@ -151457,7 +151457,7 @@ PrefabInstance:
     - target: {fileID: 6465541712925516852, guid: 6c2f161bcd1894c409c0cc5142ed56c8, type: 3}
       propertyPath: paintingData.paintingImage
       value: 
-      objectReference: {fileID: 21300000, guid: 6a6a244dd58ce2245b309141d768938c, type: 3}
+      objectReference: {fileID: 21300000, guid: 3e2bf1b104e68d34a93fbbb2106b74bd, type: 3}
     - target: {fileID: 6465541712925516852, guid: 6c2f161bcd1894c409c0cc5142ed56c8, type: 3}
       propertyPath: paintingData.paintingTextureColor.b
       value: 0.7058824
@@ -151785,7 +151785,7 @@ PrefabInstance:
     - target: {fileID: 6800704484028699480, guid: 6c2f161bcd1894c409c0cc5142ed56c8, type: 3}
       propertyPath: paintingData.paintingImage
       value: 
-      objectReference: {fileID: 21300000, guid: 56626813c9145fc45a4f57d46d948f63, type: 3}
+      objectReference: {fileID: 21300000, guid: 50e3883bac65fcb46859030d99fb3ce4, type: 3}
     - target: {fileID: 6800704484028699480, guid: 6c2f161bcd1894c409c0cc5142ed56c8, type: 3}
       propertyPath: paintingData.paintingTextureColor.b
       value: 0.7058824
@@ -151829,7 +151829,7 @@ PrefabInstance:
     - target: {fileID: 6800704484539867121, guid: 6c2f161bcd1894c409c0cc5142ed56c8, type: 3}
       propertyPath: paintingData.paintingImage
       value: 
-      objectReference: {fileID: 21300000, guid: c2dc2ee7e4d58c1469c2bd454284cee8, type: 3}
+      objectReference: {fileID: 21300000, guid: d9704a853fb9bf643aceaca2b1de5001, type: 3}
     - target: {fileID: 6800704484539867121, guid: 6c2f161bcd1894c409c0cc5142ed56c8, type: 3}
       propertyPath: paintingData.paintingTextureColor.b
       value: 0.7058824
@@ -151857,7 +151857,7 @@ PrefabInstance:
     - target: {fileID: 6800704484709222664, guid: 6c2f161bcd1894c409c0cc5142ed56c8, type: 3}
       propertyPath: paintingData.paintingImage
       value: 
-      objectReference: {fileID: 21300000, guid: b5271b0339847084d91287007fce46a3, type: 3}
+      objectReference: {fileID: 21300000, guid: 4e103df468998834f8958ce461e2d002, type: 3}
     - target: {fileID: 6800704484709222664, guid: 6c2f161bcd1894c409c0cc5142ed56c8, type: 3}
       propertyPath: paintingData.paintingTextureColor.b
       value: 0.7058824
@@ -151921,7 +151921,7 @@ PrefabInstance:
     - target: {fileID: 7074402450781369940, guid: 6c2f161bcd1894c409c0cc5142ed56c8, type: 3}
       propertyPath: paintingData.paintingImage
       value: 
-      objectReference: {fileID: 21300000, guid: 7f662d14918d9bf4aa4dd6ad268b37fc, type: 3}
+      objectReference: {fileID: 21300000, guid: c9a4325eebdcad44a9c2a82f8cd1f285, type: 3}
     - target: {fileID: 7074402450781369940, guid: 6c2f161bcd1894c409c0cc5142ed56c8, type: 3}
       propertyPath: paintingData.paintingTextureColor.b
       value: 0.7058824
@@ -151950,7 +151950,7 @@ PrefabInstance:
     - target: {fileID: 7074402450940971480, guid: 6c2f161bcd1894c409c0cc5142ed56c8, type: 3}
       propertyPath: paintingData.paintingImage
       value: 
-      objectReference: {fileID: 21300000, guid: 133a9871be2dd284bafb428c38ad2e46, type: 3}
+      objectReference: {fileID: 21300000, guid: 2a47c49a1ba45b347be33709dd73dfed, type: 3}
     - target: {fileID: 7074402450940971480, guid: 6c2f161bcd1894c409c0cc5142ed56c8, type: 3}
       propertyPath: paintingData.paintingTextureColor.b
       value: 0.7058824
@@ -151994,7 +151994,7 @@ PrefabInstance:
     - target: {fileID: 7074402451313872258, guid: 6c2f161bcd1894c409c0cc5142ed56c8, type: 3}
       propertyPath: paintingData.paintingImage
       value: 
-      objectReference: {fileID: 21300000, guid: 12e5454da63310e47ba328637a2c0ce1, type: 3}
+      objectReference: {fileID: 21300000, guid: 3e0d18c1c3e7f3f4fa98cc0c350e8c7a, type: 3}
     - target: {fileID: 7074402451313872258, guid: 6c2f161bcd1894c409c0cc5142ed56c8, type: 3}
       propertyPath: paintingData.paintingTextureColor.b
       value: 0.7058824
@@ -152019,7 +152019,7 @@ PrefabInstance:
     - target: {fileID: 7074402451571686250, guid: 6c2f161bcd1894c409c0cc5142ed56c8, type: 3}
       propertyPath: paintingData.paintingImage
       value: 
-      objectReference: {fileID: 21300000, guid: 86b72e8239e01f347982b3c56e6b138b, type: 3}
+      objectReference: {fileID: 21300000, guid: fa10834754bf3bd43a080f304ef473d4, type: 3}
     - target: {fileID: 7074402451571686250, guid: 6c2f161bcd1894c409c0cc5142ed56c8, type: 3}
       propertyPath: paintingData.paintingTextureColor.b
       value: 0.7058824
@@ -152051,7 +152051,7 @@ PrefabInstance:
     - target: {fileID: 7074402451834804813, guid: 6c2f161bcd1894c409c0cc5142ed56c8, type: 3}
       propertyPath: paintingData.paintingImage
       value: 
-      objectReference: {fileID: 21300000, guid: d7e92dd4b293f474aafc5d6c22159632, type: 3}
+      objectReference: {fileID: 21300000, guid: 8f51d01ce7bae2d4f80ee0a062655dc3, type: 3}
     - target: {fileID: 7074402451834804813, guid: 6c2f161bcd1894c409c0cc5142ed56c8, type: 3}
       propertyPath: paintingData.paintingTextureColor.b
       value: 0.7058824
@@ -153559,7 +153559,7 @@ PrefabInstance:
     - target: {fileID: 7694438188405138798, guid: 6c2f161bcd1894c409c0cc5142ed56c8, type: 3}
       propertyPath: paintingData.paintingImage
       value: 
-      objectReference: {fileID: 21300000, guid: 8cc06165a5659324c9701bcf8ea40110, type: 3}
+      objectReference: {fileID: 21300000, guid: 31b66d80cb4042e47855a440f4db8272, type: 3}
     - target: {fileID: 7694438188405138798, guid: 6c2f161bcd1894c409c0cc5142ed56c8, type: 3}
       propertyPath: paintingData.paintingTextureColor.b
       value: 0.7058824
@@ -155015,7 +155015,7 @@ PrefabInstance:
     - target: {fileID: 7974075910854483454, guid: 6c2f161bcd1894c409c0cc5142ed56c8, type: 3}
       propertyPath: paintingData.paintingImage
       value: 
-      objectReference: {fileID: 21300000, guid: e904a0854cb58d540936099e99880e01, type: 3}
+      objectReference: {fileID: 21300000, guid: a69db0a37742c1245843f5dbaabd7c47, type: 3}
     - target: {fileID: 7974075910854483454, guid: 6c2f161bcd1894c409c0cc5142ed56c8, type: 3}
       propertyPath: paintingData.paintingTextureColor.b
       value: 0.7058824
@@ -156503,7 +156503,7 @@ PrefabInstance:
     - target: {fileID: 8348808787083655653, guid: 6c2f161bcd1894c409c0cc5142ed56c8, type: 3}
       propertyPath: paintingData.paintingImage
       value: 
-      objectReference: {fileID: 21300000, guid: 163d499659bf68b47a58810a27db9e78, type: 3}
+      objectReference: {fileID: 21300000, guid: 7dd575634dfb1574f88100ce53314bd0, type: 3}
     - target: {fileID: 8348808787083655653, guid: 6c2f161bcd1894c409c0cc5142ed56c8, type: 3}
       propertyPath: paintingData.paintingTextureColor.b
       value: 0.7058824
@@ -156523,7 +156523,7 @@ PrefabInstance:
     - target: {fileID: 8348808787357259970, guid: 6c2f161bcd1894c409c0cc5142ed56c8, type: 3}
       propertyPath: paintingData.paintingImage
       value: 
-      objectReference: {fileID: 21300000, guid: 4d7012a6b1f550144a344e6be0c01b61, type: 3}
+      objectReference: {fileID: 21300000, guid: 27be33b929778c74db5386a9f5eda58a, type: 3}
     - target: {fileID: 8348808787357259970, guid: 6c2f161bcd1894c409c0cc5142ed56c8, type: 3}
       propertyPath: paintingData.paintingTextureColor.b
       value: 0.7058824
@@ -156567,7 +156567,7 @@ PrefabInstance:
     - target: {fileID: 8348808787636039210, guid: 6c2f161bcd1894c409c0cc5142ed56c8, type: 3}
       propertyPath: paintingData.paintingImage
       value: 
-      objectReference: {fileID: 21300000, guid: e6b95f7354a503e498851ce72884f353, type: 3}
+      objectReference: {fileID: 21300000, guid: 6779d4a86b1fe704fa133ca4bf8f1687, type: 3}
     - target: {fileID: 8348808787636039210, guid: 6c2f161bcd1894c409c0cc5142ed56c8, type: 3}
       propertyPath: paintingData.paintingTextureColor.b
       value: 0.7058824
@@ -156599,7 +156599,7 @@ PrefabInstance:
     - target: {fileID: 8348808788177458684, guid: 6c2f161bcd1894c409c0cc5142ed56c8, type: 3}
       propertyPath: paintingData.paintingImage
       value: 
-      objectReference: {fileID: 21300000, guid: 611ba21c65d4dd949894deeb78d413f4, type: 3}
+      objectReference: {fileID: 21300000, guid: cd4b8bdaa5a09884e8c99c48a91fd461, type: 3}
     - target: {fileID: 8348808788177458684, guid: 6c2f161bcd1894c409c0cc5142ed56c8, type: 3}
       propertyPath: paintingData.paintingTextureColor.b
       value: 0.7058824
@@ -156628,7 +156628,7 @@ PrefabInstance:
     - target: {fileID: 8348808788337142384, guid: 6c2f161bcd1894c409c0cc5142ed56c8, type: 3}
       propertyPath: paintingData.paintingImage
       value: 
-      objectReference: {fileID: 21300000, guid: c2c0cf11edad4be448f0b3e08dbcb96e, type: 3}
+      objectReference: {fileID: 21300000, guid: 8dc7bfd5d2e6612498a552696e20a87c, type: 3}
     - target: {fileID: 8348808788337142384, guid: 6c2f161bcd1894c409c0cc5142ed56c8, type: 3}
       propertyPath: paintingData.paintingTextureColor.b
       value: 0.7058824
@@ -156996,7 +156996,7 @@ PrefabInstance:
     - target: {fileID: 8912169429768989905, guid: 6c2f161bcd1894c409c0cc5142ed56c8, type: 3}
       propertyPath: paintingData.paintingImage
       value: 
-      objectReference: {fileID: 21300000, guid: a27d1e20f23f52d4c921cde9e5af34f8, type: 3}
+      objectReference: {fileID: 21300000, guid: 209a1c59675fc0c42b10dabe780bf4a1, type: 3}
     - target: {fileID: 8912169429768989905, guid: 6c2f161bcd1894c409c0cc5142ed56c8, type: 3}
       propertyPath: paintingData.paintingTextureColor.b
       value: 0.7058824
@@ -157016,7 +157016,7 @@ PrefabInstance:
     - target: {fileID: 8912169429769911450, guid: 6c2f161bcd1894c409c0cc5142ed56c8, type: 3}
       propertyPath: paintingData.paintingImage
       value: 
-      objectReference: {fileID: 21300000, guid: 470a57f1af894224194e4120ed69092a, type: 3}
+      objectReference: {fileID: 21300000, guid: d6e0a9ba1a738cd4a801dd128594202f, type: 3}
     - target: {fileID: 8912169429769911450, guid: 6c2f161bcd1894c409c0cc5142ed56c8, type: 3}
       propertyPath: paintingData.paintingTextureColor.b
       value: 0.7058824
@@ -157040,7 +157040,7 @@ PrefabInstance:
     - target: {fileID: 8912169430010156584, guid: 6c2f161bcd1894c409c0cc5142ed56c8, type: 3}
       propertyPath: paintingData.paintingImage
       value: 
-      objectReference: {fileID: 21300000, guid: f1cff7f1a898c854e82989ed95efd9e4, type: 3}
+      objectReference: {fileID: 21300000, guid: 54bc818b41e8e574a9f2b98950df0979, type: 3}
     - target: {fileID: 8912169430010156584, guid: 6c2f161bcd1894c409c0cc5142ed56c8, type: 3}
       propertyPath: paintingData.paintingTextureColor.b
       value: 0.7058824
@@ -157064,7 +157064,7 @@ PrefabInstance:
     - target: {fileID: 8912169430011588037, guid: 6c2f161bcd1894c409c0cc5142ed56c8, type: 3}
       propertyPath: paintingData.paintingImage
       value: 
-      objectReference: {fileID: 21300000, guid: 5b515e43a62f9524686dd282e2c21cee, type: 3}
+      objectReference: {fileID: 21300000, guid: 79429958fa6b24a4da2b21a1c3880b8c, type: 3}
     - target: {fileID: 8912169430011588037, guid: 6c2f161bcd1894c409c0cc5142ed56c8, type: 3}
       propertyPath: paintingData.paintingTextureColor.b
       value: 0.7058824
@@ -157084,7 +157084,7 @@ PrefabInstance:
     - target: {fileID: 8912169430360392089, guid: 6c2f161bcd1894c409c0cc5142ed56c8, type: 3}
       propertyPath: paintingData.paintingImage
       value: 
-      objectReference: {fileID: 21300000, guid: 22aa917af0b13c44bbda2bc50c770b21, type: 3}
+      objectReference: {fileID: 21300000, guid: 0f11420522ce3da4eac9c07072375e88, type: 3}
     - target: {fileID: 8912169430360392089, guid: 6c2f161bcd1894c409c0cc5142ed56c8, type: 3}
       propertyPath: paintingData.paintingTextureColor.b
       value: 0.7058824
@@ -157104,7 +157104,7 @@ PrefabInstance:
     - target: {fileID: 8912169430816624522, guid: 6c2f161bcd1894c409c0cc5142ed56c8, type: 3}
       propertyPath: paintingData.paintingImage
       value: 
-      objectReference: {fileID: 21300000, guid: d612dbc124f73ce40b8ae74c203e8bf2, type: 3}
+      objectReference: {fileID: 21300000, guid: 8014dd4632854be4ba3f01d02339c874, type: 3}
     - target: {fileID: 8912169430816624522, guid: 6c2f161bcd1894c409c0cc5142ed56c8, type: 3}
       propertyPath: paintingData.paintingTextureColor.b
       value: 0.7058824
@@ -157132,7 +157132,7 @@ PrefabInstance:
     - target: {fileID: 8925863293410298911, guid: 6c2f161bcd1894c409c0cc5142ed56c8, type: 3}
       propertyPath: paintingData.paintingImage
       value: 
-      objectReference: {fileID: 21300000, guid: c029c83e9f2b20347a0a69368e300c62, type: 3}
+      objectReference: {fileID: 21300000, guid: 20359848b40bc5d46a3b87a50bce3ad5, type: 3}
     - target: {fileID: 8925863293410298911, guid: 6c2f161bcd1894c409c0cc5142ed56c8, type: 3}
       propertyPath: paintingData.paintingTextureColor.b
       value: 0.7058824
@@ -157212,7 +157212,7 @@ PrefabInstance:
     - target: {fileID: 9200211308750635434, guid: 6c2f161bcd1894c409c0cc5142ed56c8, type: 3}
       propertyPath: paintingData.paintingImage
       value: 
-      objectReference: {fileID: 21300000, guid: 15ecabbb1e989b84689afd6517115a56, type: 3}
+      objectReference: {fileID: 21300000, guid: e32e2ce16755bf545aa6deb825424d5c, type: 3}
     - target: {fileID: 9200211308750635434, guid: 6c2f161bcd1894c409c0cc5142ed56c8, type: 3}
       propertyPath: paintingData.paintingTextureColor.b
       value: 0.7058824
@@ -157256,7 +157256,7 @@ PrefabInstance:
     - target: {fileID: 9200211308983965523, guid: 6c2f161bcd1894c409c0cc5142ed56c8, type: 3}
       propertyPath: paintingData.paintingImage
       value: 
-      objectReference: {fileID: 21300000, guid: 0b89aa3c97e33624cb1f259641d4c0fe, type: 3}
+      objectReference: {fileID: 21300000, guid: fa851a83f0ae5154e842df7a2a1bd9c2, type: 3}
     - target: {fileID: 9200211308983965523, guid: 6c2f161bcd1894c409c0cc5142ed56c8, type: 3}
       propertyPath: paintingData.paintingTextureColor.b
       value: 0.7058824
@@ -157284,7 +157284,7 @@ PrefabInstance:
     - target: {fileID: 9200211309429070842, guid: 6c2f161bcd1894c409c0cc5142ed56c8, type: 3}
       propertyPath: paintingData.paintingImage
       value: 
-      objectReference: {fileID: 21300000, guid: 899244f8b4803cf4e818d0c071e1dae2, type: 3}
+      objectReference: {fileID: 21300000, guid: c04234f71d265974e85c578eb17a06b9, type: 3}
     - target: {fileID: 9200211309429070842, guid: 6c2f161bcd1894c409c0cc5142ed56c8, type: 3}
       propertyPath: paintingData.paintingTextureColor.b
       value: 0.7058824

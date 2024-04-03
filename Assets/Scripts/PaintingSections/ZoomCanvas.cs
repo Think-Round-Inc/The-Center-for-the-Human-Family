@@ -1,5 +1,7 @@
+using System.Collections;
 using UnityEngine;
 using UnityEngine.Events;
+using UnityEngine.Networking;
 using UnityEngine.UI;
 
 // sealed class as its not intended to be inherited
@@ -25,8 +27,31 @@ public sealed class ZoomCanvas : MonoBehaviour
         // checks screen for painting data then if found, adds painting sprite to canvas
         if (screen.TryGetComponent(out PaintingData data))
         {
-            if (data.paintingData.paintingImage != null)
-                paintingZoomableCanvas.sprite = data.paintingData.paintingImage;
+            if (data.paintingData.imageURL != null)
+            {
+                StartCoroutine(LoadImage(data.paintingData.imageURL));
+            }
+        }
+    }
+
+    /// <summary>
+    /// Gets high quality painting from url
+    /// </summary>
+    /// <param name="link">Current close screen</param>
+    IEnumerator LoadImage(string link)
+    {
+        UnityWebRequest request = UnityWebRequestTexture.GetTexture(link);
+        yield return request.SendWebRequest();
+
+        if (request.isNetworkError || request.isHttpError)
+        {
+            Debug.Log(request.error);
+        }
+        else
+        {
+            Texture2D myTexture = ((DownloadHandlerTexture)request.downloadHandler).texture;
+            Sprite newSprite = Sprite.Create(myTexture, new Rect(0, 0, myTexture.width, myTexture.height), new Vector2(0.5f, 0.5f));
+            paintingZoomableCanvas.sprite = newSprite;
         }
     }
 
