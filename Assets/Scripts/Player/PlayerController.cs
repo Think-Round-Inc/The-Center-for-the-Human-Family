@@ -24,12 +24,14 @@ public class PlayerController : MonoBehaviour
         }
     }
     [SerializeField] bool _isEnabled;
+    public bool CanToggleEnable = true;
     public float Speed = 5.0f;
     public float MouseSensitivity = 100.0f;
     public Transform Head;
     public float Friction = 0.9f;
 
     private Rigidbody rb;
+    CapsuleCollider _capsuleCollider;
     private float rotationY = 0.0f;
 
     private void OnValidate()
@@ -40,12 +42,20 @@ public class PlayerController : MonoBehaviour
     void Start()
     {
         rb = GetComponent<Rigidbody>();
+        _capsuleCollider = GetComponent<CapsuleCollider>();
         IsEnabled = _isEnabled;
+    }
+
+    private void Update()
+    {
+        if(CanToggleEnable && Input.GetMouseButtonDown(1))
+        {
+            IsEnabled = !IsEnabled;
+        }
     }
 
     void FixedUpdate()
     {
-        if (!IsEnabled) return;
         MovePlayer();
     }
 
@@ -62,6 +72,10 @@ public class PlayerController : MonoBehaviour
         float moveVertical = Input.GetAxisRaw("Vertical");
         Vector3 moveInput = transform.right * moveHorizontal + transform.forward * moveVertical;
         moveInput.Normalize();
+        if(!IsEnabled)
+        {
+            moveInput = Vector3.zero;
+        }
 
         Vector3 horizonVel = rb.velocity;
         horizonVel.y = 0f;

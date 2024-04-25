@@ -81,7 +81,7 @@ MonoBehaviour:
   IsStabalized: 0
   _amplitude: 0.02
   _heightAmplitude: 2
-  _sideAmplitude: 1
+  _sideAmplitude: 0.5
   _frequency: 9
   _bobLerpSpeed: 20
   _returnLerpSpeed: 6
@@ -372,6 +372,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _isEnabled: 1
+  CanToggleEnable: 1
   Speed: 6
   MouseSensitivity: 1.25
   Head: {fileID: 2005076831591008782}
