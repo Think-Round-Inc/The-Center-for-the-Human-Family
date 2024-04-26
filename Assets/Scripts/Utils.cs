@@ -11,7 +11,7 @@ public static class Utils
     {
         MaterialPropertyBlock propBlock = new MaterialPropertyBlock();
         meshRend.GetPropertyBlock(propBlock, matIndex);
-        Texture2D texture = sprite == null ? null : sprite.texture;
+        Texture2D texture = sprite == null ? new Texture2D(1, 1) : sprite.texture;
         propBlock.SetTexture("_BaseMap", texture);
         meshRend.SetPropertyBlock(propBlock, matIndex);
     }

@@ -19,7 +19,7 @@ public sealed class UIController : MonoBehaviour
     /// <param name="screen">screen that is displaying target painting</param>
     public void SetPaintingNameAndInfoToInfoText(GameObject screen)
     {
-        if (screen.TryGetComponent(out PaintingData data))
+        if (screen.TryGetComponent(out StandPaintingSetter_Old data))
             hotspotInfoText.text = $"<size={paintingNameTextSize}>{data.paintingData.paintingName}</size>\n\n<size={paintingInfoTextSize}>{data.paintingData.extraPaintingInfo}</size>";
     }
 

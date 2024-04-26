@@ -25,7 +25,7 @@ public sealed class ZoomCanvas : MonoBehaviour
     public void DisplayPaintingToZoomableCanvas(GameObject screen)
     {
         // checks screen for painting data then if found, adds painting sprite to canvas
-        if (screen.TryGetComponent(out PaintingData data))
+        if (screen.TryGetComponent(out StandPaintingSetter_Old data))
         {
             if (data.paintingData.imageURL != null)
             {

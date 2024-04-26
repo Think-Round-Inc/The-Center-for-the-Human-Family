@@ -46,7 +46,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   TopSprite: {fileID: 0}
-  _topWallMesh: {fileID: 589194813126298651}
+  TopOffset: {x: 0, y: 0}
+  _topMesh: {fileID: 589194813126298651}
+  _topMeshFilter: {fileID: 8204536818124645225}
 --- !u!1001 &4730067067318924330
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -160,3 +162,8 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 3146746794460493193, guid: d1e054983bc753346a531b2581021408, type: 3}
+--- !u!33 &8204536818124645225 stripped
+MeshFilter:
+  m_CorrespondingSourceObject: {fileID: -5730606036717430973, guid: d1e054983bc753346a531b2581021408, type: 3}
+  m_PrefabInstance: {fileID: 4730067067318924330}
+  m_PrefabAsset: {fileID: 0}

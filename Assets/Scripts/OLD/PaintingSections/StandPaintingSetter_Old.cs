@@ -14,7 +14,7 @@ public sealed class PaintingDataHolder
 }
 
 [System.Serializable]
-public sealed class PaintingData : MonoBehaviour
+public sealed class StandPaintingSetter_Old : MonoBehaviour
 {
     public PaintingDataHolder paintingData;
 

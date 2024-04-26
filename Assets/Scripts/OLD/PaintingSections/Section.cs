@@ -32,7 +32,7 @@ public sealed class Section : MonoBehaviour
 
     public void SetAllPaintingTexturesFromPaintingData()
     {
-        PaintingData[] paintings = GetComponentsInChildren<PaintingData>();
+        StandPaintingSetter_Old[] paintings = GetComponentsInChildren<StandPaintingSetter_Old>();
         for (int i = 0; i < paintings.Length; i++)
         {
             paintings[i].InitializePaintingData();

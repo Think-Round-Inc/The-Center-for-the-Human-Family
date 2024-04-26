@@ -1,15 +1,15 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
 [ExecuteInEditMode]
 public class DomeSectionGFX : MonoBehaviour
 {
-    [Header("Textures")]
+    [Header("Top")]
     public Sprite TopSprite;
+    public Vector2 TopOffset;
 
     [Header("References")]
-    [SerializeField] MeshRenderer _topWallMesh;
+    [SerializeField] MeshRenderer _topMesh;
+    [SerializeField] MeshFilter _topMeshFilter;
 
     private void Awake()
     {
@@ -28,7 +28,13 @@ public class DomeSectionGFX : MonoBehaviour
 
     void UpdateTopTexture()
     {
-        _topWallMesh.ApplySpriteTextureToPropertyBlock(TopSprite);
-        _topWallMesh.ApplySpriteTextureToPropertyBlock(null, 1);
+        // Apply Top Sprite
+        _topMesh.ApplySpriteTextureToPropertyBlock(TopSprite);
+        _topMesh.ApplySpriteTextureToPropertyBlock(null, 1);
+
+        // Top Mesh UV Offset
+        Vector2[] uvs = _topMeshFilter.sharedMesh.uv;
+        for(int i = 0; i < uvs.Length; i++) uvs[i] += TopOffset;
+        _topMeshFilter.mesh.uv = uvs;
     }
 }

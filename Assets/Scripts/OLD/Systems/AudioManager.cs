@@ -8,7 +8,7 @@ public sealed class AudioManager : MonoBehaviour
     public void SwitchAudioAtPainting(GameObject stand)
     {
         if (audioSource == null || stand == null) return;
-        if (stand.TryGetComponent<PaintingData>(out var data))
+        if (stand.TryGetComponent<StandPaintingSetter_Old>(out var data))
         {
             AudioClip clip = data.paintingData.paintingClip;
             if (clip != null)

@@ -27,7 +27,7 @@ public sealed class PaintingDataSetter : MonoBehaviour
             if (i >= screens.Length) return;
             if (paintingData[i].paintingImage != null && screens[i] != null)
             {
-                if (screens[i].TryGetComponent(out PaintingData data))
+                if (screens[i].TryGetComponent(out StandPaintingSetter_Old data))
                 {
                     data.paintingData.paintingImage = paintingData[i].paintingImage;
                     if (paintingData[i].paintingName != string.Empty)

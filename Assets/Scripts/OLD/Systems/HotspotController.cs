@@ -49,7 +49,7 @@ public sealed class HotspotController : MonoBehaviour
     /// <param name="screen">screen that the painting is shown on</param>
     public void SetPaintingNameAndInfoToInfoText(GameObject screen)
     {
-        if (screen.TryGetComponent(out PaintingData data))
+        if (screen.TryGetComponent(out StandPaintingSetter_Old data))
             infoText.text = $"{data.paintingData.paintingName}\n{data.paintingData.extraPaintingInfo}";
     }
 
