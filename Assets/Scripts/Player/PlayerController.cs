@@ -80,7 +80,7 @@ public class PlayerController : MonoBehaviour
         Vector3 horizonVel = rb.velocity;
         horizonVel.y = 0f;
 
-        float moveSpeed = (Input.GetKey(KeyCode.LeftShift) ? 2f : 1f) * Speed;
+        float moveSpeed = (Input.GetKey(KeyCode.LeftShift) ? 1.5f : 1f) * Speed;
 
         rb.velocity = Friction * moveInput * moveSpeed + Vector3.up * rb.velocity.y + horizonVel * (1f - Friction);
     }

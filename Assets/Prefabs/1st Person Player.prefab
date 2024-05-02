@@ -177,7 +177,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2005076831591008782}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Head
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -210,7 +210,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4881146050645924962}
   - component: {fileID: 740896406593057493}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Head Bob
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -401,7 +401,7 @@ GameObject:
   - component: {fileID: 6095656627387337916}
   - component: {fileID: 4449425919304891063}
   - component: {fileID: 1250012712817916893}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Main Camera
   m_TagString: MainCamera
   m_Icon: {fileID: 0}
@@ -463,7 +463,7 @@ Camera:
   m_Depth: -1
   m_CullingMask:
     serializedVersion: 2
-    m_Bits: 511
+    m_Bits: 1535
   m_RenderingPath: -1
   m_TargetTexture: {fileID: 0}
   m_TargetDisplay: 0
@@ -643,7 +643,7 @@ GameObject:
   - component: {fileID: 2058442015125532304}
   - component: {fileID: 745733994280920240}
   - component: {fileID: 8572900119938547741}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: 1st Person Player
   m_TagString: Player
   m_Icon: {fileID: 0}

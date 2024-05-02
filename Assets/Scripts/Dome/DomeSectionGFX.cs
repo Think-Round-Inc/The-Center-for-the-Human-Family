@@ -5,6 +5,7 @@ public class DomeSectionGFX : MonoBehaviour
 {
     [Header("Top")]
     public Sprite TopSprite;
+    public float TopScale;
     public Vector2 TopOffset;
 
     [Header("References")]
@@ -30,11 +31,6 @@ public class DomeSectionGFX : MonoBehaviour
     {
         // Apply Top Sprite
         _topMesh.ApplySpriteTextureToPropertyBlock(TopSprite);
-        _topMesh.ApplySpriteTextureToPropertyBlock(null, 1);
-
-        // Top Mesh UV Offset
-        Vector2[] uvs = _topMeshFilter.sharedMesh.uv;
-        for(int i = 0; i < uvs.Length; i++) uvs[i] += TopOffset;
-        _topMeshFilter.mesh.uv = uvs;
+        _topMesh.ApplySpriteTextureToPropertyBlock(null, matIndex: 1);
     }
 }
