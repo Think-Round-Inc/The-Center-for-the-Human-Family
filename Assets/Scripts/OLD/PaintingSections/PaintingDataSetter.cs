@@ -4,8 +4,6 @@ using UnityEngine;
 [System.Serializable]
 public sealed class PaintingDataSetter : MonoBehaviour
 {
-    [SerializeField, Tooltip("When TRUE, each change will update all data to all paintings while in the Editor, or else use button on bottom of script to set data to paintings when done.")]
-    bool setAllDataWhenAValueChanges;
     [SerializeField] PaintingDataHolder[] paintingData;
     [SerializeField] GameObject[] screens;
     [SerializeField] Color paintingTextureColor;
@@ -16,10 +14,6 @@ public sealed class PaintingDataSetter : MonoBehaviour
         SetPaintingData();
     }
 
-    /// <summary>
-    /// sets painting data from entered info to individual paintings in scene
-    /// </summary>
-    [ContextMenu(nameof(SetPaintingData))]
     public void SetPaintingData()
     {
         for (int i = 0; i < paintingData.Length; i++)
@@ -54,12 +48,6 @@ public sealed class PaintingDataSetter : MonoBehaviour
         AssetDatabase.SaveAssets();
         AssetDatabase.Refresh();
 #endif
-    }
-
-    private void OnValidate()
-    {
-        if (setAllDataWhenAValueChanges)
-            SetPaintingData();
     }
 }
 

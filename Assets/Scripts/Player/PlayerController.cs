@@ -1,10 +1,8 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
-public class PlayerController : MonoBehaviour
+public sealed class PlayerController : MonoBehaviour
 {
-    [field: SerializeField] public bool IsEnabled
+    public bool IsEnabled
     {
         get
         {
@@ -82,7 +80,7 @@ public class PlayerController : MonoBehaviour
 
         float moveSpeed = (Input.GetKey(KeyCode.LeftShift) ? 1.5f : 1f) * Speed;
 
-        rb.velocity = Friction * moveInput * moveSpeed + Vector3.up * rb.velocity.y + horizonVel * (1f - Friction);
+        rb.velocity = Friction * moveSpeed * moveInput + Vector3.up * rb.velocity.y + horizonVel * (1f - Friction);
     }
 
     void RotateHead()

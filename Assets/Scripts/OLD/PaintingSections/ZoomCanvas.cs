@@ -4,7 +4,6 @@ using UnityEngine.Events;
 using UnityEngine.Networking;
 using UnityEngine.UI;
 
-// sealed class as its not intended to be inherited
 public sealed class ZoomCanvas : MonoBehaviour
 {
     public Canvas zoomCanvas;
@@ -43,13 +42,14 @@ public sealed class ZoomCanvas : MonoBehaviour
         UnityWebRequest request = UnityWebRequestTexture.GetTexture(link);
         yield return request.SendWebRequest();
 
-        if (request.isNetworkError || request.isHttpError)
+        if (request.result == UnityWebRequest.Result.ConnectionError || request.result == UnityWebRequest.Result.ProtocolError)
         {
             Debug.Log(request.error);
         }
         else
         {
             Texture2D myTexture = ((DownloadHandlerTexture)request.downloadHandler).texture;
+            // probably need to resize because some textures were stretched **
             Sprite newSprite = Sprite.Create(myTexture, new Rect(0, 0, myTexture.width, myTexture.height), new Vector2(0.5f, 0.5f));
             paintingZoomableCanvas.sprite = newSprite;
         }

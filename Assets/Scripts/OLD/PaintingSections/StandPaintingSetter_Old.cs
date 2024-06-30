@@ -53,7 +53,7 @@ public sealed class StandPaintingSetter_Old : MonoBehaviour
         UnityWebRequest request = UnityWebRequestTexture.GetTexture(link);
         yield return request.SendWebRequest();
 
-        if (request.isNetworkError || request.isHttpError)
+        if (request.result == UnityWebRequest.Result.ProtocolError || request.result == UnityWebRequest.Result.ConnectionError)
         {
             Debug.Log(request.error);
         }
