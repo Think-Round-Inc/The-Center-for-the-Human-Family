@@ -1,5 +1,4 @@
 using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
 public class LODShaderHandler : MonoBehaviour
@@ -15,8 +14,8 @@ public class LODShaderHandler : MonoBehaviour
 
     void GetReferences()
     {
-        if(_renderer == null) _renderer = GetComponent<Renderer>();
-        if(_propBlock == null) _propBlock = new MaterialPropertyBlock();
+        if (_renderer == null) _renderer = GetComponent<Renderer>();
+        _propBlock ??= new MaterialPropertyBlock();
     }
 
     public void ChangeTexture(Texture2D newTexture, float duration = 0f)
@@ -24,7 +23,7 @@ public class LODShaderHandler : MonoBehaviour
         GetReferences();
 
         // Instantly Swap textures if changing in editor
-        if(!Application.isPlaying)
+        if (!Application.isPlaying)
         {
             _currentTexture = newTexture;
         }

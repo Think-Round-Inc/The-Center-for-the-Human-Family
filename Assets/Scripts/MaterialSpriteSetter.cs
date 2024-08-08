@@ -1,5 +1,3 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
 [ExecuteInEditMode]
@@ -23,7 +21,7 @@ public class MaterialSpriteSetter : MonoBehaviour
     void GetReferences()
     {
         if (_meshRend == null) _meshRend = GetComponent<MeshRenderer>();
-        if(_propBlock == null) _propBlock = new MaterialPropertyBlock();
+        if (_propBlock == null) _propBlock = new MaterialPropertyBlock();
     }
 
     void UpdateMat()

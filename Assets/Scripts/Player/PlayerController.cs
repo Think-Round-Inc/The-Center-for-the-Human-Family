@@ -11,7 +11,7 @@ public sealed class PlayerController : MonoBehaviour
         set
         {
             _isEnabled = value;
-            if(_isEnabled)
+            if (_isEnabled)
             {
                 Cursor.lockState = CursorLockMode.Locked;
             }
@@ -46,7 +46,7 @@ public sealed class PlayerController : MonoBehaviour
 
     private void Update()
     {
-        if(CanToggleEnable && Input.GetMouseButtonDown(1))
+        if (CanToggleEnable && Input.GetMouseButtonDown(1))
         {
             IsEnabled = !IsEnabled;
         }
@@ -70,7 +70,7 @@ public sealed class PlayerController : MonoBehaviour
         float moveVertical = Input.GetAxisRaw("Vertical");
         Vector3 moveInput = transform.right * moveHorizontal + transform.forward * moveVertical;
         moveInput.Normalize();
-        if(!IsEnabled)
+        if (!IsEnabled)
         {
             moveInput = Vector3.zero;
         }

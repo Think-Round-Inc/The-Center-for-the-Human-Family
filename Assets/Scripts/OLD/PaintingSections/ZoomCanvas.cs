@@ -26,6 +26,12 @@ public sealed class ZoomCanvas : MonoBehaviour
         // checks screen for painting data then if found, adds painting sprite to canvas
         if (screen.TryGetComponent(out StandPaintingSetter_Old data))
         {
+            if (!PaintingLoaderSystemHandler.LoadImagesFromWeb)
+            {
+                if (screen.TryGetComponent(out StandPaintingSetter_Old oldStandScript))
+                    paintingZoomableCanvas.sprite = oldStandScript.paintingData.paintingImage;
+                return;
+            }
             if (data.paintingData.imageURL != null)
             {
                 StartCoroutine(LoadImage(data.paintingData.imageURL));

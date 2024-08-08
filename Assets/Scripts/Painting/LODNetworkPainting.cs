@@ -1,5 +1,3 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
 [RequireComponent(typeof(LODShaderHandler))]
@@ -77,7 +75,7 @@ public class LODNetworkPainting : MonoBehaviour
     }
     private void OnTriggerEnter(Collider other) => HandleTrigger(other, true);
 
-    private void OnTriggerStay(Collider other) { if(!IsCameraNear) HandleTrigger(other, true); }
+    private void OnTriggerStay(Collider other) { if (!IsCameraNear) HandleTrigger(other, true); }
 
     private void OnTriggerExit(Collider other) => HandleTrigger(other, false);
     #endregion

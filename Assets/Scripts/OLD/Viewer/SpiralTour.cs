@@ -33,9 +33,9 @@ public sealed class SpiralTour : MonoBehaviour
     [SerializeField] private Transform indigenousSpawnPoint;
     [SerializeField] private Transform muslimsSpawnPoint;
 
-    private string targetTagViewingPoint = "ViewingPoint";
-    private string targetTagPausePoint = "PausePoint";
-    private string targetTagScreen = "Display";
+    private readonly string targetTagViewingPoint = "ViewingPoint";
+    private readonly string targetTagPausePoint = "PausePoint";
+    private readonly string targetTagScreen = "Display";
     private int currentTargetIndex = 0;
     private float currentTime = 0f;
 

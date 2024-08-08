@@ -1,5 +1,3 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
 public class HeadBob : MonoBehaviour
@@ -62,11 +60,11 @@ public class HeadBob : MonoBehaviour
     {
         Vector3 pos = Vector3.zero;
 
-        float moveSpeedMult = Mathf.Clamp(_body.velocity.magnitude / (_playerController.Speed-1f), 0f, 2f);
-   
+        float moveSpeedMult = Mathf.Clamp(_body.velocity.magnitude / (_playerController.Speed - 1f), 0f, 2f);
+
         _theta += Time.deltaTime * moveSpeedMult * _frequency;
         _theta %= 4f * Mathf.PI;
-        
+
         pos.y += Mathf.Sin(_theta) * _heightAmplitude * _amplitude;
         pos.x += Mathf.Cos(_theta / 2) * _sideAmplitude * _amplitude;
         return pos;

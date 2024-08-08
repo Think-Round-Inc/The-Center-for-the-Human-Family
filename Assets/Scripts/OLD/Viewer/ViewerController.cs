@@ -1,5 +1,3 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
 public sealed class ViewerController : MonoBehaviour
@@ -12,7 +10,7 @@ public sealed class ViewerController : MonoBehaviour
 
     void FixedUpdate()
     {
-        if (!viewerControllerActive)return;
+        if (!viewerControllerActive) return;
         RotateViewer();
         MoveCharacter();
     }

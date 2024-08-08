@@ -76,6 +76,7 @@ public sealed class StandPaintingSetter_Old : MonoBehaviour
 
     private void Update()
     {
+        if (!PaintingLoaderSystemHandler.LoadImagesFromWeb) return;
         currentTag = gameObject.tag;
 
         if (currentTag == "ClosestHotspot" && previousTag == "Screen") LoadImageBasedOnProximity();
