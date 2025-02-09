@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: Localization-String-Tables-French (fr)
   m_EditorClassIdentifier: 
   m_GroupName: Localization-String-Tables-French (fr)
-  m_GUID: 5826c993a0496b646b20e1d273dbd6aa
+  m_GUID: e0595bad038cd3449a4bb2762ef2eb4b
   m_SerializeEntries:
   - m_GUID: f761399a3a87f9f42b28e83dd5eca54a
     m_Address: ParadiseProjectLocalizationTable_fr

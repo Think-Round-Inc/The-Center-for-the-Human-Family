@@ -14,19 +14,15 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_TableCollectionName: ParadiseProjectLocalizationTable
   m_TableCollectionNameGuidString: 93a83a868705c7241b0399458aa88d70
-  m_Entries:
-  - m_Id: 261096173568
-    m_Key: Welcome to the Paradise Project
-    m_Metadata:
-      m_Items: []
+  m_Entries: []
   m_Metadata:
     m_Items: []
   m_KeyGenerator:
-    rid: 1634637525383119120
+    rid: 1634637544541651862
   references:
     version: 2
     RefIds:
-    - rid: 1634637525383119120
+    - rid: 1634637544541651862
       type: {class: DistributedUIDGenerator, ns: UnityEngine.Localization.Tables, asm: Unity.Localization}
       data:
-        m_CustomEpoch: 1738990120160
+        m_CustomEpoch: 1739068290995

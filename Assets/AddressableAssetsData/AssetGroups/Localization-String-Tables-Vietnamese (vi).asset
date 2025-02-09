@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: Localization-String-Tables-Vietnamese (vi)
   m_EditorClassIdentifier: 
   m_GroupName: Localization-String-Tables-Vietnamese (vi)
-  m_GUID: 1d1954d66e6a60c4eaa765283443a3e5
+  m_GUID: 298f0dae1d3cfcb499bb9d59ef67ece7
   m_SerializeEntries:
   - m_GUID: e1df61e52536c4f49a38560e26ac01b9
     m_Address: ParadiseProjectLocalizationTable_vi

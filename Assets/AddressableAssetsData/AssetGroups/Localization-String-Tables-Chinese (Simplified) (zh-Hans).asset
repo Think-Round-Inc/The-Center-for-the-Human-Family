@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: Localization-String-Tables-Chinese (Simplified) (zh-Hans)
   m_EditorClassIdentifier: 
   m_GroupName: Localization-String-Tables-Chinese (Simplified) (zh-Hans)
-  m_GUID: 945ecc5868ff09740a8f3acbf6ac5f6c
+  m_GUID: bb9abda36a420be4c9d8cdb02bc4366a
   m_SerializeEntries:
   - m_GUID: ad5f69b8b85fc89499ac745b055af7cc
     m_Address: ParadiseProjectLocalizationTable_zh-Hans

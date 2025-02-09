@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: Localization-String-Tables-Hebrew (he)
   m_EditorClassIdentifier: 
   m_GroupName: Localization-String-Tables-Hebrew (he)
-  m_GUID: cc626503f578bfb419681e5a38cae45a
+  m_GUID: beabbbc96fa34bd4ea7453f7237ff333
   m_SerializeEntries:
   - m_GUID: 851b9e670e48ae24289cdce553e762e4
     m_Address: ParadiseProjectLocalizationTable_he

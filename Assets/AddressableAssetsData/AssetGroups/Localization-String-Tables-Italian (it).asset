@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: Localization-String-Tables-Italian (it)
   m_EditorClassIdentifier: 
   m_GroupName: Localization-String-Tables-Italian (it)
-  m_GUID: a1959a72195b0764883129a7c62e8428
+  m_GUID: fcdc3333c6be3b84d88bafc5caa5373e
   m_SerializeEntries:
   - m_GUID: 7e864663341c14a49b88cfebbe5f8eb1
     m_Address: ParadiseProjectLocalizationTable_it

@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: Localization-String-Tables-Nepali (ne)
   m_EditorClassIdentifier: 
   m_GroupName: Localization-String-Tables-Nepali (ne)
-  m_GUID: 968ecabf356666147861893d59afc5c3
+  m_GUID: e5625602a131e4f4081010b2207da679
   m_SerializeEntries:
   - m_GUID: bf195b5475ff4f841879a31de9cfcc5e
     m_Address: ParadiseProjectLocalizationTable_ne

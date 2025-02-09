@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: Localization-String-Tables-Cherokee (chr)
   m_EditorClassIdentifier: 
   m_GroupName: Localization-String-Tables-Cherokee (chr)
-  m_GUID: b789574921fd57d4094059f7cc1dd1e6
+  m_GUID: 1aef084aa2ec5264898056ca1c6826fc
   m_SerializeEntries:
   - m_GUID: 01d7affd93906e647822c0e01cbe906d
     m_Address: ParadiseProjectLocalizationTable_chr

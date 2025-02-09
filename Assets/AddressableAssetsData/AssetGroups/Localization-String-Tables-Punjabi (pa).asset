@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: Localization-String-Tables-Punjabi (pa)
   m_EditorClassIdentifier: 
   m_GroupName: Localization-String-Tables-Punjabi (pa)
-  m_GUID: 948433fc3f3d6a44f980098e337fe2c4
+  m_GUID: f9cf653488ac3114098f05204dd01939
   m_SerializeEntries:
   - m_GUID: 6286fa92013b0214a941a6138ad70fe2
     m_Address: ParadiseProjectLocalizationTable_pa

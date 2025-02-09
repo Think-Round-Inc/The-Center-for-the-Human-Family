@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: Localization-String-Tables-Hindi (hi)
   m_EditorClassIdentifier: 
   m_GroupName: Localization-String-Tables-Hindi (hi)
-  m_GUID: 0caaea0852eb7c64da70024771fdd23b
+  m_GUID: cd20c7d8290fc71498f16279a63148aa
   m_SerializeEntries:
   - m_GUID: 5c79dac824637d546ac4f4248815dcb9
     m_Address: ParadiseProjectLocalizationTable_hi

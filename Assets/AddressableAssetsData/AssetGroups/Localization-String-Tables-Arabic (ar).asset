@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: Localization-String-Tables-Arabic (ar)
   m_EditorClassIdentifier: 
   m_GroupName: Localization-String-Tables-Arabic (ar)
-  m_GUID: 60074d655f0b52d408f71404dffd5599
+  m_GUID: 7af1d2508ac6ed7499d53d79c21accaf
   m_SerializeEntries:
   - m_GUID: 8d723be4d9f5c2842af71b202ed18a8c
     m_Address: ParadiseProjectLocalizationTable_ar

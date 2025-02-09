@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: Localization-Assets-Shared
   m_EditorClassIdentifier: 
   m_GroupName: Localization-Assets-Shared
-  m_GUID: c70603f57d94b0c41915b1987030487d
+  m_GUID: dada44a8eaa05fa41b2ae12cb8621782
   m_SerializeEntries:
   - m_GUID: 93a83a868705c7241b0399458aa88d70
     m_Address: Assets/Localization/Tables/ParadiseProjectLocalizationTable Shared
