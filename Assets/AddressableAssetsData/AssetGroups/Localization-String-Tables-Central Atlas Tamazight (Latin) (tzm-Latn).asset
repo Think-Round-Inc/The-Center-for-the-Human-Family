@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: Localization-String-Tables-Central Atlas Tamazight (Latin) (tzm-Latn)
+  m_EditorClassIdentifier: 
+  m_GroupName: Localization-String-Tables-Central Atlas Tamazight (Latin) (tzm-Latn)
+  m_GUID: eb46bd5d91696334cab43e38c49b9ee6
+  m_SerializeEntries:
+  - m_GUID: c818d1dee7146ce4abe64546cc01cf90
+    m_Address: ParadiseProjectLocalizationTable_tzm-Latn
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-tzm-Latn
+    FlaggedDuringContentUpdateRestriction: 0
+  m_ReadOnly: 1
+  m_Settings: {fileID: 11400000, guid: 4e9f8ba277a0a5d4fad786e00a38bb42, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: a493b562af0560149977728ed2819a0e, type: 2}
+    - {fileID: 11400000, guid: 0ecd0ddbab9048a4dbf8f01a3bbda63d, type: 2}

@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: Localization-String-Tables-Bosnian (Cyrillic) (bs-Cyrl)
+  m_EditorClassIdentifier: 
+  m_GroupName: Localization-String-Tables-Bosnian (Cyrillic) (bs-Cyrl)
+  m_GUID: 879325a6a82c1654895bef18eaa5c880
+  m_SerializeEntries:
+  - m_GUID: 47d449e6afd765f4196bb41a60e0ce7f
+    m_Address: ParadiseProjectLocalizationTable_bs-Cyrl
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-bs-Cyrl
+    FlaggedDuringContentUpdateRestriction: 0
+  m_ReadOnly: 1
+  m_Settings: {fileID: 11400000, guid: 4e9f8ba277a0a5d4fad786e00a38bb42, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: f9f664f368cac784ea04cd4eec7cbfc7, type: 2}
+    - {fileID: 11400000, guid: 35d7317c2dfbf8d4f9bc45494e4cfda0, type: 2}

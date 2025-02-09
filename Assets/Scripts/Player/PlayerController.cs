@@ -75,12 +75,12 @@ public sealed class PlayerController : MonoBehaviour
             moveInput = Vector3.zero;
         }
 
-        Vector3 horizonVel = rb.velocity;
+        Vector3 horizonVel = rb.linearVelocity;
         horizonVel.y = 0f;
 
         float moveSpeed = (Input.GetKey(KeyCode.LeftShift) ? 1.5f : 1f) * Speed;
 
-        rb.velocity = Friction * moveSpeed * moveInput + Vector3.up * rb.velocity.y + horizonVel * (1f - Friction);
+        rb.linearVelocity = Friction * moveSpeed * moveInput + Vector3.up * rb.linearVelocity.y + horizonVel * (1f - Friction);
     }
 
     void RotateHead()

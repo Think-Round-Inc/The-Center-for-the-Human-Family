@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: Localization-String-Tables-Arabic (Libya) (ar-LY)
+  m_EditorClassIdentifier: 
+  m_GroupName: Localization-String-Tables-Arabic (Libya) (ar-LY)
+  m_GUID: c811231c311adad479340a911612d5ed
+  m_SerializeEntries:
+  - m_GUID: 70630a1da8bb66c49a640b3a2219e255
+    m_Address: ParadiseProjectLocalizationTable_ar-LY
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-ar-LY
+    FlaggedDuringContentUpdateRestriction: 0
+  m_ReadOnly: 1
+  m_Settings: {fileID: 11400000, guid: 4e9f8ba277a0a5d4fad786e00a38bb42, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: 6c73bbe2b5710634988c67c891234a59, type: 2}
+    - {fileID: 11400000, guid: 17c52d0cefa4c554b95aafec13679b7a, type: 2}

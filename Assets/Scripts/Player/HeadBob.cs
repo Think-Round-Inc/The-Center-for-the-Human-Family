@@ -44,7 +44,7 @@ public class HeadBob : MonoBehaviour
 
     void HandleLerp()
     {
-        float footstepAmount = Mathf.Clamp01(_body.velocity.magnitude / _footstepSpeed);
+        float footstepAmount = Mathf.Clamp01(_body.linearVelocity.magnitude / _footstepSpeed);
         float lerpSpeed = _isMoving ? _bobLerpSpeed : _returnLerpSpeed;
         LocalLerp(FootstepMotion() * footstepAmount, _bobLerpSpeed);
     }
@@ -60,7 +60,7 @@ public class HeadBob : MonoBehaviour
     {
         Vector3 pos = Vector3.zero;
 
-        float moveSpeedMult = Mathf.Clamp(_body.velocity.magnitude / (_playerController.Speed - 1f), 0f, 2f);
+        float moveSpeedMult = Mathf.Clamp(_body.linearVelocity.magnitude / (_playerController.Speed - 1f), 0f, 2f);
 
         _theta += Time.deltaTime * moveSpeedMult * _frequency;
         _theta %= 4f * Mathf.PI;

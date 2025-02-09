@@ -8,4 +8,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/ParadiseExhibit.unity
     guid: e577894426e3eb9448600e5c978227f9
-  m_configObjects: {}
+  m_configObjects:
+    com.unity.addressableassets: {fileID: 11400000, guid: 7daa2e561447381478025720056f8fee, type: 2}
+    com.unity.localization.addressable-group-rules: {fileID: 11400000, guid: 8d297780205635048a246013cd4512cf, type: 2}
+    com.unity.localization.settings: {fileID: 11400000, guid: 99d281ff12c0dfa408965b03b7335b61, type: 2}

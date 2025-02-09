@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: Localization-String-Tables-Irish (Ireland) (ga-IE)
+  m_EditorClassIdentifier: 
+  m_GroupName: Localization-String-Tables-Irish (Ireland) (ga-IE)
+  m_GUID: 208366eab9fa6f548b5d79ce9cdd2cb3
+  m_SerializeEntries:
+  - m_GUID: 1e43093366fe66941a787499dc29704b
+    m_Address: ParadiseProjectLocalizationTable_ga-IE
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-ga-IE
+    FlaggedDuringContentUpdateRestriction: 0
+  m_ReadOnly: 1
+  m_Settings: {fileID: 11400000, guid: 4e9f8ba277a0a5d4fad786e00a38bb42, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: c71f0f438c46b3542a8f28c64e0b845a, type: 2}
+    - {fileID: 11400000, guid: d12fe618bf718e54c9167bd606a3f5dc, type: 2}

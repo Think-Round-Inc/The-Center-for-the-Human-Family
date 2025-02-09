@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: Localization-String-Tables-Uyghur (China) (ug-CN)
+  m_EditorClassIdentifier: 
+  m_GroupName: Localization-String-Tables-Uyghur (China) (ug-CN)
+  m_GUID: f68d4eebc21efd149a742c759629470d
+  m_SerializeEntries:
+  - m_GUID: ca5baba070b3d8b4db8d047f60b4ba9d
+    m_Address: ParadiseProjectLocalizationTable_ug-CN
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-ug-CN
+    FlaggedDuringContentUpdateRestriction: 0
+  m_ReadOnly: 1
+  m_Settings: {fileID: 11400000, guid: 4e9f8ba277a0a5d4fad786e00a38bb42, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: c36a640a1b0c4bb4cb2ebf3d2e1fd532, type: 2}
+    - {fileID: 11400000, guid: b9a7af1bc05576243a1dfa7d83f941eb, type: 2}

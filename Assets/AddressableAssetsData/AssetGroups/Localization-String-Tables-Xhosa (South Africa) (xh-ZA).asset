@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: Localization-String-Tables-Xhosa (South Africa) (xh-ZA)
+  m_EditorClassIdentifier: 
+  m_GroupName: Localization-String-Tables-Xhosa (South Africa) (xh-ZA)
+  m_GUID: 4483690673563aa4d8c68a62f5faab48
+  m_SerializeEntries:
+  - m_GUID: 5cfe5d01d5b899847ad3b1183afb7fb1
+    m_Address: ParadiseProjectLocalizationTable_xh-ZA
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-xh-ZA
+    FlaggedDuringContentUpdateRestriction: 0
+  m_ReadOnly: 1
+  m_Settings: {fileID: 11400000, guid: 4e9f8ba277a0a5d4fad786e00a38bb42, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: dc4fc92a0d4f00f48a8a014a0ab9ac4e, type: 2}
+    - {fileID: 11400000, guid: 7691f4b1acf4b6644a932d3e93fb1e7d, type: 2}
