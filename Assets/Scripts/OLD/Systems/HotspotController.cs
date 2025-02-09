@@ -33,7 +33,7 @@ public sealed class HotspotController : MonoBehaviour
     private void Start()
     {
         // finds all GameObjects with HotSpot script attached
-        hotSpots = FindObjectsOfType<HotSpot>().ToList();
+        hotSpots = FindObjectsByType<HotSpot>(FindObjectsSortMode.None).ToList();
 
         // if main camera is not set, sets it here to main camera
         if (mainCamera == null)
