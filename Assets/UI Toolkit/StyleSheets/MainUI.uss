@@ -1,0 +1,50 @@
+#navigation-panel {
+    position: absolute;
+    height: 475px;
+    width: 76px;
+    border-radius: 8px;
+    border-width: 4px;
+    border-color: white;
+    top: 46px;
+    left: 52px;
+}
+
+#exit-text {
+    position: absolute;
+    bottom: 40px;
+    left: 116px;
+    color: white;
+}
+
+#website-button {
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.0);
+    width: 76px;
+    height: 76px;
+    bottom: 16px;
+    right: 16px;
+    border-radius: 50%;
+    border-width: 0px;
+}
+
+.navigation-button {
+    justify-content: center;
+    margin: 0;
+    padding: 8px;
+    height: 76px;
+    flex-shrink: 1;
+    flex-grow: 1;
+    background-color: black;
+    border-width: 0;
+    -unity-background-scale-mode: scale-to-fit;
+    background-size: 60% 76%;
+
+}
+
+.top-radius {
+    border-radius: 4px 4px 0px 0px;
+}
+
+.bottom-radius {
+    border-radius: 0px 0px 4px 4px;
+}

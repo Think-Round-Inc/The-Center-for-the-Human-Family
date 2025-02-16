@@ -7,12 +7,11 @@ public class LODNetworkPainting : MonoBehaviour
     public PaintingData Data;
 
     [field: Header("State")]
-    [field: SerializeField] public bool IsCameraNear;
+    public bool IsCameraNear;
     [field: SerializeField] public Texture2D LoadedTexture { get; private set; }
 
-    Camera _mainCam;
     LODShaderHandler _lodShaderHandler;
-    float _transitionTime = 0.25f;
+    readonly float _transitionTime = 0.25f;
 
     private void OnValidate()
     {
@@ -24,7 +23,6 @@ public class LODNetworkPainting : MonoBehaviour
     private void Awake()
     {
         GetReferences();
-        _mainCam = Camera.main;
         LoadedTexture = Data.Image.texture;
     }
 
@@ -57,7 +55,7 @@ public class LODNetworkPainting : MonoBehaviour
     #region Trigger
     void HandleTrigger(Collider other, bool isEntering)
     {
-        if (other.tag != "MainCamera") return;
+        if (!other.CompareTag("MainCamera")) return;
 
         // Camera is getting closer
         if (!IsCameraNear && isEntering)

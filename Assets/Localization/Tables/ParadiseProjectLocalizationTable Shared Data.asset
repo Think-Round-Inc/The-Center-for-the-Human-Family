@@ -14,7 +14,23 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_TableCollectionName: ParadiseProjectLocalizationTable
   m_TableCollectionNameGuidString: 93a83a868705c7241b0399458aa88d70
-  m_Entries: []
+  m_Entries:
+  - m_Id: 2201265946456064
+    m_Key: k_Welcome_To_Paradise_Project
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2207004828069888
+    m_Key: k_We_Invite_You
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2384663394611200
+    m_Key: k_Next_Button
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2385144640663552
+    m_Key: k_Back_Button
+    m_Metadata:
+      m_Items: []
   m_Metadata:
     m_Items: []
   m_KeyGenerator:

@@ -23,10 +23,10 @@ public class TextureDownloadManager : MonoBehaviour
     }
     #endregion
 
-    Queue<TextureRequest> _downloadQueue = new Queue<TextureRequest>();
-    int _maxConcurrentDownloads = 1;
-    int _maxDownloadRetries = 10;
-    List<TextureRequest> _currentDownloads = new List<TextureRequest>();
+    readonly Queue<TextureRequest> _downloadQueue = new();
+    readonly int _maxConcurrentDownloads = 1;
+    readonly int _maxDownloadRetries = 10;
+    readonly List<TextureRequest> _currentDownloads = new();
 
     void Update()
     {
@@ -41,7 +41,7 @@ public class TextureDownloadManager : MonoBehaviour
 
     public static void QueueTextureDownload(string url, Action<Texture2D> onComplete)
     {
-        TextureRequest newRequest = new TextureRequest(url, onComplete);
+        TextureRequest newRequest = new(url, onComplete);
         Instance._downloadQueue.Enqueue(newRequest);
         // Optionally sort the queue based on priority
     }
@@ -63,26 +63,24 @@ public class TextureDownloadManager : MonoBehaviour
 
         for (int i = 0; i < _maxDownloadRetries && texture == null; i++)
         {
-            using (UnityWebRequest request = UnityWebRequestTexture.GetTexture(url))
-            {
-                yield return request.SendWebRequest(); // This waits for the request to complete without blocking the main thread
+            using UnityWebRequest request = UnityWebRequestTexture.GetTexture(url);
+            yield return request.SendWebRequest(); // This waits for the request to complete without blocking the main thread
 
-                if (request.result == UnityWebRequest.Result.Success)
-                {
-                    texture = DownloadHandlerTexture.GetContent(request);
-                }
-                else
+            if (request.result == UnityWebRequest.Result.Success)
+            {
+                texture = DownloadHandlerTexture.GetContent(request);
+            }
+            else
+            {
+                error = request.error;
+                if (i == _maxDownloadRetries - 1)
                 {
                     error = request.error;
-                    if (i == _maxDownloadRetries - 1)
-                    {
-                        error = request.error;
-                        Debug.Log("Error downloading texture after " + _maxDownloadRetries + " attempts: " + error);
-                    }
-
-                    // Wait a frame before trying again
-                    yield return null;
+                    Debug.Log("Error downloading texture after " + _maxDownloadRetries + " attempts: " + error);
                 }
+
+                // Wait a frame before trying again
+                yield return null;
             }
         }
 

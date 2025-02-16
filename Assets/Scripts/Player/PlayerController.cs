@@ -21,6 +21,7 @@ public sealed class PlayerController : MonoBehaviour
             }
         }
     }
+
     [SerializeField] bool _isEnabled;
     public bool CanToggleEnable = true;
     public float Speed = 5.0f;
@@ -29,7 +30,6 @@ public sealed class PlayerController : MonoBehaviour
     public float Friction = 0.9f;
 
     private Rigidbody rb;
-    CapsuleCollider _capsuleCollider;
     private float rotationY = 0.0f;
 
     private void OnValidate()
@@ -40,7 +40,6 @@ public sealed class PlayerController : MonoBehaviour
     void Start()
     {
         rb = GetComponent<Rigidbody>();
-        _capsuleCollider = GetComponent<CapsuleCollider>();
         IsEnabled = _isEnabled;
     }
 
@@ -71,9 +70,7 @@ public sealed class PlayerController : MonoBehaviour
         Vector3 moveInput = transform.right * moveHorizontal + transform.forward * moveVertical;
         moveInput.Normalize();
         if (!IsEnabled)
-        {
             moveInput = Vector3.zero;
-        }
 
         Vector3 horizonVel = rb.linearVelocity;
         horizonVel.y = 0f;

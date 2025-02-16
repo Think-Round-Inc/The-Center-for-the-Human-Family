@@ -1,0 +1,13 @@
+<engine:UXML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:engine="UnityEngine.UIElements" xmlns:editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/UI%20Toolkit/StyleSheets/MainUI.uss?fileID=7433441132597879392&amp;guid=fb20730bf7237b745870394fb147c4f9&amp;type=3#MainUI" />
+    <engine:VisualElement name="navigation-panel">
+        <UIButtonWithHelperPanel name="your-location-button" text-to-display="Your Location" enable-rich-text="true" icon-image="project://database/Assets/SVGs/Location_Icon.svg?fileID=7388822144124034973&amp;guid=d64b21f6f6c504a4db8b124165e2be5c&amp;type=3#Location_Icon" class="navigation-button top-radius" />
+        <UIButtonWithHelperPanel name="map-button" text-to-display="Map" class="navigation-button" />
+        <UIButtonWithHelperPanel name="floor-select-button" text-to-display="Floor Select" class="navigation-button" />
+        <UIButtonWithHelperPanel name="dome-walls-button" text-to-display="Dome Walls" class="navigation-button" />
+        <UIButtonWithHelperPanel name="accessibility-button" text-to-display="Accessibility" class="navigation-button" />
+        <UIButtonWithHelperPanel name="settings-button" text-to-display="Settings" class="navigation-button bottom-radius" />
+    </engine:VisualElement>
+    <engine:Label text="Label" name="exit-text" />
+    <engine:Button name="website-button" style="background-image: url(&quot;project://database/Assets/Textures/ThinkRoundLogo_T.png?fileID=2800000&amp;guid=e0e532829023ff845ac4042a0853a716&amp;type=3#ThinkRoundLogo_T&quot;);" />
+</engine:UXML>

@@ -17,7 +17,25 @@ MonoBehaviour:
   m_SharedData: {fileID: 11400000, guid: 93a83a868705c7241b0399458aa88d70, type: 2}
   m_Metadata:
     m_Items: []
-  m_TableData: []
+  m_TableData:
+  - m_Id: 2201265946456064
+    m_Localized: Benvenuti al progetto Paradise
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2207004828069888
+    m_Localized: Ti invitiamo a fare un giro attorno al nostro progetto chiave e
+      a sperimentare i valori universali della Famiglia Umana, attraverso culture,
+      religioni e spazio geografico.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2384663394611200
+    m_Localized: Prossimo
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2385144640663552
+    m_Localized: Indietro
+    m_Metadata:
+      m_Items: []
   references:
     version: 2
     RefIds: []

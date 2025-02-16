@@ -1,0 +1,74 @@
+#root {
+    justify-content: center;
+}
+
+#header {
+    height: 10%;
+}
+
+#panel {
+    align-self: center;
+    position: absolute;
+    width: 52%;
+    height: 90%;
+    background-color: rgb(0, 0, 0);
+    opacity: 0.8;
+    border-radius: 16px;
+}
+
+#footer {
+    height: 10%;
+}
+
+#content {
+    height: 80%;
+    justify-content: center;
+}
+
+#welcome-label {
+    position: absolute;
+    align-self: center;
+    width: 50%;
+    height: 300px;
+    top: 4%;
+    font-size: 56px;
+    color: white;
+    white-space: normal;
+    -unity-font-style: bold;
+    -unity-text-align: middle-center;
+    border-width: 0px 0px 4px 0px;
+    border-color: white;
+}
+
+#info-label {
+    align-self: center;
+    position: absolute;
+    bottom: 12%;
+    width: 80%;
+    font-size: 36px;
+    color: white;
+    white-space: normal;
+    -unity-text-align: middle-center;
+}
+
+.unity-button {
+    position: absolute;
+    bottom: 30%;
+    width: 156px;
+    height: 72px;
+    border-radius: 32px;
+    border-width: 4px;
+    background-color: white;
+    border-color: #8833CB;
+    color: black;
+    font-size: 22px;
+    -unity-font-style: bold;
+}
+
+.left-anchor {
+    left: 52px;
+}
+
+.right-anchor {
+    right: 52px;
+}
