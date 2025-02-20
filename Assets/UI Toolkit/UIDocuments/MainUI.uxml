@@ -8,6 +8,6 @@
         <UIButtonWithHelperPanel name="accessibility-button" text-to-display="Accessibility" class="navigation-button" />
         <UIButtonWithHelperPanel name="settings-button" text-to-display="Settings" class="navigation-button bottom-radius" />
     </engine:VisualElement>
-    <engine:Label text="Label" name="exit-text" />
+    <engine:Label text="Label" name="exit-text" enabled="true" />
     <engine:Button name="website-button" style="background-image: url(&quot;project://database/Assets/Textures/ThinkRoundLogo_T.png?fileID=2800000&amp;guid=e0e532829023ff845ac4042a0853a716&amp;type=3#ThinkRoundLogo_T&quot;);" />
 </engine:UXML>

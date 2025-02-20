@@ -1,3 +1,8 @@
+::root {
+    --panel-color-1: rgba(0, 0, 0, 1);
+    --button-color-1: rgba(0, 0, 0, 0);
+}
+
 #navigation-panel {
     position: absolute;
     height: 475px;
@@ -18,13 +23,24 @@
 
 #website-button {
     position: absolute;
-    background-color: rgba(0, 0, 0, 0.0);
+    background-color: var(--button-color-1);
     width: 76px;
     height: 76px;
     bottom: 16px;
     right: 16px;
     border-radius: 50%;
     border-width: 0px;
+    transition-property: width, height, bottom, right;
+    transition-duration: 0.2s;
+}
+
+#website-button:hover {
+    width: 96px;
+    height: 96px;
+    bottom: 6px;
+    right: 6px;
+    transition-property: width, height, bottom, right;
+    transition-duration: 0.2s;
 }
 
 .navigation-button {
@@ -34,7 +50,7 @@
     height: 76px;
     flex-shrink: 1;
     flex-grow: 1;
-    background-color: black;
+    background-color: var(--panel-color-1);
     border-width: 0;
     -unity-background-scale-mode: scale-to-fit;
     background-size: 60% 76%;

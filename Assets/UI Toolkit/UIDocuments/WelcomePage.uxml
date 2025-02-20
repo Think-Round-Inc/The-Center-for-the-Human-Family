@@ -1,34 +1,48 @@
 <engine:UXML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:engine="UnityEngine.UIElements" xmlns:editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
     <Style src="project://database/Assets/UI%20Toolkit/StyleSheets/WelcomePage.uss?fileID=7433441132597879392&amp;guid=860f2b5ba43ba3341abec20ff1cd1b97&amp;type=3#WelcomePage" />
-    <engine:VisualElement name="root" style="flex-grow: 1;">
-        <engine:VisualElement name="panel" style="flex-grow: 1;">
-            <engine:VisualElement name="header" style="flex-grow: 1;">
-                <engine:Label text="Label" name="controls-label" />
-            </engine:VisualElement>
-            <engine:VisualElement name="content" style="flex-grow: 1;">
-                <engine:Label text="Label" name="welcome-label">
-                    <Bindings>
-                        <UnityEngine.Localization.LocalizedString property="text" table="GUID:93a83a868705c7241b0399458aa88d70" entry="Id(2201265946456064)" />
-                    </Bindings>
-                </engine:Label>
-                <engine:Label text="Label" name="info-label">
-                    <Bindings>
-                        <UnityEngine.Localization.LocalizedString property="text" table="GUID:93a83a868705c7241b0399458aa88d70" entry="Id(2207004828069888)" />
-                    </Bindings>
-                </engine:Label>
-            </engine:VisualElement>
-            <engine:VisualElement name="footer" style="flex-grow: 1;">
-                <engine:Button text="Button" name="back-button" class="left-anchor">
-                    <Bindings>
-                        <UnityEngine.Localization.LocalizedString property="text" table="GUID:93a83a868705c7241b0399458aa88d70" entry="Id(2385144640663552)" />
-                    </Bindings>
-                </engine:Button>
-                <engine:Button text="Button" name="next-button" class="right-anchor">
-                    <Bindings>
-                        <UnityEngine.Localization.LocalizedString property="text" table="GUID:93a83a868705c7241b0399458aa88d70" entry="Id(2384663394611200)" />
-                    </Bindings>
-                </engine:Button>
-            </engine:VisualElement>
+    <engine:VisualElement name="panel-1" class="panel visibility-show">
+        <engine:VisualElement name="header" class="flex-grow" />
+        <engine:VisualElement name="content" class="flex-grow">
+            <engine:Label text="Label" name="welcome-label">
+                <Bindings>
+                    <UnityEngine.Localization.LocalizedString property="text" table="GUID:93a83a868705c7241b0399458aa88d70" entry="Id(2201265946456064)" />
+                </Bindings>
+            </engine:Label>
+            <engine:Label text="Label" name="info-label">
+                <Bindings>
+                    <UnityEngine.Localization.LocalizedString property="text" table="GUID:93a83a868705c7241b0399458aa88d70" entry="Id(2207004828069888)" />
+                </Bindings>
+            </engine:Label>
+        </engine:VisualElement>
+        <engine:VisualElement name="footer" class="flex-grow">
+            <engine:Button text="Button" name="back-button" class="left-anchor visibility-hidden">
+                <Bindings>
+                    <UnityEngine.Localization.LocalizedString property="text" table="GUID:93a83a868705c7241b0399458aa88d70" entry="Id(2385144640663552)" />
+                </Bindings>
+            </engine:Button>
+            <engine:Button text="Button" name="next-button" class="right-anchor">
+                <Bindings>
+                    <UnityEngine.Localization.LocalizedString property="text" table="GUID:93a83a868705c7241b0399458aa88d70" entry="Id(2384663394611200)" />
+                </Bindings>
+            </engine:Button>
+        </engine:VisualElement>
+    </engine:VisualElement>
+    <engine:VisualElement name="panel-2" class="panel visibility-hidden" style="background-color: rgb(0, 0, 0); opacity: 0;">
+        <engine:VisualElement name="header" class="flex-grow">
+            <engine:Label text="Controls" name="controls-label" />
+        </engine:VisualElement>
+        <engine:VisualElement name="content" class="flex-grow" />
+        <engine:VisualElement name="footer" class="flex-grow">
+            <engine:Button text="Button" name="back-button" class="left-anchor">
+                <Bindings>
+                    <UnityEngine.Localization.LocalizedString property="text" table="GUID:93a83a868705c7241b0399458aa88d70" entry="Id(2385144640663552)" />
+                </Bindings>
+            </engine:Button>
+            <engine:Button text="Button" name="next-button" class="right-anchor">
+                <Bindings>
+                    <UnityEngine.Localization.LocalizedString property="text" table="GUID:93a83a868705c7241b0399458aa88d70" entry="Id(2384663394611200)" />
+                </Bindings>
+            </engine:Button>
         </engine:VisualElement>
     </engine:VisualElement>
 </engine:UXML>
