@@ -14,13 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_GroupName: Localization-String-Tables-Nepali (ne)
   m_GUID: e5625602a131e4f4081010b2207da679
-  m_SerializeEntries:
-  - m_GUID: bf195b5475ff4f841879a31de9cfcc5e
-    m_Address: ParadiseProjectLocalizationTable_ne
-    m_ReadOnly: 1
-    m_SerializedLabels:
-    - Locale-ne
-    FlaggedDuringContentUpdateRestriction: 0
+  m_SerializeEntries: []
   m_ReadOnly: 1
   m_Settings: {fileID: 11400000, guid: 4e9f8ba277a0a5d4fad786e00a38bb42, type: 2}
   m_SchemaSet:

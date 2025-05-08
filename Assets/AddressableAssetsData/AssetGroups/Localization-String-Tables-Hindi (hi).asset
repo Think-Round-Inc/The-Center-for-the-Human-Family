@@ -14,13 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_GroupName: Localization-String-Tables-Hindi (hi)
   m_GUID: cd20c7d8290fc71498f16279a63148aa
-  m_SerializeEntries:
-  - m_GUID: 5c79dac824637d546ac4f4248815dcb9
-    m_Address: ParadiseProjectLocalizationTable_hi
-    m_ReadOnly: 1
-    m_SerializedLabels:
-    - Locale-hi
-    FlaggedDuringContentUpdateRestriction: 0
+  m_SerializeEntries: []
   m_ReadOnly: 1
   m_Settings: {fileID: 11400000, guid: 4e9f8ba277a0a5d4fad786e00a38bb42, type: 2}
   m_SchemaSet:

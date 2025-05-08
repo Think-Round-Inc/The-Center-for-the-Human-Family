@@ -14,13 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_GroupName: Localization-String-Tables-Hebrew (he)
   m_GUID: beabbbc96fa34bd4ea7453f7237ff333
-  m_SerializeEntries:
-  - m_GUID: 851b9e670e48ae24289cdce553e762e4
-    m_Address: ParadiseProjectLocalizationTable_he
-    m_ReadOnly: 1
-    m_SerializedLabels:
-    - Locale-he
-    FlaggedDuringContentUpdateRestriction: 0
+  m_SerializeEntries: []
   m_ReadOnly: 1
   m_Settings: {fileID: 11400000, guid: 4e9f8ba277a0a5d4fad786e00a38bb42, type: 2}
   m_SchemaSet:

@@ -14,13 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_GroupName: Localization-String-Tables-Indonesian (id)
   m_GUID: e59398f0b6e839448bd1861159ce99dd
-  m_SerializeEntries:
-  - m_GUID: 6ebc800512658b0449030abb3f25c137
-    m_Address: ParadiseProjectLocalizationTable_id
-    m_ReadOnly: 1
-    m_SerializedLabels:
-    - Locale-id
-    FlaggedDuringContentUpdateRestriction: 0
+  m_SerializeEntries: []
   m_ReadOnly: 1
   m_Settings: {fileID: 11400000, guid: 4e9f8ba277a0a5d4fad786e00a38bb42, type: 2}
   m_SchemaSet:
