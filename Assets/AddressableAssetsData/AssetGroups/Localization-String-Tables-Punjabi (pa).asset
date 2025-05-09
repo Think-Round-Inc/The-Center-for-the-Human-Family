@@ -14,7 +14,13 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_GroupName: Localization-String-Tables-Punjabi (pa)
   m_GUID: f9cf653488ac3114098f05204dd01939
-  m_SerializeEntries: []
+  m_SerializeEntries:
+  - m_GUID: 1a1273f03b9a80344ac0948fab11b23a
+    m_Address: ParadiseProject_pa
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-pa
+    FlaggedDuringContentUpdateRestriction: 0
   m_ReadOnly: 1
   m_Settings: {fileID: 11400000, guid: 4e9f8ba277a0a5d4fad786e00a38bb42, type: 2}
   m_SchemaSet:

@@ -14,7 +14,13 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_GroupName: Localization-String-Tables-Arabic (ar)
   m_GUID: 7af1d2508ac6ed7499d53d79c21accaf
-  m_SerializeEntries: []
+  m_SerializeEntries:
+  - m_GUID: 879cb61cc2b090b47b1061d70b038b27
+    m_Address: ParadiseProject_ar
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-ar
+    FlaggedDuringContentUpdateRestriction: 0
   m_ReadOnly: 1
   m_Settings: {fileID: 11400000, guid: 4e9f8ba277a0a5d4fad786e00a38bb42, type: 2}
   m_SchemaSet:

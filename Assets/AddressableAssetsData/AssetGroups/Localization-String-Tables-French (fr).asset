@@ -14,7 +14,13 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_GroupName: Localization-String-Tables-French (fr)
   m_GUID: e0595bad038cd3449a4bb2762ef2eb4b
-  m_SerializeEntries: []
+  m_SerializeEntries:
+  - m_GUID: 8d094377a02a535498955d6c41f148ca
+    m_Address: ParadiseProject_fr
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-fr
+    FlaggedDuringContentUpdateRestriction: 0
   m_ReadOnly: 1
   m_Settings: {fileID: 11400000, guid: 4e9f8ba277a0a5d4fad786e00a38bb42, type: 2}
   m_SchemaSet:

@@ -1,0 +1,43 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5be51871efa6c3e4eae1703925c8f5ac, type: 3}
+  m_Name: ParadiseProject
+  m_EditorClassIdentifier: 
+  m_SharedTableData: {fileID: 11400000, guid: 6c4c1861453a4714ea7e69043df443a8, type: 2}
+  m_Tables:
+  - {fileID: 11400000, guid: 879cb61cc2b090b47b1061d70b038b27, type: 2}
+  - {fileID: 11400000, guid: c5592ca581f24b44287e93f56b4cfe39, type: 2}
+  - {fileID: 11400000, guid: cc6110da787b62e459c2c4b252dcaa62, type: 2}
+  - {fileID: 11400000, guid: 6ebf373a31ea0a04da5a82eb55d04d66, type: 2}
+  - {fileID: 11400000, guid: 1c8a33aa6e7ae7e4eaa2b178799a6256, type: 2}
+  - {fileID: 11400000, guid: 8d094377a02a535498955d6c41f148ca, type: 2}
+  - {fileID: 11400000, guid: b0273bb74e4d98540a34fb4e1d85d495, type: 2}
+  - {fileID: 11400000, guid: e8148f243197a9641adbbe609c0002a5, type: 2}
+  - {fileID: 11400000, guid: f9f7a258944aeb8478f9bff5c998c189, type: 2}
+  - {fileID: 11400000, guid: 3ba6b69dc2bf3a84d96dd9f8f38b64ce, type: 2}
+  - {fileID: 11400000, guid: b51c8789864968e49820369c3a830725, type: 2}
+  - {fileID: 11400000, guid: 9586be7b27489fa4a914b30869d43f0f, type: 2}
+  - {fileID: 11400000, guid: 2ac7a10264d4ba14c84abac9e33ac2cd, type: 2}
+  - {fileID: 11400000, guid: 1a1273f03b9a80344ac0948fab11b23a, type: 2}
+  - {fileID: 11400000, guid: 03d16a92939e48649a7c10430c7a7319, type: 2}
+  - {fileID: 11400000, guid: 592d9b8499b0219478f937c4b5ca82bd, type: 2}
+  - {fileID: 11400000, guid: 2bad38587f290ed4e84acf05a326157c, type: 2}
+  - {fileID: 11400000, guid: 65c93186c0d09b441bc99774e382ad11, type: 2}
+  - {fileID: 11400000, guid: ebb1742ea776df645b736f8ebecbe3fe, type: 2}
+  - {fileID: 11400000, guid: 97da1ca6ede25b84c971d462c282daa8, type: 2}
+  - {fileID: 11400000, guid: 943ea2b369d0f3342831440a0c9359f3, type: 2}
+  - {fileID: 11400000, guid: d8f69f5b813759d4b81d9f17bd678e43, type: 2}
+  m_Extensions: []
+  m_Group: String Table
+  references:
+    version: 2
+    RefIds: []

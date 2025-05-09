@@ -14,7 +14,13 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_GroupName: Localization-String-Tables-Vietnamese (vi)
   m_GUID: 298f0dae1d3cfcb499bb9d59ef67ece7
-  m_SerializeEntries: []
+  m_SerializeEntries:
+  - m_GUID: 943ea2b369d0f3342831440a0c9359f3
+    m_Address: ParadiseProject_vi
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-vi
+    FlaggedDuringContentUpdateRestriction: 0
   m_ReadOnly: 1
   m_Settings: {fileID: 11400000, guid: 4e9f8ba277a0a5d4fad786e00a38bb42, type: 2}
   m_SchemaSet:
