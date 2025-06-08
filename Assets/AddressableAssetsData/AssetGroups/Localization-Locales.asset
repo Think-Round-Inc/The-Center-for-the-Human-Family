@@ -129,12 +129,6 @@ MonoBehaviour:
     m_SerializedLabels:
     - Locale
     FlaggedDuringContentUpdateRestriction: 0
-  - m_GUID: e6729c662f6411a43b12abd2816d335f
-    m_Address: English (en)
-    m_ReadOnly: 1
-    m_SerializedLabels:
-    - Locale
-    FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: e712813827f34494ba2e73e897b52529
     m_Address: Swahili (sw)
     m_ReadOnly: 1
